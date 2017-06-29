@@ -70,7 +70,11 @@
 > * input for further secondary structure prediction
 > * ❓
 
-**Question: **What is a 2D contact map \(distance map\)?
+**Question: **What is a 2D contact map \(distance map\)? How can it be obtained?
+
+> ❓
+
+**Question: **Explain the concept between the notation of 1D, 2D, 3D structure. What is in the PDB? What does the DSSP give?
 
 > ❓
 
