@@ -7,6 +7,7 @@
   * 3.3 Alignments 1
   * 3.4 Alignments 2
   * 3.5 Comparative Modelling
+  * [3.6 Secondary Structure Prediction](chapter1/36-secondary-structure-prediction-2.md)
 * [2. Exercises](exercises.md)
 * [3. Exam Questions](exam-questions.md)
   * [3.1 Lecture Questions](exam-questions/31-questions.md)
