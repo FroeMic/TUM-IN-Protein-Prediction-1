@@ -12,7 +12,7 @@
 
 > ❓
 
-### Questions \(Tueday, 27th June\)
+### Questions \(Tuesday, 27th June\)
 
 ### Questions \(Thursday, 29th June\)
 
