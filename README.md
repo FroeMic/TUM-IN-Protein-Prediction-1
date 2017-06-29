@@ -18,7 +18,7 @@ The easist way to start contributing is to download **Gitbook Editor **\(availab
 
 ### Contribution Guide
 
-> Tell others what you work on \| Write meaningful commit messages \| Push often
+> Tell others what you work on \| Write meaningful commit messages \| Push often \| Use American English
 
 **Why is there a contribution guide?** I think it is in everyone's best interest to keep this summary as easy to understand as possible for everyone. This guideline should help to maintain consistency across the entire document.
 

@@ -26,6 +26,8 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
   * Sequence - Profile
   * Profile - Profile
 
+
+
 * General scoring BLOSUM62 matrix vs. PSSM
 * Why is the sequence information valuable?
 * How BLAST speed up pairwise alignments?
@@ -42,7 +44,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 ##### 4**. Protein Structure \(10 points\)**
 
-* Why it is important to know 3d structure?
+* Why it is important to know 3D structure?
 * Why is it so hard to compare 3D structure?
 * Most successful ML algorithm for predicting structure, steps
 * Method for experimental structure determination. Short explanation. How many structures are experimentally known?
