@@ -14,11 +14,21 @@ Just add the question in the respective file. Optimally, you can already provide
 
 To clearly distinguish questions from answers, please put answers in **blockquotes **right under the respective question.
 
-Example:
+##### Example: 
 
-
+* How can 1D secondary structure information be used to derive a 3D model?
+* > It is not possible to derive a 3D model from 1D information. \(Trick Question\)
 
 #### 3. Updating an answer
+
+If you think an answer does not properly answer a question \(e.g. it is wrong or the answer is not sufficient\), mark the answer and open a new **issue **on Github to discuss the question and share your improved answer. 
+
+\(Use the ❓emoji to mark the possibly wrong answer inline\)
+
+##### Example: 
+
+* How can 1D secondary structure information be used to derive a 3D model?
+* > ❓ It is not possible to derive a 3D model from 1D information. \(Trick Question\)
 
 
 
