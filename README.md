@@ -8,6 +8,12 @@
 
 ### Official Lecture Resources
 
+**Lecture Homepage:**[ https://www.rostlab.org/teaching/ss17/pp1cs](https://www.rostlab.org/teaching/ss17/pp1cs)
+
+**Lecture Wiki:** [https://i12r-studfilesrv.informatik.tu-muenchen.de/sose17/pp4cs1/index.php/Main\_Page](https://i12r-studfilesrv.informatik.tu-muenchen.de/sose17/pp4cs1/index.php/Main_Page)
+
+**Youtube Channel:** [https://www.youtube.com/channel/UCU6j8BG4RbEtTgyIZJ6Vpow](https://www.youtube.com/channel/UCU6j8BG4RbEtTgyIZJ6Vpow)
+
 ### Getting Started
 
 This document is set up a **Gitbook** and hosted on **Github**. When you read this, you were already granted access to the repository so the first step is done.
