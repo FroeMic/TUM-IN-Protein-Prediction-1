@@ -14,11 +14,19 @@
 
 **Question: **Cross-Validation: What is it? How does it work? Why do we need it?
 
+> ❓
+
 **Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
+
+> ❓
 
 **Question: **What is the most successful method to predict 3D structure?
 
+> ❓
+
 **Question: **What is homology modeling \(= comparative modeling\) and how does it work? What are the limitations of it?
+
+> ❓
 
 **Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
@@ -32,8 +40,6 @@
 > Sequencing technology has improved and become a lot cheaper and hence many more proteins were discovered. While there were improvements in 3D structure determination, it still costs at least 100 000 euros to experimentally determine the 3D structure of a protein. It is expected that this divide will further increase.
 
 **Question: **Why do we need redundancy reduction for machine learning?
-
->
 
 
 
