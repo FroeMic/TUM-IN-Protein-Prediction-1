@@ -16,3 +16,10 @@
 
 **5\) Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
 
+**6\) Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
+
+> The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).  
+> ❓ Method w/o that?
+
+
+
