@@ -1,3 +1,6 @@
-# My Awesome Book
+# Protein Prediction I 
+
+## Course Summary, Summer Term 2017
 
 This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
