@@ -34,16 +34,23 @@ If you add minor updates, like the answer to a single question, you can do this 
 
 If you add major updates, like several related changes \(e.g. an entire lecture summary\), go along as follows:
 
-1. Add a new issue on Github, describing what you are working on
-2. Create a `feature/<issue-name> `branch and add your changes
-3. Open a pull-request to merge back into `develop `and add the other contributers as reviewers
+1. Add a new **issue** on Github, describing what you are working on
+2. Create a `feature/<issue-name>`branch and add your changes
+3. Open a pull-request to merge back into `develop`and add the other contributers as reviewers
 4. Once the pull request is merged, delete your feature branch and close the issue by referencing the merge commit
 
-**Why so complicated? **This way the issues reflect new changes and are transparent for all contributors. 
+**Why so complicated? **This way the issues reflect new changes and are transparent for all contributors.
 
-2. Updating / Challenging existing content
+##### 1.3 Challenging existing content
 
+If you find obvious mistakes \(typos, clearly wrong statements\) just change them directly. 
 
+If you are challenging statements, answers to questions etc. which might not be trivial to understand go along as follows:
+
+1. Open a new **issue** on github. 
+2. Reference the the statement in question you consider to be wrong
+3. Provide an explanation why you think it is wrong
+4. Provide your correct solution.
 
 #### 3. Adding new contributors
 
