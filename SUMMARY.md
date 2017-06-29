@@ -18,7 +18,7 @@
   * [2.2 Biological Background](exercises/22-biological-background.md)
   * [2.3 Protein Structures](exercises/23-protein-structures.md)
   * [2.4 Alignments](exercises/24-alignments.md)
-  * [2.5 Resource for BioInformatics](exercises/25-resource-for-bioinformatics.md)
+  * [2.5 Resources for BioInformatics](exercises/25-resource-for-bioinformatics.md)
   * [2.6 Secondary Structure Prediction](exercises/26-secondary-structure-prediction.md)
   * [2.7 Homology Modeling](exercises/27-homology-modeling.md)
   * [2.8 Wrap Up](exercises/28-wrap-up.md)
