@@ -1,4 +1,4 @@
-## 3.6 Secondary Structure Prediction
+## 1.6 Secondary Structure Prediction
 
 ###### ??.05.2017 \| ??? \| ???
 
