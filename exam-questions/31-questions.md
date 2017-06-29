@@ -41,11 +41,11 @@
 
 **Question: **Why do we need redundancy reduction for machine learning?
 
-> The training data for the ML model should be representative for the problem for which it should predict. 
+> The training data for the ML model should be representative for the problem for which it should predict.
 >
 > ❓
 
-**Question: **Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for _sequence-unique** **_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
+**Question: **Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for \_sequence-unique** **\_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
 
 > ❓
 
@@ -60,5 +60,19 @@
 >
 > ❓
 
-**Question: **How can I use 1D information to predict?
+**Question: **How can I use 1D information to get a 3D structure? What can you do with a 1D structure?
+
+> It is impossible to reconstruct a full 3D structure from 1D information. 1D structure can be used for
+>
+> * optimizing a profile
+> * predict whether a protein is soluble
+> * predict whether a protein is a transmembrane protein
+> * input for further secondary structure prediction
+> * ❓
+
+**Question: **What is a 2D contact map \(distance map\)?
+
+> ❓
+
+
 
