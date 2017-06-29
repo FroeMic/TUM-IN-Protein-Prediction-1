@@ -41,9 +41,9 @@ If you add major updates, like several related changes \(e.g. an entire lecture 
 
 **Why so complicated? **This way the issues reflect new changes and are transparent for all contributors.
 
-##### 1.3 Challenging existing content
+#### 2. Challenging existing content
 
-If you find obvious mistakes \(typos, clearly wrong statements\) just change them directly. 
+If you find obvious mistakes \(typos, clearly wrong statements\) just change them directly.
 
 If you are challenging statements, answers to questions etc. which might not be trivial to understand go along as follows:
 
