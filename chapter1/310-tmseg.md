@@ -1,8 +1,10 @@
-## 3.10 TMSEG 
+## 3.10 TMSEG
 
-###### 04.05.2017 \| [Slides](https://www.rostlab.org/sites/default/files/fileadmin/teaching/SoSe17/PP1CS/cb1e_20170504_intro2_structure.pdf) \| [Lecture Recording ](https://www.youtube.com/watch?v=8g0G5C4rRNA&list=PLg46T0OlBIJ9abbsmUL-ux24DCpoUlC1J&index=2)
+###### 20.06.2017 \| [Slides](https://www.rostlab.org/sites/default/files/fileadmin/teaching/SoSe17/PP1CS/cb1i_20170620_tmseg_bernhoferm.pdf) \|[ Lecture Recording ](https://www.youtube.com/watch?v=uhqBFFuba6o&index=9&list=PLg46T0OlBIJ9abbsmUL-ux24DCpoUlC1J)
 
 ---
+
+
 
 
 
