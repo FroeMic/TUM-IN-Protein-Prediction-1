@@ -26,8 +26,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
   * Sequence - Profile
   * Profile - Profile
 
-* General scoring BLOSUM matrix vs. PSSM
-
+* General scoring BLOSUM62 matrix vs. PSSM
 * Why is the sequence information valuable?
 * How BLAST speed up pairwise alignments?
 * Global vs Local alignment
