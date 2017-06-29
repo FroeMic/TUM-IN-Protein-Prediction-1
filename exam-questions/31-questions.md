@@ -4,7 +4,7 @@
 
 ### Questions
 
-**Question: **With a matching \_profile-profile** **\_comparison what can you say about the two families?
+**Question: **With a matching _profile-profile_ comparison what can you say about the two families?
 
 > The assumption is that matching profiles share a similar / same structure and function.
 
@@ -41,5 +41,24 @@
 
 **Question: **Why do we need redundancy reduction for machine learning?
 
+> The training data for the ML model should be representative for the problem for which it should predict. 
+>
+> ❓
 
+**Question: **Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for _sequence-unique** **_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
+
+> ❓
+
+**Question: **How do you compare proteins of different length?
+
+> ❓
+
+**Question: **What is the significance in using information from protein families \(also inferred as evolutionary information\) as input to the ML device predicting 3D structure?
+
+> * It is additional information for the ML device, which is clearly relevant for the structure
+> * the profile is a record with information about the 3D reality of the protein
+>
+> ❓
+
+**Question: **How can I use 1D information to predict?
 
