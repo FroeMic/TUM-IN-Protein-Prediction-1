@@ -12,5 +12,5 @@
 
 **4\) Question: **What is the most successful method to predict 3D structure?
 
-**5\) Question: **Cross-Validation: What is it? How does it work? Why do we need it?
+**5\) Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
 
