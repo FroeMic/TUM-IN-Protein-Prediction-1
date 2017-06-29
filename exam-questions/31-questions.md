@@ -4,15 +4,15 @@
 
 ### Questions \(Thursday, 22nd June\)
 
-**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset? 
+**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
 
 > ❓
 
-**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset? 
+**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
 
 > ❓
 
-### Questions \(Thursday, 29nd June\)
+### Questions \(Thursday, 29th June\)
 
 **Question: **With a matching _profile-profile_ comparison what can you say about the two families?
 
