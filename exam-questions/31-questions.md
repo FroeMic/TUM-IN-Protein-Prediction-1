@@ -8,7 +8,11 @@
 
 > ❓
 
-**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
+**Question: **What is the regular process when you want to analyse a new sequence?
+
+> ❓
+
+**Question: **What is a structural domain? What is a functional domain?
 
 > ❓
 
