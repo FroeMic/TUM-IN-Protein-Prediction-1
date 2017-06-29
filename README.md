@@ -18,9 +18,38 @@ The easist way to start contributing is to download **Gitbook Editor **\(availab
 
 ### Contribution Guide
 
+**Why is there a contribution guide?** I think it is in everyone's best interest to keep this summary as easy to understand as possible for everyone. This guideline should help to maintain consistency across the entire document.
+
+Each section may contain a short additional information on how to format things specific to that section. Please have a look there as well.
+
+#### 1. Adding new content
+
+> Tell others what you work on \| Write meaningful commit messages \| Push often
+
+##### 1.1 Adding minor updates
+
+If you add minor updates, like the answer to a single question, you can do this on the `develop` branch directly. Make sure your commit has a meaningful message.
+
+##### 1.2 Adding major updates
+
+If you add major updates, like several related changes \(e.g. an entire lecture summary\), go along as follows:
+
+1. Add a new issue on Github, describing what you are working on
+2. Create a `feature/<issue-name> `branch and add your changes
+3. Open a pull-request to merge back into `develop `and add the other contributers as reviewers
+4. Once the pull request is merged, delete your feature branch and close the issue by referencing the merge commit
+
+**Why so complicated? **This way the issues reflect new changes and are transparent for all contributors. 
+
+2. Updating / Challenging existing content
 
 
 
+#### 3. Adding new contributors
+
+The purpose of this document is to foster collaborative learning - hence to make this as inclusive as possible. This being said, too many collaborators would probably lead to chaos 💥. If you know other students personally, you want to add to the project shoot me a message and we will figure it out.
+
+#### 
 
 
 
