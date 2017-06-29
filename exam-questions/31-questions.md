@@ -14,7 +14,8 @@
 
 **Question: **What is a structural domain? What is a functional domain?
 
-> ❓
+> * structural domain: part of sequence with unique 3D structure
+> * functional domain: part of sequence with unique function
 
 ### Questions \(Tuesday, 27th June\)
 
