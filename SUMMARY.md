@@ -5,14 +5,14 @@
   * [3.1 Introduction: Bioinformatics](chapter1/31-introduction-bioinformatics.md)
   * [3.2 Introduction: Structure](chapter1/32-introduction-structure.md)
   * [3.3 Alignments 1](chapter1/33-alignments-1.md)
-  * 3.4 Alignments 2
-  * 3.5 Comparative Modelling
+  * [3.4 Alignments 2](chapter1/34-alignments-2.md)
+  * [3.5 Comparative Modeling](chapter1/35-comparative-modelling.md)
   * [3.6 Secondary Structure Prediction](chapter1/36-secondary-structure-prediction-2.md)
-  * 3.7 Secondary Structure Prediction 2
-  * 3.8 Secondary Structure Prediction 3
-  * 3.9 Membrane Structure Prediction
-  * 3.10  TMSEG
-  * 3.11 Beta Membrane and Accessibility
+  * [3.7 Secondary Structure Prediction 2](chapter1/37-secondary-structure-prediction-2.md)
+  * [3.8 Secondary Structure Prediction 3](chapter1/38-secondary-structure-prediction-3.md)
+  * [3.9 Membrane Structure Prediction](chapter1/39-membrane-structure-prediction.md)
+  * [3.10  TMSEG](chapter1/310-tmseg.md)
+  * [3.11 Beta Membrane and Accessibility](chapter1/311-beta-membrane-and-accessibility.md)
 * [2. Exercises](exercises.md)
 * [3. Exam Questions](exam-questions.md)
   * [3.1 Lecture Questions](exam-questions/31-questions.md)
