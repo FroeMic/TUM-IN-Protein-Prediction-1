@@ -2,7 +2,17 @@
 
 > This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant, **because he will sample exam questions from this pool.
 
-### Questions
+### Questions \(Thursday, 22nd June\)
+
+**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset? 
+
+> ❓
+
+**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset? 
+
+> ❓
+
+### Questions \(Thursday, 29nd June\)
 
 **Question: **With a matching _profile-profile_ comparison what can you say about the two families?
 
