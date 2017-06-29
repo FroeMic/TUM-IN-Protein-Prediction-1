@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [1. Lectures](chapter1.md)
-  * [3.1 Introduction: Bioinformatics](chapter1/31-introduction-bioinformatics.md)
-  * [3.2 Introduction: Structure](chapter1/32-introduction-structure.md)
+  * [1.1 Introduction: Bioinformatics](chapter1/31-introduction-bioinformatics.md)
+  * [1.2 Introduction: Structure](chapter1/32-introduction-structure.md)
   * [3.3 Alignments 1](chapter1/33-alignments-1.md)
   * [3.4 Alignments 2](chapter1/34-alignments-2.md)
   * [3.5 Comparative Modeling](chapter1/35-comparative-modelling.md)
