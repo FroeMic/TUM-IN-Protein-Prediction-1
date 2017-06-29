@@ -4,7 +4,7 @@
 
 ### Questions
 
-**Question: **With a matching _profile-profile** **_comparison what can you say about the two families?
+**Question: **With a matching \_profile-profile** **\_comparison what can you say about the two families?
 
 > The assumption is that matching profiles share a similar / same structure and function.
 
@@ -17,6 +17,8 @@
 **Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
 
 **Question: **What is the most successful method to predict 3D structure?
+
+**Question: **What is homology modeling \(= comparative modeling\) and how does it work?
 
 **Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
