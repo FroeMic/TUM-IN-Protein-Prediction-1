@@ -22,6 +22,38 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
   * Sequence - Sequence
   * Sequence - Profile
   * Profile - Profile
-* 
+
+* General scoring BLOSUM matrix vs. PSSM
+* Why is the sequence information valuable?
+* How BLAST speed up pairwise alignments?
+* Global vs Local alignment
+
+##### 3**. Sequence Structure \(10 points\)**
+
+* What data is needed to predict the structure with ML?
+* Which tools and db you will use?
+* How to prepare data for ML
+* Which 2-3 features will help to predict?
+* Would you apply method to all protein \(query\)?
+* Which measure would you use to evaluate your method?
+
+##### 4**. Protein Structure \(10 points\)**
+
+* Why it is important to know 3d structure?
+* Why is it so hard to compare 3D structure?
+* Most successful ML algorithm for predicting structure, steps
+* Method for experimental structure determination. Short explanation. How many structures are experimentally known?
+
+##### 5**. Machine Learning \(10 points\)**
+
+* General definition of Machine Learning
+* Cross validation
+* What is ‘feature’?
+* ETP explain, example
+* Name and describe one ML method
+* Name and describe "sequence" in context of PP
+* Discuss how to predict Protein Structure from amino-acid sequence using ML
+* Q2: which is better, how to prove your’s is better, which value you will publish? \(❓What is Q2\)
+
 
 
