@@ -31,5 +31,9 @@
 >
 > Sequencing technology has improved and become a lot cheaper and hence many more proteins were discovered. While there were improvements in 3D structure determination, it still costs at least 100 000 euros to experimentally determine the 3D structure of a protein. It is expected that this divide will further increase.
 
+**Question: **Why do we need redundancy reduction for machine learning?
+
+>
+
 
 
