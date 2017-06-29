@@ -4,6 +4,8 @@
 
 ### 3.3.1 Exam Structure: 2016ST
 
+> We where able to obtain last years exam structure. Let's try to answer all of the concrete questions :-\)
+
 _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 ##### **1. Multiple Choice \(5 questions, 10 points\)**
@@ -19,11 +21,13 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 ##### 2**. Sequence Alignment \(10 points\)**
 
 * Explain each of the following alignment techniques and provide one method for each
+
   * Sequence - Sequence
   * Sequence - Profile
   * Profile - Profile
 
 * General scoring BLOSUM matrix vs. PSSM
+
 * Why is the sequence information valuable?
 * How BLAST speed up pairwise alignments?
 * Global vs Local alignment
