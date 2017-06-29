@@ -18,7 +18,7 @@
 
 **Question: **What is the most successful method to predict 3D structure?
 
-**Question: **What is homology modeling \(= comparative modeling\) and how does it work?
+**Question: **What is homology modeling \(= comparative modeling\) and how does it work? What are the limitations of it?
 
 **Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
