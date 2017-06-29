@@ -4,19 +4,17 @@
 
 ### Questions
 
-**1\) Question: **When I build a profile of a famliy: Do they share the same structure? Should I verify that they do? How do i do that?
+**Question: **When I build a profile of a famliy: Do they share the same structure? Should I verify that they do? How do i do that?
 
 > The very assumption is that the proteins of one family share the same structure and function. When iteratively refining the profile with proteins retrieved by _profile-sequence_ of \_profile-profile \_comparison \(from the twilight- / midnight-zone\), it can make sense to double check the new proteins with secondary structure prediction to avoid adding false-positives.
 
-**2\) Question: **Cross-Validation: What is it? How does it work? Why do we need it?
+**Question: **Cross-Validation: What is it? How does it work? Why do we need it?
 
-**3\) Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
+**Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
 
-**4\) Question: **What is the most successful method to predict 3D structure?
+**Question: **What is the most successful method to predict 3D structure?
 
-**5\) Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
-
-**6\) Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
+**Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
 > The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).  
 > ❓ Method w/o that?
