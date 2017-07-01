@@ -39,6 +39,21 @@
 
 **Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together. \(Example Bono an Chimpanzee\)
 
+**Question: **What are the 3 sections found in the tree of life?
+
+> bacteria, archaea, eukaryotes
+
+**Question: **What does Homology stand for?
+
+> Here \(in the context of genes\), it describes proteins originating from a common ancestor. It is also frequently used to describe 'similar structure' for genes / proteins.
+
+**Question: **Why do linear gap penalties do models the reality of related genes / proteins well?
+
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
+> It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
+
+
+
 #### 3. Pairwise Sequence Comparison
 
 ###### Correct alignment: We need an objective function
@@ -93,26 +108,23 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 
 **Interactive Tool to practice dynamic programming: **[http://melolab.org/sat](http://melolab.org/sat)
 
+**Question: **Does dynamic programming give the best solution?
 
+> Yes, dynamic programming produces one optimal solution. \(There could be others, though\)
 
+**Question: **What are issues with dynamic programming?
 
+> * Time used: O\(n^2\)
+>   * Especially a problem, when comparing one protein agains the entire database.
+> * How to choose parameters?
+>   * Gap penalties
+>   * substitution matrix
 
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
 > Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
 
-**Question: **What are the 3 sections found in the tree of life?
 
-> bacteria, archaea, eukaryotes
-
-**Question: **What does Homology stand for?
-
-> Here \(in the context of genes\), it describes proteins originating from a common ancestor. It is also frequently used to describe 'similar structure' for genes / proteins.
-
-**Question: **Why do linear gap penalties do models the reality of related genes / proteins well?
-
-> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
-> It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
 
 #### 4. Multiple Sequence Comparison
 
