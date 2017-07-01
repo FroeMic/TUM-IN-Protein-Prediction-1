@@ -54,6 +54,12 @@ _To find the **optimal** superposition of two sequence, it is first necessary to
 
 **Homology: ** Here \(in the context of genes\), it describes proteins originating from a common ancestor.
 
+**Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together.
+
+
+
+
+
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
 > Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
