@@ -26,7 +26,7 @@
 
 ##### 2.1 Amino Acids
 
-Proteins are built up out of a chain of amino acids. These amino acids are joined into a **linear polypeptide chain**, a protein.
+Proteins are built up out of a chain of amino acids. These amino acids are joined into a **linear polypeptide chain**, a protein. Each protein is therefore a combination of the **20 different types of amino acids.**
 
 ![](/assets/Screen Shot 2017-07-01 at 19.54.01.png)
 
@@ -36,7 +36,14 @@ Proteins are built up out of a chain of amino acids. These amino acids are joine
 * Proteins are always chained up from the **N-Terminus **to the **C-Terminus** in a condensation reaction 
   \(a H20 molecule is released\)
 
+###### Side Chains
 
+Amino acids only differ in their side chains. These side chains determine the chemical properties of the respective amino acid. There are the following _features_ an amino acid can have:
+
+* polar 
+* non-polar
+* acidic \(negatively charged\)
+* basic \(positively charged\)
 
 ##### 2.2 Protein Structure
 
