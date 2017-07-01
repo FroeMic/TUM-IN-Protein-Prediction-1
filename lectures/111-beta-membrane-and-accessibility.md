@@ -75,5 +75,10 @@ Using absolute accessibility may lead to wrong conclusions.
 * hydrophobic: inside
 * hydrophilic: outside
 
+**PHDacc: **Machine Learning Approach
+
+* 10 output units
+* advantage: No need to decide on treshold beforehand. Threshold can be chosen for future needs.
+
 
 
