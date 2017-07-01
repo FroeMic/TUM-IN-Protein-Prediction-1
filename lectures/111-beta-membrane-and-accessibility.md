@@ -42,6 +42,27 @@ _How to assess whether this model makes sense?_
     * Intuitive / Literature: **Intersection of Accuracy and Coverage**
     * Optimized per Case: E.g. for Master Thesis high accuracy if more important than coverage, as experimental biologists will follow up on only a few of the found proteins in further research
 
+#### 
+
+#### Accessibility
+
+= accessibility of residues to water ❓
+
+**1\) Absolute Accessibility**: ASA \(square Ångstrøm, 1 Å = 0.1 nm\)
+
+**Long side chains may appear more accessible**: _Different amino acids have a different length of their side chain and thus the absolute accessibility per amino acid differs._
+
+Using absolute accessibility may lead to wrong conclusions.
+
+**2\) Relative Accessibility: **ASA / max ASA
+
+**3\) "States":**
+
+* buried, exposed
+* buried, intermediate, exposed
+
+> Note: It doesn't matter whether something is 80% or 100% exposed, but it does matter whether something is 0% or 20% exposed. Also, drawing the line where to set the "best" threshold between the states is discussed in academia.
+
 
 
 
