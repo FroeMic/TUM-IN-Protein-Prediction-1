@@ -285,5 +285,9 @@ H   H   O-H
 
 > 2D distance map: difference of differences. Only information about the chirality \(mirror image\) is lost.
 
+### 3.3.4 Lecture 3: Alignments I
+
+
+
 
 
