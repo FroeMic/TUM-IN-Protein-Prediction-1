@@ -62,7 +62,7 @@ If you are challenging statements, answers to questions etc. which might not be 
 
 The purpose of this document is to foster collaborative learning - hence to make this as inclusive as possible. This being said, too many collaborators would probably lead to chaos 💥. If you know other students personally, you want to add to the project shoot me a message and we will figure it out.
 
-####
+### 
 
 
 
