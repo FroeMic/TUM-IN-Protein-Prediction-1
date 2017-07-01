@@ -45,6 +45,20 @@ Amino acids only differ in their side chains. These side chains determine the ch
 * acidic \(negatively charged\)
 * basic \(positively charged\)
 
+**Question: **How many different amino acids are there?
+
+**Question: **In which different feature groups can you categorize amino acids?
+
+**Question:** Draw the basic chemical structure of an amino acid.
+
+```
+H   R   O
+ \  |  /
+  N-C-C
+ /  |  \
+H   H   O-H
+```
+
 ##### 2.2 Protein Structure
 
 ##### 2.3 Domains
