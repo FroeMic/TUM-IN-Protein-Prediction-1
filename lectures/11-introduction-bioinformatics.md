@@ -159,7 +159,7 @@ _In rare cases it is also possible that RNA translate to either RNA or DNA_
 
 **Question: **How many proteins does a typical human have?
 
-> About 20.000
+> Between 20.000 and 25.000 different kinds of proteins.
 
 **Question:** What are functions of proteins?
 
@@ -169,6 +169,18 @@ _In rare cases it is also possible that RNA translate to either RNA or DNA_
 > * Communication / Signaling \(e.g. insulin\)
 > * Ligand binding / Transport \(e.g. hemoglobin\)
 > * Storage \(e.g. ferritin\)
+
+**Question: **How many residues long are typical proteins?
+
+> Between 35 and 30.000 residues. The median is around 400.
+
+**Question: **Do proteins consist of units?
+
+> Proteins are built up of several domains. Most proteins have more than 2 domains.
+
+**Question: **How many proteins are known?
+
+> About 85 millions sequences are known. However, the 3D structure \(experimentally determined\) of only 120.000 proteins is known.
 
 
 
