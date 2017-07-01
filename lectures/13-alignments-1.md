@@ -85,13 +85,11 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 
 > Not necessarily: What we really find is similar biological function. Some amino acids might have similar biophysical features and could be swapped without any significant influence on the structure of the protein. Such matches should also be considered 'postive'.
 >
-> Building a scoring matrix based on evolutionary conserved residues does optimize the algorithm.
+> Building a scoring matrix based on evolutionary conserved residues does optimize the algorithm. \(e.g. BLOSUM62\)
 
 ###### BLOSUM62
 
 ![](/assets/Screen Shot 2017-07-01 at 23.19.39.png)
-
-
 
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
