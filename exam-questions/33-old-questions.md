@@ -255,7 +255,37 @@ H   H   O-H
 
 > Yes, it can happen. However, it is not what is typically observed** .**
 
-#### 
+**Question: **How can we compare 3D structures?
+
+> One solution would be to align the corresponding residues of both sequences / 3D structures and take the **Root Mean Square Deviation**. \(If one pair lies very far apart, it will result in an extremely low score\)
+>
+> RMSD\(A,B\) = SQRT\( ⅀ \(a.i - b.i\)^2 \)
+>
+> If the score is below a certain threshold, it is a match, otherwise it is not.
+
+**Question: **How can align and compare the structure of 2 proteins?
+
+> 1\) Find the corresponding points \(residues that match in 3D\)  
+> 2\) Find Superposition independent of domain movements and calculate score \(e.g. RMSD\)
+
+**Question: **Why is global protein comparison most of the time impossible?
+
+> The definition of protein enforces a per residue comparison \(no scaling\). Hence only proteins of the \(almost\) the same length can be compared globally. Since proteins are between 35 and 30.000 residues long, global comparison does not make sense in most of the cases.
+
+**Question: **What is the difference between global and local alignment?
+
+> In **global alignment** two structures / sequences are compared from beginning to end \(compare the whole thing\).  
+> In **local alignment** however, subunits \(domains\) of the proteins are aligned. \(Problem: What is a valid unit? Where to cut?\)
+
+**Question: **How to decide what is a valid unit for local comparison of 2 proteins?
+
+> ❓ \(I couldn't identfiy a valid answer in the lecture recording\)
+
+**Question: **Which comparison not using cartesian RMSD could be used for comparison?
+
+> 2D distance map: difference of differences. Only information about the chirality \(mirror image\) is lost.
+
+
 
 
 
