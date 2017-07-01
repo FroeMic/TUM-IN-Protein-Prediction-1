@@ -110,11 +110,21 @@ Accessibility helps in predicting protein function.
 
 **ConSurf: **Significant gain by evolutionary information \(in/out with &gt; 75% accuracy\)
 
-
-
 #### More Globular - More likely expressed ❓
 
 > Note: I really don't get this slide / content. Anyone an idea, what is meant by that?
+
+* **Domains** are compact structures on their own \(= they fold on their own\) 
+* **Question:** How can we see \(by a sequence\) what we are related to?\(❓ Related to what?\)
+  * Answer: Predict the residues on the surface. \(❓ Why???\)
+  * 1\) Take a 2 state model \(burried / exposed\)
+  * 2\) Predict the residues which are exposed
+  * 3\) Check to which of these \(see image\) the sequence fits best
+  * Assumption: Protein are spheres. \(Which is apparently the case in an overwhelming fraction of proteins\)
+
+![](/assets/Screen Shot 2017-07-01 at 11.38.03.png)
+
+
 
 
 
