@@ -18,7 +18,11 @@ Central to biology is the question: _How does life work?_
 
 > DNA, Protein, RNA
 
-Which elements make up life?
+**Question: **How many bacteria do we care around?
+
+> About 2 kilos. Humans carry around more bacterial DNA than human DNA.
+
+**Question: **Which elements make up life?
 
 * 65.0 %    - O, Oxygen
 * 18.6 %    - C, Carbon
@@ -26,6 +30,21 @@ Which elements make up life?
 * 3.2 %     - N, Nitrogen
 * 1.8 %     - Ca, Calcium
 * 1.0  %    - P, Phosphorus
+
+**Question: **What is life? Can you define it? 
+
+> Descriptive definitions of life:  
+> - Homeostatis \(regulation of internal environment to maintain constant state\)  
+> - Organization \(Unit: Cells\)  
+> - Metabolism  
+> - Growth  
+> - Adaptation  
+> - Response to stimuli  
+> - Reproduction
+
+**Question: **Are viruses life?
+
+> Strictly speaking NO. Viruses on their own cannot replicate and thus are not alive. However, one could say that viruses are alive / represent life once they infected a cell and replicate.
 
 ##### 2.1 Organisms
 
@@ -35,9 +54,19 @@ Which elements make up life?
 
 ###### Different Type of Cells:
 
-**Prokaryote: **
+**Prokaryotic Cells: **Mainly found in bacteria and archaea.
 
-**Eukaryote:**
+* no nucleus
+* usually unicellular
+* no cell organells
+
+**Eukaryotic Cells:** Found in animals and plants
+
+* nucleus
+* usually mulicellular
+* cell organelles
+
+
 
 ##### 2.2 Genes
 
