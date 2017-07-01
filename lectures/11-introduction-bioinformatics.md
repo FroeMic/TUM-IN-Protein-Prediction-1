@@ -122,6 +122,15 @@ Note: _The density within cells can be described as almost solid._
 > * T: Thymine =&gt; Adenine
 > * C: Cytosine =&gt; Guanine
 
+**Question: **What is RNA made out of?
+
+> RNA is a single stranded linear polymer out of 4 bases / nucleotides. 
+>
+> * G: Guanine
+> * A: Adenine
+> * U: Uracil
+> * C: Cytosine
+
 **Question: **What is a gene?
 
 > A gene is a region of DNA, which contains all information for the creation of an entire RNA strand.
