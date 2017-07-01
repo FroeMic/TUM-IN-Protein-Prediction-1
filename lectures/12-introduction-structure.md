@@ -85,7 +85,7 @@ A gene is a region of DNA, which contains all information for the creation of an
 
 **Definition**: _If I took a sequence out of a protein, string it up and put it into solvent, it adopts a unique 3D structure on its own._
 
-Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?      
+Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?        
 **By aligning and comparing proteins with know 3D structure, it is possible to find common, overlapping domains that adopt the same 3D structure across different proteins.
 
 **Question: **What is the definition of a 'domain'?
@@ -110,6 +110,8 @@ Proteins are built out of several such substructures. The question is **Can we g
 > One solution would be to align the corresponding residues of both sequences / 3D structures and take the **Root Mean Square Deviation**. \(If one pair lies very far apart, it will result in an extremely low score\)
 >
 > RMSD\(A,B\) = SQRT\( ⅀ \(a.i - b.i\)^2 \)
+>
+> If the score is below a certain threshold, it is a match, otherwise it is not.
 
 
 
