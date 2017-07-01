@@ -83,13 +83,13 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 
 **Question: **Is identity the best way to match two sequences?
 
-> Not necessarily: What we really find is similar biological function. Some amino acids might have similar biophysical features and could be swapped without any significant influence on the structure of the protein. Such matches should also be considered 'postive'. 
+> Not necessarily: What we really find is similar biological function. Some amino acids might have similar biophysical features and could be swapped without any significant influence on the structure of the protein. Such matches should also be considered 'postive'.
 >
 > Building a scoring matrix based on evolutionary conserved residues does optimize the algorithm.
 
+###### BLOSUM62
 
-
-
+![](/assets/Screen Shot 2017-07-01 at 23.19.39.png)
 
 
 
