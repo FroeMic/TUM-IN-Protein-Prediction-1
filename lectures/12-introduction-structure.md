@@ -40,8 +40,8 @@ Proteins are built up out of a chain of amino acids. These amino acids are joine
 
 Amino acids only differ in their side chains. These side chains determine the chemical properties of the respective amino acid. There are the following _features_ an amino acid can have:
 
-* polar 
-* non-polar
+* polar \(hydrophilic, likes water\)
+* non-polar \(hydrophobic, avoids water\)
 * acidic \(negatively charged\)
 * basic \(positively charged\)
 
@@ -72,6 +72,8 @@ H   H   O-H
 > In the translation process, a **Ribosome **translates a **mRNA** strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the **N-Terminus **to the **C-Terminus  **releasing an H20 molecule as part of the reaction.
 
 ##### 2.2 Protein Structure
+
+
 
 ##### 2.3 Domains
 
