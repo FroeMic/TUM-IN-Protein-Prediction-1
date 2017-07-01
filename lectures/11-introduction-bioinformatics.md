@@ -115,7 +115,7 @@ Note: _The density within cells can be described as almost solid._
 
 **Question: **What is DNA made out of?
 
-> DNA is a linear polymer out of 4 bases / nucleotides. Each of the bases has a complementary base.
+> DNA is a linear polymer out of 4 bases / nucleotides. DNA exists in cells mainly as a two-stranded structure called the double helix. Each of the bases has a complementary base.
 >
 > * G: Guanine =&gt; Cytosine
 > * A: Adenine =&gt; Thymine
@@ -125,8 +125,6 @@ Note: _The density within cells can be described as almost solid._
 **Question: **What is a gene?
 
 > A gene is a region of DNA, which contains all information for the creation of an entire RNA strand.
-
-
 
 ##### 2.3 Central Dogma
 
