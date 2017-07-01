@@ -124,7 +124,7 @@ Note: _The density within cells can be described as almost solid._
 
 **Question: **What is RNA made out of?
 
-> RNA is a single stranded linear polymer out of 4 bases / nucleotides. 
+> RNA is a single stranded linear polymer out of 4 bases / nucleotides.
 >
 > * G: Guanine
 > * A: Adenine
@@ -157,7 +157,18 @@ _In rare cases it is also possible that RNA translate to either RNA or DNA_
 
 #### 3. Protein Introduction
 
-##### 
+**Question: **How many proteins does a typical human have?
+
+> About 20.000
+
+**Question:** What are functions of proteins?
+
+> * Defense \(e.g. antibodies\)
+> * Structure \(e.g. collagen\)
+> * Enzymes \(metabolism, catabolism\)
+> * Communication / Signaling \(e.g. insulin\)
+> * Ligand binding / Transport \(e.g. hemoglobin\)
+> * Storage \(e.g. ferritin\)
 
 
 
