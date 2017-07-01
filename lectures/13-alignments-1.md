@@ -4,5 +4,35 @@
 
 ---
 
+#### 1. Recap
+
+> **Sequence** leads to **Structure** leads to **Function**
+
+**Question:** Why compare 3D shapes, when we are after function? Why not compare function?
+
+> Because ...
+>
+> * we cannot compare function directly
+> * structure is related to function
+> * we CAN compare 3D structures
+> * sometimes: similar structure -&gt; similar function
+
+**Question:** How do we get protein 3D shapes?
+
+> * primarily by experiment \(most accurate\)
+> * computational biology \(most inferences\)
+
+**Question:** How much does it cost to experimentally determine the 3D shape of a protein?
+
+> Today it costs on average about 100 000 $ per protein.
+
+
+
+#### 2. Pairwise Sequence Comparison
+
+
+
+#### 3. Multiple Sequence Comparison
+
 
 
