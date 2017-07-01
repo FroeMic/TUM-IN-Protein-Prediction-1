@@ -113,7 +113,11 @@ Note: _The density within cells can be described as almost solid._
 
 ##### 2.2 Genes
 
-##### 2.4 Central Dogma
+**Question: **What is a gene?
+
+> A gene is a region of DNA, which contains all information for the creation of an entire RNA strand.
+
+##### 2.3 Central Dogma
 
 ![](/assets/Screen Shot 2017-07-01 at 15.36.44.png)
 
