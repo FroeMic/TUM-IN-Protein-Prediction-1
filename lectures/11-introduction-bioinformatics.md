@@ -1,4 +1,4 @@
-* ## 1.1 Introduction: Bioinformatics
+## 1.1 Introduction: Bioinformatics
 
 ###### 02.05.2017 \| [Slides](https://www.rostlab.org/sites/default/files/fileadmin/teaching/SoSe17/PP1CS/cb1e_20170502_hello_intro1.pdf) \| [Lecture Recording ](/h ttps://www.youtube.com/watch?v=IGbtd0LmC8Y&list=PLg46T0OlBIJ9abbsmUL-ux24DCpoUlC1J&index=1)
 
@@ -16,26 +16,22 @@ Central to biology is the question: _How does life work?_
 
 **Question: **What is common to life?
 
->
+> DNA, Protein, RNA
 
 Which elements make up life?
 
 * 65.0 %    - O, Oxygen
 * 18.6 %    - C, Carbon
-*  9.7 %     - H, Hydrogen
-*  3.2 %     - N, Nitrogen
-*  1.8 %     - Ca, Calcium
-*  1.0  %    - P, Phosphorus
+* 9.7 %     - H, Hydrogen
+* 3.2 %     - N, Nitrogen
+* 1.8 %     - Ca, Calcium
+* 1.0  %    - P, Phosphorus
 
 ##### 2.1 Organisms
 
 **Question: **What do bacteria have in common?
 
 > Single Cells
-
-
-
-
 
 ##### 2.2 Genes
 
