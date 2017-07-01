@@ -1,6 +1,6 @@
-## 3.3 Old Questions
+## 3.3 Question Catalogue
 
-> This section contains possible exam questions sourced from students of previous Protein Prediction I lectures.
+> This section contains possible exam questions sourced from students of previous Protein Prediction I lectures and the lecture recordings.
 
 ### 3.3.1 Exam Structure: 2016ST
 
@@ -284,8 +284,6 @@ H   H   O-H
 **Question: **Which comparison not using cartesian RMSD could be used for comparison?
 
 > 2D distance map: difference of differences. Only information about the chirality \(mirror image\) is lost.
-
-
 
 
 
