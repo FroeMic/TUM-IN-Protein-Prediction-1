@@ -61,7 +61,7 @@ Amino acids only differ in their side chains. These side chains determine the ch
 
 ```
 H   R   O
- \  |  /
+ \  |  //
   N-C-C
  /  |  \
 H   H   O-H
@@ -77,9 +77,17 @@ H   H   O-H
 
 A gene is a region of DNA, which contains all information for the creation of an entire RNA strand. \( = protein\)![](/assets/Screen Shot 2017-07-01 at 20.26.17.png)**UTR: **Untranslated region \(leader sequence, header sequence\)
 
-**Exon:** Part of a gene that will encode a part of the final mature RNA
+**Exon:** Part of a gene that will encode a part of the final mature RNA \(and thus protein\)
 
 **Intron:** Part of a gene that will be removed by **RNA Splicing** before the protein is translated
+
+###### **Domain Merger**
+
+We imagine a domain as follow: _If I took a domain sequence, string it up and put it into solvent, it adopts a unique 3D structure._
+
+Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?**
+
+
 
 ##### 2.3 Domains
 
