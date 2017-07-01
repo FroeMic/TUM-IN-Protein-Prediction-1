@@ -35,12 +35,12 @@ Central to biology is the question: _How does life work?_
 
 > Descriptive definitions of life:
 >
-> * Homeostatis \(regulation of internal environment to maintain constant state\)  
-> * Organization \(Unit: Cells\)  
-> * Metabolism  
-> * Growth  
-> * Adaptation  
-> * Response to stimuli  
+> * Homeostatis \(regulation of internal environment to maintain constant state\)
+> * Organization \(Unit: Cells\)
+> * Metabolism
+> * Growth
+> * Adaptation
+> * Response to stimuli
 > * Reproduction
 
 **Question: **Are viruses life?

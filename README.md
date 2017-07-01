@@ -53,7 +53,7 @@ If you find obvious mistakes \(typos, clearly wrong statements\) just change the
 
 If you are challenging statements, answers to questions etc. which might not be trivial to understand go along as follows:
 
-1. Open a new **issue** on github. 
+1. Open a new **issue** on github.
 2. Reference the the statement in question you consider to be wrong
 3. Provide an explanation why you think it is wrong
 4. Provide your correct solution.
@@ -62,7 +62,7 @@ If you are challenging statements, answers to questions etc. which might not be 
 
 The purpose of this document is to foster collaborative learning - hence to make this as inclusive as possible. This being said, too many collaborators would probably lead to chaos 💥. If you know other students personally, you want to add to the project shoot me a message and we will figure it out.
 
-#### 
+####
 
 
 
