@@ -33,11 +33,23 @@ Which elements make up life?
 
 > Single Cells
 
+
+
 ##### 2.2 Genes
 
 ##### 2.4 Central Dogma
 
 ![](/assets/Screen Shot 2017-07-01 at 15.36.44.png)
+
+**DNA: **Stores genetical information in a 4 letter alphabet. Double stranded helix. 
+
+**RNA**: Working copy of DNA, needed to produce a protein. \(Oversimplification\). Single stranded. Different types of RNA.
+
+**Protein: ** Composed of 20 letter alphabet \(amino acids\). Machinery of Life: Proteins do the work in our body.
+
+**Transcription:** Process of turning a part of the DNA \(a gene\) into RNA. 
+
+**Translation:** Process of turning a RNA strand into a protein.
 
 #### 3. Protein Introduction
 
