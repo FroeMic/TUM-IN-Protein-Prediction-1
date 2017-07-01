@@ -61,7 +61,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 * Discuss how to predict Protein Structure from amino-acid sequence using ML
 * Q2: which is better, how to prove your’s is better, which value you will publish? \(❓What is Q2\)
 
-### 3.3.2 Questions that were casually asked during lectures
+### 3.3.2 Lecture 1: Introduction Bioinformatics
 
 **Question:**What is common to life?
 
