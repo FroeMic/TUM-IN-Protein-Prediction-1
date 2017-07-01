@@ -26,11 +26,28 @@
 
 > Today it costs on average about 100 000 $ per protein.
 
-
-
 #### 2. Pairwise Sequence Comparison
 
+###### Correct alignment: We need an objective function
 
+* simplest objective function: percentage of letters which are identical
+* more complicated functions describing a match 
+
+BUT: the match score itself ignores, what we are after - biological similarity in function
+
+###### Local vs Global Alignment
+
+_To find the **optimal** superposition of two sequence, it is first necessary to define what 'optimal' means._
+
+**Global Alignment:** Align all residues from the beginning to the end
+
+**Local Alignment:** Best match for locally aligned regions
+
+
+
+**Question: **What is the biological assumption behind an insertion when comparing sequences?
+
+> Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
 
 #### 3. Multiple Sequence Comparison
 
