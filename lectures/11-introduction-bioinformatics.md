@@ -67,6 +67,8 @@ Central to biology is the question: _How does life work?_
 * usually mulicellular
 * cell organelles
 
+Note: _The density within cells can be described as almost solid._
+
 ##### 2.2 Genes
 
 ##### 2.4 Central Dogma
