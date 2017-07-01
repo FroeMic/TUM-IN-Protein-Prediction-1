@@ -182,5 +182,9 @@ _In rare cases it is also possible that RNA translate to either RNA or DNA_
 
 > About 85 millions sequences are known. However, the 3D structure \(experimentally determined\) of only 120.000 proteins is known.
 
+**Question: **Is this gap \(known sequences vs known 3D structure\) expected to increase?
+
+> Yes, the gap is expected to increase. The amount of new sequences has increased drastically \(far faster than Moore's Law\) in the past. This is expected to continue. Advances in experimentally determining protein 3D structure could only improve marginally, but today experimentally determining the 3D structure of a proteins still costs about 100 000 EUR.
+
 
 
