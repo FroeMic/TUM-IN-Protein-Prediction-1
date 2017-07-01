@@ -47,10 +47,7 @@
 
 > Here \(in the context of genes\), it describes proteins originating from a common ancestor. It is also frequently used to describe 'similar structure' for genes / proteins.
 
-**Question: **Why do linear gap penalties do models the reality of related genes / proteins well?
 
-> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
-> It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
 
 #### 3. Pairwise Sequence Comparison
 
@@ -100,6 +97,15 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 >
 > Building a scoring matrix based on evolutionary conserved residues does optimize the algorithm. \(e.g. BLOSUM62\)
 
+**Question: **What is the biological assumption behind an insertion when comparing sequences?
+
+> Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
+
+**Question: **Why do linear gap penalties not model the reality of related genes / proteins well?
+
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
+> It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
+
 ###### BLOSUM62
 
 ![](/assets/Screen Shot 2017-07-01 at 23.19.39.png)Today many more substitution matrices exist.
@@ -118,9 +124,15 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 >   * Gap penalties
 >   * substitution matrix
 
-**Question: **What is the biological assumption behind an insertion when comparing sequences?
+**Question: **How can we speed up the alignment of sequences?
 
-> Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
+> 1\) Hashing \(fast and dirty\).  e.g. BLAST
+
+**Question: **How does BLAST \(Basic Local Alignment Search Tool\) work?
+
+> 1. Start with indexed \(hashed\) seeds \(words of size = 3\) and find matching proteins
+> 2. Extend matching 'words' into both directions
+> 3. Begin dynamic programming from these strong local hits
 
 #### 4. Multiple Sequence Comparison
 
