@@ -78,7 +78,8 @@ Using absolute accessibility may lead to wrong conclusions.
 **PHDacc: **Machine Learning Approach
 
 * 10 output units
-* advantage: No need to decide on treshold beforehand. Threshold can be chosen for future needs.
+* Advantage: No need to decide on treshold beforehand. Threshold can be chosen for future needs.
+* Advantage: Mapped to a 2 state system \(burried / exposed\) each prediction also carries the confidence in the prediction
 
 
 
