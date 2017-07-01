@@ -1,24 +1,27 @@
 More Globular - More Likely Expressed
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 1.11 Beta Membrane and Accessibility
 
 ###### 22.06.2017 \| [Slides](https://www.rostlab.org/sites/default/files/fileadmin/teaching/SoSe17/PP1CS/cb1e_20170620_tmb_acc.pdf) \| [Lecture Recording](https://www.youtube.com/watch?v=88jQ5H3orzc&index=10&list=PLg46T0OlBIJ9abbsmUL-ux24DCpoUlC1J)
 
 ---
+
+#### Recap
+
+##### Lipid bilayer \(membranes\)
+
+* hydrophilic outside,
+* hydrophobic inside
+
+Normal surroundings of proteins are **solvent **\(hydrophilic, water\). Generally, the core of a protein is **hydrophobic**.
+
+##### Trans Membrane Helices \(TMH\)
+
+* really small fraction of experimentally known proteins \(3D structure\)
+* but 15% to 25% of all proteins
+* 60% of drug targets
+* only about 2% of all _unique_ structures have membrane helices
+* **1D prediction very successful**
 
 #### Beta Barrels
 
@@ -106,4 +109,12 @@ Accessibility helps in predicting protein function.
 **Detailed Prediction Problematic: ❓**
 
 **ConSurf: **Significant gain by evolutionary information \(in/out with &gt; 75% accuracy\)
+
+
+
+#### More Globular - More likely expressed ❓
+
+> Note: I really don't get this slide / content. Anyone an idea, what is meant by that?
+
+
 
