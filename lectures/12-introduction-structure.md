@@ -30,6 +30,14 @@ Proteins are built up out of a chain of amino acids. These amino acids are joine
 
 ![](/assets/Screen Shot 2017-07-01 at 19.54.01.png)
 
+* Each **residue** \(amino acid\) in this chain has a backbone and a side chain
+* Different amino acids have **different side-chains**
+* Each amino acids has **the same backbone**, along which they are chained
+* Proteins are always chained up from the **N-Terminus **to the **C-Terminus** in a condensation reaction 
+  \(a H20 molecule is released\)
+
+
+
 ##### 2.2 Protein Structure
 
 ##### 2.3 Domains
