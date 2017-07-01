@@ -89,7 +89,13 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 
 ###### BLOSUM62
 
-![](/assets/Screen Shot 2017-07-01 at 23.19.39.png)
+![](/assets/Screen Shot 2017-07-01 at 23.19.39.png)Today many more substitution matrices exist.
+
+**Interactive Tool to practice dynamic programming: **[http://melolab.org/sat](http://melolab.org/sat)
+
+
+
+
 
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
