@@ -69,7 +69,7 @@ H   H   O-H
 
 **Question:** How are amino acids linked together to form a protein?
 
-> In the translation process, a **Ribosome **translates a **mRNA** strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the **N-Terminus **to the **C-Terminus **, releasing an H20 molecule as part of the reaction.
+> In the translation process, a **Ribosome **translates a **mRNA** strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the **N-Terminus **to the **C-Terminus  **releasing an H20 molecule as part of the reaction.
 
 ##### 2.2 Protein Structure
 
