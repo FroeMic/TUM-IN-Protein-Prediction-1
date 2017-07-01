@@ -308,7 +308,17 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > Today it costs on average about 100 000 $ per protein.
 
+**Question:**What are the 3 sections found in the tree of life?
 
+> bacteria, archaea, eukaryotes
+
+**Question:**What does Homology stand for?
+
+> Here \(in the context of genes\), it describes proteins originating from a common ancestor. It is also frequently used to describe 'similar structure' for genes / proteins.
+
+**Question:**Why do linear gap penalties do models the reality of related genes / proteins well?
+
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function. It is more realistic to use an**Affine gap penalty**with higher costs for opening a new gap.
 
 
 
