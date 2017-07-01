@@ -4,5 +4,24 @@
 
 ---
 
+#### 1. Recap
+
+**Common to Life:** DNA / Cells
+
+**Proteins:** Machinery of Life - they do everything that needs to be done
+
+* about **85 Million **known protein sequences
+* about 120 000 known 3D structures of proteins in PDB
+* between 20.000 and 25.000 proteins in a typical human
+* protein length \(in amino acids\): 35 - 30.000, with a median around 400
+
+**Central Dogma / Informationflow:** DNA -&gt; RNA -&gt; Proteins![](/assets/Screen Shot 2017-07-01 at 19.42.14.png)**Translation:** Proteins are made up of amino acids \(20 different kinds\). Each amino acids is encoded by a nucleotide triplet \(codon\) of DNA / RNA.
+
+
+
+#### 2. Proteins and Domains
+
+#### 3. 3D Comparisons
+
 
 
