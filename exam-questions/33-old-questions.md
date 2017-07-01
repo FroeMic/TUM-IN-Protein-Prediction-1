@@ -153,6 +153,26 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 > A gene is a region of DNA, which contains all information for the creation of an entire RNA strand.
 
+**Question: **What is DNA made out of?
+
+> DNA is a linear polymer out of 4 bases / nucleotides. DNA exists in cells mainly as a two-stranded structure called the double helix. Each of the bases has a complementary base.
+>
+> * G: Guanine =&gt; Cytosine
+> * A: Adenine =&gt; Thymine
+> * T: Thymine =&gt; Adenine
+> * C: Cytosine =&gt; Guanine
+
+**Question: **What is RNA made out of?
+
+> RNA is a single stranded linear polymer out of 4 bases / nucleotides.
+>
+> * G: Guanine
+> * A: Adenine
+> * U: Uracil
+> * C: Cytosine
+
+
+
 ##### 
 
 
