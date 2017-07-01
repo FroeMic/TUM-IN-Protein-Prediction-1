@@ -65,13 +65,19 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 **Gap insertion penalty:** Each wildcard \(gap\) used when aligning 2 sequences has a certain cost.
 
 * Linear gap penalty: N gaps cost N\*x
-* 
+* Affine gap penalty: opening gaps become more expensive
+  * Gap open: cost 10x
+  * Gap extension \(elongation\): costs x
+
+
+
 **Global Alignment:** Needleman-Wunsch
 
-* align sequences from beginning to end
-* wildcards can be used, but introduce a cost \(penalty\)
+align sequences from beginning to end
 
-**Local Alignment:** 
+wildcards can be used, but introduce a cost \(penalty\)
+
+**Local Alignment:** Smith-Waterman
 
 ##### 
 
@@ -89,7 +95,8 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 
 **Question: **Why do linear gap penalties do models the reality of related genes / proteins well?
 
-> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
+> It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
 
 #### 3. Multiple Sequence Comparison
 
