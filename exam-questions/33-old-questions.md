@@ -29,7 +29,9 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 * General scoring BLOSUM62 matrix vs. PSSM
 
 * Why is the sequence information valuable?
+
 * How BLAST speed up pairwise alignments?
+
 * Global vs Local alignment
 
 ##### 3**. Sequence Structure \(10 points\)**
@@ -90,9 +92,20 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 > * Response to stimuli
 > * Reproduction
 
-**Question:**Are viruses life?
+**Question: **Are viruses life?
 
 > Strictly speaking NO. Viruses on their own cannot replicate and thus are not alive. However, one could say that viruses are alive / represent life once they infected a cell and replicate.
+
+**Question: **What do bacteria have in common?
+
+> Single Cells
+
+**Question: **What are the differences between prokaryotic and eukaryotic cells?
+
+> **Prokaryotic Cells:** mainly found in bacteria and archaea, usually unicellular, no nucleus, no cell organelles  
+> **Eukaryotic Cells:** Found in animals and plants, usually multicellular, have nucleus, have cell organelles
+
+
 
 
 

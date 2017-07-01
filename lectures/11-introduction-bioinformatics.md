@@ -31,16 +31,17 @@ Central to biology is the question: _How does life work?_
 * 1.8 %     - Ca, Calcium
 * 1.0  %    - P, Phosphorus
 
-**Question: **What is life? Can you define it? 
+**Question: **What is life? Can you define it?
 
-> Descriptive definitions of life:  
-> - Homeostatis \(regulation of internal environment to maintain constant state\)  
-> - Organization \(Unit: Cells\)  
-> - Metabolism  
-> - Growth  
-> - Adaptation  
-> - Response to stimuli  
-> - Reproduction
+> Descriptive definitions of life:
+>
+> * Homeostatis \(regulation of internal environment to maintain constant state\)  
+> * Organization \(Unit: Cells\)  
+> * Metabolism  
+> * Growth  
+> * Adaptation  
+> * Response to stimuli  
+> * Reproduction
 
 **Question: **Are viruses life?
 
@@ -65,8 +66,6 @@ Central to biology is the question: _How does life work?_
 * nucleus
 * usually mulicellular
 * cell organelles
-
-
 
 ##### 2.2 Genes
 
