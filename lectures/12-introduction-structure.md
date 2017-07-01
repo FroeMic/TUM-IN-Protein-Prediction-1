@@ -26,15 +26,13 @@
 
 ##### 2.1 Amino Acids
 
+Proteins are built up out of a chain of amino acids. These amino acids are joined into a **linear polypeptide chain**, a protein.
 
+![](/assets/Screen Shot 2017-07-01 at 19.54.01.png)
 
 ##### 2.2 Protein Structure
 
-
-
 ##### 2.3 Domains
-
-
 
 #### 3. 3D Comparisons
 
