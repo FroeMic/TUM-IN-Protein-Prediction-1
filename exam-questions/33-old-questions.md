@@ -82,7 +82,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 **Question:**What is life? Can you define it?
 
-> Descriptive definitions of life:
+> There is no holistic definition of life: Descriptive definitions of life are
 >
 > * Homeostatis \(regulation of internal environment to maintain constant state\)
 > * Organization \(Unit: Cells\)
