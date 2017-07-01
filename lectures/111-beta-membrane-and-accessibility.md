@@ -6,6 +6,8 @@
 
 #### Beta Barrels
 
+TMB = Trans Membrane Barrel
+
 * "barrels" formed out of β-sheets connected by hydrogen bonds,which go through the membrane
 * looking from the tops they have a hole
 * they are pores, letting anything pass that is small enough
@@ -13,6 +15,38 @@
 ##### Beta Barrel Prediction: PROFtmb
 
 ###### Model Design**:**
+
+* Hidden Markov Model
+* structure based labels \(states\)
+  * inside loop
+  * outside loop
+  * strand up
+  * strand down
+
+_How to assess whether this model makes sense?_
+
+* Count the different states in the set of proteins, where you know \(from experiments where the barrels are\)
+* Put the observation into the **priors** for the **HMM **\(Hidden Markov Model\) and train for all the others
+* Check the results \(per residue\) predicted vs observed
+
+**Conclusion**: Remarkable performance
+
+###### BUT: Can we distiguish proteins with / without TMB?
+
+**Challenges:**
+
+* Where do barrel domains start / end?
+* Sometimes barrels are built out of several peptide chains \(proteins\)
+* Per Protein Performance: **Accuracy vs Coverage**
+  * Where to put the threshold when analysing a new protein?
+    * Intuitive / Literature: **Intersection of Accuracy and Coverage**
+    * Optimized per Case: E.g. for Master Thesis high accuracy if more important than coverage, as experimental biologists will follow up on only a few of the found proteins in further research
+
+
+
+
+
+
 
 
 
