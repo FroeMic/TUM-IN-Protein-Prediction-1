@@ -81,15 +81,11 @@ A gene is a region of DNA, which contains all information for the creation of an
 
 **Intron:** Part of a gene that will be removed by **RNA Splicing** before the protein is translated
 
-###### **Domain Merger**
+##### 2.3 Domains
 
 We imagine a domain as follow: _If I took a domain sequence, string it up and put it into solvent, it adopts a unique 3D structure._
 
 Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?**
-
-
-
-##### 2.3 Domains
 
 #### 3. 3D Comparisons
 
