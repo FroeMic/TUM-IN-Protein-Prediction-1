@@ -105,6 +105,10 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 > **Prokaryotic Cells:** mainly found in bacteria and archaea, usually unicellular, no nucleus, no cell organelles  
 > **Eukaryotic Cells:** Found in animals and plants, usually multicellular, have nucleus, have cell organelles
 
+**Question:** How can the density of a cell be described?
+
+> The state inside a cell is almost solid. We can think of a cell similar to a Christmas day on Time Square: Everything is densely packed, but there is still movement.
+
 **Question:**What is the smallest building block of life that can replicate?
 
 > cells
@@ -170,8 +174,6 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 > * A: Adenine
 > * U: Uracil
 > * C: Cytosine
-
-
 
 ##### 
 
