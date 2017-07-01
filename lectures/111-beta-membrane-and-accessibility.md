@@ -70,6 +70,14 @@ Using absolute accessibility may lead to wrong conclusions.
 
 #### Solvent Accessibility
 
+Accessibility helps in predicting protein function.
+
+* sub cellular localization
+* protein-protein interactions
+* flexibility / motion from structure
+
+
+
 **Historically: **Prediction by hydrophobicity
 
 * hydrophobic: inside
@@ -81,5 +89,9 @@ Using absolute accessibility may lead to wrong conclusions.
 * Advantage: No need to decide on treshold beforehand. Threshold can be chosen for future needs.
 * Advantage: Mapped to a 2 state system \(burried / exposed\) each prediction also carries the confidence in the prediction
 
+**Detailed Prediction Problematic: ❓**
 
+**ConSurf: **Significant gain by evolutionary information \(in/out with &gt; 75% accuracy\)
+
+ 
 
