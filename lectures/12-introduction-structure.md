@@ -85,7 +85,7 @@ A gene is a region of DNA, which contains all information for the creation of an
 
 **Definition**: _If I took a sequence out of a protein, string it up and put it into solvent, it adopts a unique 3D structure on its own._
 
-Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?                      
+Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?                        
 **By aligning and comparing proteins with know 3D structure, it is possible to find common, overlapping domains that adopt the same 3D structure across different proteins.
 
 **Question: **What is the definition of a 'domain'?
@@ -133,7 +133,7 @@ Proteins are built out of several such substructures. The question is **Can we g
 
 **Question: **Which comparison not using cartesian RMSD could be used for comparison?
 
-> 2D distance map: difference of differences. Only information about the chirality is lost.
+> 2D distance map: difference of differences. Only information about the chirality \(mirror image\) is lost.
 
 
 
