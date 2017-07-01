@@ -52,8 +52,6 @@
 > With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
 > It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
 
-
-
 #### 3. Pairwise Sequence Comparison
 
 ###### Correct alignment: We need an objective function
@@ -123,8 +121,6 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
 > Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
-
-
 
 #### 4. Multiple Sequence Comparison
 
