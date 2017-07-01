@@ -4,5 +4,15 @@
 
 ---
 
+#### Beta Barrels
+
+* "barrels" formed out of β-sheets connected by hydrogen bonds,which go through the membrane
+* looking from the tops they have a hole
+* they are pores, letting anything pass that is small enough
+
+##### Beta Barrel Prediction: PROFtmb
+
+###### Model Design**:**
+
 
 
