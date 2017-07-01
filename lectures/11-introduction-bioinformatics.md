@@ -135,7 +135,7 @@ Central to biology is the question: _How does life work?_
 
 **Question: **What is a gene?
 
-> A gene is a region of DNA, which contains all information for the creation of an entire RNA strand.
+> A gene is a region of DNA, which contains all information for the creation of an entire RNA strand \(= protein\).
 
 ##### 2.3 Central Dogma
 

@@ -208,5 +208,84 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 > Yes, the gap is expected to increase. The amount of new sequences has increased drastically \(far faster than Moore's Law\) in the past. This is expected to continue. Advances in experimentally determining protein 3D structure could only improve marginally, but today experimentally determining the 3D structure of a proteins still costs about 100 000 EUR.
 
+**Question: **How much data is produced by one sequencing machine per day?
+
+> At full capacity about 5 - 10 terabytes of data per day.
+
+### 3.3.3 Lecture 2: Introduction Protein Structure
+
+**Question:**How many different amino acids are there?
+
+> 20
+
+**Question:**How do amino acids differ? What do they have in common?
+
+> Different amino acids have different side-chains, which influence the chemical features of the respective amino acid. All of them share the same backbone.
+
+**Question:**In which different feature groups can you categorize amino acids?
+
+> polar, non-polar, acidic \(negatively charged\), basic \(positively charged\)
+
+**Question:**Draw the basic chemical structure of an amino acid.
+
+```
+H   R   O
+ \  |  //
+  N-C-C
+ /  |  \
+H   H   O-H
+```
+
+**Question:**How are amino acids linked together to form a protein?
+
+> In the translation process, a **Ribosome **translates a **mRNA **strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the **N-Terminus **to the **C-Terminus **releasing an H20 molecule as part of the reaction.
+
+**Question: **What is the definition of a 'domain'?
+
+> A domain is a protein sequence, which when put into solvent adopts a unique 3D structure on its own.
+
+**Question: **How many domains does a protein have?
+
+> * 61% of proteins in the PDB are single domain
+> * 28% of proteins in the PDB are in 62 proteomes
+>
+> **Problem: **This is a biased view on proteins. The 3D structure of Single-Domain-Proteins is easier to experimentally determine, so more Single-Domain-Proteins have been analyzed.
+
+**Question: **Can domains overlap?
+
+> Yes, it can happen. However, it is not what is typically observed** .**
+
+**Question: **How can we compare 3D structures?
+
+> One solution would be to align the corresponding residues of both sequences / 3D structures and take the **Root Mean Square Deviation**. \(If one pair lies very far apart, it will result in an extremely low score\)
+>
+> RMSD\(A,B\) = SQRT\( ⅀ \(a.i - b.i\)^2 \)
+>
+> If the score is below a certain threshold, it is a match, otherwise it is not.
+
+**Question: **How can align and compare the structure of 2 proteins?
+
+> 1\) Find the corresponding points \(residues that match in 3D\)  
+> 2\) Find Superposition independent of domain movements and calculate score \(e.g. RMSD\)
+
+**Question: **Why is global protein comparison most of the time impossible?
+
+> The definition of protein enforces a per residue comparison \(no scaling\). Hence only proteins of the \(almost\) the same length can be compared globally. Since proteins are between 35 and 30.000 residues long, global comparison does not make sense in most of the cases.
+
+**Question: **What is the difference between global and local alignment?
+
+> In **global alignment** two structures / sequences are compared from beginning to end \(compare the whole thing\).  
+> In **local alignment** however, subunits \(domains\) of the proteins are aligned. \(Problem: What is a valid unit? Where to cut?\)
+
+**Question: **How to decide what is a valid unit for local comparison of 2 proteins?
+
+> ❓ \(I couldn't identfiy a valid answer in the lecture recording\)
+
+**Question: **Which comparison not using cartesian RMSD could be used for comparison?
+
+> 2D distance map: difference of differences. Only information about the chirality \(mirror image\) is lost.
+
+
+
 
 
