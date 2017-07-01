@@ -54,7 +54,7 @@ _To find the **optimal** superposition of two sequence, it is first necessary to
 
 **Homology: ** Here \(in the context of genes\), it describes proteins originating from a common ancestor.
 
-**Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together.
+**Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together. \(Example Bono an Chimpanzee\) 
 
 
 
@@ -67,6 +67,12 @@ _To find the **optimal** superposition of two sequence, it is first necessary to
 **Question: **What are the 3 sections found in the tree of life?
 
 > bacteria, archaea, eukaryotes
+
+**Question: **What does Homology stand for?
+
+> Here \(in the context of genes\), it describes proteins originating from a common ancestor. It is also frequently used to describe 'similar structure' for genes / proteins.
+
+
 
 #### 3. Multiple Sequence Comparison
 
