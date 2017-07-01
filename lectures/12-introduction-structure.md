@@ -47,7 +47,15 @@ Amino acids only differ in their side chains. These side chains determine the ch
 
 **Question: **How many different amino acids are there?
 
+> 20
+
+**Question: **How do amino acids differ? What do they have in common?
+
+> Different amino acids have different side-chains, which influence the chemical features of the respective amino acid. All of them share the same backbone.
+
 **Question: **In which different feature groups can you categorize amino acids?
+
+> polar, non-polar, acidic \(negatively charged\), basic \(positively charged\)
 
 **Question:** Draw the basic chemical structure of an amino acid.
 
@@ -58,6 +66,10 @@ H   R   O
  /  |  \
 H   H   O-H
 ```
+
+**Question:** How are amino acids linked together to form a protein?
+
+> In the translation process, a **Ribosome **translates a **mRNA** strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the **N-Terminus **to the **C-Terminus **, releasing an H20 molecule as part of the reaction.
 
 ##### 2.2 Protein Structure
 
