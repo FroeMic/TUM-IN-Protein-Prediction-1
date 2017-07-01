@@ -295,9 +295,7 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > * we cannot compare function directly
 > * structure is related to function
 > * we CAN compare 3D structures
-> * sometimes: similar structure -
->   &gt;
->    similar function
+> * sometimes: similar structure -&gt; similar function
 
 **Question:**How do we get protein 3D shapes?
 
@@ -318,7 +316,7 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 **Question:**Why do linear gap penalties do models the reality of related genes / proteins well?
 
-> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function. It is more realistic to use an**Affine gap penalty**with higher costs for opening a new gap.
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function. It is more realistic to use an **Affine gap penalty **with higher costs for opening a new gap.
 
 
 
