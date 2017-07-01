@@ -25,5 +25,5 @@
 * [3. Exam Questions](exam-questions.md)
   * [3.1 Lecture Questions](exam-questions/31-questions.md)
   * [3.2 Exercise Questions](exam-questions/32-exercise-questions.md)
-  * [3.3 Old Questions](exam-questions/33-old-questions.md)
+  * [3.3 Question Catalogue](exam-questions/33-old-questions.md)
 
