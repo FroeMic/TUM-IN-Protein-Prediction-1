@@ -52,12 +52,12 @@ BUT: the match score itself ignores, what we are after - biological similarity i
 
 _To find the optimal superposition of two sequence, it is first necessary to define what 'optimal' means._
 
-**Global Alignment:** 
+**Global Alignment:**
 
 * Align all residues from the beginning to the end
 * Needleman-Wunsch
 
-**Local Alignment:** 
+**Local Alignment:**
 
 * Best match for locally aligned regions
 * Smith-Waterman
@@ -77,9 +77,15 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
 
 ##### Local vs Global Alignment: What is better?
 
-What is better? High sequence identity of a short \(local\) sequence, or worse sequence identity when matching a longer sequence? How can we decide?
+**Question: **What is better? High sequence identity of a short \(local\) sequence, or worse sequence identity when matching a longer sequence? How can we decide?
 
+> Compile the probability of randomly matching a sequence considering the background distribution. The result of this would be a substitution matrix such as BLOSUM62.
 
+**Question: **Is identity the best way to match two sequences?
+
+> Not necessarily: What we really find is similar biological function. Some amino acids might have similar biophysical features and could be swapped without any significant influence on the structure of the protein. Such matches should also be considered 'postive'. 
+>
+> Building a scoring matrix based on evolutionary conserved residues does optimize the algorithm.
 
 
 
