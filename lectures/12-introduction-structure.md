@@ -75,7 +75,11 @@ H   H   O-H
 
 ###### What is a gene?
 
+A gene is a region of DNA, which contains all information for the creation of an entire RNA strand. \( = protein\)![](/assets/Screen Shot 2017-07-01 at 20.26.17.png)**UTR: **Untranslated region \(leader sequence, header sequence\)
 
+**Exon:** Part of a gene that will encode a part of the final mature RNA
+
+**Intron:** Part of a gene that will be removed by **RNA Splicing** before the protein is translated
 
 ##### 2.3 Domains
 
