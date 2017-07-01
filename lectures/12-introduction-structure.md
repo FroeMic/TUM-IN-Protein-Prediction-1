@@ -85,7 +85,7 @@ A gene is a region of DNA, which contains all information for the creation of an
 
 **Definition**: _If I took a sequence out of a protein, string it up and put it into solvent, it adopts a unique 3D structure on its own._
 
-Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?                    
+Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?                      
 **By aligning and comparing proteins with know 3D structure, it is possible to find common, overlapping domains that adopt the same 3D structure across different proteins.
 
 **Question: **What is the definition of a 'domain'?
@@ -127,9 +127,13 @@ Proteins are built out of several such substructures. The question is **Can we g
 > In **global alignment** two structures / sequences are compared from beginning to end \(compare the whole thing\).  
 > In **local alignment** however, subunits \(domains\) of the proteins are aligned. \(Problem: What is a valid unit? Where to cut?\)
 
-**Question: **How to decide what is a valid unit for local comparison of 2 proteins? 
+**Question: **How to decide what is a valid unit for local comparison of 2 proteins?
 
->
+> ❓ \(I couldn't identfiy a valid answer in the lecture recording\)
+
+**Question: **Which comparison not using cartesian RMSD could be used for comparison?
+
+> 2D distance map: difference of differences. Only information about the chirality is lost.
 
 
 
