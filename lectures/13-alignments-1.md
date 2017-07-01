@@ -35,9 +35,9 @@
 
 BUT: the match score itself ignores, what we are after - biological similarity in function
 
-###### Local vs Global Alignment
+##### Local vs Global Alignment
 
-_To find the **optimal** superposition of two sequence, it is first necessary to define what 'optimal' means._
+_To find the optimal superposition of two sequence, it is first necessary to define what 'optimal' means._
 
 **Global Alignment:** Align all residues from the beginning to the end
 
@@ -54,11 +54,26 @@ _To find the **optimal** superposition of two sequence, it is first necessary to
 
 **Homology: ** Here \(in the context of genes\), it describes proteins originating from a common ancestor.
 
-**Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together. \(Example Bono an Chimpanzee\) 
+**Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together. \(Example Bono an Chimpanzee\)
 
+###### How do we align 2 sequences?
 
+_Basically brute force: Visually \(moving around\), computationally \(dynamic programming\)_
 
+Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-alignments.md)
 
+**Gap insertion penalty:** Each wildcard \(gap\) used when aligning 2 sequences has a certain cost.
+
+* Linear gap penalty: N gaps cost N\*x
+* 
+**Global Alignment:** Needleman-Wunsch
+
+* align sequences from beginning to end
+* wildcards can be used, but introduce a cost \(penalty\)
+
+**Local Alignment:** 
+
+##### 
 
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
@@ -72,7 +87,9 @@ _To find the **optimal** superposition of two sequence, it is first necessary to
 
 > Here \(in the context of genes\), it describes proteins originating from a common ancestor. It is also frequently used to describe 'similar structure' for genes / proteins.
 
+**Question: **Why do linear gap penalties do models the reality of related genes / proteins well?
 
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.
 
 #### 3. Multiple Sequence Comparison
 
