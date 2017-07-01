@@ -149,5 +149,11 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 > Single Cells
 
+**Question: **What is a gene?
+
+> A gene is a region of DNA, which contains all information for the creation of an entire RNA strand.
+
+##### 
+
 
 
