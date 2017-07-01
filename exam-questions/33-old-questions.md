@@ -26,9 +26,8 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
   * Sequence - Profile
   * Profile - Profile
 
-
-
 * General scoring BLOSUM62 matrix vs. PSSM
+
 * Why is the sequence information valuable?
 * How BLAST speed up pairwise alignments?
 * Global vs Local alignment
@@ -59,6 +58,41 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 * Name and describe "sequence" in context of PP
 * Discuss how to predict Protein Structure from amino-acid sequence using ML
 * Q2: which is better, how to prove your’s is better, which value you will publish? \(❓What is Q2\)
+
+### 3.3.2 Questions that were casually asked during lectures
+
+**Question:**What is common to life?
+
+> DNA, Protein, RNA
+
+**Question:**How many bacteria do we care around?
+
+> About 2 kilos. Humans carry around more bacterial DNA than human DNA.
+
+**Question:**Which elements make up life?
+
+* 65.0 % - O, Oxygen
+* 18.6 % - C, Carbon
+* 9.7 % - H, Hydrogen
+* 3.2 % - N, Nitrogen
+* 1.8 % - Ca, Calcium
+* 1.0 % - P, Phosphorus
+
+**Question:**What is life? Can you define it?
+
+> Descriptive definitions of life:
+>
+> * Homeostatis \(regulation of internal environment to maintain constant state\)
+> * Organization \(Unit: Cells\)
+> * Metabolism
+> * Growth
+> * Adaptation
+> * Response to stimuli
+> * Reproduction
+
+**Question:**Are viruses life?
+
+> Strictly speaking NO. Viruses on their own cannot replicate and thus are not alive. However, one could say that viruses are alive / represent life once they infected a cell and replicate.
 
 
 
