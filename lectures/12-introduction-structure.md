@@ -17,9 +17,24 @@
 
 **Central Dogma / Informationflow:** DNA -&gt; RNA -&gt; Proteins![](/assets/Screen Shot 2017-07-01 at 19.42.14.png)**Translation:** Proteins are made up of amino acids \(20 different kinds\). Each amino acids is encoded by a nucleotide triplet \(codon\) of DNA / RNA.
 
-
-
 #### 2. Proteins and Domains
+
+```markdown
+# It is important to realize that every representation of a protein (sequence, image, ...) is 
+# only a representation of reality.
+```
+
+##### 2.1 Amino Acids
+
+
+
+##### 2.2 Protein Structure
+
+
+
+##### 2.3 Domains
+
+
 
 #### 3. 3D Comparisons
 
