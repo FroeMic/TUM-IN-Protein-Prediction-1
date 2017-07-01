@@ -46,7 +46,10 @@ _How to assess whether this model makes sense?_
 
 #### Accessibility
 
-= accessibility of residues to water ❓
+What is it about? Why is this relevant?
+
+* accessibility of residues to water ❓
+* outside vs inside❓
 
 **1\) Absolute Accessibility**: ASA \(square Ångstrøm, 1 Å = 0.1 nm\)
 
@@ -62,12 +65,15 @@ Using absolute accessibility may lead to wrong conclusions.
 * buried, intermediate, exposed
 
 > Note: It doesn't matter whether something is 80% or 100% exposed, but it does matter whether something is 0% or 20% exposed. Also, drawing the line where to set the "best" threshold between the states is discussed in academia.
+>
+> RostLab Approach: Square Root -&gt; Switch from percentage to predicting 10 states
 
+#### Solvent Accessibility
 
+**Historically: **Prediction by hydrophobicity
 
-
-
-
+* hydrophobic: inside
+* hydrophilic: outside
 
 
 
