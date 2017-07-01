@@ -230,7 +230,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 ```
 H   R   O
- \  |  /
+ \  |  //
   N-C-C
  /  |  \
 H   H   O-H
@@ -239,6 +239,23 @@ H   H   O-H
 **Question:**How are amino acids linked together to form a protein?
 
 > In the translation process, a **Ribosome **translates a **mRNA **strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the **N-Terminus **to the **C-Terminus **releasing an H20 molecule as part of the reaction.
+
+**Question: **What is the definition of a 'domain'?
+
+> A domain is a protein sequence, which when put into solvent adopts a unique 3D structure on its own.
+
+**Question: **How many domains does a protein have?
+
+> * 61% of proteins in the PDB are single domain
+> * 28% of proteins in the PDB are in 62 proteomes
+>
+> **Problem: **This is a biased view on proteins. The 3D structure of Single-Domain-Proteins is easier to experimentally determine, so more Single-Domain-Proteins have been analyzed.
+
+**Question: **Can domains overlap?
+
+> Yes, it can happen. However, it is not what is typically observed** .**
+
+#### 
 
 
 
