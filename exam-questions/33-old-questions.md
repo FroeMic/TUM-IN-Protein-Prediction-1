@@ -175,7 +175,38 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 > * U: Uracil
 > * C: Cytosine
 
-##### 
+**Question:** Do all organisms use the same amino acids / codons?
+
+> Different organisms use the same amino acids for proteins. However, they differ in their codon usage \(which RNA triplets are translated into which amino acid\).
+
+**Question: **How many proteins does a typical human have?
+
+> Between 20.000 and 25.000 different kinds of proteins.
+
+**Question:** What are functions of proteins?
+
+> * Defense \(e.g. antibodies\)
+> * Structure \(e.g. collagen\)
+> * Enzymes \(metabolism, catabolism\)
+> * Communication / Signaling \(e.g. insulin\)
+> * Ligand binding / Transport \(e.g. hemoglobin\)
+> * Storage \(e.g. ferritin\)
+
+**Question: **How many residues long are typical proteins?
+
+> Between 35 and 30.000 residues. The median is around 400.
+
+**Question: **Do proteins consist of units?
+
+> Proteins are built up of several domains. Most proteins have more than 2 domains.
+
+**Question: **How many proteins are known?
+
+> About 85 millions sequences are known. However, the 3D structure \(experimentally determined\) of only 120.000 proteins is known.
+
+**Question: **Is this gap \(known sequences vs known 3D structure\) expected to increase?
+
+> Yes, the gap is expected to increase. The amount of new sequences has increased drastically \(far faster than Moore's Law\) in the past. This is expected to continue. Advances in experimentally determining protein 3D structure could only improve marginally, but today experimentally determining the 3D structure of a proteins still costs about 100 000 EUR.
 
 
 
