@@ -125,7 +125,7 @@ Note: _The density within cells can be described as almost solid._
 
 **Transcription:** Process of turning a part of the DNA \(a gene\) into RNA.
 
-**Translation:** Process of turning a RNA strand into a protein. One amino acid is encoded as a RNA nucleotides triplet.
+**Translation:** Process of turning a RNA strand into a protein by a Ribosome. Each amino acid is encoded as a RNA nucleotides triplet.
 
 _In rare cases it is also possible that RNA translate to either RNA or DNA_
 
