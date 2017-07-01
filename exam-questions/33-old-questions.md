@@ -212,5 +212,33 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 > At full capacity about 5 - 10 terabytes of data per day.
 
+### 3.3.3 Lecture 2: Introduction Protein Structure
+
+**Question:**How many different amino acids are there?
+
+> 20
+
+**Question:**How do amino acids differ? What do they have in common?
+
+> Different amino acids have different side-chains, which influence the chemical features of the respective amino acid. All of them share the same backbone.
+
+**Question:**In which different feature groups can you categorize amino acids?
+
+> polar, non-polar, acidic \(negatively charged\), basic \(positively charged\)
+
+**Question:**Draw the basic chemical structure of an amino acid.
+
+```
+H   R   O
+ \  |  /
+  N-C-C
+ /  |  \
+H   H   O-H
+```
+
+**Question:**How are amino acids linked together to form a protein?
+
+> In the translation process, a**Ribosome**translates a**mRNA**strand to a protein, by decoding the RNA triplets into amino acids and then linking the amino acids by peptide bonds. They chaining ALWAYS happens from the**N-Terminus**to the**C-Terminus**releasing an H20 molecule as part of the reaction.
+
 
 
