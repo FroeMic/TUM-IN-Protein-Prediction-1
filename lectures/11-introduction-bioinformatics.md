@@ -49,41 +49,9 @@ Central to biology is the question: _How does life work?_
 
 ##### 2.1 Organisms
 
-**Question: **What is the smallest building block of life that can replicate?
-
-> cells
-
-**Question: **How many different cells are in a typical human?
-
-> 200
-
-**Question: **What are the parts of the cell called?
-
-> mitochondria
-
-**Question: **Which part of the cell is called the "powerhouse"?
-
-> chloroplast
-
-**Question: **What part of a plant is involved with photosynthesis?
-
-**Question: **What is mitosis?
-
-**Question: **Who first used the term cell?
-
-**Question: **How many elements are found in amounts larger than trace amounts \(0.01%\) in our bodies?
-
-**Question: **When communities of living things interact with non living things they are called ... ?
-
-**Question: **The most common molecule in the human body is ... ?
-
-**Question: **What do bacteria have in common?
-
-> Single Cells
-
 ###### Different Type of Cells:
 
-**Prokaryotic Cells: **Mainly found in bacteria and archaea.
+###### **Prokaryotic Cells: **Mainly found in bacteria and archaea.
 
 * no nucleus
 * usually unicellular
@@ -96,6 +64,52 @@ Central to biology is the question: _How does life work?_
 * cell organelles
 
 Note: _The density within cells can be described as almost solid._
+
+###### Questions
+
+**Question:**What is the smallest building block of life that can replicate?
+
+> cells
+
+**Question:**How many different cells are in a typical human?
+
+> 200
+
+**Question:**What are the parts of the cell called?
+
+> organelles
+
+**Question:**Which part of the cell is called the "powerhouse"?
+
+> mitochondria
+
+**Question:**What part of a plant is involved with photosynthesis?
+
+> chloroplast
+
+**Question:**What is mitosis?
+
+> cell division
+
+**Question:**Who first used the term cell?
+
+> Robert Hooke
+
+**Question:**How many elements are found in amounts larger than trace amounts \(0.01%\) in our bodies?
+
+> 11
+
+**Question:**When communities of living things interact with non living things they are called ... ?
+
+> ecosystem
+
+**Question:**The most common molecule in the human body is ... ?
+
+> Water: H\_2O
+
+**Question:**What do bacteria have in common?
+
+> Single Cells
 
 ##### 2.2 Genes
 

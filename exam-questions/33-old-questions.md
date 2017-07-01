@@ -105,7 +105,49 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 > **Prokaryotic Cells:** mainly found in bacteria and archaea, usually unicellular, no nucleus, no cell organelles  
 > **Eukaryotic Cells:** Found in animals and plants, usually multicellular, have nucleus, have cell organelles
 
+**Question:**What is the smallest building block of life that can replicate?
 
+> cells
+
+**Question:**How many different cells are in a typical human?
+
+> 200
+
+**Question:**What are the parts of the cell called?
+
+> organelles
+
+**Question:**Which part of the cell is called the "powerhouse"?
+
+> mitochondria
+
+**Question:**What part of a plant is involved with photosynthesis?
+
+> chloroplast
+
+**Question:**What is mitosis?
+
+> cell division
+
+**Question:**Who first used the term cell?
+
+> Robert Hooke
+
+**Question:**How many elements are found in amounts larger than trace amounts \(0.01%\) in our bodies?
+
+> 11
+
+**Question:**When communities of living things interact with non living things they are called ... ?
+
+> ecosystem
+
+**Question:**The most common molecule in the human body is ... ?
+
+> Water: H\_2O
+
+**Question:**What do bacteria have in common?
+
+> Single Cells
 
 
 
