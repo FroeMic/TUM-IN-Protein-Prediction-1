@@ -63,7 +63,9 @@ Central to biology is the question: _How does life work?_
 * usually mulicellular
 * cell organelles
 
-Note: _The density within cells can be described as almost solid._
+**Note:** _The density within cells can be described as almost solid._
+
+**Note:** Different organisms use the same amino acids for proteins. However, they differ in their codon usage \(which RNA triplets are translated into which amino acid\).
 
 ###### Questions
 
