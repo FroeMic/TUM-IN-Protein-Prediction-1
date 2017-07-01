@@ -26,26 +26,9 @@
 
 > Today it costs on average about 100 000 $ per protein.
 
-#### 2. Pairwise Sequence Comparison
+#### 2. Tree of Life
 
-###### Correct alignment: We need an objective function
-
-* simplest objective function: percentage of letters which are identical
-* more complicated functions describing a match 
-
-BUT: the match score itself ignores, what we are after - biological similarity in function
-
-##### Local vs Global Alignment
-
-_To find the optimal superposition of two sequence, it is first necessary to define what 'optimal' means._
-
-**Global Alignment:** Align all residues from the beginning to the end
-
-**Local Alignment:** Best match for locally aligned regions
-
-###### Tree of Life
-
-* All life is related \(common ancestor\)
+* #### All life is related \(common ancestor\)
 * 3 sections of tree of life
   * prokaryotes
     * \(unicellular\) bacteria
@@ -55,6 +38,29 @@ _To find the optimal superposition of two sequence, it is first necessary to def
 **Homology: ** Here \(in the context of genes\), it describes proteins originating from a common ancestor.
 
 **Definition of Species:** We are talking about two different species, once they cannot produce fertile offspring together. \(Example Bono an Chimpanzee\)
+
+#### 3. Pairwise Sequence Comparison
+
+###### Correct alignment: We need an objective function
+
+* simplest objective function: percentage of letters which are identical
+* more complicated functions describing a match 
+
+BUT: the match score itself ignores, what we are after - biological similarity in function
+
+##### Alignment
+
+_To find the optimal superposition of two sequence, it is first necessary to define what 'optimal' means._
+
+**Global Alignment:** 
+
+* Align all residues from the beginning to the end
+* Needleman-Wunsch
+
+**Local Alignment:** 
+
+* Best match for locally aligned regions
+* Smith-Waterman
 
 ###### How do we align 2 sequences?
 
@@ -69,17 +75,17 @@ Dynamic Programming Algorithm: See [Exercise 2.4 Alignments](/exercises/24-align
   * Gap open: cost 10x
   * Gap extension \(elongation\): costs x
 
+##### Local vs Global Alignment: What is better?
+
+What is better? High sequence identity of a short \(local\) sequence, or worse sequence identity when matching a longer sequence? How can we decide?
 
 
-**Global Alignment:** Needleman-Wunsch
 
-align sequences from beginning to end
 
-wildcards can be used, but introduce a cost \(penalty\)
 
-**Local Alignment:** Smith-Waterman
 
-##### 
+
+
 
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
@@ -98,7 +104,7 @@ wildcards can be used, but introduce a cost \(penalty\)
 > With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function.  
 > It is more realistic to use an **Affine gap penalty** with higher costs for opening a new gap.
 
-#### 3. Multiple Sequence Comparison
+#### 4. Multiple Sequence Comparison
 
 
 
