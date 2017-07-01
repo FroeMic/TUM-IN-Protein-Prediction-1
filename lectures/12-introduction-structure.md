@@ -83,9 +83,22 @@ A gene is a region of DNA, which contains all information for the creation of an
 
 ##### 2.3 Domains
 
-We imagine a domain as follow: _If I took a domain sequence, string it up and put it into solvent, it adopts a unique 3D structure._
+**Definition**: _If I took a sequence out of a protein, string it up and put it into solvent, it adopts a unique 3D structure on its own._
 
 Proteins are built out of several such substructures. The question is **Can we guess domains from sequence?**
+
+
+
+**Question: **How many domains does a protein have?
+
+> * 61% of proteins in the PDB are single domain
+> * 28% of proteins in the PDB are in 62 proteomes
+>
+> **Problem: **This is a biased view on proteins. The 3D structure of Single-Domain-Proteins is easier to experimentally determine, so more Single-Domain-Proteins have been analyzed.
+
+**Question: **Can domains overlap?
+
+> Yes, it can happen. However, it is not what is typically observed** **
 
 #### 3. 3D Comparisons
 
