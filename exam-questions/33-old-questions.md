@@ -336,5 +336,29 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function. It is more realistic to use an**Affine gap penalty**with higher costs for opening a new gap.
 
+**Question: **Does dynamic programming give the best solution?
+
+> Yes, dynamic programming produces one optimal solution. \(There could be others, though\)
+
+**Question: **What are issues with dynamic programming?
+
+> * Time used: O\(n^2\)
+>   * Especially a problem, when comparing one protein agains the entire database.
+> * How to choose parameters?
+>   * Gap penalties
+>   * substitution matrix
+
+**Question: **How can we speed up the alignment of sequences?
+
+> 1\) Hashing \(fast and dirty\).  e.g. BLAST
+
+**Question: **How does BLAST \(Basic Local Alignment Search Tool\) work?
+
+> 1. Start with indexed \(hashed\) seeds \(words of size = 3\) and find matching proteins
+> 2. Extend matching 'words' into both directions
+> 3. Begin dynamic programming from these strong local hits
+
+#### 
+
 
 
