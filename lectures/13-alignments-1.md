@@ -43,11 +43,24 @@ _To find the **optimal** superposition of two sequence, it is first necessary to
 
 **Local Alignment:** Best match for locally aligned regions
 
+###### Tree of Life
 
+* All life is related \(common ancestor\)
+* 3 sections of tree of life
+  * prokaryotes
+    * \(unicellular\) bacteria
+    * archaea
+  * eukaryotes \(plants, animals, ... \)
+
+**Homology: ** Here \(in the context of genes\), it describes proteins originating from a common ancestor.
 
 **Question: **What is the biological assumption behind an insertion when comparing sequences?
 
 > Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
+
+**Question: **What are the 3 sections found in the tree of life?
+
+> bacteria, archaea, eukaryotes
 
 #### 3. Multiple Sequence Comparison
 
