@@ -318,5 +318,23 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function. It is more realistic to use an **Affine gap penalty **with higher costs for opening a new gap.
 
+**Question:**What is better? High sequence identity of a short \(local\) sequence, or worse sequence identity when matching a longer sequence? How can we decide?
+
+> Compile the probability of randomly matching a sequence considering the background distribution. The result of this would be a substitution matrix such as BLOSUM62.
+
+**Question:**Is identity the best way to match two sequences?
+
+> Not necessarily: What we really find is similar biological function. Some amino acids might have similar biophysical features and could be swapped without any significant influence on the structure of the protein. Such matches should also be considered 'postive'.
+>
+> Building a scoring matrix based on evolutionary conserved residues does optimize the algorithm. \(e.g. BLOSUM62\)
+
+**Question:**What is the biological assumption behind an insertion when comparing sequences?
+
+> Through evolutionary changes in the DNA \(e.g. a point mutation\) a new bump \(= amino acid\(s\)\) was introduced. Implicitly it is also assumed similar structure -&gt; similar function.
+
+**Question:**Why do linear gap penalties not model the reality of related genes / proteins well?
+
+> With a linear gap penalty \(N gaps cost N\*x\) equally distributed gaps would be as expensive as clustered gaps. Biologically, gaps clustered to blocks, are however far more likely to occur, while the protein maintains similar structure / function. It is more realistic to use an**Affine gap penalty**with higher costs for opening a new gap.
+
 
 
