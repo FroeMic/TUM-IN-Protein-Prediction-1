@@ -6,7 +6,41 @@
 
 #### 1. Introduction Membrane
 
+**Requirements for Cell Membrane**
 
+* separate the content of the cell from its surroundings
+* control traffic into and out of the cell
+  * * keep malicious things out
+    * let good things in
+
+**Main components of the cell membrane**
+
+1. Carbohydrates
+2. Cholesterol
+3. Phospholipids
+4. Proteins
+
+##### Phospholipids
+
+* form the barrier that separates the inside of a cell from the outside
+* pospholipids are arranged in a **lipid bilayer**
+  * **Inside: **fatty acid tails \(non-polar, hydrophobic\)
+  * **Outside**: phosphate group \(polar, hydrophilic\)
+
+**Question:** What are the requirements of a cell membrane?
+
+> * separate the content of the cell from its surroundings
+> * control traffic into and out of the cell
+>   * keep malicious things out
+>   * let good things in
+
+**Question:** What are the 4 main structural components of the cell membrane?
+
+> Carbohydrates, Cholesterol, Phospholipids, Proteins
+
+#### 2. Introduction Transmembrane Helix \(TMH\)
+
+#### 3. TMH Prediction
 
 
 
