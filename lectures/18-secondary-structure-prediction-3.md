@@ -80,7 +80,7 @@
 
 **Jury decision improve accuracy:** All of these input features are fed to different Networks, resulting in many independent predictors \(**Jury**\). All of these networks add their own 'white noise' to the prediction. The average over all the predictors is better than every single one.
 
-The final accuracy \(on average\) of ProfSec is about **72%**. 
+The final accuracy \(on average\) of ProfSec is about **72%**.
 
 **Prediction of correctly predicted residues: **In additional, **ProfSec can give an estimation on the strength of the prediction** for each protein. \(By counting the 'stars'\)![](/assets/Screen Shot 2017-07-02 at 20.19.46.png)
 
@@ -104,6 +104,17 @@ The final accuracy \(on average\) of ProfSec is about **72%**.
 **Question:** Which accuracy does ProfSec achieve on average? What are additional advantages of other secondary structure prediction methods?
 
 > ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
+
+#### 3. Proper comparison of methods
+
+For a meaningful comparison the methods should 
+
+* use the same \(meaningful\) measure \(e.g. Q3\)
+* use the same dataset
+* split training / testing
+  * there must not be an overlap between sets
+* is the difference \(in accuracy\) significant \(= difference &gt; standard error\)
+* was the test set not used for making decisions?
 
 
 
