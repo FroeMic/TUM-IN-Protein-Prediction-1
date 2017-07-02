@@ -20,6 +20,11 @@
   * 1142 soluble \(after RR\)
   * 199 membrane \(after RR\)
 
+* **Split Dataset into 4 subsets**
+  * each set maintaining distribution of TMPs, SPs and sequence length
+  * use 3 sets for **cross-validation**
+  * use 1 set for final independent evaluation \(**blind set**\)
+
 #### 2. TMSEG Prediction
 
 ##### 2.1 Step 1 - Feature Sets
