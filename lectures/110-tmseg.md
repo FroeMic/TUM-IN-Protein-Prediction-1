@@ -107,14 +107,17 @@ _Advantages_
 * Random Forest \($$T = 100, m = 7$$\)
 * Assign soluble segments to side 1 or 2
 * Features
+
   * Amino acid compositon
   * percentage of positive charged residues
   * percentage of absolute difference of positive charged residues on side 1 vs side 2 
 
 * **Only consider residues close to TMHs**
+
   * 15 residues nest to TMHs and 8 residues into TMHs
+
 * Predict topology of N-Terminus and extrapolate
-* if SP predicted ➡ residus after SP are 'outside'
+* if a SP is predicted, the residues after the SP are always 'outside' \(SP = Signal Peptide\)
 
 **Question:** What are advantages of using a Random Forest?
 
@@ -126,7 +129,12 @@ _Advantages_
 
 #### 3. TMSEG Performance measures
 
-#### 
+```markdown
+# Note: Per residue measures are often misleading!
+#       => better score TMH segments
+```
+
+**Whole Protein Scores: **$$Q_{ok}$$ and $$Q_{top}$$
 
 #### 4. Future Work
 
