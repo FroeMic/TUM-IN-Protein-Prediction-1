@@ -157,14 +157,14 @@ $$
 
 #### 6. Neural Networks for Secondary Structure
 
-**Goal:** Solve the 3 problems at the time \[1\]  accuracy, \[2\] strand performance, \[3\] short segments
+**Goal:** Solve the 3 problems at the time \[1\]  accuracy, \[2\] strand performance, \[3\] short segments![](/assets/Screen Shot 2017-07-02 at 13.35.52.png)
 
 **Input: **13 \* 21 input units
 
 * 13 ?? 
-*  20 amino acids + 1 spacer
+* 20 amino acids + 1 spacer
 
- However, the final accuracy was only about **62%**
+  However, the final accuracy was only about **62%**
 
 ###### Balanced Training:
 
@@ -175,6 +175,16 @@ $$
 
 * overall accuracy dropped to **60%**
 * β-sheet prediction improved from **40% **to around **60%**
+
+#### 7. PHDSec: Structure to Structure Prediction
+
+We still have the problem of bad segment prediction \(too short segments\). This is due to the fact that samples from the database are selected at random, loosing information about local correlations.
+
+How can we get information about the local correlation \(e.g. length of a helix\) into the prediction model?
+
+**Solution:** Add a second Neural Network, which takes the predicted sequences from the first network as input.
+
+
 
 
 
