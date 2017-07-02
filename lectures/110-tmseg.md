@@ -141,11 +141,19 @@ _Advantages_
   * Endpoint deviation ≤ 5 residues
   * Overlap at \(observed / predicted\) at least 50%
 
+###### How can we measure the performance on predicting Transmembrane Helices?
+
+**Recall:** 
+$$
+r_i = \frac{correctly\ predicted\ TMHs}{observed\ TMHs}
+$$
 
 
-**Recall:** $$r_i = \frac{correctly\ predicted\ TMHs}{observed\ TMHS}$$
+**Precision:** 
+$$
+p_i = \frac{correctly\ predicted\ TMHs}{predicted\ TMHs}
+$$
 
-**Precision:** $$p_i = \frac{correctly\ predicted\ TMHs}{predicted\ TMHS}$$
 
 $$Q_{ok}$$:
 
@@ -173,6 +181,24 @@ Q_{top} = \frac{100}{N} \sum_{i=1}^N y_i; y_i = \begin{cases} 1, & if\ t_i = p_i
  \end{cases}
 $$
 
+
+###### How can we measure the performance on distinguishing soluble proteins from transmembrane proteins?
+
+**FPR:** 
+$$
+FPR = 100 * \frac{incorrectly\ predicted\ TMPs}{soluble\ proteins}
+$$
+
+
+**Sensitivity:** 
+$$
+Sensitivity = 100 * \frac{correctly\ predicted\ TMPs}{observed\ TMPs}
+$$
+
+
+```markdown
+# Result: TMSEG has exceptionally low misclassification rates compared to other methods.
+```
 
 #### 4. Future Work
 
