@@ -176,6 +176,10 @@ $$
 * overall accuracy dropped to **60%**
 * β-sheet prediction improved from **40% **to around **60%**
 
+**Question: **Did balanced training improve the Q3 prediction accuracy? Which assumption did it prove wrong?
+
+> Balanced training actually decreased the Q3 accuracy. However, it did improve the prediction accuracy for strands significantly, falsifying the hypothesis that strands could not be predicted with local information.
+
 #### 7. PHDSec: Structure to Structure Prediction
 
 We still have the problem of bad segment prediction \(too short segments\). This is due to the fact that samples from the database are selected at random, loosing information about local correlations.
@@ -185,6 +189,4 @@ How can we get information about the local correlation \(e.g. length of a helix\
 **Solution:** Add a second Neural Network, which takes the predicted sequences from the first network as input.
 
 **BUT:** Accuracy was still only 60% + ε
-
-
 

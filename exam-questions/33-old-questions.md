@@ -418,6 +418,10 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 >   
 > The cross-training set is needed to decide, when to stop training \(when overtraining sets in\) and to tweak certain parameters before running against the test-set.
 
+**Question: **Did balanced training improve the Q3 prediction accuracy? Which assumption did it prove wrong?
+
+> Balanced training actually decreased the Q3 accuracy. However, it did improve the prediction accuracy for strands significantly, falsifying the hypothesis that strands could not be predicted with local information.
+
 ### 3.3.9 Lecture 8: Secondary Structure Prediction 3
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
