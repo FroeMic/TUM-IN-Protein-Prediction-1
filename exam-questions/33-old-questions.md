@@ -259,7 +259,7 @@ H   H   O-H
 
 > One solution would be to align the corresponding residues of both sequences / 3D structures and take the **Root Mean Square Deviation**. \(If one pair lies very far apart, it will result in an extremely low score\)
 >
-> RMSD\(A,B\) = SQRT\( ⅀ \(a.i - b.i\)^2 \)
+> $$RMSD(A,B)= \sum_{i=0}^n ({r_i}^a - {r_i}^b )^2$$
 >
 > If the score is below a certain threshold, it is a match, otherwise it is not.
 
