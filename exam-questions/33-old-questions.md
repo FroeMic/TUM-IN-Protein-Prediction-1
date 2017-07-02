@@ -401,6 +401,10 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > * β-sheet prediction was below 40%
 > * many predicted segments where too short to appear in nature
 
+**Question: **How can the performance of secondary structure prediction be measured?
+
+> One way to do it, would be to calculate the **Q3** accuracy of a method against a test set. The Q3 accuracy is the **number of correctly categorized residues into one of the categories helix, strand, other divided by the total amount of residues.**
+
 ### 3.3.9 Lecture 8: Secondary Structure Prediction 3
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
