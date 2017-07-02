@@ -81,7 +81,16 @@ Although membrane proteins are especially interesting for drug targets, there ar
 **There are essentially 2 important questions when it comes to TMH prediction:**
 
 * How many helices go through the membrane?
-* In which direction do the go through the membrane? \(topology\)
+* In which direction do they go through the membrane? \(topology\)
+
+**Question:** Why are there so few membrane proteins in the PDB?
+
+> It is particularly difficult to experimentally determine the structure of membrane proteins due to the special environment they naturally occur \(the membrane\).
+
+**Question:** What are they key questions TMH prediction tries to answer?
+
+> * How many helices go through the membrane?
+> * In which direction do they go through the membrane? \(topology\)
 
 #### 3. TMH Prediction
 
