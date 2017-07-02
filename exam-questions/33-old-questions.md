@@ -381,7 +381,25 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > Assuming that a **Proline** would break a helix, the occurrences of proline in a sequence was used to predict helices.
 
-#### 
+**Question:** Where do we get the secondary structures from?
+
+> From the DSSP, which defines 8 states in total based on H-bond patterns.
+
+**Question:** What is the 1st generation of secondary structure prediction based on? What was the accuracy? Was is successful?
+
+> * Based on single residues
+> * Between 50% and 55% accuracy \(Q3\)
+> * Clearly better than random - so it can be considered a success
+
+**Question:**How did the second generation of secondary structure prediction improve? Name one algorithm.
+
+> Instead of using only single amino acids, it would consider a sliding window of the residues around a center amino acid.**Example:**GORIII, with a Q3 accuracy of 55% - 60%
+
+**Question:**What were problem of secondary structure prediction until 1994?
+
+> * the maximum accuracy of predictions was expected to be 65%
+> * β-sheet prediction was below 40%
+> * many predicted segments where too short to appear in nature
 
 ### 3.3.9 Lecture 8: Secondary Structure Prediction 3
 
