@@ -523,6 +523,15 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > * Membrane proteins can easily move laterally
 > * But it is hard to move into / out of the lipid bilayer
 
+**Question:** Why are there so few membrane proteins in the PDB?
+
+> It is particularly difficult to experimentally determine the structure of membrane proteins due to the special environment they naturally occur \(the membrane\).
+
+**Question:** What are they key questions TMH prediction tries to answer?
+
+> * How many helices go through the membrane?
+> * In which direction do they go through the membrane? \(topology\)
+
 ### 3.3.11 Lecture 10: TMSEG
 
 ### 3.3.12 Lecture 11: Beta Membrane and Accessibility
