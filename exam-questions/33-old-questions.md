@@ -371,7 +371,17 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > Global alignments refers to aligning sequences \(proteins\) from start to end. Local alignments refers to only aligning parts of the sequences \(e.g. 50 residues\).  
 > Throughout Sequence-Sequence, Sequence-Profile and Profile-Profile methods both global and local alignment can be used. I practice mostly local alignment is done.
 
+**Question:** What would be a simple method to predict secondary structure?
 
+> 1\) Take known structure  
+> 2\) Find longest consecutive run of motifs that **ONLY** occur in one of the 3 states: H \(Helix\), E \(Strand\), O \(Other\)  
+> 3\) Check unknown sequence against found motifs
+
+**Question**: What was the first secondary structure prediction method?
+
+> Assuming that a **Proline** would break a helix, the occurrences of proline in a sequence was used to predict helices.
+
+#### 
 
 ### 3.3.9 Lecture 8: Secondary Structure Prediction 3
 
