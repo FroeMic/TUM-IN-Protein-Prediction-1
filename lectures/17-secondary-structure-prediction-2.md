@@ -68,5 +68,17 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 > 2\) Find longest consecutive run of motifs that **ONLY** occur in one of the 3 states: H \(Helix\), E \(Strand\), O \(Other\)  
 > 3\) Check unknown sequence against found motifs
 
+**Question**: What was the first secondary structure prediction method?
+
+> Assuming that a **Proline** would break a helix, the occurrences of proline in a sequence was used to predict helices.
+
+##### 1st Generation Secondary Structure Prediction
+
+💡 **Idea:** Build a frequency table over all amino acids, how often they occur in the secondary structure states based on the proteins where the structure is known.
+
+* Important: Bias reduction, to make the set table representative for future. Remove all proteins in comparative modeling range.
+
+
+
 
 
