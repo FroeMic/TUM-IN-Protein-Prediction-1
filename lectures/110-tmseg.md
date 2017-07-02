@@ -135,27 +135,39 @@ _Advantages_
 #       => better score TMH segments
 ```
 
-**Whole Protein Scores: **$$Q_{ok}$$ and $$Q_{top}$$
+**Whole Protein Scores: **$$Q_{ok}$$ and $$Q_{top}$$ **=&gt; What is a correctly predicted TMH?**
+
+* **Strict Criteria**
+  * Endpoint deviation ≤ 5 residues
+  * Overlap at \(observed / predicted\) at least 50%
+
+
 
 **Recall:** $$r_i = \frac{correctly\ predicted\ TMHs}{observed\ TMHS}$$
 
 **Precision:** $$p_i = \frac{correctly\ predicted\ TMHs}{predicted\ TMHS}$$
 
-$$Q_{ok}$$: 
+$$Q_{ok}$$:
+
+
 $$
 Q_{ok} = \frac{100}{N} \sum_{i=1}^N x_i; x_i = \begin{cases} 1, & if\ p_i = r_i = 100\% \\ 0, & else 
  \end{cases}
 $$
 
 
-$$t_i$$: 
+$$t_i$$:
+
+
 $$
 t_i = \begin{cases} 100\%, & \text{if topology correct}\\ 0, & else 
  \end{cases}
 $$
 
 
-$$Q_{top}$$: 
+$$Q_{top}$$:
+
+
 $$
 Q_{top} = \frac{100}{N} \sum_{i=1}^N y_i; y_i = \begin{cases} 1, & if\ t_i = p_i = r_i = 100\% \\ 0, & else 
  \end{cases}
