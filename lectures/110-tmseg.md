@@ -8,15 +8,17 @@
 
 ##### 1.1 Rational: Why another predictor
 
-
+* More Data available
+* Less expensive machine learning \(more computing power available\)
+* Improve runtime
 
 ##### 1.2 Dataset
+
+* 166 membrane protein sequences after redundancy reduction
 
 ##### 
 
 #### 2. TMSEG Prediction
-
-
 
 ##### 2.1 Step 1 - Feature Sets
 
@@ -39,8 +41,6 @@
 #### 
 
 #### 4. Future Work
-
-
 
 ##### 4.1 Applying TMSEG to other methods
 
