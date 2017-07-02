@@ -99,5 +99,9 @@ Although membrane proteins are especially interesting for drug targets, there ar
 
 > Unlike 'normal' proteins, transmembrane proteins have an hydrophobic outside and a hydrophilic inside.
 
+What could be a strategy to come around that? **Build up a hydrophobicity index.**
+
+* There are different hydrophobicity scales, optimized for different problems
+* 
 
 
