@@ -37,6 +37,17 @@
   * provide structural stability
 * Membrane proteins can \(easily\) shift around laterally 
 
+**Membrane Proteins are especially important for drug targets**
+
+
+
+```markdown
+# Note
+Similar to the membrane, proteins also tend to have a **hydrophobic core**.
+```
+
+
+
 **Question:** What are the requirements of a cell membrane?
 
 > * separate the content of the cell from its surroundings
@@ -68,6 +79,8 @@
 > * But it is hard to move into / out of the lipid bilayer
 
 #### 2. Introduction Transmembrane Helix \(TMH\)
+
+
 
 #### 3. TMH Prediction
 
