@@ -57,7 +57,16 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 * **S **= bent
 * **""** = loop
 
+**Local Sequence determines secondary structure**!
 
+* Certain local sequence always form the same secondary structure \(⍺-helix, β-strand, loop\).
+* Others \(penta-peptides\) are found in 2 different state, **dependent on their environment**
+
+**Question:** What would be a simple method to predict secondary structure?
+
+> 1\) Take known structure  
+> 2\) Find longest consecutive run of motifs that **ONLY** occur in one of the 3 states: H \(Helix\), E \(Strand\), O \(Other\)  
+> 3\) Check unknown sequence against found motifs
 
 
 
