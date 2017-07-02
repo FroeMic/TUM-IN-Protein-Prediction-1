@@ -117,6 +117,7 @@ _Advantages_
   * 15 residues nest to TMHs and 8 residues into TMHs
 
 * Predict topology of N-Terminus and extrapolate
+
 * if a SP is predicted, the residues after the SP are always 'outside' \(SP = Signal Peptide\)
 
 **Question:** What are advantages of using a Random Forest?
@@ -135,6 +136,31 @@ _Advantages_
 ```
 
 **Whole Protein Scores: **$$Q_{ok}$$ and $$Q_{top}$$
+
+**Recall:** $$r_i = \frac{correctly\ predicted\ TMHs}{observed\ TMHS}$$
+
+**Precision:** $$p_i = \frac{correctly\ predicted\ TMHs}{predicted\ TMHS}$$
+
+$$Q_{ok}$$: 
+$$
+Q_{ok} = \frac{100}{N} \sum_{i=1}^N x_i; x_i = \begin{cases} 1, & if\ p_i = r_i = 100\% \\ 0, & else 
+ \end{cases}
+$$
+
+
+$$t_i$$: 
+$$
+t_i = \begin{cases} 100\%, & \text{if topology correct}\\ 0, & else 
+ \end{cases}
+$$
+
+
+$$Q_{top}$$: 
+$$
+Q_{top} = \frac{100}{N} \sum_{i=1}^N y_i; y_i = \begin{cases} 1, & if\ t_i = p_i = r_i = 100\% \\ 0, & else 
+ \end{cases}
+$$
+
 
 #### 4. Future Work
 
