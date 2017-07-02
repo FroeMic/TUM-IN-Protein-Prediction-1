@@ -102,6 +102,25 @@ Although membrane proteins are especially interesting for drug targets, there ar
 What could be a strategy to come around that? **Build up a hydrophobicity index.**
 
 * There are different hydrophobicity scales, optimized for different problems
-* 
+
+**Identifying hydrophobic regions**
+
+* Whenever the hydrophobicity is over a certain threshold, consider it a membrane helices
+* except the hydrophobic residues over \(the lower\) threshold are not long enough for a TMH \(20 residues\)
+
+**Question:** How should we choose the threshold for the hydrophobicity?
+
+> ❓
+
+**Identifying Topology:** What is inside/outside of a TMH?
+
+* **Positive Inside Rule:** Looking at the parts which connect TMHs within on protein, they look different depending on which side of the membrane they are: **There is a excess of positively charged residues on the inside.**
+
+
+
+**Question:** What is the Positive Inside Rule and what is it used for?
+
+> The positive Inside Rule is used to find the topology of transmembrane proteins: The loops connecting TMHs on the inside of the cell membrane have an **excess of positively charged residues**.
+
 
 
