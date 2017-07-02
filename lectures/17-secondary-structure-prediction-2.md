@@ -6,6 +6,8 @@
 
 #### 1. Recap
 
+**Goal of Structure Prediction:** Predict the 3D structure and function from an input sequence.
+
 **Proteins: **
 
 * are formed by stringing up amino acids in a chain
@@ -15,7 +17,7 @@
 
 **Zones: **There are different 'zones' by percentage of sequence identity, in which we can identify similar structures
 
-*  **Daylight-Zone** \(100 % - 40%\)
+* **Daylight-Zone** \(100 % - 40%\)
   * Sequence - Sequence Alignment
   * Assumption: sequence similar -&gt; structure similar
 * **Twilight-Zone **\(40% - 20%\)
@@ -25,24 +27,20 @@
   * Profile - Profile alignment
   * even more distant relationships
 
-**Global and Local Alignment**
-
-
+**Global and Local Alignment:**
 
 **Question: **Relate the terms **Local** and **Global alignment** to the terms **Sequence-Sequence** and **Sequence-Profile**.
 
 > Global alignments refers to aligning sequences \(proteins\) from start to end. Local alignments refers to only aligning parts of the sequences \(e.g. 50 residues\).  
 > Throughout Sequence-Sequence, Sequence-Profile and Profile-Profile methods both global and local alignment can be used. I practice mostly local alignment is done.
 
+**Comparative Modeling:**
 
-
-
-
-
-
-
-
-
+* Idea:
+  * Find a similar sequence with known structure in the PDB \(in the daylight-zone\)
+  * Try to use the known 3D structure of the similar protein to model the structure of the unknown protein
+  * fix physical / chemical errors of the predicted 3D structure and find most plausible 3D structure
+* Reliably predicts **over 40 million proteins**
 
 
 
