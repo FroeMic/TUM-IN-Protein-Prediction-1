@@ -548,6 +548,14 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 ### 3.3.11 Lecture 10: TMSEG
 
+**Question:** What are advantages of using a Random Forest?
+
+> * Fast
+> * robust against overtraining
+> * no black box
+> * Intuitive to interpret
+> * good performance
+
 ### 3.3.12 Lecture 11: Beta Membrane and Accessibility
 
 ### 3.3.13 Lecture 12: Protein Disorder
