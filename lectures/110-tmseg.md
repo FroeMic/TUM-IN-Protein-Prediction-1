@@ -143,13 +143,17 @@ _Advantages_
 
 ###### How can we measure the performance on predicting Transmembrane Helices?
 
-**Recall:** 
+**Recall:**
+
+
 $$
 r_i = \frac{correctly\ predicted\ TMHs}{observed\ TMHs}
 $$
 
 
-**Precision:** 
+**Precision:**
+
+
 $$
 p_i = \frac{correctly\ predicted\ TMHs}{predicted\ TMHs}
 $$
@@ -184,13 +188,17 @@ $$
 
 ###### How can we measure the performance on distinguishing soluble proteins from transmembrane proteins?
 
-**FPR:** 
+**FPR:**
+
+
 $$
 FPR = 100 * \frac{incorrectly\ predicted\ TMPs}{soluble\ proteins}
 $$
 
 
-**Sensitivity:** 
+**Sensitivity:**
+
+
 $$
 Sensitivity = 100 * \frac{correctly\ predicted\ TMPs}{observed\ TMPs}
 $$
@@ -201,6 +209,10 @@ $$
 ```
 
 #### 4. Future Work
+
+###### How to get more data?
+
+Check against data published after the release of the method. The data is then unknown by any method.
 
 ##### 4.1 Applying TMSEG to other methods
 
