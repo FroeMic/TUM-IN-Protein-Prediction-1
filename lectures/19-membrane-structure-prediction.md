@@ -108,15 +108,15 @@ What could be a strategy to come around that? **Build up a hydrophobicity index.
 * Whenever the hydrophobicity is over a certain threshold, consider it a membrane helices
 * except the hydrophobic residues over \(the lower\) threshold are not long enough for a TMH \(20 residues\)
 
-**Question:** How should we choose the threshold for the hydrophobicity?
-
-> ❓
-
 **Identifying Topology:** What is inside/outside of a TMH?
 
 * **Positive Inside Rule:** Looking at the parts which connect TMHs within on protein, they look different depending on which side of the membrane they are: **There is a excess of positively charged residues on the inside.**
 
+**Question:** How should we choose the threshold for the hydrophobic regions?
 
+> 1. Predict the hydrophobicity for the protein
+> 2. Assign a positive inside-out
+> 3. choose the threshold to **optimize the inside out difference**
 
 **Question:** What is the Positive Inside Rule and what is it used for?
 
