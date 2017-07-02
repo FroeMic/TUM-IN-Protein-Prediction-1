@@ -8,6 +8,10 @@
 
 > ❓
 
+**Question: **You want to develop a new method to predict e-values, how do you prepare your data?
+
+> **?**
+
 **Question: **What is the regular process when you want to analyse a new sequence?
 
 > ❓
@@ -28,10 +32,6 @@
 
 > ❓
 
-**Question: **How do we predict proteins?
-
-> ❓
-
 **Question: **How do you run a sequence against the DB?
 
 > ❓
@@ -40,7 +40,23 @@
 
 > **?**
 
-**Question: **Pairwise/multiline alignment, what can we acheive, what is the risk?
+**Question: **Pairwise/multiline alignment: what can we acheive, what is the risk?
+
+> **?**
+
+**Question: **What is the difference between pairwise and multiple alignment?
+
+> **?**
+
+**Question: **Can we predict something we have not observed?
+
+> **?**
+
+**Question: **Sliding windows introduce information from the sequence environment. Why do we need convolutional network on top of that? Why do we need anything else on top?
+
+> **?**
+
+**Question: **How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
 
 > **?**
 
@@ -70,7 +86,11 @@
 
 > ❓
 
-**Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
+**Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
+
+> **?**
+
+**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
 > The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).  
 > ❓ Method w/o that?
