@@ -113,7 +113,11 @@ $$
 > * β-sheet prediction was below 40%
 > * many predicted segments where too short to appear in nature
 
-#### 5. Introduction: Neural Network
+#### 5. Introduction: Neural Networks
+
+**Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
+
+> Each new hidden layer basically introduces a new 'line' which can separate datapoints into different categories.
 
 
 
