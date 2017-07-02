@@ -84,13 +84,19 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 
 > From the DSSP, which defines 8 states in total based on H-bond patterns.
 
+**Question:** What is the 1st generation of secondary structure prediction based on? What was the accuracy? Was is successful?
+
+> * Based on single residues
+> * Between 50% and 55% accuracy
+> * Clearly better than random - so it can be considered a success
+
 ##### How can we measure the performance of secondary structure prediction?
 
 ❗️ **Q3:** three-state per residue accuracy
+
+
 $$
 Q3 = \frac{number\ of\ correctly\ predicted\ residues\ in\ states\ helix,\ strand,\ other }{number\ of\ residues\ in\ protein}
 $$
-
-
 
 
