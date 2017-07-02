@@ -36,7 +36,7 @@
 * Given $$N$$ training samples and $$M$$ inout features find the best recursive partitioning to predict the class labels in the leaf nodes
 * Approaches differentiate algorithm: splitting, pruning, balancing, ...
 
-###### Random Forest 
+###### Random Forest
 
 _How does it work?_
 
@@ -45,19 +45,39 @@ _How does it work?_
 * for each $$t \in T$$ 
   * Select $$N$$ training samples with replacement from all $$N$$ samples
   * At every split, choose $$m$$ random features. Use the best split among those to build the tree
+* The final prediction uses the prediction of all trees
 
 _Advantages_
 
-* Fast
+* fast
+* robust against overtraining
 * no black box
-* Intuitive to interpret
+* intuitive to interpret
 * good performance
-
-
 
 ##### 2.1 Step 1 - Feature Sets
 
-##### 
+###### Initial Prediction
+
+* Random Forest \($$T = 100, m = 9$$\)
+* Sliding Window of 19 residues \($$w = 19$$\)
+* 3 scores for each residue \(0 - 1000\)
+  * Signal Peptide \(often mistaken for TMHs\)
+  * TMH
+  * Soluble
+
+###### Feature Set
+
+* **Global Features**
+  * Global amino acid composition
+  * Protein length
+* **Local Features**
+  * PSSM Score \(Position Specific Scoring Matrix\)
+  * Distance to N- / C- Terminus
+  * Average hydrophobicity \(Kyte-Doolittle\)
+  * percentage of hydrophobic residues \(in window size $$w = 9$$\)
+  * percentage of negative / positive charged residues \(in window size $$w = 9$$\)
+  * percentage of polar residues \(in window size $$w = 9$$\)
 
 ##### 2.2 Step 2 - Empirical Filter
 
@@ -69,11 +89,10 @@ _Advantages_
 
 ##### 2.4 Step 4 - Topology Prediction
 
-
-
 **Question:** What are advantages of using a Random Forest?
 
 > * Fast
+> * robust against overtraining
 > * no black box
 > * Intuitive to interpret
 > * good performance
