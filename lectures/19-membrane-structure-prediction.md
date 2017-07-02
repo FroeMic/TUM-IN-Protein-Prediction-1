@@ -39,14 +39,10 @@
 
 **Membrane Proteins are especially important for drug targets**
 
-
-
 ```markdown
 # Note
 Similar to the membrane, proteins also tend to have a **hydrophobic core**.
 ```
-
-
 
 **Question:** What are the requirements of a cell membrane?
 
@@ -79,6 +75,8 @@ Similar to the membrane, proteins also tend to have a **hydrophobic core**.
 > * But it is hard to move into / out of the lipid bilayer
 
 #### 2. Introduction Transmembrane Helix \(TMH\)
+
+Although membrane proteins are especially interesting for drug targets, there are only limited 3D structures to be found in the PDB. Mostly, because it is extremely difficult to put them into a crystal in their 'natural' membrane environment.
 
 
 
