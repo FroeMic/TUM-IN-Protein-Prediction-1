@@ -39,5 +39,15 @@
 
 > The changes in sequences we observe are not random, but follow underlying evolutionary rules. Changes, which affected the structure and thus the function of a protein are simply not likely to survive and thus we do not observe them. Changes, which did not influence the structure / function however, did survive.
 
+**Question:** Why is protein sequence changing? Why are we mutating?
+
+> * Replication Errors \(point mutations\)
+> * Radiation
+> * Viruses
+
+**Question:** How much do any two unrelated typical humans differ on average?
+
+> On average every pair of humans would differ in one amino acid per protein. \(Though, changes cluster\)
+
 
 
