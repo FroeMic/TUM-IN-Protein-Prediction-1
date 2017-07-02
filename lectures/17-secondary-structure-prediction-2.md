@@ -115,6 +115,8 @@ $$
 
 #### 5. Introduction: Neural Networks
 
+**Goal: **Use the representation of a set of examples \(training set\) for which the mapping _input -&gt; output_ is known to iteratively refine the weights of the connections betweens output and input units so that the error is minimized.
+
 **Principles of neural networks**
 
 * Free Variables: $$Connections\ \{J\}$$
@@ -123,11 +125,12 @@ $$
   * $$out_i$$ value of output unit $$i$$
   * $$J_{ij}$$ connection between input unit $$j$$ and output unit $$i$$
 * Error: $$E = \sum_{i=1}^{N^{out}} {(out_i - des_i)}^2$$
-  * 
+  * $$out_i$$ value of output unit $$i$$
+  * $$des_i$$ secondary structure state observed for central amino acid for output unit $$j$$
 
-**Training**
+**Training: **Change of connections $$ \{J\}$$ such that $$E$$ decreases \(e.g. gradient descent\)
 
-
+**Problem:** Overtraining - happens if the network becomes too specific to the actual training set and looses accuracy for predicting unknown input. The point when to stop training can be found by using **cross-training, testing, validation sets**.
 
 **Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
 
