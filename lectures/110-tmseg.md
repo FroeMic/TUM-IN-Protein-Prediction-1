@@ -4,5 +4,51 @@
 
 ---
 
+#### 1. Introduction TMSEG
+
+##### 1.1 Rational: Why another predictor
+
+
+
+##### 1.2 Dataset
+
+##### 
+
+#### 2. TMSEG Prediction
+
+
+
+##### 2.1 Step 1 - Feature Sets
+
+##### 
+
+##### 2.2 Step 2 - Empirical Filter
+
+##### 
+
+##### 2.3 Step 3 - Refine TMH prediction
+
+##### 
+
+##### 2.4 Step 4 - Topology Prediction
+
+##### 
+
+#### 3. TMSEG Performance measures
+
+#### 
+
+#### 4. Future Work
+
+
+
+##### 4.1 Applying TMSEG to other methods
+
+##### 
+
+##### 4.2 Potential extensions
+
+##### 
+
 
 
