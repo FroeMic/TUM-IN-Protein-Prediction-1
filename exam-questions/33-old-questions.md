@@ -405,6 +405,19 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > One way to do it, would be to calculate the **Q3** accuracy of a method against a test set. The Q3 accuracy is the **number of correctly categorized residues into one of the categories helix, strand, other divided by the total amount of residues.**
 
+**Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
+
+> Each new hidden layer basically introduces a new 'decision line' which can separate datapoints into different categories.
+
+**Question:** What is cross-validation in the context of Machine Learning and why do we need it?
+
+> Cross Validation in a method for estimating the performance of a predictive model \(e.g. a neural network\). To use it, the available dataset is split in 3 categories, 1\) a training set, 2\) a cross-training set and 3\) a test set.  
+> 1\) The training set is used to train the model  
+> 2\) The cross-training set is used to estimate the performance of the model after x training steps  
+> 3\) The test set is used to assess the final performance of the model after training is finished  
+>   
+> The cross-training set is needed to decide, when to stop training \(when overtraining sets in\) and to tweak certain parameters before running against the test-set.
+
 ### 3.3.9 Lecture 8: Secondary Structure Prediction 3
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction

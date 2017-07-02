@@ -98,6 +98,8 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 $$
 Q3 = \frac{number\ of\ correctly\ predicted\ residues\ in\ states\ helix,\ strand,\ other }{number\ of\ residues\ in\ protein}
 $$
+
+
 **Question: **How can the performance of secondary structure prediction be measured?
 
 > One way to do it, would be to calculate the **Q3** accuracy of a method against a test set. The Q3 accuracy is the **number of correctly categorized residues into one of the categories helix, strand, other divided by the total amount of residues.**
