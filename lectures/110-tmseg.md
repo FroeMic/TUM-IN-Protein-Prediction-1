@@ -81,11 +81,26 @@ _Advantages_
 
 ##### 2.2 Step 2 - Empirical Filter
 
-##### 
+* smooth score with median filter \($$x = y$$\)
+* Adjust scores to avoid overprediction
+  * soluble += -185
+  * TMH += -60
+* Assign each residue the state with the highest score
+* Remove signal peptides with &lt;4 residues
+* Remove TMHs with &lt;7 residues
 
 ##### 2.3 Step 3 - Refine TMH prediction
 
-##### 
+* **Neural Network **\(25 hidden nodes\)
+  * Input: TMH segments of variable segments of variable length
+  * Features:
+    * Amino acid composition
+    * Average hydrophobicity
+    * percentage of hydrophobic residues
+    * percentage of charged residues
+    * segment length
+* Split long TMHs \(≥35 residues\) into 2 shorter TMHs \(≥17 residues\)
+* Adjust TMH endpoints by up to ±3 residues
 
 ##### 2.4 Step 4 - Topology Prediction
 
