@@ -78,7 +78,10 @@ Similar to the membrane, proteins also tend to have a **hydrophobic core**.
 
 Although membrane proteins are especially interesting for drug targets, there are only limited 3D structures to be found in the PDB. Mostly, because it is extremely difficult to put them into a crystal in their 'natural' membrane environment.
 
+**There are essentially 2 important questions when it comes to TMH prediction:**
 
+* How many helices go through the membrane?
+* In which direction do the go through the membrane? \(topology\)
 
 #### 3. TMH Prediction
 
