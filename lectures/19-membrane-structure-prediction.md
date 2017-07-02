@@ -42,7 +42,7 @@
 ```markdown
 # Note
 Similar to the membrane, proteins also tend to have a **hydrophobic core**. 
-Membrane proteins however, tend to have a **hydrophobic outside** and an **hydrophilic core**. 
+Membrane proteins however, tend to have a **hydrophobic outside** and an **hydrophilic core**.
 ```
 
 **Question:** What are the requirements of a cell membrane?
@@ -94,6 +94,10 @@ Although membrane proteins are especially interesting for drug targets, there ar
 > * In which direction do they go through the membrane? \(topology\)
 
 #### 3. TMH Prediction
+
+**Question:** Why could be a plausible reason why PHDSec failed for predicting transmembrane helices?
+
+> Unlike 'normal' proteins, transmembrane proteins have an hydrophobic outside and a hydrophilic inside.
 
 
 
