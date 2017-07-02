@@ -78,6 +78,8 @@
 * distance: center, N-term
 * distance: center, C-term
 
+All of these input features are fed to different Networks, resulting in many independent predictors \(**Jury**\). All of these networks add their own 'white noise' to the prediction. The average over all the predictors is better than every single one.
+
 **Question:** How would you build up a family for a protein?
 
 > 1. Search the PDB for proteins in comparative modeling range. \(Assumption: same sequence, same 3D structure, same secondary structure\)
