@@ -130,7 +130,7 @@ $$
 
 **Training: **Change of connections $$ \{J\}$$ such that $$E$$ decreases \(e.g. gradient descent\)
 
-**Problem:** Overtraining - happens if the network becomes too specific to the actual training set and looses accuracy for predicting unknown input. The point when to stop training can be found by using **cross-training, testing, validation sets**.
+**Problem:** Overtraining - happens if the network becomes too specific to the actual training set and looses accuracy for predicting unknown input. The point when to stop training can be found by using **cross-training, testing, validation sets**.![](/assets/Screen Shot 2017-07-02 at 12.53.59.png)
 
 **Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
 
