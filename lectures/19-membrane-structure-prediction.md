@@ -122,7 +122,7 @@ What could be a strategy to come around that? **Build up a hydrophobicity index.
 
 > The positive Inside Rule is used to find the topology of transmembrane proteins: The loops connecting TMHs on the inside of the cell membrane have an **excess of positively charged residues**.
 
-##### PHDhtm
+##### PHDhtm: Membrane Helix Prediction
 
 Predict: **Membrane Helix **or **Not Membrane Helix**
 
@@ -132,5 +132,17 @@ Using the Sequence-to-Structure -&gt; Structure-Structure approach now led to he
 # Note: I didn't really get how this helps in reducing the problem of too long helices??
 ```
 
-![](/assets/Screen Shot 2017-07-02 at 22.50.18.png)
+##### ![](/assets/Screen Shot 2017-07-02 at 22.50.18.png)
+
+##### TMHMM: Membrane Helix Prediction
+
+* Based on a Hidden Markov Model
+
+#### 4. When are TMHs correctly predicted?
+
+**Today:** at maximum ±5 residues overlap
+
+
+
+
 

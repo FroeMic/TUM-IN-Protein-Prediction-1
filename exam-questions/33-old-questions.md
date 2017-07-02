@@ -532,6 +532,20 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > * How many helices go through the membrane?
 > * In which direction do they go through the membrane? \(topology\)
 
+**Question:** Why could be a plausible reason why PHDSec failed for predicting transmembrane helices?
+
+> Unlike 'normal' proteins, transmembrane proteins have an hydrophobic outside and a hydrophilic inside.
+
+**Question:** How should we choose the threshold for the hydrophobic regions?
+
+> 1. Predict the hydrophobicity for the protein
+> 2. Assign a positive inside-out
+> 3. choose the threshold to **optimize the inside out difference**
+
+**Question:** What is the Positive Inside Rule and what is it used for?
+
+> The positive Inside Rule is used to find the topology of transmembrane proteins: The loops connecting TMHs on the inside of the cell membrane have an **excess of positively charged residues**.
+
 ### 3.3.11 Lecture 10: TMSEG
 
 ### 3.3.12 Lecture 11: Beta Membrane and Accessibility
