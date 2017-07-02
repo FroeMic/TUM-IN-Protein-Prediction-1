@@ -52,6 +52,8 @@
 **Question:** In a structure to structure network, which additional information could be used to improve the prediction?
 
 > * E.g. redundant information about the sequence, e.g. parts of it.
+> * What is the expected length of my protein?
+> * Is the sliding window at the end / mid / start of the protein?
 
 **Question:** When training a neural network, how do you choose the next training sample from your test set? Why so?
 
@@ -68,7 +70,13 @@
 * Build up the family \(profile\) for the protein and add it to the input of the network
 * Each amino acid in the input now has a probability on how often it occurs in the family
 
-![](/assets/Screen Shot 2017-07-02 at 19.19.34.png)
+![](/assets/Screen Shot 2017-07-02 at 19.19.34.png)**Additional Input for PHDSec network**
+
+* family \(profile\)
+* percentage of each amino acid in protein
+* length of protein
+* distance: center, N-term
+* distance: center, C-term
 
 **Question:** How would you build up a family for a protein?
 
