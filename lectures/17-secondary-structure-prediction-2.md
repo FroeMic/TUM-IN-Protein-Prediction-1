@@ -161,7 +161,7 @@ $$
 
 **Input: **13 \* 21 input units
 
-* 13 ?? 
+* 13 ?? ❓
 * 20 amino acids + 1 spacer
 
   However, the final accuracy was only about **62%**
@@ -184,7 +184,7 @@ How can we get information about the local correlation \(e.g. length of a helix\
 
 **Solution:** Add a second Neural Network, which takes the predicted sequences from the first network as input.
 
-
+**BUT:** Accuracy was still only 60% + ε
 
 
 
