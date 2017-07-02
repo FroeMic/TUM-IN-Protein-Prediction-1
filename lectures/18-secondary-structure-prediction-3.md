@@ -49,5 +49,13 @@
 
 > On average every pair of humans would differ in one amino acid per protein. \(Though, changes cluster\)
 
+**Question:** In a structure to structure network, which additional information could be used to improve the prediction?
+
+> *
+
+**Question:** When training a neural network, how do you choose the next training sample from your test set?
+
+> randomly
+
 
 
