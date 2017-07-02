@@ -157,5 +157,24 @@ $$
 
 #### 6. Neural Networks for Secondary Structure
 
+**Goal:** Solve the 3 problems at the time \[1\]  accuracy, \[2\] strand performance, \[3\] short segments
+
+**Input: **13 \* 21 input units
+
+* 13 ?? 
+*  20 amino acids + 1 spacer
+
+ However, the final accuracy was only about **62%**
+
+###### Balanced Training:
+
+* Helices are overrepresented in the training data
+* Choose the training data, so all 3 states \(helix, strand, other\) are equally represented
+
+**Result**
+
+* overall accuracy dropped to **60%**
+* β-sheet prediction improved from **40% **to around **60%**
+
 
 
