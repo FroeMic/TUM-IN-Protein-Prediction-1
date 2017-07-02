@@ -31,7 +31,7 @@
 > 2\) Run BLAST against the PDB  
 > 3\) Run Dynamic Programming against the results from BLAST
 
-**Question:** In terms of CPU, is sequence-sequence as fast as sequence profile?
+**Question:** In terms of CPU, is sequence-sequence as fast as sequence-profile?
 
 > ❓
 
