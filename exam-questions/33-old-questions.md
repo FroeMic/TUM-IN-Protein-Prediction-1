@@ -422,6 +422,12 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > Balanced training actually decreased the Q3 accuracy. However, it did improve the prediction accuracy for strands significantly, falsifying the hypothesis that strands could not be predicted with local information.
 
+**Question:** Which problem did PHDSec solve? How did it accomplish it?
+
+> By introducing a **Structure-to-Structure** prediction model, PHDSec improved the prediction of too short segment. The Structure-to-Structure network would take structure \(helix, strand, other\) prediction of a sequence as input and predict segments based on them.
+
+
+
 ### 3.3.9 Lecture 8: Secondary Structure Prediction 3
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction

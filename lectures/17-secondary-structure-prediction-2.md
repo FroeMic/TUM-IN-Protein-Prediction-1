@@ -190,3 +190,9 @@ How can we get information about the local correlation \(e.g. length of a helix\
 
 **BUT:** Accuracy was still only 60% + ε
 
+**Question:** Which problem did PHDSec solve? How did it accomplish it?
+
+> By introducing a **Structure-to-Structure** prediction model, PHDSec improved the prediction of too short segment. The Structure-to-Structure network would take structure \(helix, strand, other\) prediction of a sequence as input and predict segments based on them.
+
+
+
