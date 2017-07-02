@@ -61,12 +61,14 @@
 
 **Critical Question:** How to improve beyond $$60\% + \epsilon$$ accuracy?
 
-**Evolution improves prediction**: An **evolutionary profile** averaged built up over several species implicitly captures the history of an individual protein. 
+**Evolution improves prediction**: An **evolutionary profile** averaged built up over several species implicitly captures the history of an individual protein.
 
 ##### PHD: Neural Network and Evolutionary Information
 
 * Build up the family \(profile\) for the protein and add it to the input of the network
 * Each amino acid in the input now has a probability on how often it occurs in the family
+
+![](/assets/Screen Shot 2017-07-02 at 19.19.34.png)
 
 **Question:** How would you build up a family for a protein?
 
