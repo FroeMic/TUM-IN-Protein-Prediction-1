@@ -73,12 +73,12 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 **Question:** Which elements make up life?
 
-* 65.0 % - O, Oxygen
-* 18.6 % - C, Carbon
-* 9.7 % - H, Hydrogen
-* 3.2 % - N, Nitrogen
-* 1.8 % - Ca, Calcium
-* 1.0 % - P, Phosphorus
+> * 65.0 % - O, Oxygen
+> * 18.6 % - C, Carbon
+> * 9.7 % - H, Hydrogen
+> * 3.2 % - N, Nitrogen
+> * 1.8 % - Ca, Calcium
+> * 1.0 % - P, Phosphorus
 
 **Question:** What is life? Can you define it?
 
@@ -487,9 +487,64 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
 
+**Question:** Does adding global information improve ProfSec prediction?
 
+> Yes it does. While the Q3 accuracy \(per residue\) is not improved, the Q4 accuracy \(per protein\) does improve.
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
+
+**Question:** What are the requirements of a cell membrane?
+
+> * separate the content of the cell from its surroundings
+> * control traffic into and out of the cell
+>   * keep malicious things out
+>   * let good things in
+> * must be a dynamic structure
+
+**Question:** What are the 4 main structural components of the cell membrane?
+
+> Carbohydrates, Cholesterol, Phospholipids, Proteins
+
+**Question:** What is the cell membrane mainly made out of?
+
+> The cell membrane is a so called **lipid bilayer** of **phospholipids**. Phospholipids have a non-polar, hydrophobic tail \(membrane center\) and a polar, hydrophilic head \(outside of membrane\).
+
+**Question:** What are functions of membrane proteins?
+
+> * help to be recognized by immune cells
+> * transport proteins control substance flow in and out of the cell
+> * receptor proteins bind hormons, which can change cell function
+> * provide structural stability
+
+**Question:** Can membrane proteins easily move around?
+
+> It depends:
+>
+> * Membrane proteins can easily move laterally
+> * But it is hard to move into / out of the lipid bilayer
+
+**Question:** Why are there so few membrane proteins in the PDB?
+
+> It is particularly difficult to experimentally determine the structure of membrane proteins due to the special environment they naturally occur \(the membrane\).
+
+**Question:** What are they key questions TMH prediction tries to answer?
+
+> * How many helices go through the membrane?
+> * In which direction do they go through the membrane? \(topology\)
+
+**Question:** Why could be a plausible reason why PHDSec failed for predicting transmembrane helices?
+
+> Unlike 'normal' proteins, transmembrane proteins have an hydrophobic outside and a hydrophilic inside.
+
+**Question:** How should we choose the threshold for the hydrophobic regions?
+
+> 1. Predict the hydrophobicity for the protein
+> 2. Assign a positive inside-out
+> 3. choose the threshold to **optimize the inside out difference**
+
+**Question:** What is the Positive Inside Rule and what is it used for?
+
+> The positive Inside Rule is used to find the topology of transmembrane proteins: The loops connecting TMHs on the inside of the cell membrane have an **excess of positively charged residues**.
 
 ### 3.3.11 Lecture 10: TMSEG
 
