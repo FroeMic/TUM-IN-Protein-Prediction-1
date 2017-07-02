@@ -206,6 +206,7 @@ $$
 
 ```markdown
 # Result: TMSEG has exceptionally low misclassification rates compared to other methods.
+#         Additionally, it is strong on topology predictions.
 ```
 
 #### 4. Future Work
@@ -216,11 +217,13 @@ Check against data published after the release of the method. The data is then u
 
 ##### 4.1 Applying TMSEG to other methods
 
-##### 
+* High modularity \(step 1 - 4\) of TMSEG allows it to be applied to other methods
+
+* Apparently it can
 
 ##### 4.2 Potential extensions
 
-##### 
+* Re-entrant regions not modeled \(too little data\)
 
 
 
