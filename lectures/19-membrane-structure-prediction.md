@@ -41,7 +41,8 @@
 
 ```markdown
 # Note
-Similar to the membrane, proteins also tend to have a **hydrophobic core**.
+Similar to the membrane, proteins also tend to have a **hydrophobic core**. 
+Membrane proteins however, tend to have a **hydrophobic outside** and an **hydrophilic core**. 
 ```
 
 **Question:** What are the requirements of a cell membrane?
