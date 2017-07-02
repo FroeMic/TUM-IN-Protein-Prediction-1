@@ -115,12 +115,19 @@ $$
 
 #### 5. Introduction: Neural Networks
 
-Principal of neural networks: Error
+**Principles of neural networks**
 
 * Free Variables: $$Connections\ \{J\}$$
 * Output: $$out_i = \sum_{i=1}^{N^{in+1}} J_{ij} in_j$$
-  * 
+  * $$in_j $$ value of input unit $$j$$
+  * $$out_i$$ value of output unit $$i$$
+  * $$J_{ij}$$ connection between input unit $$j$$ and output unit $$i$$
 * Error: $$E = \sum_{i=1}^{N^{out}} {(out_i - des_i)}^2$$
+  * 
+
+**Training**
+
+
 
 **Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
 
