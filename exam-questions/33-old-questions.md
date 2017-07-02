@@ -487,7 +487,9 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
 
+**Question:** Does adding global information improve ProfSec prediction?
 
+> Yes it does. While the Q3 accuracy \(per residue\) is not improved, the Q4 accuracy \(per protein\) does improve.
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
 
