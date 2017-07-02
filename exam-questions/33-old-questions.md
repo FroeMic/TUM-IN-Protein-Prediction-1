@@ -73,12 +73,12 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 **Question:** Which elements make up life?
 
-* 65.0 % - O, Oxygen
-* 18.6 % - C, Carbon
-* 9.7 % - H, Hydrogen
-* 3.2 % - N, Nitrogen
-* 1.8 % - Ca, Calcium
-* 1.0 % - P, Phosphorus
+> * 65.0 % - O, Oxygen
+> * 18.6 % - C, Carbon
+> * 9.7 % - H, Hydrogen
+> * 3.2 % - N, Nitrogen
+> * 1.8 % - Ca, Calcium
+> * 1.0 % - P, Phosphorus
 
 **Question:** What is life? Can you define it?
 
@@ -492,6 +492,36 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > Yes it does. While the Q3 accuracy \(per residue\) is not improved, the Q4 accuracy \(per protein\) does improve.
 
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
+
+**Question:** What are the requirements of a cell membrane?
+
+> * separate the content of the cell from its surroundings
+> * control traffic into and out of the cell
+>   * keep malicious things out
+>   * let good things in
+> * must be a dynamic structure
+
+**Question:** What are the 4 main structural components of the cell membrane?
+
+> Carbohydrates, Cholesterol, Phospholipids, Proteins
+
+**Question:** What is the cell membrane mainly made out of?
+
+> The cell membrane is a so called **lipid bilayer** of **phospholipids**. Phospholipids have a non-polar, hydrophobic tail \(membrane center\) and a polar, hydrophilic head \(outside of membrane\).
+
+**Question:** What are functions of membrane proteins?
+
+> * help to be recognized by immune cells
+> * transport proteins control substance flow in and out of the cell
+> * receptor proteins bind hormons, which can change cell function
+> * provide structural stability
+
+**Question:** Can membrane proteins easily move around?
+
+> It depends:
+>
+> * Membrane proteins can easily move laterally
+> * But it is hard to move into / out of the lipid bilayer
 
 ### 3.3.11 Lecture 10: TMSEG
 
