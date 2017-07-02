@@ -77,9 +77,16 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 💡 **Idea:** Build a frequency table over all amino acids, how often they occur in the secondary structure states based on the proteins where the structure is known.  
 **Important:** Bias reduction, to make the set table representative for future. Remove all proteins in comparative modeling range.
 
+1. find a unique subset of proteins with known 3D structure \(PDB\)
+2. convert 3D to 1D \(secondary structure\) with DSSP
+
 **Question:** Where do we get the secondary structures from?
 
 > From the DSSP, which defines 8 states in total based on H-bond patterns.
+
+##### How can we measure the performance of secondary structure prediction?
+
+
 
 
 
