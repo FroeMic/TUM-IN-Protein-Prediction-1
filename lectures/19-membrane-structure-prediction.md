@@ -122,5 +122,15 @@ What could be a strategy to come around that? **Build up a hydrophobicity index.
 
 > The positive Inside Rule is used to find the topology of transmembrane proteins: The loops connecting TMHs on the inside of the cell membrane have an **excess of positively charged residues**.
 
+##### PHDhtm
 
+Predict: **Membrane Helix **or **Not Membrane Helix**
+
+Using the Sequence-to-Structure -&gt; Structure-Structure approach now led to helices twice the length of observed TMH. Based on the number of TMH ❓ to expect based on the hydrophobicity ❓ a dynamic programming approach can be applied on the _NN energy._
+
+```markdown
+# Note: I didn't really get how this helps in reducing the problem of too long helices??
+```
+
+![](/assets/Screen Shot 2017-07-02 at 22.50.18.png)
 
