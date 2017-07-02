@@ -47,7 +47,15 @@
 
 Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter will mainly be about 1D Secondary Structure Prediction.
 
-**DSSP** \(Define Secondary Structure of Proteins\)
+**DSSP** \(Define Secondary Structure of Proteins\) algorithm: Has 8 states
+
+* **H** =** **Helix
+* **G** = $$3_{10}$$ Helix
+* **I**  = Pi Helix
+* **E ** = Extended
+* **B** = Beta-bridge, single-strand residue
+* **S **= bent
+* **""** = loop
 
 
 
