@@ -41,6 +41,7 @@
   * Try to use the known 3D structure of the similar protein to model the structure of the unknown protein
   * fix physical / chemical errors of the predicted 3D structure and find most plausible 3D structure
 * Reliably predicts **over 40 million proteins**
+* However, for **most residues comparative modeling cannot be applied**
 
 
 
