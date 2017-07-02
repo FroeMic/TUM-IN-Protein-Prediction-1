@@ -43,5 +43,13 @@
 * Reliably predicts **over 40 million proteins**
 * However, for **most residues comparative modeling cannot be applied**
 
+#### 2. Secondary Structure Prediction
+
+Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter will mainly be about 1D Secondary Structure Prediction.
+
+**DSSP** \(Define Secondary Structure of Proteins\)
+
+
+
 
 
