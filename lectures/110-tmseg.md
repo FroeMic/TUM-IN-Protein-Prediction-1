@@ -16,6 +16,9 @@
 
 * 166 membrane protein sequences after redundancy reduction
 * Data curated and linked from several databases \(PDB, OPM, ...\)
+* 1441 proteins from the SignalP Training Set
+  * 1142 soluble \(after RR\)
+  * 199 membrane \(after RR\)
 
 #### 2. TMSEG Prediction
 
