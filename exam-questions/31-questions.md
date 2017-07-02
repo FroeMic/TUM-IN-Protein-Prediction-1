@@ -12,12 +12,37 @@
 
 > ❓
 
-**Question: **What is a structural domain? What is a functional domain?
+**Question: **What is a structural domain? What is a functional domain and How can we deal with the fact that they can be in different places?
 
 > * structural domain: part of sequence with unique 3D structure
 > * functional domain: part of sequence with unique function
+> * use local alignment
 
 ### Questions \(Tuesday, 27th June\)
+
+**Question: **How do we predict proteins?
+
+> ❓
+
+**Question: **Why would someone give you a sequence?
+
+> ❓
+
+**Question: **How do we predict proteins?
+
+> ❓
+
+**Question: **How do you run a sequence against the DB?
+
+> ❓
+
+**Question: **How do you build a family?
+
+> **?**
+
+**Question: **Pairwise/multiline alignment, what can we acheive, what is the risk?
+
+> **?**
 
 ### Questions \(Thursday, 29th June\)
 
