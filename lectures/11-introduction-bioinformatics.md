@@ -24,12 +24,12 @@ Central to biology is the question: _How does life work?_
 
 **Question: **Which elements make up life?
 
-* 65.0 %    - O, Oxygen
-* 18.6 %    - C, Carbon
-* 9.7 %     - H, Hydrogen
-* 3.2 %     - N, Nitrogen
-* 1.8 %     - Ca, Calcium
-* 1.0  %    - P, Phosphorus
+> * 65.0 %    - O, Oxygen
+> * 18.6 %    - C, Carbon
+> * 9.7 %      - H, Hydrogen
+> * 3.2 %      - N, Nitrogen
+> * 1.8 %      - Ca, Calcium
+> * 1.0  %     - P, Phosphorus
 
 **Question: **What is life? Can you define it?
 
