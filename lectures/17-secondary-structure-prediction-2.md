@@ -86,6 +86,10 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 
 ##### How can we measure the performance of secondary structure prediction?
 
+❗️ **Q3:** three-state per residue accuracy
+$$
+Q3 = \frac{number\ of\ correctly\ predicted\ residues\ in\ states\ helix,\ strand,\ other }{number\ of\ residues\ in\ protein}
+$$
 
 
 
