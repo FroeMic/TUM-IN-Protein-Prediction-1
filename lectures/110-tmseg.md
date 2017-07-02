@@ -16,7 +16,7 @@
 
 * 166 membrane protein sequences after redundancy reduction
 * Data curated and linked from several databases \(PDB, OPM, ...\)
-* 
+
 #### 2. TMSEG Prediction
 
 ##### 2.1 Step 1 - Feature Sets
