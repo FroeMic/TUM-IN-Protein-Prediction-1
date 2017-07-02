@@ -107,7 +107,7 @@ The final accuracy \(on average\) of ProfSec is about **72%**.
 
 #### 3. Proper comparison of methods
 
-For a meaningful comparison the methods should 
+For a meaningful comparison the methods should
 
 * use the same \(meaningful\) measure \(e.g. Q3\)
 * use the same dataset
