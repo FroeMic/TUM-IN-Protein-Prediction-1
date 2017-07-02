@@ -57,5 +57,29 @@
 
 > Randomly, to avoid correlations
 
+#### 2. 3rd Generation Secondary Structure Prediction
+
+**Critical Question:** How to improve beyond $$60\% + \epsilon$$ accuracy?
+
+**Evolution improves prediction**: An **evolutionary profile** averaged built up over several species implicitly captures the history of an individual protein. 
+
+##### PHD: Neural Network and Evolutionary Information
+
+* Build up the family \(profile\) for the protein and add it to the input of the network
+* Each amino acid in the input now has a probability on how often it occurs in the family
+
+**Question:** How would you build up a family for a protein?
+
+> 1. Search the PDB for proteins in comparative modeling range. \(Assumption: same sequence, same 3D structure, same secondary structure\)
+> 2. Use profile to search in twilight-zone for potential proteins of that family \(possibly verify whether the found protein is plausible to have similar 3D structure\) and add to family \(recompute profile\)
+
+**Question:** How do you get from a sequence to a secondary structure prediction with PHD?
+
+> 1. Use BLAST to find potentially similar proteins in sequence data bank
+> 2. For the resulting proteins calculate the sequence identity \(homology\) with dynamic programming
+> 3. Filter all proteins, which are below a threshold of sequence identity \(only take those "over the curve"\)
+> 4. Extract the profile by aligning the remaining proteins
+> 5. Predict the secondary structure with the sequence and its family as input
+
 
 
