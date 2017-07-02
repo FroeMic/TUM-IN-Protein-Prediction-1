@@ -259,7 +259,7 @@ H   H   O-H
 
 > One solution would be to align the corresponding residues of both sequences / 3D structures and take the **Root Mean Square Deviation**. \(If one pair lies very far apart, it will result in an extremely low score\)
 >
-> RMSD\(A,B\) = SQRT\( ⅀ \(a.i - b.i\)^2 \)
+> $$RMSD(A,B)= \sum_{i=0}^n ({r_i}^a - {r_i}^b )^2$$
 >
 > If the score is below a certain threshold, it is a match, otherwise it is not.
 
@@ -358,7 +358,85 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > 2. Extend matching 'words' into both directions
 > 3. Begin dynamic programming from these strong local hits
 
-#### 
+### 3.3.5 Lecture 4: Alignments I
+
+### 3.3.6 Lecture 5: Comparative Modeling
+
+### 3.3.7 Lecture 6: Secondary Structure Prediction 1 ❓
+
+### 3.3.8 Lecture 7: Secondary Structure Prediction 2
+
+**Question: **Relate the terms **Local** and **Global alignment** to the terms **Sequence-Sequence** and **Sequence-Profile**.
+
+> Global alignments refers to aligning sequences \(proteins\) from start to end. Local alignments refers to only aligning parts of the sequences \(e.g. 50 residues\).  
+> Throughout Sequence-Sequence, Sequence-Profile and Profile-Profile methods both global and local alignment can be used. I practice mostly local alignment is done.
+
+**Question:** What would be a simple method to predict secondary structure?
+
+> 1\) Take known structure  
+> 2\) Find longest consecutive run of motifs that **ONLY** occur in one of the 3 states: H \(Helix\), E \(Strand\), O \(Other\)  
+> 3\) Check unknown sequence against found motifs
+
+**Question**: What was the first secondary structure prediction method?
+
+> Assuming that a **Proline** would break a helix, the occurrences of proline in a sequence was used to predict helices.
+
+**Question:** Where do we get the secondary structures from?
+
+> From the DSSP, which defines 8 states in total based on H-bond patterns.
+
+**Question:** What is the 1st generation of secondary structure prediction based on? What was the accuracy? Was is successful?
+
+> * Based on single residues
+> * Between 50% and 55% accuracy \(Q3\)
+> * Clearly better than random - so it can be considered a success
+
+**Question:**How did the second generation of secondary structure prediction improve? Name one algorithm.
+
+> Instead of using only single amino acids, it would consider a sliding window of the residues around a center amino acid.**Example:**GORIII, with a Q3 accuracy of 55% - 60%
+
+**Question:**What were problem of secondary structure prediction until 1994?
+
+> * the maximum accuracy of predictions was expected to be 65%
+> * β-sheet prediction was below 40%
+> * many predicted segments where too short to appear in nature
+
+**Question: **How can the performance of secondary structure prediction be measured?
+
+> One way to do it, would be to calculate the **Q3** accuracy of a method against a test set. The Q3 accuracy is the **number of correctly categorized residues into one of the categories helix, strand, other divided by the total amount of residues.**
+
+**Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
+
+> Each new hidden layer basically introduces a new 'decision line' which can separate datapoints into different categories.
+
+**Question:** What is cross-validation in the context of Machine Learning and why do we need it?
+
+> Cross Validation in a method for estimating the performance of a predictive model \(e.g. a neural network\). To use it, the available dataset is split in 3 categories, 1\) a training set, 2\) a cross-training set and 3\) a test set.  
+> 1\) The training set is used to train the model  
+> 2\) The cross-training set is used to estimate the performance of the model after x training steps  
+> 3\) The test set is used to assess the final performance of the model after training is finished  
+>   
+> The cross-training set is needed to decide, when to stop training \(when overtraining sets in\) and to tweak certain parameters before running against the test-set.
+
+**Question: **Did balanced training improve the Q3 prediction accuracy? Which assumption did it prove wrong?
+
+> Balanced training actually decreased the Q3 accuracy. However, it did improve the prediction accuracy for strands significantly, falsifying the hypothesis that strands could not be predicted with local information.
+
+**Question:** Which problem did PHDSec solve? How did it accomplish it?
+
+> By introducing a **Structure-to-Structure** prediction model, PHDSec improved the prediction of too short segment. The Structure-to-Structure network would take structure \(helix, strand, other\) prediction of a sequence as input and predict segments based on them.
+
+
+
+### 3.3.9 Lecture 8: Secondary Structure Prediction 3
+
+### 3.3.10 Lecture 9: Membrane Structure Prediction
+
+### 3.3.11 Lecture 10: TMSEG
+
+### 3.3.12 Lecture 11: Beta Membrane and Accessibility
+
+### 3.3.13 Lecture 12: Protein Disorder
 
 
 
