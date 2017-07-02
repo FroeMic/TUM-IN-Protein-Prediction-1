@@ -52,7 +52,7 @@
 **Question:** In a structure to structure network, which additional information could be used to improve the prediction?
 
 > * E.g. redundant information about the sequence, e.g. parts of it.
-> * What is the expected length of my protein?
+> * length of  protein
 > * Is the sliding window at the end / mid / start of the protein?
 
 **Question:** When training a neural network, how do you choose the next training sample from your test set? Why so?
