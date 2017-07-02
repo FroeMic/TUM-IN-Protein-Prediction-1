@@ -115,9 +115,16 @@ $$
 
 #### 5. Introduction: Neural Networks
 
+Principal of neural networks: Error
+
+* Free Variables: $$Connections\ \{J\}$$
+* Output: $$out_i = \sum_{i=1}^{N^{in+1}} J_{ij} in_j$$
+  * 
+* Error: $$E = \sum_{i=1}^{N^{out}} {(out_i - des_i)}^2$$
+
 **Question:** How can the introduction of a new hidden layer in a neural network be described by means of a simple graph?
 
-> Each new hidden layer basically introduces a new 'line' which can separate datapoints into different categories.
+> Each new hidden layer basically introduces a new 'decision line' which can separate datapoints into different categories.
 
 
 
