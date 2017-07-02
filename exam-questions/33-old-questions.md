@@ -358,7 +358,30 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > 2. Extend matching 'words' into both directions
 > 3. Begin dynamic programming from these strong local hits
 
-#### 
+### 3.3.5 Lecture 4: Alignments I
+
+### 3.3.6 Lecture 5: Comparative Modeling
+
+### 3.3.7 Lecture 6: Secondary Structure Prediction 1 ❓
+
+### 3.3.8 Lecture 7: Secondary Structure Prediction 2
+
+**Question: **Relate the terms **Local** and **Global alignment** to the terms **Sequence-Sequence** and **Sequence-Profile**.
+
+> Global alignments refers to aligning sequences \(proteins\) from start to end. Local alignments refers to only aligning parts of the sequences \(e.g. 50 residues\).  
+> Throughout Sequence-Sequence, Sequence-Profile and Profile-Profile methods both global and local alignment can be used. I practice mostly local alignment is done.
+
+
+
+### 3.3.9 Lecture 8: Secondary Structure Prediction 3
+
+### 3.3.10 Lecture 9: Membrane Structure Prediction
+
+### 3.3.11 Lecture 10: TMSEG
+
+### 3.3.12 Lecture 11: Beta Membrane and Accessibility
+
+### 3.3.13 Lecture 12: Protein Disorder
 
 
 

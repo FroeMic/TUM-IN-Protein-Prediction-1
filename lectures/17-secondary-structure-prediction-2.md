@@ -72,7 +72,7 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 
 > Assuming that a **Proline** would break a helix, the occurrences of proline in a sequence was used to predict helices.
 
-#### 1st Generation Secondary Structure Prediction
+#### 3. 1st Generation Secondary Structure Prediction
 
 💡 **Idea:** Build a frequency table over all amino acids, how often they occur in the secondary structure states based on the proteins where the structure is known.  
 **Important:** Bias reduction, to make the set table representative for future. Remove all proteins in comparative modeling range.
@@ -93,17 +93,27 @@ Secondary Structure Prediction happens in 1D, 2D and 3D. The following chapter w
 ##### How can we measure the performance of secondary structure prediction?
 
 ❗️ **Q3:** three-state per residue accuracy
+
+
 $$
 Q3 = \frac{number\ of\ correctly\ predicted\ residues\ in\ states\ helix,\ strand,\ other }{number\ of\ residues\ in\ protein}
 $$
 
 
-#### 2nd Generation Secondary Structure Prediction
+#### 4. 2nd Generation Secondary Structure Prediction
 
 **Question:** How did the second generation of secondary structure prediction improve? Name one algorithm.
 
 > Instead of using only single amino acids, it would consider a sliding window of the residues around a center amino acid.  
 > **Example:** GORIII, with a Q3 accuracy of 55% - 60%
+
+**Question:** What were problem of secondary structure prediction until 1994?
+
+> * the maximum accuracy of predictions was expected to be 65%
+> * β-sheet prediction was below 40%
+> * many predicted segments where too short to appear in nature
+
+#### 5. Introduction: Neural Network
 
 
 
