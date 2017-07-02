@@ -78,7 +78,15 @@
 * distance: center, N-term
 * distance: center, C-term
 
-All of these input features are fed to different Networks, resulting in many independent predictors \(**Jury**\). All of these networks add their own 'white noise' to the prediction. The average over all the predictors is better than every single one.
+**Jury decision improve accuracy:** All of these input features are fed to different Networks, resulting in many independent predictors \(**Jury**\). All of these networks add their own 'white noise' to the prediction. The average over all the predictors is better than every single one.
+
+The final accuracy \(on average\) of ProfSec is about **72%**. 
+
+**Prediction of correctly predicted residues: **In additional, **ProfSec can give an estimation on the strength of the prediction** for each protein. \(By counting the 'stars'\)![](/assets/Screen Shot 2017-07-02 at 20.19.46.png)
+
+**Question:** How does ProfSec overcome the 60% accuracy hurdle in secondary structure prediction?
+
+> ProfSec uses evolutionary information - the family of the protein - as additional input. Furthermore, other relevant input data \(e.g length of protein, distribution of amino acids, ...\) are used to build up several different networks that independently predict the secondary structure. Together this jury of networks achieves a more accurate prediction than they would on their own.
 
 **Question:** How would you build up a family for a protein?
 
@@ -92,6 +100,10 @@ All of these input features are fed to different Networks, resulting in many ind
 > 3. Filter all proteins, which are below a threshold of sequence identity \(only take those "over the curve"\)
 > 4. Extract the profile by aligning the remaining proteins
 > 5. Predict the secondary structure with the sequence and its family as input
+
+**Question:** Which accuracy does ProfSec achieve on average? What are additional advantages of other secondary structure prediction methods?
+
+> ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
 
 
 
