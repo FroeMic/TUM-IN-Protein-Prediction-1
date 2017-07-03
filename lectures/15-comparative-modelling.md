@@ -17,8 +17,7 @@
 > 4. add those over a certain HSSP value to the family
 > 5. Search with profile-sequence comparison for more distant family members and refine profile
 
-* When building up a profile, start with a high threshold \(only very similar sequences are taken\)
-* Later y
+* When building up a profile, start with a high threshold \(only very similar sequences are taken\), so the profile is not wrong from the beginnig
 
 #### 2. Goal of structure prediction
 
