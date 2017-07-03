@@ -43,7 +43,7 @@ How would you assess prediction performance?
 
 * 90% - X-Ray Crystallography 
 * 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
-* 01 % - Electron Microscope \(EM\)
+* 01 % - Cryo Electron Microscope \(Cryo-EM\)
 
 **X-Ray Crystallography **
 
@@ -52,11 +52,10 @@ How would you assess prediction performance?
 3. **Compute Electron Density Map**
 4. **Fit observations to atomic model**
 
-
-
 **Question:** Which methods to experimentally determine the structure of a protein exist? How much are they used?
 
 > Fraction of proteins in the PDB by experimental method:
+>
 > * 90% - X-Ray Crystallography 
 > * 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
 > * 01 % - Electron Microscope \(EM\)
