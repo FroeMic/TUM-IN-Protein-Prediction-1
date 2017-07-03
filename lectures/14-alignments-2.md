@@ -180,6 +180,11 @@ _Position-Specific Iterative Basic Local Alignment Tool_
 
 #### 6. Hidden Markov Models \(HMM\)
 
+Hidden Markov Model are another method for creating Machine Learning Models. They are a good choice, if the structure of the problem is known beforehand.
+
+* different states
+* each state has transition probabilities to the neighboring states / itself
+
 #### 7. HMM for Alignment
 
 #### 8. Genetic Algorithm for alignment
