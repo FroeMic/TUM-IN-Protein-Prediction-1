@@ -4,7 +4,7 @@
 
 ---
 
-#### 1. Recap
+* #### 1. Recap
 
 * Profile-Sequence comparisons are more accurate than sequence-sequence aligments
 * Profile-Profile alignments gain even more accuracy
@@ -22,6 +22,20 @@
 #### 2. Goal of structure prediction
 
 _Sequence uniquely determines structure!_ ➡ Thus, from a sequence it should be possible to predict 3D structure and function
+
+How would you assess prediction performance?
+
+**CASP:** Critical Assessment of Structure Prediction
+
+* Yearly event
+* Submit predictions for structures, which will be experimentally predicted before a deadline
+* Compare \(after release of experimental structures\) how the methods performed
+
+**Current State**
+
+* Only Homology Modeling is good
+* No general prediction of 3D structure from sequence yet
+* BUT: Important improvement in many fields
 
 #### 3. Structure by Experiment
 
