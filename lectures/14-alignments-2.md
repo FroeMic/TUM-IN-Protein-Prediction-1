@@ -216,7 +216,14 @@ With small families \(few members, little divergence\) the entropy is dominated 
 # The genetic algorithm does not make this indepence assumption!!
 ```
 
-#### 9. Profile-Profile Aligments
+* The genetic algorithm works on segments
+* through mutations it creates new alignments
 
+**T-Coffee:** much slower, requires pre-processing, Genetic algorithm
 
+#### 9. Profile-Profile Alignments
+
+Compare Profiles to go even deeper into the **Twilight- / Midnight-Zone**
+
+![](/assets/Screen Shot 2017-07-03 at 11.19.32.png)
 
