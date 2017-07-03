@@ -94,6 +94,25 @@
 
 #### 3. Multiple Sequence Alignment
 
+Dynamic Programming cannot be done efficiently with multiple sequences. 
+
+##### 3.1 Multiple Alignment Hack 1: Iterative Pairwise Dynamic Programming
+
+###### Progressive 1
+
+1. Align sequences pairwise int consensus sequences
+2. Align resulting consensus 
+
+###### Progressive 2
+
+1. Align all sequences pairwise
+2. Start with highest matching alignment
+3. Iteratively align sequences into consensus sequence
+
+**How to find consensus?** Different methods, e.g. the first, the more meaningful aa, ...
+
+##### 3.2 Multiple Alignment Hack 1: Map to Tree / Pairwise
+
 #### 4. Profiles
 
 #### 5. PSI-BLAST
