@@ -47,7 +47,7 @@
 # Note: The Midnight-Zone is, where most proteins of similar structure sit
 ```
 
-Going deeper into the Twilight-Zone, the following results are to be expected:
+**Going deeper into the Twilight-Zone, the following results are to be expected:**
 
 1. True Positives go up in absolute numbers
 2. False positive increase \(drastically\) in absolute numbers
@@ -60,10 +60,23 @@ Going deeper into the Twilight-Zone, the following results are to be expected:
 
 1. Get all 3D structures from PDB 
 2. Remove bias \(sequence unique subset\)
-3. And compare 'all vs all'
+3. And compare 'all vs redundancy reduced set'
    1. compare 3D structure \(e.g. RSMD\)
    2. compare sequence
-4. 
+
+###### Result: Sequence Conservation of protein structur
+
+![](/assets/Screen Shot 2017-07-03 at 09.08.35.png)🕵🏻 **Observations**
+
+* Over the curve \(daylight-zone\), many true-positives \(sequence identity -&gt; similar 3D structure\)
+* Under the curve \(upon entering the twilight zone\)
+  * Explosion of **false positives**
+  * but also **significant increase **\(x10\) of **true positives**
+
+
+
+###### 
+
 **Question:** Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
 
 > The Midnight-Zone is, where most proteins of similar structure sit.
