@@ -78,6 +78,13 @@ How would you assess prediction performance?
 > 3. **Compute Electron Density Map**
 > 4. **Fit observations to atomic model**
 
+##### Hydrogen Bond Formation
+
+💡 **Idea:** Secondary structure is completely explained by hydrogen bond formation.![](/assets/Screen Shot 2017-07-03 at 13.05.28.png)**Helix:** Hydrogen-Bond between residue **i** and residue **i+4**, which stabilize the helix.  
+**Sheet:** Two strands come together to form a sheet by forming hydrogen bonds between them 
+
+
+
 #### 4. Comparative Modeling \(=Homology Modeling\)
 
 #### 5. Comparative Modeling Steps
