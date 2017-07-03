@@ -94,6 +94,19 @@ How would you assess prediction performance?
 
 **Assumption:** Sequence uniquely determines structure and therefore, from similar sequence follows similar structure.
 
+###### How can we use this to predict 3D structure?
+
+**Target:** Protein to model  
+**Template**: Protein to model from
+
+1. **Identify Template:** Query the PDB for similar sequences to your **Target**
+2. **Align Target / Template:** Select the best match as **Template **and assume the **Target** has the same structure
+3. **Build Model**
+4. **Assess Model** 
+5. **Refine Model**
+
+###### 
+
 #### 5. Comparative Modeling Steps
 
 #### 
