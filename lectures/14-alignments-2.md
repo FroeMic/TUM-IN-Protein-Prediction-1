@@ -121,6 +121,24 @@ _Profiles profit from relation of 'families'. _
 
 Building up a profile, we can see certain amino acids that are more conserved than others. Computationally we can identify **sequence** **motifs** that describe such a profile as a regular expression.
 
+You could also write a **profile **into a substitution matrix.
+
+
+
+❓ **Question:** How are profiles built up? How are the normal noted down? Do we have to know a specific algorithm?
+
+> **Build up algorithm:**
+>
+> * Take all proteins of PSI over a certain threshold ...
+> * ❓
+>
+> **Profile Formats:**
+>
+> * Regular Expression
+> * PSSM \(Position Specific Scoring Matrix\) ❓
+
+
+
 #### 5. PSI-BLAST
 
 **PSI-BLAST: **_Position-Specific Iterative Basic Local Alignment Tool_
