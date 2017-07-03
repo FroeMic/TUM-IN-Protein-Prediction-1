@@ -4,5 +4,27 @@
 
 ---
 
+#### 1. Recap
+
+**3D Comparison:** There is a way to look at proteins in 3 dimensions
+
+* 1D -  secondary structure prediction
+* 2D - distance map
+* 3D - real 3D coordinates
+
+**Dynamic Programming**
+
+* **Global** \(Needleman-Wunsch\) or **Local** \(Smith-Waterman\)
+* With or without **Gaps**
+  * Linear Gap Penalty: Opening and extending a gap have the same cost
+  * Affine Gap Penalty: Opening a new gap is more expensive than extending an existing one
+* **Scoring Matrices**
+  * For each pair of residues you can read off, how much you gain by aligning these 2 residues
+
+**BLAST:** _Basic Local Alignment Search Tool_
+
+* Dynamic Programming is slow for large scale comparisons
+* Speed search up by 
+
 
 
