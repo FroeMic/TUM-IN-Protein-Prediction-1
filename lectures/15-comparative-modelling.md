@@ -9,6 +9,15 @@
 * Profile-Sequence comparisons are more accurate than sequence-sequence aligments
 * Profile-Profile alignments gain even more accuracy
 
+**Question:** How do you build up a family \(profile\) of sequences?
+
+> 1. Find proteins of similar structure with BLAST
+> 2. Build PSSM
+> 3. build up a set of pairwise alignments 
+> 4. add those over a certain HSSP value to the family
+
+
+
 #### 2. Goal of structure prediction
 
 #### 3. Structure by Experiment
