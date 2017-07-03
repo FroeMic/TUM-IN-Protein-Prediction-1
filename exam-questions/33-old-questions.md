@@ -358,7 +358,58 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > 2. Extend matching 'words' into both directions
 > 3. Begin dynamic programming from these strong local hits
 
-### 3.3.5 Lecture 4: Alignments I
+### 3.3.5 Lecture 4: Alignments II
+
+**Question:** What is the major challenge of BLAST?
+
+> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it against the background probability of the entire database.
+
+**Question:**Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
+
+> The Midnight-Zone is, where most proteins of similar structure sit.
+
+**Question:**Why is it that even with only 40% PSI, we can still assume similar structure? Could we randomly change 60% of the residues in the lab and get a new protein with similar structure?
+
+> * These 60% of changed residues happened under evolutionary pressure and are not random
+>   * mutations that did not change structure and function survived \(we can observe them today\)
+>   * mutations that did change structure and function most likely did not survive
+> * Thus randomly changing 60% of residues in a proteins, would not result in a similar protein
+
+**Question:**Why are certain proteins / structure multiple times in the PDB?
+
+> * different resolution of 3D structure
+> * different goals of publication produced \(new\) 3D structures
+>   * folding sites
+>   * binding partners
+>   * etc ...
+
+❓ **Question:** How are profiles built up? How are the normal noted down? Do we have to know a specific algorithm?
+
+> **Build up algorithm:**
+>
+> * Take all proteins of PSI over a certain threshold ...
+> * ❓
+>
+> **Profile Formats:**
+>
+> * Regular Expression
+> * PSSM \(Position Specific Scoring Matrix\) ❓
+
+**Question:** What is a PSSM \(Position Specific Scoring Matrix\)?
+
+> A matrix of numbers with scores for each residue or nucleotide at each position. Built, e.g. by PSI-BLAST.
+
+**Question:** Which steps are involved in building up a profile with PSI-BLAST?
+
+> **1\) Fast Hashing**: Like BLAST, match 'word'  
+> **2\) Dynamic Programming Extension between matches:** BLAST + Smith-Waterman  
+> **3\) Compile Statistics:** EVAL - Expectation Values  
+> **4\) Collect all pairs and build profile  
+> 5\) ... compare sequences \(profile-sequence\) and iterate**
+
+**Question:** Why is PSI-BLAST so fast?
+
+> Because it drastically reduces the length of the comparisons with dynamic programming.
 
 ### 3.3.6 Lecture 5: Comparative Modeling
 
