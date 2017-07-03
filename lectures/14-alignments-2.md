@@ -47,7 +47,10 @@
 # Note: The Midnight-Zone is, where most proteins of similar structure sit
 ```
 
+Going deeper into the Twilight-Zone, the following results are to be expected:
 
+1. True Positives go up in absolute numbers
+2. False positive increase \(drastically\) in absolute numbers
 
 **Question:** Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
 
