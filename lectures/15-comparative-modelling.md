@@ -134,14 +134,29 @@ How would you assess prediction performance?
 
 ##### 5.1 MODELLER
 
-**Summary: **lots of whistles and bells, downloadable, very accurate![](/assets/Screen Shot 2017-07-03 at 13.55.38.png)
+**Summary: **lots of whistles and bells, downloadable, very accurate![](/assets/Screen Shot 2017-07-03 at 13.55.38.png)**Constraint Satisfaction:** use a set of objective functions to check whether the model is plausible
 
-1. Find the model with the highest probability
-2. Variable Target function
-   1. Start model close to the template conformation
-   2. first only local constraints
-   3. minimize using conjugate gradient optimization
-   4. Repeat, introduce more and more long-range constraints
+* $$C_{\alpha} - C_{\alpha}$$ distance
+* Molecular dynamics
+* Langevin dynamics
+* Rigid bodies
+* Rigid molecular dynamics
+* ...
+
+**Optimization Steps** \(run repeatedly\)
+
+* explore different local minima
+
+**Typical Errors**
+
+* side chain packing
+* misalignment
+* wrong template
+
+**Pick the right solution**: 
+
+* based on DOPE score \(Discrete Optimized Protein Energy\)
+  based on knowledge based pair potentials
 
 ##### 
 
