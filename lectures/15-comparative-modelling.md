@@ -8,3 +8,33 @@
 
 
 
+#### 2. Goal of structure prediction
+
+
+
+#### 3. Structure by Experiment
+
+
+
+#### 4. Comparative Modeling \(=Homology Modeling\)
+
+
+
+#### 5. Comparative Modeling Steps
+
+#### 
+
+#### 6. Comparative Modeling Methods
+
+#### 
+
+##### 6.1 MODELLER
+
+##### 
+
+##### 6.2 SWISS-Model
+
+##### 
+
+
+
