@@ -52,6 +52,17 @@ How would you assess prediction performance?
 3. **Compute Electron Density Map**
 4. **Fit observations to atomic model**
 
+**NMR **
+
+1. Protein has to be in similar solution as naturally
+2. Massive Magnets required
+
+**Cryo-EM **
+
+* worse resolution than other methods
+* cheaper than other methods
+* _Pushing the boundaries of resolution of Cryo-EM is the future_
+
 **Question:** Which methods to experimentally determine the structure of a protein exist? How much are they used?
 
 > Fraction of proteins in the PDB by experimental method:

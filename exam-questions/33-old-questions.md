@@ -55,7 +55,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 * General definition of Machine Learning
 * Cross validation
 * What is ‘feature’?
-* ETP explain, example
+* ETP explain, example ❓
 * Name and describe one ML method
 * Name and describe "sequence" in context of PP
 * Discuss how to predict Protein Structure from amino-acid sequence using ML
