@@ -81,7 +81,14 @@ How would you assess prediction performance?
 ##### Hydrogen Bond Formation
 
 💡 **Idea:** Secondary structure is completely explained by hydrogen bond formation.![](/assets/Screen Shot 2017-07-03 at 13.05.28.png)**Helix:** Hydrogen-Bond between residue **i** and residue **i+4**, which stabilize the helix.  
-**Sheet:** Two strands come together to form a sheet by forming hydrogen bonds between them 
+**Sheet:** Two strands come together to form a sheet by forming hydrogen bonds between them
+
+**Question:** How to get 1D secondary structure from 3D coordinates?
+
+> Two methods where used to annotate 3D coordinates:
+>
+> 1\) DEFINE, based on geometry \(not used anymore\)  
+> 2\) DSSP, based on hydrogen bond pattern \(coulomb energy\)
 
 
 
