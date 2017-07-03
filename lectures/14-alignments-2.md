@@ -94,7 +94,7 @@
 
 #### 3. Multiple Sequence Alignment
 
-Dynamic Programming cannot be done efficiently with multiple sequences. 
+Dynamic Programming cannot be done efficiently with multiple sequences.
 
 ##### 3.1 Multiple Alignment Hack 1: Iterative Pairwise Dynamic Programming
 
@@ -113,7 +113,13 @@ Dynamic Programming cannot be done efficiently with multiple sequences.
 
 ##### 3.2 Multiple Alignment Hack 1: Map to Tree / Pairwise
 
+??
+
 #### 4. Profiles
+
+_Profiles profit from relation of 'families'. _
+
+Building up a profile, we can see certain amino acids that are more conserved than others. Computationally we can identify **sequence** **motifs** that describe such a profile as a regular expression.
 
 #### 5. PSI-BLAST
 
