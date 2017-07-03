@@ -45,6 +45,29 @@ How would you assess prediction performance?
 * 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
 * 01 % - Electron Microscope \(EM\)
 
+**X-Ray Crystallography **
+
+1. **Grow Crystal:** Force the protein to grow a crystal
+2. **Observe Diffraction Pattern**: Shoot x-rays onto crystal and observe the diffraction pattern
+3. **Compute Electron Density Map**
+4. **Fit observations to atomic model**
+
+
+
+**Question:** Which methods to experimentally determine the structure of a protein exist? How much are they used?
+
+> Fraction of proteins in the PDB by experimental method:
+> * 90% - X-Ray Crystallography 
+> * 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
+> * 01 % - Electron Microscope \(EM\)
+
+**Question:** How does X-Ray Crystallography Work
+
+> 1. **Grow Crystal:** Force the protein to grow a crystal
+> 2. **Observe Diffraction Pattern**: Shoot x-rays onto crystal and observe the diffraction pattern
+> 3. **Compute Electron Density Map**
+> 4. **Fit observations to atomic model**
+
 #### 4. Comparative Modeling \(=Homology Modeling\)
 
 #### 5. Comparative Modeling Steps
