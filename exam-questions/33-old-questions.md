@@ -1,4 +1,4 @@
-## 3.3 Question Catalogue
+﻿## 3.3 Question Catalogue
 
 > This section contains possible exam questions sourced from students of previous Protein Prediction I lectures and the lecture recordings.
 
