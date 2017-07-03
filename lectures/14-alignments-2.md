@@ -52,6 +52,18 @@ Going deeper into the Twilight-Zone, the following results are to be expected:
 1. True Positives go up in absolute numbers
 2. False positive increase \(drastically\) in absolute numbers
 
+##### 2.1 HSSP Curve
+
+**HSSP:** Homology-derived Secondary Structure of Proteins
+
+###### How to get the curve?
+
+1. Get all 3D structures from PDB 
+2. Remove bias \(sequence unique subset\)
+3. And compare 'all vs all'
+   1. compare 3D structure \(e.g. RSMD\)
+   2. compare sequence
+4. 
 **Question:** Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
 
 > The Midnight-Zone is, where most proteins of similar structure sit.
@@ -62,6 +74,14 @@ Going deeper into the Twilight-Zone, the following results are to be expected:
 >   * mutations that did not change structure & function survived \(we can observe them today\)
 >   * mutations that did change structure & function most likely did not survive
 > * Thus randomly changing 60% of residues in a proteins, would not result in a similar protein
+
+**Question:** Why are certain proteins / structure multiple times in the PDB?
+
+> * different resolution of 3D structure
+> * different goals of publication produced \(new\) 3D structures
+>   * folding sites
+>   * binding partners
+>   * etc ...
 
 #### 3. Multiple Sequence Alignment
 
