@@ -90,9 +90,9 @@ How would you assess prediction performance?
 > 1\) DEFINE, based on geometry \(not used anymore\)  
 > 2\) DSSP, based on hydrogen bond pattern \(coulomb energy\)
 
-
-
 #### 4. Comparative Modeling \(=Homology Modeling\)
+
+**Assumption:** Sequence uniquely determines structure and therefore, from similar sequence follows similar structure.
 
 #### 5. Comparative Modeling Steps
 
