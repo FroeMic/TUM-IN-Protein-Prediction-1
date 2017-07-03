@@ -18,9 +18,9 @@
 
 > ❓
 >
-> Go to DB and search your sequence to find out whether homologs of this protein are already available, and if they are, what is known about them. 
+> Go to DB and search your sequence to find out whether homologs of this protein are already available, and if they are, what is known about them.
 >
-> If we didn't recieve any significant hits, try to search for motifs, patterns.
+> If we didn't retrieve any significant hits, try to search for motifs, patterns.
 
 **Question: **What is a structural domain? What is a functional domain and How can we deal with the fact that they can be in different places?
 
@@ -32,7 +32,14 @@
 
 **Question: **How do we predict proteins?
 
-> ❓
+> **?**
+>
+> * use DB to search for homologs
+> * use Machine learning and other methods for secondary structure prediction
+>
+> * use Comparative modelling for 3D structure prediction
+
+
 
 **Question: **Why would someone give you a sequence?
 
@@ -56,7 +63,7 @@
 
 **Question: **Can we predict something we have not observed?
 
-> **?**
+> When we predict features we can try to find somthing that people "want" to see.
 
 **Question: **Sliding windows introduce information from the sequence environment. Why do we need convolutional network on top of that? Why do we need anything else on top?
 
@@ -98,8 +105,9 @@
 
 **Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
-> The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).  
-> ❓ Method w/o that?
+> The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).
+>
+> Method w/o that - Genetic algorithm that operates on segments
 
 **Question: **Why do we have so few experimentally confirmed structures in the PDB?
 
