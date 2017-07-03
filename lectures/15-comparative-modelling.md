@@ -5,8 +5,8 @@
 ---
 
 * #### 1. Recap
-
 * Profile-Sequence comparisons are more accurate than sequence-sequence aligments
+
 * Profile-Profile alignments gain even more accuracy
 
 **Question:** How do you build up a family \(profile\) of sequences?
@@ -38,6 +38,8 @@ How would you assess prediction performance?
 * BUT: Important improvement in many fields
 
 #### 3. Structure by Experiment
+
+
 
 #### 4. Comparative Modeling \(=Homology Modeling\)
 
