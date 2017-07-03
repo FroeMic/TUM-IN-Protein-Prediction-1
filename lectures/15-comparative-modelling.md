@@ -105,7 +105,28 @@ How would you assess prediction performance?
 4. **Assess Model** 
 5. **Refine Model**
 
-###### 
+
+
+**Question:** How does Homology Modeling \(Comparative Modeling\) work?
+
+> **Target:** Protein to model  
+> **Template**: Protein to model from
+>
+> 1. **Identify Template:** Query the PDB for similar sequences to your **Target**
+> 2. **Align Target / Template:** Select the best match as **Template **and assume the **Target** has the same structure
+> 3. **Build Model**
+> 4. **Assess Model** 
+> 5. **Refine Model**
+
+**Question:** Which tradeoff does comparative modeling face? What are the limiting factors based on PSI \(Percentage Sequence Identity\)?
+
+> **Tradeoff:** Accuracy vs Coverage
+>
+> Limiting factor in homology modeling:  
+> 75% - 100%    -    Speed of Modeling  
+> 50% -   75%    -    Quality of Model  
+> 25% -   50%    -    Alignment Accuracy  
+>   0% -   25%    -    Detection of Homology
 
 #### 5. Comparative Modeling Steps
 
