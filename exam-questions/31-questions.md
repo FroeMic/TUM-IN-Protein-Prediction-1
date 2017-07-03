@@ -39,11 +39,9 @@
 >
 > * use Comparative modelling for 3D structure prediction
 
-
-
 **Question: **Why would someone give you a sequence?
 
-> ❓
+> Amount of newly discovored sequences constantly increses. And even for known sequences we still can refine information that we have about them.
 
 **Question: **How do you run a sequence against the DB?
 
@@ -67,11 +65,13 @@
 
 **Question: **Sliding windows introduce information from the sequence environment. Why do we need convolutional network on top of that? Why do we need anything else on top?
 
-> **?**
+> It gives us ability to detect motifs whenever it's in sequence window. It exploits spatially local correlation.
 
 **Question: **How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
 
 > **?**
+>
+> Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primaary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
 
 ### Questions \(Thursday, 29th June\)
 

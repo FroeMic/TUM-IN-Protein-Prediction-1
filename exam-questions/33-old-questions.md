@@ -487,8 +487,6 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
 
-
-
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
 
 ### 3.3.11 Lecture 10: TMSEG
