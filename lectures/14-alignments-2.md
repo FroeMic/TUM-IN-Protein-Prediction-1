@@ -31,15 +31,26 @@
 
 **Question:** What is the major challenge of BLAST?
 
-> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it against the background probability of the entire databae.
+> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it against the background probability of the entire database.
 
 #### 2. Pairwise Alignment Accuracy
 
+**PSI:** Percentage Sequence Identity
 
+**Zones:**
+
+* **Daylight-Zone:** PSI, where it can be assumed that from a similar sequence follows similar structure
+* **Twilight-Zone:** PSI, 
+* **Midnight-Zone:** PSI,
+
+**Question:** Why is it that even with only 40% PSI, we can still assume similar structure? Could we randomly change 60% of the residues in the lab and get a new protein with similar structure?
+
+> * These 60% of changed residues happened under evolutionary pressure and are not random
+>   * mutations that did not change structure & function survived \(we can observe them today\)
+>   * mutations that did change structure & function most likely did not survive
+> * Thus randomly changing 60% of residues in a proteins, would not result in a similar protein
 
 #### 3. Multiple Sequence Alignment
-
-
 
 #### 4. Profiles
 
@@ -47,25 +58,13 @@
 
 **PSI-BLAST: **_Position-Specific Iterative Basic Local Alignment Tool_
 
-
-
 #### 6. Hidden Markov Models \(HMM\)
-
-
 
 #### 7. HMM for Alignment
 
-
-
 #### 8. Genetic Algorithm for alignment
 
-
-
 #### 9. Profile-Profile Aligments
-
-
-
-
 
 
 
