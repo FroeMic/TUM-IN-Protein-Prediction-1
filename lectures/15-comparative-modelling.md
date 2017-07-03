@@ -39,7 +39,11 @@ How would you assess prediction performance?
 
 #### 3. Structure by Experiment
 
+**Different Methods to determine 3D structure**
 
+* 90% - X-Ray Crystallography 
+* 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
+* 01 % - Electron Microscope \(EM\)
 
 #### 4. Comparative Modeling \(=Homology Modeling\)
 
