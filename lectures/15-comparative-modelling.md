@@ -105,6 +105,8 @@ How would you assess prediction performance?
 4. **Assess Model** 
 5. **Refine Model**
 
+![](/assets/Screen Shot 2017-07-03 at 13.33.40.png)
+
 
 
 **Question:** How does Homology Modeling \(Comparative Modeling\) work?
