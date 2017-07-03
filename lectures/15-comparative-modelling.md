@@ -134,7 +134,7 @@ How would you assess prediction performance?
 
 ##### 5.1 MODELLER
 
-**Summary: **lots of whistles and bells, downloadable, very accurate
+**Summary: **lots of whistles and bells, downloadable, very accurate![](/assets/Screen Shot 2017-07-03 at 13.55.38.png)
 
 1. Find the model with the highest probability
 2. Variable Target function
@@ -162,6 +162,4 @@ How would you assess prediction performance?
 3. end
 
 **Today:** More complicated ...
-
-
 
