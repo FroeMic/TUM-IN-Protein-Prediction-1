@@ -1,4 +1,12 @@
 {
+    "plugins": [
+        "katex"
+    ],
+    "pluginsConfig": {
+        "mathjax":{
+            "forceSVG": true
+        }
+    },
     "pdf": {
         "fontSize": 10
     }

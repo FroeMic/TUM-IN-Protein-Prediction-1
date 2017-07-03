@@ -55,7 +55,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 * General definition of Machine Learning
 * Cross validation
 * What is ‘feature’?
-* ETP explain, example
+* ETP explain, example ❓
 * Name and describe one ML method
 * Name and describe "sequence" in context of PP
 * Discuss how to predict Protein Structure from amino-acid sequence using ML
@@ -412,6 +412,65 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > Because it drastically reduces the length of the comparisons with dynamic programming.
 
 ### 3.3.6 Lecture 5: Comparative Modeling
+
+**Question:** How do you build up a family \(profile\) of sequences?
+
+> 1. Find proteins of similar structure with BLAST
+> 2. Build PSSM
+> 3. build up a set of pairwise alignments 
+> 4. add those over a certain HSSP value to the family
+> 5. Search with profile-sequence comparison for more distant family members and refine profile
+
+**Question:**Which methods to experimentally determine the structure of a protein exist? How much are they used?
+
+> Fraction of proteins in the PDB by experimental method:
+>
+> * 90% - X-Ray Crystallography
+> * 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
+> * 01 % - Electron Microscope \(EM\)
+
+**Question:**How does X-Ray Crystallography Work
+
+> 1. **Grow Crystal:**
+>    Force the protein to grow a crystal
+> 2. **Observe Diffraction Pattern**
+>    : Shoot x-rays onto crystal and observe the diffraction pattern
+> 3. **Compute Electron Density Map**
+> 4. **Fit observations to atomic model**
+
+**Question:**How to get 1D secondary structure from 3D coordinates?
+
+> Two methods where used to annotate 3D coordinates:
+>
+> 1\) DEFINE, based on geometry \(not used anymore\) 2\) DSSP, based on hydrogen bond pattern \(coulomb energy\)
+
+**Question:** How does Homology Modeling \(Comparative Modeling\) work?
+
+> **Target:** Protein to model  
+> **Template**: Protein to model from
+>
+> 1. **Identify Template:** Query the PDB for similar sequences to your **Target**
+> 2. **Align Target / Template:** Select the best match as **Template **and assume the **Target** has the same structure
+> 3. **Build Model**
+> 4. **Assess Model** 
+> 5. **Refine Model**
+
+**Question:** Which tradeoff does comparative modeling face? What are the limiting factors based on PSI \(Percentage Sequence Identity\)?
+
+> **Tradeoff:** Accuracy vs Coverage
+>
+> Limiting factor in homology modeling:  
+> 75% - 100%    -    Speed of Modeling  
+> 50% -   75%    -    Quality of Model  
+> 25% -   50%    -    Alignment Accuracy  
+>   0% -   25%    -    Detection of Homology
+
+**Question:** How to handle a missing loop in comparative modeling?
+
+> * One way would be to find similar loops and compute the average over them.
+> * Another solution would be to apply molecular dynamics on the loop sequence. \(only for shot loops\)
+
+##### 
 
 ### 3.3.7 Lecture 6: Secondary Structure Prediction 1 ❓
 
