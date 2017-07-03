@@ -25,13 +25,47 @@
 
 * Dynamic Programming is slow for large scale comparisons
 * Speed search up by hashing words \(seed = 3 amino acids / residues\)
-* After matching a word, try to extend it in both directions
+* After matching a word, try to extend the match by dynamic programming
 * **Major Challenge:** Get the statistics right
   * _How significant is a match_ against the background probability entire database
 
 **Question:** What is the major challenge of BLAST?
 
 > Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it against the background probability of the entire databae.
+
+#### 2. Pairwise Alignment Accuracy
+
+
+
+#### 3. Multiple Sequence Alignment
+
+
+
+#### 4. Profiles
+
+#### 5. PSI-BLAST
+
+**PSI-BLAST: **_Position-Specific Iterative Basic Local Alignment Tool_
+
+
+
+#### 6. Hidden Markov Models \(HMM\)
+
+
+
+#### 7. HMM for Alignment
+
+
+
+#### 8. Genetic Algorithm for alignment
+
+
+
+#### 9. Profile-Profile Aligments
+
+
+
+
 
 
 
