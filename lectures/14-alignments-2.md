@@ -113,7 +113,11 @@ Dynamic Programming cannot be done efficiently with multiple sequences.
 
 ##### 3.2 Multiple Alignment Hack 1: Map to Tree / Pairwise
 
-??
+##### ClustalW/ClustalX
+
+* all against all \(pairs\) by dynamic programming \(varying substitution matrices\)
+* build **phylogenetic tree**
+* slow, dynamic programming, for experts
 
 #### 4. Profiles
 
@@ -150,7 +154,7 @@ You could also write a **profile **into a substitution matrix: A matrix of numbe
 
 #### 5. PSI-BLAST
 
-**PSI-BLAST: **_Position-Specific Iterative Basic Local Alignment Tool_
+_Position-Specific Iterative Basic Local Alignment Tool_
 
 ##### PSI-BLAST Steps
 
