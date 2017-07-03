@@ -54,17 +54,21 @@
 
 **Question: **Pairwise/multiline alignment: what can we acheive, what is the risk?
 
-> **?**
+> Multiple alignment can be used to find pattern characteristics of specific protein families, build phylogenetic trees, detect homology between new sequence and existing families, help in predicting secondary structure of new sequence.
+>
+> Sequence alignment can fhelp in: finding conserved regions between the 2 sequences, similarity searches in DB.
+>
+> In case of Multiple alignment there is a risk of pollution, any errors in the initial alignments cannot be corrected later as new information from other sequences is added.
 
 **Question: **What is the difference between pairwise and multiple alignment?
 
-> **?**
+> Pairwise alignment compares 2 sequences, multiple - 3 and more. \(Also look previous question\)
 
 **Question: **Can we predict something we have not observed?
 
 > When we predict features we can try to find somthing that people "want" to see.
 
-**Question: **Sliding windows introduce information from the sequence environment. Why do we need convolutional network on top of that? Why do we need anything else on top?
+**Question: **Sliding windows introduce information from the sequence environment. Why do we need convolutional network on top of that? Why do we need anything else on top? _\(not sure about correctness of question\)_
 
 > It gives us ability to detect motifs whenever it's in sequence window. It exploits spatially local correlation.
 
@@ -73,6 +77,8 @@
 > **?**
 >
 > Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primaary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
+>
+> \(There is an answer in the last video lecture, which is not uploaded yet\)
 
 ### Questions \(Thursday, 29th June\)
 
@@ -159,7 +165,7 @@
 
 > ❓
 >
-> Shows distsnce between all possible a.a. pairs. 
+> Shows distsnce between all possible a.a. pairs.
 >
 > By using 3D structure and distance functions \(i.e. Voronoi contacts\)
 
