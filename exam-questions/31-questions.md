@@ -6,15 +6,21 @@
 
 **Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
 
-> ❓
+> E-value indicates significance of alignment/ hits returned by chance when searhing through DB. It depends on the size of dataset and length of query. So higher e-values from large DB aren't always bad \(and opposite: smaller e-values from small sample space isn't always good\).
 
 **Question: **You want to develop a new method to predict e-values, how do you prepare your data?
 
 > **?**
+>
+> Maybe to consider length of sequences, data base size, redundancy of data
 
 **Question: **What is the regular process when you want to analyse a new sequence?
 
 > ❓
+>
+> Go to DB and search your sequence to find out whether homologs of this protein are already available, and if they are, what is known about them. 
+>
+> If we didn't recieve any significant hits, try to search for motifs, patterns.
 
 **Question: **What is a structural domain? What is a functional domain and How can we deal with the fact that they can be in different places?
 
