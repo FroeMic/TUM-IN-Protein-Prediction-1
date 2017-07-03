@@ -371,12 +371,8 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 **Question:**Why is it that even with only 40% PSI, we can still assume similar structure? Could we randomly change 60% of the residues in the lab and get a new protein with similar structure?
 
 > * These 60% of changed residues happened under evolutionary pressure and are not random
->   * mutations that did not change structure 
->     &
->      function survived \(we can observe them today\)
->   * mutations that did change structure 
->     &
->      function most likely did not survive
+>   * mutations that did not change structure and function survived \(we can observe them today\)
+>   * mutations that did change structure and function most likely did not survive
 > * Thus randomly changing 60% of residues in a proteins, would not result in a similar protein
 
 **Question:**Why are certain proteins / structure multiple times in the PDB?
