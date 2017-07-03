@@ -82,7 +82,14 @@
 
 The final accuracy \(on average\) of ProfSec is about **72%**.
 
-**Prediction of correctly predicted residues: **In additional, **ProfSec can give an estimation on the strength of the prediction** for each protein. \(By counting the 'stars'\)![](/assets/Screen Shot 2017-07-02 at 20.19.46.png)
+**Prediction of correctly predicted residues: **In additional, **ProfSec can give an estimation on the strength of the prediction** for each protein. \(By counting the 'stars'\)![](/assets/Screen Shot 2017-07-02 at 20.19.46.png)**Global Information improves ProfSec's per protein prediction.**
+
+|  | **Q3 \(per residue\)** | Q4 \(per protein\) |
+| :--- | :--- | :--- |
+| **Only Sliding window \(local\)** | 72% | 70% |
+| **Local & Global** | 72% | 75% |
+
+
 
 **Question:** How does ProfSec overcome the 60% accuracy hurdle in secondary structure prediction?
 
@@ -104,6 +111,10 @@ The final accuracy \(on average\) of ProfSec is about **72%**.
 **Question:** Which accuracy does ProfSec achieve on average? What are additional advantages of other secondary structure prediction methods?
 
 > ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
+
+**Question:** Does adding global information improve ProfSec prediction?
+
+> Yes it does. While the Q3 accuracy \(per residue\) is not improved, the Q4 accuracy \(per protein\) does improve.
 
 #### 3. Proper comparison of methods
 

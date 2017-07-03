@@ -1,4 +1,4 @@
-## 3.1 Lecture Questions
+﻿## 3.1 Lecture Questions
 
 > This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant, **because he will sample exam questions from this pool.
 
@@ -116,9 +116,8 @@
 
 **Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
-> The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).
->
-> Method w/o that - Genetic algorithm that operates on segments
+> The assumption is that the alignment of the residue at position **i **is independent of the **i+x**. \(In short: alignment i and i+1 are independent\).  
+> The only method that does not rely on this assumption is the **Genetic Algorithm** \(e.g. T-Coffee\)
 
 **Question: **Why do we have so few experimentally confirmed structures in the PDB?
 

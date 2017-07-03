@@ -1,4 +1,4 @@
-## 3.3 Question Catalogue
+﻿## 3.3 Question Catalogue
 
 > This section contains possible exam questions sourced from students of previous Protein Prediction I lectures and the lecture recordings.
 
@@ -55,7 +55,7 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 * General definition of Machine Learning
 * Cross validation
 * What is ‘feature’?
-* ETP explain, example
+* ETP explain, example ❓
 * Name and describe one ML method
 * Name and describe "sequence" in context of PP
 * Discuss how to predict Protein Structure from amino-acid sequence using ML
@@ -73,12 +73,12 @@ _Part 1 is mandatory, for the rest choose 3 out of 4._
 
 **Question:** Which elements make up life?
 
-* 65.0 % - O, Oxygen
-* 18.6 % - C, Carbon
-* 9.7 % - H, Hydrogen
-* 3.2 % - N, Nitrogen
-* 1.8 % - Ca, Calcium
-* 1.0 % - P, Phosphorus
+> * 65.0 % - O, Oxygen
+> * 18.6 % - C, Carbon
+> * 9.7 % - H, Hydrogen
+> * 3.2 % - N, Nitrogen
+> * 1.8 % - Ca, Calcium
+> * 1.0 % - P, Phosphorus
 
 **Question:** What is life? Can you define it?
 
@@ -358,9 +358,119 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 > 2. Extend matching 'words' into both directions
 > 3. Begin dynamic programming from these strong local hits
 
-### 3.3.5 Lecture 4: Alignments I
+### 3.3.5 Lecture 4: Alignments II
+
+**Question:** What is the major challenge of BLAST?
+
+> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it against the background probability of the entire database.
+
+**Question:**Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
+
+> The Midnight-Zone is, where most proteins of similar structure sit.
+
+**Question:**Why is it that even with only 40% PSI, we can still assume similar structure? Could we randomly change 60% of the residues in the lab and get a new protein with similar structure?
+
+> * These 60% of changed residues happened under evolutionary pressure and are not random
+>   * mutations that did not change structure and function survived \(we can observe them today\)
+>   * mutations that did change structure and function most likely did not survive
+> * Thus randomly changing 60% of residues in a proteins, would not result in a similar protein
+
+**Question:**Why are certain proteins / structure multiple times in the PDB?
+
+> * different resolution of 3D structure
+> * different goals of publication produced \(new\) 3D structures
+>   * folding sites
+>   * binding partners
+>   * etc ...
+
+❓ **Question:** How are profiles built up? How are the normal noted down? Do we have to know a specific algorithm?
+
+> **Build up algorithm:**
+>
+> * Take all proteins of PSI over a certain threshold ...
+> * ❓
+>
+> **Profile Formats:**
+>
+> * Regular Expression
+> * PSSM \(Position Specific Scoring Matrix\) ❓
+
+**Question:** What is a PSSM \(Position Specific Scoring Matrix\)?
+
+> A matrix of numbers with scores for each residue or nucleotide at each position. Built, e.g. by PSI-BLAST.
+
+**Question:** Which steps are involved in building up a profile with PSI-BLAST?
+
+> **1\) Fast Hashing**: Like BLAST, match 'word'  
+> **2\) Dynamic Programming Extension between matches:** BLAST + Smith-Waterman  
+> **3\) Compile Statistics:** EVAL - Expectation Values  
+> **4\) Collect all pairs and build profile  
+> 5\) ... compare sequences \(profile-sequence\) and iterate**
+
+**Question:** Why is PSI-BLAST so fast?
+
+> Because it drastically reduces the length of the comparisons with dynamic programming.
 
 ### 3.3.6 Lecture 5: Comparative Modeling
+
+**Question:** How do you build up a family \(profile\) of sequences?
+
+> 1. Find proteins of similar structure with BLAST
+> 2. Build PSSM
+> 3. build up a set of pairwise alignments 
+> 4. add those over a certain HSSP value to the family
+> 5. Search with profile-sequence comparison for more distant family members and refine profile
+
+**Question:**Which methods to experimentally determine the structure of a protein exist? How much are they used?
+
+> Fraction of proteins in the PDB by experimental method:
+>
+> * 90% - X-Ray Crystallography
+> * 09% - Nuclear Magnetic Resonance Spectroscopy \(NMR\)
+> * 01 % - Electron Microscope \(EM\)
+
+**Question:**How does X-Ray Crystallography Work
+
+> 1. **Grow Crystal:**
+>    Force the protein to grow a crystal
+> 2. **Observe Diffraction Pattern**
+>    : Shoot x-rays onto crystal and observe the diffraction pattern
+> 3. **Compute Electron Density Map**
+> 4. **Fit observations to atomic model**
+
+**Question:**How to get 1D secondary structure from 3D coordinates?
+
+> Two methods where used to annotate 3D coordinates:
+>
+> 1\) DEFINE, based on geometry \(not used anymore\) 2\) DSSP, based on hydrogen bond pattern \(coulomb energy\)
+
+**Question:** How does Homology Modeling \(Comparative Modeling\) work?
+
+> **Target:** Protein to model  
+> **Template**: Protein to model from
+>
+> 1. **Identify Template:** Query the PDB for similar sequences to your **Target**
+> 2. **Align Target / Template:** Select the best match as **Template **and assume the **Target** has the same structure
+> 3. **Build Model**
+> 4. **Assess Model** 
+> 5. **Refine Model**
+
+**Question:** Which tradeoff does comparative modeling face? What are the limiting factors based on PSI \(Percentage Sequence Identity\)?
+
+> **Tradeoff:** Accuracy vs Coverage
+>
+> Limiting factor in homology modeling:  
+> 75% - 100%    -    Speed of Modeling  
+> 50% -   75%    -    Quality of Model  
+> 25% -   50%    -    Alignment Accuracy  
+>   0% -   25%    -    Detection of Homology
+
+**Question:** How to handle a missing loop in comparative modeling?
+
+> * One way would be to find similar loops and compute the average over them.
+> * Another solution would be to apply molecular dynamics on the loop sequence. \(only for shot loops\)
+
+##### 
 
 ### 3.3.7 Lecture 6: Secondary Structure Prediction 1 ❓
 
@@ -487,9 +597,74 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > ProfSec achieves a Q3 accuracy of about 72% on average. Additionally it can also predict the strength of the prediction.
 
+**Question:** Does adding global information improve ProfSec prediction?
+
+> Yes it does. While the Q3 accuracy \(per residue\) is not improved, the Q4 accuracy \(per protein\) does improve.
+
 ### 3.3.10 Lecture 9: Membrane Structure Prediction
 
+**Question:** What are the requirements of a cell membrane?
+
+> * separate the content of the cell from its surroundings
+> * control traffic into and out of the cell
+>   * keep malicious things out
+>   * let good things in
+> * must be a dynamic structure
+
+**Question:** What are the 4 main structural components of the cell membrane?
+
+> Carbohydrates, Cholesterol, Phospholipids, Proteins
+
+**Question:** What is the cell membrane mainly made out of?
+
+> The cell membrane is a so called **lipid bilayer** of **phospholipids**. Phospholipids have a non-polar, hydrophobic tail \(membrane center\) and a polar, hydrophilic head \(outside of membrane\).
+
+**Question:** What are functions of membrane proteins?
+
+> * help to be recognized by immune cells
+> * transport proteins control substance flow in and out of the cell
+> * receptor proteins bind hormons, which can change cell function
+> * provide structural stability
+
+**Question:** Can membrane proteins easily move around?
+
+> It depends:
+>
+> * Membrane proteins can easily move laterally
+> * But it is hard to move into / out of the lipid bilayer
+
+**Question:** Why are there so few membrane proteins in the PDB?
+
+> It is particularly difficult to experimentally determine the structure of membrane proteins due to the special environment they naturally occur \(the membrane\).
+
+**Question:** What are they key questions TMH prediction tries to answer?
+
+> * How many helices go through the membrane?
+> * In which direction do they go through the membrane? \(topology\)
+
+**Question:** Why could be a plausible reason why PHDSec failed for predicting transmembrane helices?
+
+> Unlike 'normal' proteins, transmembrane proteins have an hydrophobic outside and a hydrophilic inside.
+
+**Question:** How should we choose the threshold for the hydrophobic regions?
+
+> 1. Predict the hydrophobicity for the protein
+> 2. Assign a positive inside-out
+> 3. choose the threshold to **optimize the inside out difference**
+
+**Question:** What is the Positive Inside Rule and what is it used for?
+
+> The positive Inside Rule is used to find the topology of transmembrane proteins: The loops connecting TMHs on the inside of the cell membrane have an **excess of positively charged residues**.
+
 ### 3.3.11 Lecture 10: TMSEG
+
+**Question:** What are advantages of using a Random Forest?
+
+> * Fast
+> * robust against overtraining
+> * no black box
+> * Intuitive to interpret
+> * good performance
 
 ### 3.3.12 Lecture 11: Beta Membrane and Accessibility
 
