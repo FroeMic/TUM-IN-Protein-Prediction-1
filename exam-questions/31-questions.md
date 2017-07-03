@@ -98,7 +98,7 @@
 
 **Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
 
-> ❓
+> In case of PSSM  a.a. substitution scores are given separately for each position in a protein multiple sequence alignment. And in Blosum we have substitution scores for all possible substitution pairs \(210 in total\) of 20 standard a.a.
 
 **Question: **What is the most successful method to predict 3D structure?
 
@@ -106,7 +106,9 @@
 
 **Question: **What is homology modeling \(= comparative modeling\) and how does it work? What are the limitations of it?
 
-> ❓
+> Allign sequence with proteins in PDB and set a threshold. Introduce gaps as loops.
+>
+> Limitation - no similarities found \(templates are unavailable or fragmentary\), matching right residues \(errors in sequence alignment produce errors in the homology model\)
 
 **Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
 
