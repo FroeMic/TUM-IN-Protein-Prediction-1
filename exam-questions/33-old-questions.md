@@ -383,6 +383,22 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 >   * binding partners
 >   * etc ...
 
+❓ **Question:** How are profiles built up? How are the normal noted down? Do we have to know a specific algorithm?
+
+> **Build up algorithm:**
+>
+> * Take all proteins of PSI over a certain threshold ...
+> * ❓
+>
+> **Profile Formats:**
+>
+> * Regular Expression
+> * PSSM \(Position Specific Scoring Matrix\) ❓
+
+**Question:** What is a PSSM \(Position Specific Scoring Matrix\)?
+
+> A matrix of numbers with scores for each residue or nucleotide at each position. Built, e.g. by PSI-BLAST.
+
 ### 3.3.6 Lecture 5: Comparative Modeling
 
 ### 3.3.7 Lecture 6: Secondary Structure Prediction 1 ❓
