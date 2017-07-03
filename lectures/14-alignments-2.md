@@ -75,8 +75,6 @@
 
 
 
-###### 
-
 **Question:** Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
 
 > The Midnight-Zone is, where most proteins of similar structure sit.
