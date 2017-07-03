@@ -71,9 +71,7 @@
 * Over the curve \(daylight-zone\), many true-positives \(sequence identity -&gt; similar 3D structure\)
 * Under the curve \(upon entering the twilight zone\)
   * Explosion of **false positives**
-  * but also **significant increase **\(x10\) of **true positives**
-
-
+  * but also **significant increase **\(x10\) of **true positives** \(This is why we want to go into the Twilight Zone!!\)
 
 **Question:** Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
 
