@@ -121,7 +121,9 @@ _Profiles profit from relation of 'families'. _
 
 Building up a profile, we can see certain amino acids that are more conserved than others. Computationally we can identify **sequence** **motifs** that describe such a profile as a regular expression.
 
-You could also write a **profile **into a substitution matrix.
+##### PSSM \(Position Specific Scoring Matrix\)
+
+You could also write a **profile **into a substitution matrix: A matrix of numbers with scores for each residue or nucleotide at each position.
 
 
 
@@ -137,7 +139,9 @@ You could also write a **profile **into a substitution matrix.
 > * Regular Expression
 > * PSSM \(Position Specific Scoring Matrix\) ❓
 
+**Question:** What is a PSSM \(Position Specific Scoring Matrix\)?
 
+> A matrix of numbers with scores for each residue or nucleotide at each position. Built, e.g. by PSI-BLAST.
 
 #### 5. PSI-BLAST
 
