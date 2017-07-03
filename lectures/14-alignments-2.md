@@ -24,7 +24,14 @@
 **BLAST:** _Basic Local Alignment Search Tool_
 
 * Dynamic Programming is slow for large scale comparisons
-* Speed search up by 
+* Speed search up by hashing words \(seed = 3 amino acids / residues\)
+* After matching a word, try to extend it in both directions
+* **Major Challenge:** Get the statistics right
+  * _How significant is a match _against the background probability entire database
+
+**Question:** What is the major challenge of BLAST?
+
+> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it_ _against the background probability of the entire databae.
 
 
 
