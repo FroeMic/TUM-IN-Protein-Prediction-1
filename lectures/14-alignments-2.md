@@ -152,6 +152,16 @@ You could also write a **profile **into a substitution matrix: A matrix of numbe
 
 **PSI-BLAST: **_Position-Specific Iterative Basic Local Alignment Tool_
 
+##### PSI-BLAST Steps
+
+**1\) Fast Hashing**: Like BLAST, match 'word'  
+**2\) Dynamic Programming Extension between matches:** BLAST + Smith-Waterman  
+**3\) Compile Statistics:** EVAL - Expectation Values  
+**4\) Collect all pairs and build profile  
+5\) ... compare sequence and iterate**
+
+![](/assets/Screen Shot 2017-07-03 at 10.39.37.png)
+
 #### 6. Hidden Markov Models \(HMM\)
 
 #### 7. HMM for Alignment
