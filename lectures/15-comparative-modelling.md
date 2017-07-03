@@ -6,19 +6,14 @@
 
 #### 1. Recap
 
-
+* Profile-Sequence comparisons are more accurate than sequence-sequence aligments
+* Profile-Profile alignments gain even more accuracy
 
 #### 2. Goal of structure prediction
 
-
-
 #### 3. Structure by Experiment
 
-
-
 #### 4. Comparative Modeling \(=Homology Modeling\)
-
-
 
 #### 5. Comparative Modeling Steps
 
