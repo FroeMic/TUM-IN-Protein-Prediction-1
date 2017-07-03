@@ -31,7 +31,7 @@
 
 **Question:** What is the major challenge of BLAST?
 
-> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it\_ \_against the background probability of the entire databae.
+> Getting the statistics right: BLAST needs to know, h_ow significant a match is_, by comparing it against the background probability of the entire databae.
 
 
 
