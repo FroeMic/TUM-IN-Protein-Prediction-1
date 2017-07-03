@@ -174,6 +174,10 @@ _Position-Specific Iterative Basic Local Alignment Tool_
 > **4\) Collect all pairs and build profile  
 > 5\) ... compare sequences \(profile-sequence\) and iterate**
 
+**Question:** Why is PSI-BLAST so fast?
+
+> Because it drastically reduces the length of the comparisons with dynamic programming.
+
 #### 6. Hidden Markov Models \(HMM\)
 
 #### 7. HMM for Alignment
