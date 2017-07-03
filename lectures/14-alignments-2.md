@@ -187,7 +187,27 @@ Hidden Markov Model are another method for creating Machine Learning Models. The
 
 #### 7. HMM for Alignment
 
-#### 8. Genetic Algorithm for alignment
+**Generic Profile HMM for alignment**
+
+* Captures matches, insertions, deletions
+* Transition and emmission probabilities
+* gap penalty handled by variation of transition probabilities
+* calculation of probability by multiplying path variables
+
+![](/assets/Screen Shot 2017-07-03 at 10.57.05.png)**Entropy in alignment: **Consider the residue at position **i**
+
+* BEFORE any amino acid is aligned, we expect a particular amino acid to some prior background probability $$P_0$$ with entropy $$H_0$$
+* AFTER alignment we consider the same column with a _posterior probability _$$P_i + priors \rightarrow H_i$$. **We expect**
+  $$
+  H_i = \begin{cases} 0, & if\ conserved \\ H_0, & if\ varied 
+   \end{cases}
+  $$
+
+* $$H_i - H_0$$ reflects the "bits\_saved" by the alignment
+
+With small families \(few members, little divergence\) the entropy is dominated by priors \(= the background noise dominates\)
+
+* #### 8. Genetic Algorithm for alignment
 
 #### 9. Profile-Profile Aligments
 
