@@ -21,6 +21,8 @@
 
 #### 2. Goal of structure prediction
 
+_Sequence uniquely determines structure!_ ➡ Thus, from a sequence it should be possible to predict 3D structure and function
+
 #### 3. Structure by Experiment
 
 #### 4. Comparative Modeling \(=Homology Modeling\)
