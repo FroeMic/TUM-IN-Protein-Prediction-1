@@ -45,10 +45,14 @@
 
 > ❓
 
-**Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
+**Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
 
-> The assumption is that the alignment of the residue at position **i **is independent of the **i+1**. \(Short alignment i and i+1 are independent\).  
-> ❓ Method w/o that?
+> ❓
+
+**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
+
+> The assumption is that the alignment of the residue at position **i **is independent of the **i+x**. \(In short: alignment i and i+1 are independent\).  
+> The only method that does not rely on this assumption is the **Genetic Algorithm** \(e.g. T-Coffee\)
 
 **Question: **Why do we have so few experimentally confirmed structures in the PDB?
 
