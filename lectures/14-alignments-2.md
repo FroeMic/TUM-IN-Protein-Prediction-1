@@ -125,7 +125,12 @@ Building up a profile, we can see certain amino acids that are more conserved th
 
 You could also write a **profile **into a substitution matrix: A matrix of numbers with scores for each residue or nucleotide at each position.
 
+###### Building a PSSM
 
+1. Absolute Frequencies
+2. Add pseudo-counts if necessary
+3. relative frequency
+4. log likelihoods
 
 ❓ **Question:** How are profiles built up? How are the normal noted down? Do we have to know a specific algorithm?
 
