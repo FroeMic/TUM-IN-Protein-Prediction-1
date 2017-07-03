@@ -158,7 +158,10 @@ How would you assess prediction performance?
 * DOPE score \(Discrete Optimized Protein Energy\)
 * based on knowledge based pair potentials
 
-##### 
+**Question:** How to handle a missing loop in comparative modeling?
+
+> * One way would be to find similar loops and compute the average over them.
+> * Another solution would be to apply molecular dynamics on the loop sequence. \(only for shot loops\)
 
 ##### 5.2 SWISS-Model
 
