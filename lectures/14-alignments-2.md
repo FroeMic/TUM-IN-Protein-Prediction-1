@@ -197,7 +197,7 @@ Hidden Markov Model are another method for creating Machine Learning Models. The
 ![](/assets/Screen Shot 2017-07-03 at 10.57.05.png)**Entropy in alignment: **Consider the residue at position **i**
 
 * BEFORE any amino acid is aligned, we expect a particular amino acid to have some prior background probability $$P_0$$ with entropy $$H_0$$
-* AFTER the alignment we consider the same column with a _posterior probability _$$P_i + priors \rightarrow H_i$$.   
+* AFTER the alignment we consider the same column with a _posterior probability _$$P_i + priors \rightarrow H_i$$.  
   **We expect **$$H_i = \begin{cases} 0, & if\ conserved \\ H_0, & if\ varied 
    \end{cases}$$
 
@@ -205,7 +205,16 @@ Hidden Markov Model are another method for creating Machine Learning Models. The
 
 With small families \(few members, little divergence\) the entropy is dominated by priors \(= the background noise dominates\)
 
-* #### 8. Genetic Algorithm for alignment
+#### 8. Genetic Algorithm for alignment
+
+❗️❗️❗️ **Independence Assumption NOT needed for genetic algorithm**
+
+```markdown
+# All algorithms so far assumed *Independence between residues*: 
+# What happens at position i is independent of what happens at position i+x.
+
+# The genetic algorithm does not make this indepence assumption!!
+```
 
 #### 9. Profile-Profile Aligments
 
