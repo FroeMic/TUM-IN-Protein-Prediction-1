@@ -107,8 +107,6 @@ How would you assess prediction performance?
 
 ![](/assets/Screen Shot 2017-07-03 at 13.33.40.png)
 
-
-
 **Question:** How does Homology Modeling \(Comparative Modeling\) work?
 
 > **Target:** Protein to model  
@@ -130,21 +128,40 @@ How would you assess prediction performance?
 > 25% -   50%    -    Alignment Accuracy  
 >   0% -   25%    -    Detection of Homology
 
-#### 5. Comparative Modeling Steps
-
 #### 
 
-#### 6. Comparative Modeling Methods
+#### 5. Comparative Modeling Methods
 
-#### 
+##### 5.1 MODELLER
 
-##### 6.1 MODELLER
+**Summary: **lots of whistles and bells, downloadable, very accurate
+
+1. Find the model with the highest probability
+2. Variable Target function
+   1. Start model close to the template conformation
+   2. first only local constraints
+   3. minimize using conjugate gradient optimization
+   4. Repeat, introduce more and more long-range constraints
 
 ##### 
 
-##### 6.2 SWISS-Model
+##### 5.2 SWISS-Model
 
-##### 
+**Summary: **automated, increasingly comprehensive and flexible
+
+**Underlying 'Philosophy'**
+
+* fully automated
+* for non-expert users / experimental biologists
+* do less, make less mistakes
+
+**Original**
+
+1. alignment by BLAST / PSI-BLAST
+2. copy to coordinates
+3. end
+
+**Today:** More complicated ...
 
 
 
