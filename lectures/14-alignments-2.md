@@ -49,6 +49,10 @@
 
 
 
+**Question:** Why is it interesting to find similar proteins out of the Twilight / Midnight Zone?
+
+> The Midnight-Zone is, where most proteins of similar structure sit.
+
 **Question:** Why is it that even with only 40% PSI, we can still assume similar structure? Could we randomly change 60% of the residues in the lab and get a new protein with similar structure?
 
 > * These 60% of changed residues happened under evolutionary pressure and are not random
