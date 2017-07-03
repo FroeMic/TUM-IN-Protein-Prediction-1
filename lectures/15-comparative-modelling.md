@@ -153,10 +153,10 @@ How would you assess prediction performance?
 * misalignment
 * wrong template
 
-**Pick the right solution**: 
+**Pick the right solution**:
 
-* based on DOPE score \(Discrete Optimized Protein Energy\)
-  based on knowledge based pair potentials
+* DOPE score \(Discrete Optimized Protein Energy\)
+* based on knowledge based pair potentials
 
 ##### 
 
