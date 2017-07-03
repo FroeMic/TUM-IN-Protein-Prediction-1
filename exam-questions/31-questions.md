@@ -45,11 +45,12 @@
 
 **Question: **How do you run a sequence against the DB?
 
-> ❓
+> * Blast search \(uses indexing technique, scoring matrix and dynamic programming to find short similar segments\)
+> * Psi-Blast search \(at first it uses Blast search, creates profile \(PSSM\) from highest scoring hits and uses it to replace substitution matrix in a subsequent Blast search, this process can be repeated many times to refine profile\)
 
 **Question: **How do you build a family?
 
-> **?**
+> Use non-redundant database. Set a threshold for E-value. Perform similarity search of all the proteins against eash other using Blast. Proceed results i.e. set thresholds for including proteins in family \(similarity, sequence length\). For each family align proteins using ClustaW.
 
 **Question: **Pairwise/multiline alignment: what can we acheive, what is the risk?
 
@@ -85,7 +86,9 @@
 
 **Question: **Cross-Validation: What is it? How does it work? Why do we need it?
 
-> ❓
+> Is an validation technique for assessing how the results of a statistical analysis will generalize to an independent data set. We need it to to estimate how accurately a predictive model will work in practice
+>
+> N-fold cross-validation: Partion data in 'n' folds. Use 'n-1' for training and 1 for performance assessment. Repeat with different hold out partitions. Average perfomance.
 
 **Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
 
@@ -93,7 +96,7 @@
 
 **Question: **What is the most successful method to predict 3D structure?
 
-> ❓
+> comparative modelling
 
 **Question: **What is homology modeling \(= comparative modeling\) and how does it work? What are the limitations of it?
 
@@ -101,7 +104,7 @@
 
 **Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
 
-> **?**
+> While using sequence-sequence, sequence-profile and profile-profile alignment respectively.
 
 **Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
@@ -119,15 +122,21 @@
 
 > The training data for the ML model should be representative for the problem for which it should predict.
 >
-> ❓
+> Half of known structures in DB have 100% sequence similarity
 
 **Question: **Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for \_sequence-unique** **\_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
 
 > ❓
+>
+> Using RMSD and putting a threshold
+>
+> We need an unbiased dataset in order to assess perfomance of 3D to 1D prediction.
 
 **Question: **How do you compare proteins of different length?
 
 > ❓
+>
+> By using local alignment
 
 **Question: **What is the significance in using information from protein families \(also inferred as evolutionary information\) as input to the ML device predicting 3D structure?
 
@@ -149,10 +158,24 @@
 **Question: **What is a 2D contact map \(distance map\)? How can it be obtained?
 
 > ❓
+>
+> Shows distsnce between all possible a.a. pairs. 
+>
+> By using 3D structure and distance functions \(i.e. Voronoi contacts\)
 
 **Question: **Explain the concept between the notation of 1D, 2D, 3D structure. What is in the PDB? What does the DSSP give?
 
-> ❓
+> **?**
+>
+> 1D - secondary structure
+>
+> 2D - contact map
+>
+> 3D - tertiary structure, 3D shape of protein
+>
+> In PDB there is only 3D structure
+>
+> DSSP assigns secondary structure according to hydrogen-bond pattern
 
 
 
