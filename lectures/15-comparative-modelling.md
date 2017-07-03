@@ -15,8 +15,10 @@
 > 2. Build PSSM
 > 3. build up a set of pairwise alignments 
 > 4. add those over a certain HSSP value to the family
+> 5. Search with profile-sequence comparison for more distant family members and refine profile
 
-
+* When building up a profile, start with a high threshold \(only very similar sequences are taken\)
+* Later y
 
 #### 2. Goal of structure prediction
 
