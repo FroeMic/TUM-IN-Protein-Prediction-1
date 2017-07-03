@@ -399,6 +399,18 @@ Question:**Why compare 3D shapes, when we are after function? Why not compare fu
 
 > A matrix of numbers with scores for each residue or nucleotide at each position. Built, e.g. by PSI-BLAST.
 
+**Question:** Which steps are involved in building up a profile with PSI-BLAST?
+
+> **1\) Fast Hashing**: Like BLAST, match 'word'  
+> **2\) Dynamic Programming Extension between matches:** BLAST + Smith-Waterman  
+> **3\) Compile Statistics:** EVAL - Expectation Values  
+> **4\) Collect all pairs and build profile  
+> 5\) ... compare sequences \(profile-sequence\) and iterate**
+
+**Question:** Why is PSI-BLAST so fast?
+
+> Because it drastically reduces the length of the comparisons with dynamic programming.
+
 ### 3.3.6 Lecture 5: Comparative Modeling
 
 ### 3.3.7 Lecture 6: Secondary Structure Prediction 1 ❓
