@@ -40,8 +40,14 @@
 **Zones:**
 
 * **Daylight-Zone:** PSI, where it can be assumed that from a similar sequence follows similar structure
-* **Twilight-Zone:** PSI, 
-* **Midnight-Zone:** PSI,
+* **Twilight-Zone:** PSI, where it is not possible to infer similar structure from similar sequence \(the signal fades\)
+* **Midnight-Zone:** PSI, where sequence similarity does not tell anything about structure similarity \(down to random changes\)
+
+```markdown
+# Note: The Midnight-Zone is, where most proteins of similar structure sit
+```
+
+
 
 **Question:** Why is it that even with only 40% PSI, we can still assume similar structure? Could we randomly change 60% of the residues in the lab and get a new protein with similar structure?
 
