@@ -162,9 +162,17 @@ _Position-Specific Iterative Basic Local Alignment Tool_
 **2\) Dynamic Programming Extension between matches:** BLAST + Smith-Waterman  
 **3\) Compile Statistics:** EVAL - Expectation Values  
 **4\) Collect all pairs and build profile  
-5\) ... compare sequence and iterate**
+5\) ... compare sequences \(profile-sequence\) and iterate**
 
 ![](/assets/Screen Shot 2017-07-03 at 10.39.37.png)
+
+**Question:** Which steps are involved in building up a profile with PSI-BLAST?
+
+> **1\) Fast Hashing**: Like BLAST, match 'word'  
+> **2\) Dynamic Programming Extension between matches:** BLAST + Smith-Waterman  
+> **3\) Compile Statistics:** EVAL - Expectation Values  
+> **4\) Collect all pairs and build profile  
+> 5\) ... compare sequences \(profile-sequence\) and iterate**
 
 #### 6. Hidden Markov Models \(HMM\)
 
