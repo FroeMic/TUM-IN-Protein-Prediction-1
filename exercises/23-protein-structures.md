@@ -57,6 +57,23 @@
 
 ##### Alpha helix, beta sheet, loop, random coil, disordered region
 
+* **Alpha Helix**
+  * **3,6 amino acids** per turn, spiral forming
+  * typically **4-40** residues long
+  * stabilized by hydrogen bonds between backbone atoms
+* **Beta Strand / Sheet**
+  * Several **parallel** or **anti-parallel** strands form a sheet
+  * 'long-range' hydrogen bonds \(in terms of residues involved\)
+
+  * 'flat'
+* **Loop / Turn / Coil**
+  * connector between undefined secondary structure elements
+  * end / start of polypeptide chain
+* **Disordered Region / Random Coil**
+  * no clear secondary structure elements identifiable
+  * like 'statistical distribution' of shapes
+  * biologically: 'adapter' to different target shapes, which stabilize upon contact with partner
+
 Protein features: hydrophobicity, solvent accessibility, active site, binding site
 
 Ramachandran plot
