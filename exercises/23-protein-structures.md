@@ -69,8 +69,10 @@
   * 'flat'
 
 * **Loop / Turn / Coil**
+
   * connector between undefined secondary structure elements
   * end / start of polypeptide chain
+
 * **Disordered Region / Random Coil**
   * no clear secondary structure elements identifiable
   * like 'statistical distribution' of shapes
@@ -86,9 +88,13 @@
 * Binding Sites / Active Binding Sites
 * Iso-Electric Point
 
-Ramachandran plot
+##### Ramachandran plot
 
-Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29\)
+When chaining up the amino acids on the polypeptide bond, the main bond $$\omega_+$$is rather rigid and cannot rotate. The two bonds around the center atom \($$\phi,\ \psi$$\) of each amino acid, however are free to rotate \($$-180,\ +180$$ \). However, these rotation angles are subject to certain constraints \(due to e.g. the side chain of the amino acid\)
+
+A **Ramachandran Plot** plots the typical / allowed regions for **⍺-helices** and **β-sheets**.![](/assets/Screen Shot 2017-07-04 at 16.57.03.png)
+
+##### Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29\)
 
 Protein Data Bank \(PDB\)
 
