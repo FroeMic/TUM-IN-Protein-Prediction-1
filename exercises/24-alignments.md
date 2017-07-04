@@ -79,7 +79,7 @@ $$
       2. **Step up**: Only take the **Query-Value **\(vertical\), add a gap to the template sequence
       3. **Step Left:** Only take the **Template-Value **\(horizontal\), add a gap to the Query sequence
 
-##### Substitution matrix 
+##### Substitution matrix
 
 **What is better:** A short sequence matched perfectly or a long, but only partly matched sequence? We can't tell yet.
 
@@ -92,7 +92,9 @@ Substitution Matrices are **observation derived weight matrices**
 
 ##### Sequence identity, similarity, conservation
 
-##### 
+\[Source: [http://homepages.ulb.ac.be/~dgonze/TEACHING/stat\_scores.pdf](http://homepages.ulb.ac.be/~dgonze/TEACHING/stat_scores.pdf)\]
+
+**Score:** A number used to asses the biological relevance of a finding. \(Here it describes the quality of the alignment\)
 
 ##### E-value
 
@@ -238,7 +240,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:    
+**Possible Subsequences Alignment:      
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
