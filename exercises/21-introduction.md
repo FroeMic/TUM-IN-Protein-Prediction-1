@@ -4,5 +4,9 @@
 
 ---
 
+```markdown
+# Note: No actual content was thaught in the first exercise lesson.
+```
+
 
 
