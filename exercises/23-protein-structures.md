@@ -21,7 +21,13 @@
 
 ##### Protein sequence
 
-* 
+* linear sequence of amino acids \(residues\), connected by their backbone
+* formed by a condensation reaction \(formation of a peptide bond, under creation of a water molecule\)
+* oriented from **N-Terminus** to **C-Terminus**
+* typically starts with **Methionine \(AUG codon\)**
+
+
+
 ##### Secondary, tertiary, quaternary protein structure
 
 Hydrogen bonds
