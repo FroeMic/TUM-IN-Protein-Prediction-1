@@ -8,11 +8,21 @@
 
 ##### Amino acids, side chains, residues
 
+* 20 different amino acids
+* **Backbone:** all of them have the same backbone \(see following picture\)
+* **Side Chain:** the differ in their side-chains, which also give them unique features. 
+  * electrically charged side chains \(positive or negative\)
+  * polar uncharged side chains
+  * hydrophobic side chains
+  * special cases
+* Amino Acids are the building blocks of proteins. Once it is part of a protein, they amino acids is referred to as a protein
 
+![](/assets/Peptidformationball.svg.png)
 
-Protein sequence
+##### Protein sequence
 
-Secondary, tertiary, quaternary protein structure
+* 
+##### Secondary, tertiary, quaternary protein structure
 
 Hydrogen bonds
 
@@ -22,7 +32,7 @@ Protein features: hydrophobicity, solvent accessibility, active site, binding si
 
 Ramachandran plot
 
-Protein domain, PFAM \(http://pfam.xfam.org\)
+Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29\)
 
 Protein Data Bank \(PDB\)
 
