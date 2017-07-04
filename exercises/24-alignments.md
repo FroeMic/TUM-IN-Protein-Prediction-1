@@ -157,15 +157,36 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 
 ##### Multiple Sequence Alignments \(MSAs\)
 
-##### 
+* **Why? **Search strategies are needed to avoid a combinatorial explosion when running one against all alignments
+* many different algorithms available
+  * Search Tree
+  * Combine Pairwise Alignments
+  * Profiles
 
 ##### Sequence profile, iterative profile creation
 
-##### 
+* **Idea:** Build a PSSM \(Position Specific Matrix\)
+  * = A probability vector for every amino acid at every sequence position
+* several sequences needed to build a profile
+* therefore, first search the database for similar sequences
+* then compile these sequences into profil
+* search database with the profile to retrieve more candidates
+* rebuild profile 
 
-##### BLAST, PSI-BLAST
+##### BLAST
 
-##### 
+* indexing of database for typically **3-aa-word-seeds**
+* list of high-scoring words is used to find similar candidates
+* word extension to **HSP \(High Scoring Pairs\)**
+* Use Local Alignment of the full sequences
+* MANY optimization heuristics
+
+##### PSI-BLAST
+
+* Run BLAST
+* Use retrieved proteins to build a profile \(PSSM\)
+* Use profile \(PSSM\) to query database for more candidates
+* Rebuild Profile and repeat with new profile until convergence or another stop criterion is reached
 
 #### 2. Exercises
 
@@ -287,7 +308,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                            
+**Possible Subsequences Alignment:                              
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
