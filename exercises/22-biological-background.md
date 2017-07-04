@@ -95,6 +95,14 @@
 
 **Nucleic Acids:**
 
+* Store and transmit genetic information
+* A polymer built out of **Nucelotides** \(base+sugar+phosphate\)
+  * hydrophobic nucleobases on the inside
+  * hydrophilic backbone \(phosphate + sugar\)
+* **RNA:** single stranded, but can adopt complex secondary structure with itself or other RNA
+* **DNA:** typically double stranded \(**double helix**\) formed by a reverse-compliment strand
+* Bonds: non-covalent **hydrogen bonds** \(rather weak\)
+
 **Proteins:**
 
 ##### 1.4 Genetics
