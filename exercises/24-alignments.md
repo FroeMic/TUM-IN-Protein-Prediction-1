@@ -120,6 +120,7 @@ $$
 
 * The **p-value** associated to a score **S** is the probability to obtain by chance a score **x** at greater or equal to **S.**
 
+
   $$
   PVal(S) = P(x \ge S): PVal_{S}^{MSP} =  Ke^{-\lambda S} = Ke^{-ln(2)S' + ln(K)} \\= 2^{-S}
   $$
@@ -128,9 +129,14 @@ $$
 
 * he **e-value** associated to a score **S** is the number of distinct alignments, with a score greater or equal **S**, which are expected to occur in a database search by chance.
 
+
   $$
   E = m*n*Pval = Kmn*e^{-\lambda S} = \frac{m*n}{2^{S'}} \\ with\ n = length\ of\ query\ sequence,\ m\ = length\ of\ database
   $$
+
+**PSI:** Percent Sequence Identity \(Percentage of perfectly aligned residues\)
+
+**Similarity:** Percent of residues matched with a positive score in the Substitution Matrix
 
 ##### FASTA format \(basic principle\)
 
@@ -272,7 +278,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                  
+**Possible Subsequences Alignment:                    
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
