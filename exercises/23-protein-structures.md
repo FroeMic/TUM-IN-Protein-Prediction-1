@@ -241,7 +241,8 @@ Measure to determine **3D similarity** between structures
 
 **Question:** Why does the number of protein structures already decreases when reducing at 100% sequence identity? Why does it decrease when reducing at even lower sequence identity further?
 
-> ?
+> * The PDB has redundant 3D structures for certain proteins from different experiments. This has different reasons such as competing groups, different research goals, better resolution.
+> * Since most proteins developed under evolutionary pressure, large parts of proteins of the same family share a high sequence overlap.
 
 ##### 2.3 Molecular Visualization
 
