@@ -6,6 +6,54 @@
 
 #### 1. Keywords
 
+##### Pairwise alignments: global, local \(Needlman-Wunsch / Smith-Waterman\)
+
+
+
+##### Dynamic programming as solution for cascading recursion, Backtracking
+
+
+
+##### Substitution matrix: PAM, BLOSUM
+
+
+
+##### Match, mismatch, gap
+
+##### 
+
+##### Sequence identity, similarity, conservation
+
+##### 
+
+##### E-value
+
+##### 
+
+##### FASTA format \(basic principle\)
+
+##### 
+
+##### One letter code for amino acids \(you do not have to learn the code, just know what it means\)
+
+##### 
+
+##### Homology, homologues/homologs
+
+##### 
+
+##### Multiple Sequence Alignments \(MSAs\)
+
+##### 
+
+##### Sequence profile, iterative profile creation
+
+##### 
+
+##### BLAST, PSI-BLAST
+
+##### 
+
 #### 2. Exercises
 
 ##### 2.1 Questions
