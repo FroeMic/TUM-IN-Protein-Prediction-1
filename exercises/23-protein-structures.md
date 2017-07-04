@@ -178,15 +178,21 @@ Measure to determine **3D similarity** between structures
 
 **Question:** What are the building blocks of proteins?
 
-> ?
+> * Proteins are polypeptides, which consist of amino acids as building blocks
 
 **Question:** Define protein backbone and amino acid side chain in 1 or 2 sentences for each term.
 
-> ?
+> * **Backbone:** All amino acids have the same with an N-Terminus on one and a C-Terminus on the other side by which they are chained up into a protein. \(Always read / write from N- to C-Terminus\) 
+> * **Side Chain:** Each Amino Acid has a different side chain, which equips it with unique features \(length, polar, non-polar, electrically charged\)
 
 **Question:** How many amino acids appear in proteins? How can they be classified?
 
-> ?
+> All proteins are built from **20 different amino acids**. The can be classified into the following 5 groups /categories
+> * positively electrically charged side chain 
+> * negatively electrically charged side chain
+> * polar uncharged side chains
+> * hydrophobic side chains
+> * special cases
 
 **Question:** Name atom types involved in a hydrogen bond. Do S-H groups form hydrogen bonds? Why \(not\)?
 
