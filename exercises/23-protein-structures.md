@@ -26,9 +26,21 @@
 * oriented from **N-Terminus** to **C-Terminus**
 * typically starts with **Methionine \(AUG codon\)**
 
-
-
 ##### Secondary, tertiary, quaternary protein structure
+
+* **Secondary Structure**
+  * local structure elements: **⍺-helix, β-sheet, loops**
+  * building blocks for higher order structures
+  * stabilized by **hydrogen bonds**
+  * amino acids have 'preferences' for certain secondary structure elements
+
+| Coding / Representation | Protein Aspect |
+| :--- | :--- |
+| **1D Information**: sequence of amino acids as a string | **Primary Structure**: amino acid sequence |
+| **2D Information:** 2D-Array, contact map | **Secondary Structure:** helices, sheets, ... |
+| **3D Information:** coordinates or atom couplings | **Tertiary Structure:** Spatial arrangement of secondary structure elemets |
+
+##### 
 
 Hydrogen bonds
 
