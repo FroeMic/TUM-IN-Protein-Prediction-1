@@ -66,7 +66,9 @@
 
 ##### 2.3 Molecular Visualization
 
-##### 
+```markdown
+# Note: Neither mentioned in exercises nor lectures. Let's hope there is no question regarding this.
+```
 
 
 
