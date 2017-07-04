@@ -234,24 +234,32 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 >   * BLOSUM: 0
 >   * PAM250: 2
 >
-> =&gt; For BLOSUM W &lt;--&gt; F is more likely to be observed
+> =&gt; For BLOSUM W &lt;--&gt; F is more likely to be observed  
 > =&gt; For PAM250 H &lt;--&gt; R is more likely to be observed
 
 **Question:** What is a multiple sequence alignment?
 
-> ?
+> A method to align multiple sequences against each others.
+>
+> * building a consensus sequence and aligning new sequences against it
+> * building a search tree
+> * building a profile \(like PSI-BLAST\)
 
 **Question:** What kind of sequences are likely to be used for an MSA? In which relationship are they to each other?
 
-> ?
+> * Most likely, sequences which we assume a evolutionary relationship \(homology\) will be used. Following the homology assumption, we expect sequences with a high PSI to have a similar structure because they have a common ancestor.
+> * Building up a profile with them, would then allow us to discover conserved regions and use the profile to find more candidates in the Twilight Zone with Profile-Sequence comparison.
 
 **Question:** Why would you want to align multiple sequences? What kind of information is contained in MSAs but not directly in e.g. all-against-all pairwise alignments?
 
-> ?
+> Building up a profile with similar sequences, would  allow us to discover conserved regions which developed under evolutionary pressure.
+> By compiling such a family of proteins \(we assume that they have a common ancestor -&gt; homology\) into a profile, we can find more candidates in the Twilight Zone with Profile-Sequence comparison.
 
 **Question:** Given your knowledge of the algorithms for pairwise alignments, how could you calculate an MSA? Is that a feasible approach? Why?
 
-> ?
+> One approach would be to sequentially align sequences against a consensus sequence. This approach, however, comes with problems such as the need for a strategy how to find the consensus for a certain amino acid at a certain position, the fact that the order of alignment might matter, etc.
+>
+> A better approach is the creation of a PSSM \(position specific scoring matrix\), which contains for each position of the profile the likelihood that a certain amino acid occurs there.
 
 **Question:** You have a sequence which you would like to find in a database. Which search method and which E-value cutoff do you use, \[a\] if you know your sequence is in the database and only want to find that entry \[b\] if you would like to find homologs.
 
@@ -325,7 +333,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                                  
+**Possible Subsequences Alignment:                                    
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
