@@ -6,6 +6,30 @@
 
 #### 1. Keywords
 
+##### Amino acids, side chains, residues
+
+
+
+Protein sequence
+
+Secondary, tertiary, quaternary protein structure
+
+Hydrogen bonds
+
+Alpha helix, beta sheet, loop, random coil, disordered region
+
+Protein features: hydrophobicity, solvent accessibility, active site, binding site
+
+Ramachandran plot
+
+Protein domain, PFAM \(http://pfam.xfam.org\)
+
+Protein Data Bank \(PDB\)
+
+Root mean square deviation \(RMSD\)
+
+Protein function
+
 #### 2. Exercises
 
 ##### 2.1 Questions
