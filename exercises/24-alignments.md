@@ -217,7 +217,8 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 > * Global alignment methods always align 2 sequences from beginning to end.
 > * Local alignment methods only align subsequences.
 >
-> * For Global alignment to be meaningful, the sequences should have similar length. Since proteins are between 35 and 30000 residues long, it does not make sense to always use global alignment. 
+> * For Global alignment to be meaningful, the sequences should have similar length. Since proteins are between 35 and 30000 residues long, it does not make sense to always use global alignment.
+>
 > * Also when e.g. looking for proteins with a certain domain it does not make sense to use global alignment, since we are explicitly looking for subsequences.
 
 **Question:** Which amino acids can \(with high likelihood\) be substituted for Leucin without having an effect on protein function?
@@ -226,7 +227,15 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 
 **Question:** Which substitution is more probable according to PAM250 and according to BLOSUM62: \[a\] W &lt;&gt; F \[b\] H &lt;&gt; R
 
-> ?
+> * W \(Tryptophan\) &lt;--&gt; F \(Phenylalanine\)
+>   * BLOSUM: 1
+>   * PAM250: 0
+> * H \(Histidine\) &lt;--&gt; R \(Arginine\)
+>   * BLOSUM: 0
+>   * PAM250: 2
+>
+> =&gt; For BLOSUM W &lt;--&gt; F is more likely to be observed
+> =&gt; For PAM250 H &lt;--&gt; R is more likely to be observed
 
 **Question:** What is a multiple sequence alignment?
 
@@ -316,7 +325,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                                
+**Possible Subsequences Alignment:                                  
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
