@@ -4,5 +4,15 @@
 
 ---
 
+#### 1. Keywords
+
+#### 2. Exercises
+
+##### 2.1 Questions
+
+##### 2.2 Needleman-Wunsch
+
+##### 2.3 Smith-Waterman
+
 
 
