@@ -60,6 +60,45 @@
 
 ##### 1.3 Biomolecule classes, building blocks and physiological function
 
+**Hydrophilic**: likes to interact with water because of partial electrical charges \(mostly polar\)  
+**Hydrophobic:** avoids interaction with water, because of distinct charging points \(mostly non-polar\)
+
+**Lipophilic:** likes to interact with fatty / unpolar molecules \(-&gt; hydrophobic\)  
+**Lipophobic:** avoids interaction with fatty / unpolar molecules \(-&gt; hydrophilic\)
+
+**Biomolecules**
+
+* typically polymers \(= constructed from many identical or similar residues\)
+* can form complexes
+* can contain both hydrophilic and lipophilic parts
+
+**Carbohydrates:** \(sugars\)
+
+* molecule consisting of **C, H, O **atom
+* $$C_m(H_2O)_n$$ - usually hydrogen-oxygen ratio of 2:1 
+* hydrophilic
+* purpose: fuel, energy storage, structural components, ... 
+
+**Lipids:**
+
+* loosely defined as **being soluble in non-polar solvents**
+* fats, waxes, vitamins, ...
+* purpose: energy storage, signaling, structural components
+
+**Glycerolipids: ** \(Phospholipids\)
+
+* Glycerol with 3 docking slots \(hydrophobic\)
+* 3 fatty acids: triglycerids \(energy storage\)
+* 2 fatty acids + 1 phosphate group: **Phospholipid**, major building block of membranes
+
+
+
+**Nucleic Acids:**
+
+**Proteins:**
+
+
+
 ##### 1.4 Genetics
 
 ##### 1.5 Metabolism / Physiology
