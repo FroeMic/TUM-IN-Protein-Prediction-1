@@ -120,6 +120,11 @@
 
 ##### 1.5 Metabolism / Physiology
 
+**Anabolism:** Reactions that aim to the synthesis of a new substance  
+**Catabolism:** Reactions that aim to the degradation of a substance \(energy generation, removal of damaged structures\)
+
+**steady state / equilibrium:** degradation and synthesis rate are balance \(System is dynamically stable\)
+
 ##### 1.6 Proteins
 
 _More about proteins in future lectures._
