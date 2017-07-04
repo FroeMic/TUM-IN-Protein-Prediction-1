@@ -4,5 +4,29 @@
 
 ---
 
+#### 1. Keywords
+
+
+
+#### 2. Exercises
+
+##### 2.1 Questions
+
+**Question:** How many structures in PDB have a resolution with =&lt; 2 Angstrom
+
+> ?
+
+**Question:** Which term from computer science you would use to describe PROSITE patterns \(e.g. PDOC00022\).
+
+> ?
+
+**Question:** Which type of information does STRING provide?
+
+> ?
+
+**Question:** What does PFAM A contain?
+
+> ?
+
 
 
