@@ -24,6 +24,34 @@
 
 _Multiple equally scoring alignments are possible._
 
+**Global Alignment:** Needleman-Wunsch
+
+* Full Length Alignment \(comprises both sequences\)
+* Makes sense for sequences of nearly equal length
+
+$$
+Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
+\\ S_{m-1,n} + Gap
+\\ S_{m,n-1} + Gap
+ \end{cases}
+$$
+
+**Local Alignment:** Smith-Waterman
+
+* Find the best matching subsequence\(s\) between two sequences
+* Length differences do not matter
+* Sequences may be quite dissimilar
+
+$$
+Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
+\\ S_{m-1,n} + Gap
+\\ S_{m,n-1} + Gap
+\\ 0
+ \end{cases}
+$$
+
+
+
 ##### Dynamic programming as solution for cascading recursion, Backtracking
 
 ##### Substitution matrix: PAM, BLOSUM
