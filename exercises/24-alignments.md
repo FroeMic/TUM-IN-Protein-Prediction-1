@@ -173,7 +173,7 @@ $$
 
 **Find the best alignment between the sequences “WHAT” and “WHY”, using the Needleman-Wunsch algorithm, with +1 for a match, -1 for a mismatch, and -2 for a gap.**
 
-**Note:** In each row all value are written in brackets in the following format \(fromDiagonal, FromLeft, FromTop\). The chosen value is entered in the box
+_**Note:** In each row all value are written in brackets in the following format \(fromDiagonal, FromLeft, FromTop\). The chosen value is entered in the box_
 
 |  |  | W | H | A | T |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -221,4 +221,28 @@ WHY.
 ##### 2.3 Smith-Waterman
 
 **Find the best alignment between the sequences “WHAT” and “WHY”, using the Smith-Waterman algorithm, with +1 for a match, -1 for a mismatch, and -2 for a gap.**
+
+_**Note:** In each row all value are written in brackets in the following format \(fromDiagonal, FromLeft, FromTop\). The chosen value is entered in the box_
+
+|  |  | W | H | A | T |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+|  | 0 | 0 | 0 | 0 | 0 |
+| **W** | 0 | **1** \(**1**, -2, -2\) | **-1** \(**-1**, **-1**, -2\) | -1 \(**-1**, -3, -2\) | **-1** \(**-1**, -5, -2\)  |
+| **H** | 0 | -1 \(**-1**, -2,** -1**\) | 2 \(**2**, -3, -3\) | 0 \(-2, **0**, -3\) | -2 \(**-2**, **-2**, -3\) |
+| **Y** | 0 | -1 \(**-1**, -2, -3\) | 0 \(-2, -3, **0**\) | 1 \(**1**, -2, -2\) | -1 \(**-1, -1**, -4\) |
+
+_**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
+
+**Possible Subsequences Alignment:  
+**Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
+
+```
+WH
+||
+WH 
+```
+
+##### 
+
+
 
