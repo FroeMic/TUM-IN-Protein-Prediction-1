@@ -145,7 +145,35 @@
 * starts with **AUG** codon
 * by default: Sequence of RNA and Protein are noted in the same direction
 
+**Inheritance / Mutation:** Copy errors lead to rise of evolution
 
+* Mutation Types
+  * \(longe range\) rearrangements
+  * point mutations
+* **Rearrangements**
+  * rearrangements of DNA segments due to error in recombination process
+  * induced by
+    * DNA damage \(chemical, radiation\)
+    * virus infections
+  * consequences: loss of gene functions or loss of controls
+* **Point Mutations**
+  * change of a single DNA residue
+  * **Frame-Shift** \(loss / gain of a single residue\), effect rather unpredictable
+  * **Substitution **
+    * Transition: A &lt;--&gt; G or C &lt;--&gt; T
+    * Transversion: A,G &lt;--&gt; C, T
+    * Consequences: 
+      * silent
+      * missense \(= amino acid change\)
+      * nonsense \(= stop codon introduced\)
+      * affects splicing site
+  * Induced by: replication errors
+
+**Gene Regulation:** Takes place on several layers
+
+* transcription rate
+* stability of mRNA
+* translation
 
 ##### 1.5 Metabolism / Physiology
 
