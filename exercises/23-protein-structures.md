@@ -151,7 +151,11 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
 
 ##### Root mean square deviation \(RMSD\)
 
-Protein function
+Measure to determine **3D similarity** between structures
+
+1. Superimpose
+2. Align sequences to 'guess' corresponding residues
+3. Calculate the distances \(mostly $$C_\alpha$$\)
 
 #### 2. Exercises
 
