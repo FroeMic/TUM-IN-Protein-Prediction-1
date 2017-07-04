@@ -6,6 +6,44 @@
 
 #### 1. Keywords
 
+##### Genbank, EMBL,EBI
+
+
+
+##### Swissprot/Trembl
+
+
+
+##### Uniprot Flat File Format
+
+##### 
+
+##### PDB
+
+
+
+##### PDB file format
+
+##### 
+
+##### mmCIF
+
+
+
+##### Accessing these databases: BioPython
+
+##### 
+
+##### PFAM
+
+
+
+##### STRING
+
+
+
+##### PROSITE
+
 
 
 #### 2. Exercises
