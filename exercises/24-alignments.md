@@ -56,7 +56,7 @@ $$
 
 ##### Dynamic programming as solution for cascading recursion, Backtracking
 
-**Dynamic Programming: **
+**Dynamic Programming: **\(for examples, look at bottom\)
 
 1. **Setup matrix:**
    1. Template $$t$$ horizontal, Query $$q$$ vertical 
