@@ -122,6 +122,8 @@
 
 ##### 1.6 Proteins
 
+_More about proteins in future lectures._
+
 #### 2. Exercises
 
 ∅
