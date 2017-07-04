@@ -70,7 +70,9 @@ $$
       3. $$g_2 = m_{i,j-1} - GapPenalty$$
       4. **Enter **$$max(s1,g1,g2)$$ **into the box and remember which score was selected**
 3. **Backtrace**
-   1. Find the maximum value in the matrix 
+   1. Find the maximum value
+      1. Needleman-Wunsch: in the last row
+      2. Smith-Waterman: in the matrix
    2. Follow the path back to the origin and note down the aligment
       1. **Diagonal Step:** Match the corresponding residues
       2. **Step up**: Only take the Template-Value \(horizontal\), add a gap to the template sequence
@@ -169,6 +171,15 @@ $$
 ##### 2.2 Needleman-Wunsch
 
 **Find the best alignment between the sequences “WHAT” and “WHY”, using the Needleman-Wunsch algorithm, with +1 for a match, -1 for a mismatch, and -2 for a gap.**
+
+**Note:** In each row all value are written in brackets in the following format \(fromDiagonal, FromLeft, FromTop\). The chosen value is entered in the box
+
+|  |  | W | H | A | T |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+|  | 0 | -2 | -4 | -6 | -8 |
+| **W** | -2 | 1 \(**1**, -4, -4\) | -1 \(-3, **-1**, -6\) | -3 \(-5, **-3**, -8\) | -5 \(-7, **-5**, -10\) |
+| **H** | -4 | -1 \(-3, -6, **-1**\) | 2 \(**2**,  -3, -3\) | 0 \(-2, **0**, -5\) | -2 \(-4, **-2**, -7\) |
+| **Y** | -6 | -3, \(-5, -8, **-3**\) | 0 \(-2, -5, **0**\) | -1 \(**-1**, -2, -2\) |  |
 
 ##### 2.3 Smith-Waterman
 
