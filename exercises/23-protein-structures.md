@@ -188,6 +188,7 @@ Measure to determine **3D similarity** between structures
 **Question:** How many amino acids appear in proteins? How can they be classified?
 
 > All proteins are built from **20 different amino acids**. The can be classified into the following 5 groups /categories
+>
 > * positively electrically charged side chain 
 > * negatively electrically charged side chain
 > * polar uncharged side chains
@@ -196,7 +197,11 @@ Measure to determine **3D similarity** between structures
 
 **Question:** Name atom types involved in a hydrogen bond. Do S-H groups form hydrogen bonds? Why \(not\)?
 
-> ?
+> Hydrogen bonds normally involve 
+> * an **H **atom \(obviously\) as donor
+> * either an **O** or **N** atom as acceptor
+>
+> Due to its lower electronegativity Sulfur does not engage in classical Hydrogen-Bonds. \(However nonclassical hydrogen bonds with Sulfur seem to exist, according to literature\)
 
 **Question:** How are alpha helices held together?
 
