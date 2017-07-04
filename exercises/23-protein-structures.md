@@ -125,9 +125,16 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
   * T: Topology \(connection of 2ndary structure elements\) \(505\) +10
   * H: Homology \(families\)\(645\) +10
 
-##### Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29%29\)
+##### Protein domain, PFAM 
 
-##### 
+* **PFAM - Protein Families Database**
+* focus on **single domains**
+* 559 clans, 16295 families
+* **PFAM-A**
+  * manually curated
+  * HMM profiles for seed alignment
+  * HMM profiles for full alignment
+* **PFAM-B:** Automatically created
 
 Protein Data Bank \(PDB\)
 
