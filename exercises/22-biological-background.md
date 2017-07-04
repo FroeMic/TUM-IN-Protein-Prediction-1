@@ -91,13 +91,11 @@
 * 3 fatty acids: triglycerids \(energy storage\)
 * 2 fatty acids + 1 phosphate group: **Phospholipid**, major building block of membranes
 
-
+![](/assets/Screen Shot 2017-07-04 at 14.08.06.png)
 
 **Nucleic Acids:**
 
 **Proteins:**
-
-
 
 ##### 1.4 Genetics
 
