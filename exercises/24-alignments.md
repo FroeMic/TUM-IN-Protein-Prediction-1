@@ -1,4 +1,4 @@
-* ## 2.4 Alignments
+## 2.4 Alignments
 
 ###### 01.06.2017 \| [Slides](https://www.rostlab.org/sites/default/files/fileadmin/teaching/SoSe17/PP1CS/20170601_PP1_alignment.pdf) \| [Wiki](https://i12r-studfilesrv.informatik.tu-muenchen.de/sose17/pp4cs1/index.php/Alignments)
 
@@ -336,7 +336,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                                        
+**Possible Subsequences Alignment:                                          
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
