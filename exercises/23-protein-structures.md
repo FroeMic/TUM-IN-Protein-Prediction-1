@@ -210,11 +210,12 @@ Measure to determine **3D similarity** between structures
 
 **Question: **What is similar and what is different in the hydrogen bonding of the alpha helix and the beta sheet?
 
-> ?
+> * Hydrogen bonds in **Alpha Helices** are 'ultra-local' and occur along the backbone of the helix \(each 3.6 residues\)
+> * Hydrogen bonds between **Beta Sheets** happen between the beta-strands \(running parallel or antiparallel\) which can be rather far apart in sequence.
 
 **Question: **Why do we find "forbidden" areas in a Ramachandran plot?
 
-> ?
+> The Ramachandran plot shows the angles $$(\phi,\ \psi)$$ of amino acids in which alpha-helices and beta sheet are typically observed. Forbidden areas are those that are not possible due to physical constraints due to e.g. the side chain of the amino acid.
 
 **Question:** What is a protein domain?
 
