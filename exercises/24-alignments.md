@@ -107,23 +107,32 @@ $$
 * In context of sequence alignments \(BLAST\), the **bit-score s'** is a normalized score, which lets you **estimate the magnitude of the search space** to find a score greater or equal to the one you got by chance.
 
 
-  $$
+$$
   S' = \frac{\lambda S - ln(K)}{ln(2)}\\ \\ \lambda,\ K\ depend\ on\ the\ substitution\ matrix\ and\ gap\ penalties
-  $$
+$$
+
 
 * If $$S' = 30$$ this would imply that $$2^{30} = 1\ billion$$ random independent pairwise alignments are needed on average to find a similar score by chance
 
 * Size of the search space can be calculate by $$K * sequenceLength * DBEntries$$
 
-
-
 **P-Value: **Probability that an event occurs by chance
 
+* The **p-value** associated to a score **S** is the probability to obtain by chance a score **x** at greater or equal to **S.**
+  $$
+  PVal(S) = P(x \ge S): PVal_{S}^{MSP} =  Ke^{-\lambda S} = Ke^{-ln(2)S' + ln(K)} \\= 2^{-S}
+  $$
+
+**E-Value:** \(Expectation Value\) Correction of the p-value for multiple testing
+
+* he **e-value** associated to a score **S** is the number of distinct alignments, with a score greater or equal **S**, which are expected to occur in a database search by chance.
+  $$
+  E = m*n*Pval = Kmn*e^{-\lambda S} = NK*e{-\lambda S} = \frac{N}{2^{S'}}
+  $$
 
 
-##### E-value
 
-##### 
+
 
 ##### FASTA format \(basic principle\)
 
@@ -265,7 +274,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:              
+**Possible Subsequences Alignment:                
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
