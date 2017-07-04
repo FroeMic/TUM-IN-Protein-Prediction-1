@@ -29,6 +29,7 @@ _Multiple equally scoring alignments are possible._
 * Full Length Alignment \(comprises both sequences\)
 * Makes sense for sequences of nearly equal length
 
+
 $$
 Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
 \\ S_{m-1,n} + Gap
@@ -36,11 +37,13 @@ Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
  \end{cases}
 $$
 
+
 **Local Alignment:** Smith-Waterman
 
 * Find the best matching subsequence\(s\) between two sequences
 * Length differences do not matter
 * Sequences may be quite dissimilar
+
 
 $$
 Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
@@ -51,8 +54,27 @@ Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
 $$
 
 
-
 ##### Dynamic programming as solution for cascading recursion, Backtracking
+
+**Dynamic Programming: **
+
+1. **Setup matrix:**
+   1. Template $$t$$ horizontal, Query $$q$$ vertical 
+   2. Fill  the $$1^{st}$$ row / column 
+      1. Needleman-Wunsch: with increasing gap penalties
+      2. Smith-Waterman: with zeros
+2. **For each row **$$m_i$$ \(top -&gt; down\)
+   1. **For each position **$$m_{i,j}$$ \(left -&gt; right\)
+      1. $$s_1 = m_{i-1,j-1} + SubstitutionMatrix(q_i, t_j)$$
+      2. $$g_1 = m_{i-1,j} - GapPenalty$$
+      3. $$g_2 = m_{i,j-1} - GapPenalty$$
+      4. **Enter **$$max(s1,g1,g2)$$ **into the box and remember which score was selected**
+3. **Backtrace**
+   1. Find the maximum value in the matrix 
+   2. Follow the path back to the origin and note down the aligment
+      1. **Diagonal Step:** Match the corresponding residues
+      2. **Step up**: Only take the Template-Value \(horizontal\), add a gap to the template sequence
+      3. **Step Left:** Only take the Query-Value \(vertical\), add a gap to the template sequence
 
 ##### Substitution matrix: PAM, BLOSUM
 
