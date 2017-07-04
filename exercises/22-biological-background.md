@@ -101,6 +101,8 @@
   * hydrophilic backbone \(phosphate + sugar\)
 * **RNA:** single stranded, but can adopt complex secondary structure with itself or other RNA
 * **DNA:** typically double stranded \(**double helix**\) formed by a reverse-compliment strand
+  * Has a **5' end** and a **3' end**.
+  * always annotated from **5' to 3'**
 * Bonds: non-covalent **hydrogen bonds** \(rather weak\)
 
 **Proteins:**
