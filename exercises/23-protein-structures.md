@@ -74,6 +74,7 @@
   * end / start of polypeptide chain
 
 * **Disordered Region / Random Coil**
+
   * no clear secondary structure elements identifiable
   * like 'statistical distribution' of shapes
   * biologically: 'adapter' to different target shapes, which stabilize upon contact with partner
@@ -94,7 +95,36 @@ When chaining up the amino acids on the polypeptide bond, the main bond $$\omega
 
 A **Ramachandran Plot** plots the typical / allowed regions for **⍺-helices** and **β-sheets**.![](/assets/Screen Shot 2017-07-04 at 16.57.03.png)
 
-##### Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29\)
+##### 
+
+##### Classification of Structures
+
+Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein structures available in the PDB based on **single domains.**
+
+* Hierarchical System
+  * Secondary Structure Content
+  * Fold
+  * Super Families
+  * Families
+
+**SCOP:** Structural Classification Of Proteins
+
+* fully manually curated, driven by expert analysis
+
+**CATH:** \(Class, Architecture, Topology, Homologous Superfamily\)
+
+* semi-automatic procedure for deriving a novel hierarchical classification of protein domain structures
+* 4 main levels
+  * **Protein Class:** Mainly secondary structure composition of each domain 
+  * **Architecture:** Summarizes shapes based on orientation of secondary structure elements
+  * **Topology:** Sequential connection considered
+  * **Homologous Superfamily:** High similarity with similar functions, evolutionary relationship assumed
+
+
+
+##### Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29\)\)
+
+##### 
 
 Protein Data Bank \(PDB\)
 
