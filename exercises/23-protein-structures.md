@@ -62,10 +62,12 @@
   * typically **4-40** residues long
   * stabilized by hydrogen bonds between backbone atoms
 * **Beta Strand / Sheet**
+
   * Several **parallel** or **anti-parallel** strands form a sheet
   * 'long-range' hydrogen bonds \(in terms of residues involved\)
 
   * 'flat'
+
 * **Loop / Turn / Coil**
   * connector between undefined secondary structure elements
   * end / start of polypeptide chain
@@ -74,7 +76,15 @@
   * like 'statistical distribution' of shapes
   * biologically: 'adapter' to different target shapes, which stabilize upon contact with partner
 
-Protein features: hydrophobicity, solvent accessibility, active site, binding site
+##### Protein features
+
+* Size
+* Amino Acid Composition
+* Surface Area 
+* Hydrophobicity
+* Solvent accessibility
+* Binding Sites / Active Binding Sites
+* Iso-Electric Point
 
 Ramachandran plot
 
