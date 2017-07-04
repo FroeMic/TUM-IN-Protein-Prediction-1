@@ -157,6 +157,21 @@ Measure to determine **3D similarity** between structures
 2. Align sequences to 'guess' corresponding residues
 3. Calculate the distances \(mostly $$C_\alpha$$\)
 
+##### Protein Function
+
+* **Gene Ontology \(GO\)**
+  * controlled vocabulary
+  * hierarchically structured
+  * 3 Main Sections
+    * cellular component
+    * molecular function
+    * biological process
+* **Enzyme Commission Number**
+  * Numerical Classification of enzymes
+  * Based on chemical reactions the catalyse
+  * recommends enzyme name
+  * does not imply any evolutionary relation
+
 #### 2. Exercises
 
 ##### 2.1 Questions
