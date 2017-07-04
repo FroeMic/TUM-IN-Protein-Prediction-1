@@ -33,7 +33,30 @@
   * ~ 300 amino acids for prokaryotic proteins
   * ~ 400 amino acids for eukaryotic proteins
 
+![](/assets/Screen Shot 2017-07-04 at 13.26.54.png)
+
 ##### 1.2 Morphology - Cellular Structure
+
+**Terms:**
+
+1. Cell **Membrane**: A selective barrier separating the inside of a cell / organelle from the outside, consisting of a **phospholipid bilayer**.
+2. **Cytoplasm:** semi-liquid medium inside the cytoplasm membrane
+3. **Cytoplasmatic Membrane:** the membrane around the cell
+4. **Cell Compartment:** a region within the cell mostly enclosed by a membrane
+5. **Cell Organelle:** a special type of compartment that has a certain function within the cell
+6. **Nucleus:** a membrane enclosed volume of the cell, which contains most of the genomic material
+7. **Cell Wall:** Some cells have an extra cellular rigid layer
+
+**Cell Organelles:** Ribosome, Mitochondrium, Chloroplasts
+
+**Prokaryotic vs Eukaryotic Cells:**
+
+| Eukaryotic Cell | Prokaryotic Cell |
+| :--- | :--- |
+| membrane enclosed compartments | No membrane enclosed compartments |
+| genomic material in nucleus | Genomic Material located in nucleoid region |
+| organelles: mitochondria, chloroplasts | No organelles |
+| compartments:  endoplasmatic reticulum, Golgi-apparatus |  |
 
 ##### 1.3 Biomolecule classes, building blocks and physiological function
 
