@@ -125,7 +125,7 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
   * T: Topology \(connection of 2ndary structure elements\) \(505\) +10
   * H: Homology \(families\)\(645\) +10
 
-##### Protein domain, PFAM 
+##### Protein domain, PFAM
 
 * **PFAM - Protein Families Database**
 * focus on **single domains**
@@ -135,6 +135,12 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
   * HMM profiles for seed alignment
   * HMM profiles for full alignment
 * **PFAM-B:** Automatically created
+
+**Family:** Collection of related protein regions  
+**Domain:** Structural Unit  
+**Repeat:** short unit, unstable in isolation, but forms stable structure when found in multiple copies  
+**Motif:** short unit found outside globular domains  
+**Clans:** related group of PFAM family entries
 
 Protein Data Bank \(PDB\)
 
