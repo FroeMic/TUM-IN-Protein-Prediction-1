@@ -184,5 +184,83 @@
 >
 > DSSP assigns secondary structure according to hydrogen-bond pattern
 
+### Questions \(Tuesday, 4th July\)
+
+**Question:** Why do we need separate methods to predict secondary structure for membrane and water-soluble / non-membrane proteins? What is needer for membrane prediction beyond secondary structure?
+
+
+Methods trained to predict secondary structure in soluble environment fail for membrane proteins (empirical observation). Reason for this is that the environment (the membrane) is very different.
+
+**Question:** What is the principle difference between PSI-BLAST and CLUSTALW (or any other multiple sequence alignment method)?
+
+The differ in the way the background statistics are compiled. BLAST is so fast because it compiles the background statistics only once. CLUSTALW on the other hand uses random sampling.❓
+
+Optimization Criteria is different:
+- BLAST: Alignment
+- CLUSTALW:  Optimize family alignment
+
+**Question:**  How do you measure the similarity between a profile (PSM) and a sequence?
+You calculate the PSSM score.
+
+**Question:** In the 1st iteration of PSI-BLAST finds the most low hanging fruits through pairwise comparison. What does it do in the 2nd iteration? Why can this work better? What could happen that makes the 3rd iteration not find more more hits than the 2nd one (for all n=1=…N)?  Say n+1 finds  many more hits than n:  everything ok?
+
+- Because we have a PSSM that contains information about the conserved sections
+
+- In n+1 I have the same number of hits as in n: 
+	- Convergence
+	- My Family is too small and I never build up a working profile
+
+- Nope, not everything is ok. It could have happened that the profile was messed up by proteins, which are not part of the family.
+
+**Question:** How is the **e-value** for PSI-BLAST, FASTA calculated. 
+
+- PSI-BLAST
+	- … ?
+	- e-value changes over iterations
+
+**Question:** What might per-residue  scores poorly reflect the performance of transmembrane prediction? Invent an alternative method to score TMH prediction methods.
+
+- For most membrane proteins, most residues are NOT in the membrane. 
+- It is not really what I want to predict. I want to predict the specific TMH. How many TMH do I have?  At which position are they? Which topology does the protein have?
+
+**Question:**  Method A is published to predict solvent accessibility at Q2=61%, Method B in another publication claims to achieve Q2=63%. What do you have to check to ascertain that methods B is really a better methods? (Address the terms significance (statistical, scientific) in your response)
+
+- Use the same way of computing Q2?
+- Do the use the same data?
+- Which data was used to train the method? Best, test both methods on proteins  that where released after the methods were published.
+- Is there a difference between the methods beyond the standard error? Is the difference in accuracy statistically significant?
+- Does the +2% help me to get better scientific results / insights? Is there an advantage in scientific terms? Is it better than random?
+
+**Question:** What features can be used to predict secondary structure from sequence? Argue why?
+- The PSSM is the most important features?
+- … (many more)
+
+**Question:** What is the most accurate way to predict protein 3D structure (explain the idea behind the method) ? Why does this methods hardly work for membrane proteins and even less well for disorder proteins?
+
+- Homology Modeling
+… 
+
+**Question:** UniProt currently holds about 85 Million proteins sequences: Do we have any idea about the structure of any of those? Roughly for how many? Do we have any idea how many of the 85Million are membrane / disorder?
+
+- Yes, for those in the PDB (about 120k)
+- By membrane prediction methods, we can predict which proteins are membrane proteins. So we can predict the number of membrane / disorder proteins under consideration of prediction accuracy
+- For the human proteon, it is estimated that about 25% are membrane proteins.
+
+**Question:** You want to use a regular neural network (input/hidden/output) too solve a certain prediction model. (e.g. predict disordered regions). How can you find how many hidden units you need? How what the best input is? How to best code the output (here disorder)?
+
+- empirically - you need to try it
+	- Start with the output unit? What do you want to get out?
+- output: reliability, …
+- input: try out what do pull in? What has worked for others?
+- hidden: defined by the complexity of the problem and the number of samples
+
+**Question:** You want to develop a method to predict secondary structure in 3 states (HEL). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What you you have to watch? Can you use the entire PDB? Once you have N proteins in you dataset: how can you assess prediction performance? (How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance)
+
+**Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modelling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost (time/money) to experimentally determine the 3D structure of an average protein?
+
+**Question:** How would you define life? How are proteins crucial to maintain it?
+
+**Question:** Why do we need membranes around cells? What are they made of? Why do proteins pass through membranes?
+
 
 
