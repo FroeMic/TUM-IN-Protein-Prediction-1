@@ -4,34 +4,9 @@
 
 ---
 
-#### 1. Keywords
-
-1.1 Unit and Dimension
-
-
-
-1.2 Morphology - Cellular Structure
+```
+# Note: No actual content was thaught in the first exercise lesson.
+```
 
 
-
-1.3 Biomolecule classes, building blocks and physiological function
-
-
-
-1.4 Genetics
-
-
-
-1.5 Metabolism / Physiology
-
-
-
-1.6 Proteins
-
-  
-
-
-#### 2. Exercises
-
-∅
 
