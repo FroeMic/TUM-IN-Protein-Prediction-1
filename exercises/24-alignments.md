@@ -62,7 +62,8 @@ $$
    1. Template $$t$$ horizontal, Query $$q$$ vertical 
    2. Fill  the $$1^{st}$$ row / column 
       1. Needleman-Wunsch: with increasing gap penalties
-      2. Smith-Waterman: with zeros
+      2. Needleman-Wunsch \(with free-shift\): with zeros
+      3. Smith-Waterman: with zeros
 2. **For each row **$$m_i$$ \(top -&gt; down\)
    1. **For each position **$$m_{i,j}$$ \(left -&gt; right\)
       1. $$s_1 = m_{i-1,j-1} + SubstitutionMatrix(q_i, t_j)$$
