@@ -49,9 +49,13 @@
 
 ##### 
 
-Hydrogen bonds
+##### Hydrogen bonds
 
-Alpha helix, beta sheet, loop, random coil, disordered region
+* **weak** bond between H-atom \(donor\) and **O** or **N** atom
+* Distance: $$160 - 200\ pm$$ \(relatively large distance\)
+* stabilize secondary structure formations
+
+##### Alpha helix, beta sheet, loop, random coil, disordered region
 
 Protein features: hydrophobicity, solvent accessibility, active site, binding site
 
