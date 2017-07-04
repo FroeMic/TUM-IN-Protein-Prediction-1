@@ -119,10 +119,13 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
   * **Architecture:** Summarizes shapes based on orientation of secondary structure elements
   * **Topology:** Sequential connection considered
   * **Homologous Superfamily:** High similarity with similar functions, evolutionary relationship assumed
+* **Numbering Scheme**
+  * C: \(Alpha, Beta, Alpha/Beta\) +1
+  * A: Same Architecture, different Topology \(31\) + 10
+  * T: Topology \(connection of 2ndary structure elements\) \(505\) +10
+  * H: Homology \(families\)\(645\) +1-
 
-
-
-##### Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29\)\)
+##### Protein domain, PFAM \([http://pfam.xfam.org\](http://pfam.xfam.org%29%29\)
 
 ##### 
 
