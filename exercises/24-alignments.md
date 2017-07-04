@@ -142,11 +142,11 @@ $$
 
 ##### FASTA format \(basic principle\)
 
-##### 
+???
 
 ##### One letter code for amino acids \(you do not have to learn the code, just know what it means\)
 
-##### 
+Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Proteinogenic\_amino\_acid](https://en.wikipedia.org/wiki/Proteinogenic_amino_acid#Side_chain_properties)
 
 ##### Homology, homologues/homologs
 
@@ -283,7 +283,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                        
+**Possible Subsequences Alignment:                          
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
