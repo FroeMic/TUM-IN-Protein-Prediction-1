@@ -95,6 +95,8 @@ Substitution Matrices are **observation derived weight matrices**
 \[Source: [http://homepages.ulb.ac.be/~dgonze/TEACHING/stat\_scores.pdf](http://homepages.ulb.ac.be/~dgonze/TEACHING/stat_scores.pdf)\]
 
 **Score:** A number used to asses the biological relevance of a finding. \(Here it describes the quality of the alignment\)
+
+
 $$
 S = \sum_{i=1}^L S_{r_{1,i}, r_{2,i}} \\ with\ respective\ gap\ penalties,\ if\ r_{1,i}\ or\ r_{2,i}\ is\ a\ gap
 $$
@@ -103,10 +105,13 @@ $$
 **Bit-Score:** A log-scaled version of the score
 
 * In context of sequence alignments \(BLAST\), the **bit-score s'** is a normalized score, which lets you **estimate the magnitude of the search space** to find a score greater or equal to the one you got by chance.
+
   $$
   S' = \frac{\lambda S - ln(K)}{ln(2)}\\ \\ \lambda,\ K\ depend\ on\ the\ substitution\ matrix\ and\ gap\ penalties
   $$
-* If $$S' = 30$$ this would imply that $$2^{30} = 1 billion$$ random independent pairwise alignments are needed on average to find a similar score by chance
+
+* If $$S' = 30$$ this would imply that $$2^{30} = 1\ billion$$ random independent pairwise alignments are needed on average to find a similar score by chance
+* Size of the search space can be calculate by $$K * sequenceLength * DBEntries$$
 
 ##### E-value
 
@@ -252,7 +257,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:          
+**Possible Subsequences Alignment:            
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
