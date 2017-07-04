@@ -17,8 +17,6 @@
 * Gap Penalties \(linear, affine\)
 * global, free-shift, local
 
-
-
 ##### Dynamic programming as solution for cascading recursion, Backtracking
 
 ##### Substitution matrix: PAM, BLOSUM
@@ -113,7 +111,11 @@
 
 ##### 2.2 Needleman-Wunsch
 
+**Find the best alignment between the sequences “WHAT” and “WHY”, using the Needleman-Wunsch algorithm, with +1 for a match, -1 for a mismatch, and -2 for a gap.**
+
+
+
 ##### 2.3 Smith-Waterman
 
-
+**Find the best alignment between the sequences “WHAT” and “WHY”, using the Smith-Waterman algorithm, with +1 for a match, -1 for a mismatch, and -2 for a gap.**
 
