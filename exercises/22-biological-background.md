@@ -107,6 +107,15 @@
 
 **Proteins:**
 
+* polymerized amino acids
+* _work horse_ or _machinery of life_
+* functions
+  * catalysis of chemical reactions \(enzymes\)
+  * structural elements \(collagen fibers\)
+  * sensing
+  * immune system
+  * etc ... 
+
 ##### 1.4 Genetics
 
 ##### 1.5 Metabolism / Physiology
