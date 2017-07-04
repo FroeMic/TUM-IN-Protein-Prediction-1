@@ -6,8 +6,6 @@
 
 #### 1. Keywords
 
-
-
 #### 2. Exercises
 
 ##### 2.1 Questions
@@ -48,11 +46,23 @@
 
 > ?
 
-
-
 ##### 2.2 PDB
 
+**Question:** How many structures are stored in the PDB? How many of those are protein structures?
 
+> ?
+
+**Question:** Which experimental methods are \(mainly\) used to determine the structures? How long does it on average take to find the 3D structure for one protein for each method?
+
+> ?
+
+**Question:** How many human \("Homo sapiens"\) protein structures are in the PDB?
+
+> ?
+
+**Question:** Why does the number of protein structures already decreases when reducing at 100% sequence identity? Why does it decrease when reducing at even lower sequence identity further?
+
+> ?
 
 ##### 2.3 Molecular Visualization
 
