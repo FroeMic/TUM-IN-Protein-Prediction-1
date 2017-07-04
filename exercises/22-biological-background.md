@@ -118,6 +118,35 @@
 
 ##### 1.4 Genetics
 
+**Gene:** Any discrete locus of heritable, genomic sequence which affect an organism's traits by being expressed as a functional product or by regulation of gene expression  
+= every subsequence of DNA that encodes a functional protein
+
+**Central Dogma of Molecular Biology: \(!!!\)** Describes the flow of information from **DNA** to **RNA** to **Protein**![](/assets/Screen Shot 2017-07-04 at 14.35.46.png)
+
+**1\) Replication:** Duplication of DNA
+
+* highly controlled, carried out by multi-protein complex
+* for each strand in the double helix, a complementary strand is synthesized
+* in **5' -&gt; 3'** direction
+
+**2\) Transcription:** Creation of working copy of genes
+
+* synthesis of a single stranded RNA from a template sequence in the DNA \(after a promoter region\)
+* carried out by a multi protein complex
+* the resulting **mRNA** undergoes several maturing steps before Translation
+  * mRNA: translated into protein
+  * xRNA: function
+  * rRNA: component of the Ribosome
+  * tRNA: amino acid carrier for translation
+
+**3\) Translation:** Conversion of **mRNA** into protein
+
+* carried out by **ribosomen**
+* starts with **AUG** codon
+* by default: Sequence of RNA and Protein are noted in the same direction
+
+
+
 ##### 1.5 Metabolism / Physiology
 
 **Anabolism:** Reactions that aim to the synthesis of a new substance  
