@@ -33,12 +33,19 @@
   * building blocks for higher order structures
   * stabilized by **hydrogen bonds**
   * amino acids have 'preferences' for certain secondary structure elements
+* **Tertiary Structure**
+  * spatial arrangement of secondary structure elements of a protein
+  * alternative arrangements can exist
+  * can be used to **hierachicaly organize** found proteins
+* **Quarternary Structure**
+  * formation of **multi-protein complexes**
+  * difficult to determine precisely
 
 | Coding / Representation | Protein Aspect |
 | :--- | :--- |
 | **1D Information**: sequence of amino acids as a string | **Primary Structure**: amino acid sequence |
 | **2D Information:** 2D-Array, contact map | **Secondary Structure:** helices, sheets, ... |
-| **3D Information:** coordinates or atom couplings | **Tertiary Structure:** Spatial arrangement of secondary structure elemets |
+| **3D Information:** coordinates or atom couplings | **Tertiary Structure:** Spatial arrangement of secondary structure elements |
 
 ##### 
 
