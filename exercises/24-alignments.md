@@ -186,7 +186,8 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 * Run BLAST
 * Use retrieved proteins to build a profile \(PSSM\)
 * Use profile \(PSSM\) to query database for more candidates
-* Rebuild Profile and repeat with new profile until convergence or another stop criterion is reached
+* Rebuild Profile
+* Repeat search for candidates with new profile until convergence or another stop criterion is reached
 
 #### 2. Exercises
 
@@ -206,15 +207,22 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 
 **Question:** Why are sequence alignments useful?
 
-> ?
+> * They are useful because the allow use to find the 'best' possible match between two sequences. Only this allows use to
+>   * compare their 3D structure
+>   * create predictions about their similarity in 3D structure
+>   * make assumptions about their evolutionary relatedness
 
 **Question:** What are the main differences in the algorithms of Global and Local alignment? Why does it make sense to not always perform a global alignment.
 
-> ?
+> * Global alignment methods always align 2 sequences from beginning to end.
+> * Local alignment methods only align subsequences.
+>
+> * For Global alignment to be meaningful, the sequences should have similar length. Since proteins are between 35 and 30000 residues long, it does not make sense to always use global alignment. 
+> * Also when e.g. looking for proteins with a certain domain it does not make sense to use global alignment, since we are explicitly looking for subsequences.
 
 **Question:** Which amino acids can \(with high likelihood\) be substituted for Leucin without having an effect on protein function?
 
-> ?
+> Methionine \(2\). Isoleucin \(2\), Valine \(2\), Phenylalanine \(0\), because the have a positive score in the BLOSUM62 matrix
 
 **Question:** Which substitution is more probable according to PAM250 and according to BLOSUM62: \[a\] W &lt;&gt; F \[b\] H &lt;&gt; R
 
@@ -308,7 +316,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                              
+**Possible Subsequences Alignment:                                
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
