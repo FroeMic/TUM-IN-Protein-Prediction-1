@@ -170,7 +170,10 @@ $$
 
 **Question:** How can you define similarity between two protein sequences?
 
-> ?
+> Two ways to define similarity are to compute the percentage of residues that were aligned
+>
+> * and matched on the same amino acid \(PSI, Percent Sequence Identity\)
+> * and matched with a positive score in the Substitution Matrix
 
 **Question: **What does "conservation" mean in the context of sequence alignments?
 
@@ -280,7 +283,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                      
+**Possible Subsequences Alignment:                        
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
