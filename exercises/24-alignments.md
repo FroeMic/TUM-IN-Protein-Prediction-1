@@ -20,7 +20,7 @@
 
 * Substitution matrix \(for each pair\)
 * Gap Penalties \(linear, affine\)
-* global, free-shift, local
+* global, free-shift \(global, but gaps at the start and end of the alignment are not counted\) , local
 
 _Multiple equally scoring alignments are possible._
 
