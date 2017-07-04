@@ -14,7 +14,7 @@
 
 * **Mole:** Amount of Substance, which contains as many elementary entites as atoms in $$0,012 kg\ of\ {}^{12}C$$ isotope
 
-* **Avogadro Constant:** $$N_A$$ or $$L$$, entities per mole and is defined as $$6,022 * 10^{23}\     mol^{−1}$$
+* **Avogadro Constant:** $$N_A$$ or $$L$$, entities per mole and is defined as $$6,022 * 10^{23}\ mol^{ -1}$$
 
 **Spatial dimensions:**
 

@@ -34,7 +34,7 @@ $$
 Naive\ Recursive\ Formular:\ S_{m,n} = max \begin{cases} S_{m-1,n-1} + d(m,n)
 \\ S_{m-1,n} + Gap
 \\ S_{m,n-1} + Gap
- \end{cases}
+\end{cases}
 $$
 
 
@@ -98,7 +98,7 @@ Substitution Matrices are **observation derived weight matrices**
 
 
 $$
-S = \sum_{i=1}^L S_{r_{1,i}, r_{2,i}} \\ with\ respective\ gap\ penalties,\ if\ r_{1,i}\ or\ r_{2,i}\ is\ a\ gap
+S = \sum_{i=1}^L S_{r_{1,i}, r_{2,i}}\ with\ respective\ gap\ penalties,\ if\ r_{1,i}\ or\ r_{2,i}\ is\ a\ gap
 $$
 
 
@@ -108,7 +108,7 @@ $$
 
 
 $$
-  S' = \frac{\lambda S - ln(K)}{ln(2)}\\ \\ \lambda,\ K\ depend\ on\ the\ substitution\ matrix\ and\ gap\ penalties
+  S' = \frac{\lambda S - ln(K)}{ln(2)}\ \lambda,\ K\ depend\ on\ the\ substitution\ matrix\ and\ gap\ penalties
 $$
 
 
@@ -122,7 +122,7 @@ $$
 
 
 $$
-  PVal(S) = P(x \ge S): PVal_{S}^{MSP} =  Ke^{-\lambda S} = Ke^{-ln(2)S' + ln(K)} \\= 2^{-S}
+  PVal(S) = P(x \ge S): PVal_{S}^{MSP} =  Ke^{-\lambda S} = Ke^{-ln(2)S' + ln(K)} = 2^{-S}
 $$
 
 
@@ -132,7 +132,7 @@ $$
 
 
 $$
-  E = m*n*Pval = Kmn*e^{-\lambda S} = \frac{m*n}{2^{S'}} \\ with\ n = length\ of\ query\ sequence,\ m\ = length\ of\ database
+  E = m*n*Pval = Kmn*e^{-\lambda S} = \frac{m*n}{2^{S'}}\ with\ n = length\ of\ query\ sequence,\ m\ = length\ of\ database
 $$
 
 
