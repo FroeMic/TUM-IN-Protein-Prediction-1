@@ -197,7 +197,8 @@ Measure to determine **3D similarity** between structures
 
 **Question:** Name atom types involved in a hydrogen bond. Do S-H groups form hydrogen bonds? Why \(not\)?
 
-> Hydrogen bonds normally involve 
+> Hydrogen bonds normally involve
+>
 > * an **H **atom \(obviously\) as donor
 > * either an **O** or **N** atom as acceptor
 >
@@ -205,7 +206,7 @@ Measure to determine **3D similarity** between structures
 
 **Question:** How are alpha helices held together?
 
-> ?
+> Alpha-Helices are stabilized by **hydrogen bonds** along the backbone. Every turn takes about **3,6 **residues.
 
 **Question: **What is similar and what is different in the hydrogen bonding of the alpha helix and the beta sheet?
 
