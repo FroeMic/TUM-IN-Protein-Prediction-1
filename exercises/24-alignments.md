@@ -8,6 +8,11 @@
 
 ##### Pairwise alignments: global, local \(Needlman-Wunsch / Smith-Waterman\)
 
+**Alignment is needed to**
+
+* compare sequences
+* find the best possible alignment to callculate distance measure
+
 **Goal:** Find the arrangement of residues that minimizes / maximizes the scoring function  
 **Biology:** Try to maximize the overlap between the sequences
 
@@ -16,6 +21,8 @@
 * Substitution matrix \(for each pair\)
 * Gap Penalties \(linear, affine\)
 * global, free-shift, local
+
+_Multiple equally scoring alignments are possible._
 
 ##### Dynamic programming as solution for cascading recursion, Backtracking
 
@@ -112,8 +119,6 @@
 ##### 2.2 Needleman-Wunsch
 
 **Find the best alignment between the sequences “WHAT” and “WHY”, using the Needleman-Wunsch algorithm, with +1 for a match, -1 for a mismatch, and -2 for a gap.**
-
-
 
 ##### 2.3 Smith-Waterman
 
