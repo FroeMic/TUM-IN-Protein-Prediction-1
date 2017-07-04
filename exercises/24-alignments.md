@@ -75,8 +75,8 @@ $$
       2. Smith-Waterman: in the matrix
    2. Follow the path back to the origin and note down the aligment
       1. **Diagonal Step:** Match the corresponding residues
-      2. **Step up**: Only take the Template-Value \(horizontal\), add a gap to the template sequence
-      3. **Step Left:** Only take the Query-Value \(vertical\), add a gap to the template sequence
+      2. **Step up**: Only take the **Query-Value **\(vertical\), add a gap to the template sequence
+      3. **Step Left:** Only take the **Template-Value **\(horizontal\), add a gap to the Query sequence
 
 ##### Substitution matrix: PAM, BLOSUM
 
@@ -206,18 +206,16 @@ WH.Y
 | :--- | :--- | :--- | :--- | :--- | :--- |
 |  | 0 | -2 | -4 | -6 | -8 |
 | **W** | -2 | **1** |  |  |  |
-| **H** | -4 |  | **2** | **0** |  |
-| **Y** | -6 |  |  |  | **-1** |
+| **H** | -4 |  | **2** |  |  |
+| **Y** | -6 |  |  | **1** | **-1** |
 
 **Alignment:**
 
 ```
 WHAT
 ||
-WH.Y
+WHY.
 ```
-
-
 
 ##### 2.3 Smith-Waterman
 
