@@ -10,5 +10,53 @@
 
 #### 2. Exercises
 
+##### 2.1 Questions
+
+**Question:** What are the building blocks of proteins?
+
+> ?
+
+**Question:** Define protein backbone and amino acid side chain in 1 or 2 sentences for each term.
+
+> ?
+
+**Question:** How many amino acids appear in proteins? How can they be classified?
+
+> ?
+
+**Question:** Name atom types involved in a hydrogen bond. Do S-H groups form hydrogen bonds? Why \(not\)?
+
+> ?
+
+**Question:** How are alpha helices held together?
+
+> ?
+
+**Question: **What is similar and what is different in the hydrogen bonding of the alpha helix and the beta sheet?
+
+> ?
+
+**Question: **Why do we find "forbidden" areas in a Ramachandran plot?
+
+> ?
+
+**Question:** What is a protein domain?
+
+> ?
+
+**Question:** How many amino acids are typically found a in a domain? Why is there a minimum/maximum size?
+
+> ?
+
+
+
+##### 2.2 PDB
+
+
+
+##### 2.3 Molecular Visualization
+
+##### 
+
 
 
