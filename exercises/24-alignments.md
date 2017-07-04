@@ -252,7 +252,7 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 
 **Question:** Why would you want to align multiple sequences? What kind of information is contained in MSAs but not directly in e.g. all-against-all pairwise alignments?
 
-> Building up a profile with similar sequences, would  allow us to discover conserved regions which developed under evolutionary pressure.
+> Building up a profile with similar sequences, would  allow us to discover conserved regions which developed under evolutionary pressure.  
 > By compiling such a family of proteins \(we assume that they have a common ancestor -&gt; homology\) into a profile, we can find more candidates in the Twilight Zone with Profile-Sequence comparison.
 
 **Question:** Given your knowledge of the algorithms for pairwise alignments, how could you calculate an MSA? Is that a feasible approach? Why?
@@ -263,11 +263,14 @@ Yes. Find a table with abbreviations here[ https://en.wikipedia.org/wiki/Protein
 
 **Question:** You have a sequence which you would like to find in a database. Which search method and which E-value cutoff do you use, \[a\] if you know your sequence is in the database and only want to find that entry \[b\] if you would like to find homologs.
 
-> ?
+> \[a\] Pairwise alignment \(❓ ??? is this right???\)  
+> \[b\] BLAST
 
 **Question:** What is the difference between BLAST and PSI-BLAST?
 
-> ?
+> BLAST uses the BLOSUM matrix to retrieve homologs. It runs only once and returns the found sequences.
+>
+> PSI-BLAST uses BLAST in the first run to find homologs and build a profile. By using, and iteratively rebuilding, the profile it can find more distant \(in terms of sequence identity\) homologs with Profile-Sequence alignment.
 
 ##### 2.2 Needleman-Wunsch
 
@@ -333,7 +336,7 @@ _**Note:** In each row all value are written in brackets in the following format
 
 _**Note: **The same alignment as before are possible to align the full sequence. However, since we only want to align a local sequence, we can just start with the highest score we find in the matrix and backtrace only this **subsequence**. _
 
-**Possible Subsequences Alignment:                                    
+**Possible Subsequences Alignment:                                      
 **Since, we did not have a substitution matrix, which compiles the likelihood of randomly aligning sequences into the the alignment algorithm, we cannot say for sure what is better: Aligning 2/4 residues or aligning a subsequence of 2/2.
 
 ```
