@@ -1,4 +1,4 @@
-\#\# 3.1 Lecture Questions
+##  3.1 Lecture Questions
 
 > This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant, **because he will sample exam questions from this pool.
 
@@ -74,7 +74,7 @@
 
 **Question: **How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
 
-> **?**
+> ❓
 >
 > Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primaary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
 >
@@ -211,7 +211,7 @@
 
 **Question:** In the 1st iteration of PSI-BLAST finds the most low hanging fruits through pairwise comparison. \[a\] What does it do in the 2nd iteration? \[b\] Why can this work better? \[c\] What could happen that makes the 3rd iteration not find more more hits than the 2nd one \(for all n=1=…N\)?  \[d\] Say n+1 finds many more hits than n:  everything ok?
 
-> \[a\] It uses the compiled PSSM to run a profile-sequence comparison against the database. 
+> \[a\] It uses the compiled PSSM to run a profile-sequence comparison against the database.
 >
 > \[b\] Because the PSSM contains information about the entire family, the initial query sequence belongs to. Within the PSSM there is information about the evolutionary preserved \(and thus for structure / function important\) segments/residues for this specific family.
 >
@@ -246,7 +246,7 @@
 
 **Question:** What is the most accurate way to predict protein 3D structure \(explain the idea behind the method\) ? Why does this methods hardly work for membrane proteins and even less well for disorder proteins?
 
-* > Homology Modeling
+* > Homology Modeling  
   > … ❓
 
 **Question:** UniProt currently holds about 85 Million proteins sequences: Do we have any idea about the structure of any of those? Roughly for how many? Do we have any idea how many of the 85Million are membrane / disorder?
