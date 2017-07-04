@@ -142,9 +142,14 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
 **Motif:** short unit found outside globular domains  
 **Clans:** related group of PFAM family entries
 
-Protein Data Bank \(PDB\)
+##### Protein Data Bank \(PDB\)
 
-Root mean square deviation \(RMSD\)
+* collection of high resolution protein structures \(120 000 entries\)
+* **X-Ray Crystallography, NMR, Cryo-EM**
+* slowly growing
+* different quality of data
+
+##### Root mean square deviation \(RMSD\)
 
 Protein function
 
