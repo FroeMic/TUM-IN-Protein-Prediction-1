@@ -74,3 +74,88 @@
 
 
 
+#### Exercise 3: Alignments
+
+**Question:** How can you define similarity between two protein sequences?
+
+> Two ways to define similarity are to compute the percentage of residues that were aligned
+>
+> * and matched on the same amino acid \(PSI, Percent Sequence Identity\)
+> * and matched with a positive score in the Substitution Matrix
+
+**Question: **What does "conservation" mean in the context of sequence alignments?
+
+> * Conserved sequences are similar or identical \(sub\)sequences that occur within protein sequences.
+> * By compiling homolgues proteins \(a family\) into a profile, it become clear, which subsequences are more conserved and thus more important for the function of the protein family
+
+**Question:** Why are sequence alignments useful?
+
+> * They are useful because the allow use to find the 'best' possible match between two sequences. Only this allows use to
+>   * compare their 3D structure
+>   * create predictions about their similarity in 3D structure
+>   * make assumptions about their evolutionary relatedness
+
+**Question:** What are the main differences in the algorithms of Global and Local alignment? Why does it make sense to not always perform a global alignment.
+
+> * Global alignment methods always align 2 sequences from beginning to end.
+> * Local alignment methods only align subsequences.
+>
+> * For Global alignment to be meaningful, the sequences should have similar length. Since proteins are between 35 and 30000 residues long, it does not make sense to always use global alignment.
+>
+> * Also when e.g. looking for proteins with a certain domain it does not make sense to use global alignment, since we are explicitly looking for subsequences.
+
+**Question:** Which amino acids can \(with high likelihood\) be substituted for Leucin without having an effect on protein function?
+
+> Methionine \(2\). Isoleucin \(2\), Valine \(2\), Phenylalanine \(0\), because the have a positive score in the BLOSUM62 matrix
+
+**Question:** Which substitution is more probable according to PAM250 and according to BLOSUM62: \[a\] W &lt;&gt; F \[b\] H &lt;&gt; R
+
+> * W \(Tryptophan\) &lt;--&gt; F \(Phenylalanine\)
+>   * BLOSUM: 1
+>   * PAM250: 0
+> * H \(Histidine\) &lt;--&gt; R \(Arginine\)
+>   * BLOSUM: 0
+>   * PAM250: 2
+>
+> =&gt; For BLOSUM W &lt;--&gt; F is more likely to be observed  
+> =&gt; For PAM250 H &lt;--&gt; R is more likely to be observed
+
+**Question:** What is a multiple sequence alignment?
+
+> A method to align multiple sequences against each others.
+>
+> * building a consensus sequence and aligning new sequences against it
+> * building a search tree
+> * building a profile \(like PSI-BLAST\)
+
+**Question:** What kind of sequences are likely to be used for an MSA? In which relationship are they to each other?
+
+> * Most likely, sequences which we assume a evolutionary relationship \(homology\) will be used. Following the homology assumption, we expect sequences with a high PSI to have a similar structure because they have a common ancestor.
+> * Building up a profile with them, would then allow us to discover conserved regions and use the profile to find more candidates in the Twilight Zone with Profile-Sequence comparison.
+
+**Question:** Why would you want to align multiple sequences? What kind of information is contained in MSAs but not directly in e.g. all-against-all pairwise alignments?
+
+> Building up a profile with similar sequences, would  allow us to discover conserved regions which developed under evolutionary pressure.  
+> By compiling such a family of proteins \(we assume that they have a common ancestor -&gt; homology\) into a profile, we can find more candidates in the Twilight Zone with Profile-Sequence comparison.
+
+**Question:** Given your knowledge of the algorithms for pairwise alignments, how could you calculate an MSA? Is that a feasible approach? Why?
+
+> One approach would be to sequentially align sequences against a consensus sequence. This approach, however, comes with problems such as the need for a strategy how to find the consensus for a certain amino acid at a certain position, the fact that the order of alignment might matter, etc.
+>
+> A better approach is the creation of a PSSM \(position specific scoring matrix\), which contains for each position of the profile the likelihood that a certain amino acid occurs there.
+
+**Question:** You have a sequence which you would like to find in a database. Which search method and which E-value cutoff do you use, \[a\] if you know your sequence is in the database and only want to find that entry \[b\] if you would like to find homologs.
+
+> \[a\] Pairwise alignment \(❓ ??? is this right???\)  
+> \[b\] BLAST
+
+**Question:** What is the difference between BLAST and PSI-BLAST?
+
+> BLAST uses the BLOSUM matrix to retrieve homologs. It runs only once and returns the found sequences.
+>
+> PSI-BLAST uses BLAST in the first run to find homologs and build a profile. By using, and iteratively rebuilding, the profile it can find more distant \(in terms of sequence identity\) homologs with Profile-Sequence alignment.
+
+##### 
+
+
+
