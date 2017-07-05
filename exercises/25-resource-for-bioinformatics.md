@@ -75,11 +75,26 @@ _Expert Protein Analysis System_
 
 ##### PDB
 
-PDB file format
-
-mmCIF
-
-
+* **PDB file format**
+  * **Header**
+    * Protein information
+    * citation
+    * details of structure resolution
+  * **Coordinates and Connectivity**
+* **mmCIF**
+  * Standard format of PDB since 2014
+  *  originated from the crystallopgraphic community
+  * **Advantages**
+    * Extensible
+    * Flexible ordering
+    * Few syntax rules
+    * Facilitates automatic validation
+  * **Concepts**
+    * Entity: \(polymer, non-polymer, water\)
+    * Chemical Component \(blocks that build entities -&gt; non-standard residue\)
+    * Structural Component \(structural features, e.g. helix\)
+    * Asymmetric Unit Component \(chain, two components can refer to same entity\)
+    * Biological Component \(sub- and super-components of structure\)
 
 ##### Accessing these databases: BioPython
 
