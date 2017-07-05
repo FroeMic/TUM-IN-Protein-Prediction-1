@@ -99,6 +99,17 @@
 ##### Performance Assessment
 
 * Precision, Recall, Accuracy
+* Qx-Measure: For x states, fraction of correct predictions \(TrueNegative + TruePositives\) of all predictions
+* Significance?
+  * determine the average Q on you dataset
+  * calculate the standard deviation \(sigma\)
+  * calculate the standard error \(sigma / sqrt\(N\) \)
+  * N is size of test set
+* Compare Methods
+  * compare always on the same instances
+  * test / training split have to be the same for both tools
+  * not overlap allowed between test and training set \(structures in comparative modeling range violate this\)
+  * alternative: compare on fresh data published after publication of methods
 
 ##### Membrane Proteins
 
