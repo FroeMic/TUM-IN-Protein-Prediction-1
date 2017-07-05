@@ -11,6 +11,7 @@
 * Sequence Determination \(short: sequencing\) of DNA is highly automated today and very cheap
 
 * Computer programs can help identify genes and coding regions
+
 * From coding regions you can infer the protein sequence \(1D information\)
 * **The entire sequencing process is cheap and quick, everything after that isn't.**
 
@@ -61,17 +62,33 @@
 
 ##### Secondary Structure Prediction
 
-
+* actual secondary structure of amino acid depends on the local sequence \(context\)
+* even identical stretches \(up to 5 aa\) can occur in different secondary structures
+* which structure is preferred depends on the available **hydrogen bond **opportunities
+* more hydrogen bonds =&gt; more stable
+* **Chou-Fasman**
+  * simply look a the frequency an amino acid occurs in each secondary structure
+  * search for **nucleation regions**
+    * for helix: 4 out of 6
+    * for sheet: 3 out of 5
+  * extend until a window of 4 amino acids drops below 1
+  * turns also check for Proline and Glycine
+  * More info, in case this was not enough to understand: [https://en.wikipedia.org/wiki/Chou%E2%80%93Fasman\_method](https://en.wikipedia.org/wiki/Chou%E2%80%93Fasman_method)
+* **GOR I**
+  * 17 amino acid window
+  * considers the state of 8 aa neighbors on each side \(bayesian\)
+  * builds on three matrices \(17X20\) for helix, sheet and coil
+  * \(the original 'turn-matrix' was removed since it showed too high variability for a window of 17 aa\)
+  * thresholds: 
+    * 4 amino acids for helix
+    * 2 amino acids for sheet
+* **GOR III**
+  * in addition for GOR I it considers all pairs with on the sliding window \(= segment\)
+  * still not good for sheets, since the could be formed by non-local interaction
 
 ##### Membrane Proteins
 
-
-
 ##### HSSP Curve
-
-
-
-
 
 #### 2. Exercises
 
