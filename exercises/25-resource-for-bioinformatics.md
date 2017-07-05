@@ -83,7 +83,7 @@ _Expert Protein Analysis System_
   * **Coordinates and Connectivity**
 * **mmCIF**
   * Standard format of PDB since 2014
-  *  originated from the crystallopgraphic community
+  * originated from the crystallopgraphic community
   * **Advantages**
     * Extensible
     * Flexible ordering
