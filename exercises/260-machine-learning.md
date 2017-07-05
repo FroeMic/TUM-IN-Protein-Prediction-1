@@ -77,7 +77,7 @@ Due to “experimental” reasons the sample represents only a special subset of
 
 **Question 2:** What information do we obtain when predicting protein secondary structure? What features are predicted?
 
-> Helix, sheet, coil formations
+> Helix, sheet, coil formations
 
 **Question 3: **How can we estimate the performance of secondary structure prediction methods?
 
@@ -97,8 +97,6 @@ Due to “experimental” reasons the sample represents only a special subset of
 **Question 6: **Initially, prediction methods often focused on alpha-helices or underpredicted beta-sheets. What is the difficulty in recognizing beta-sheets from a window-based prediction method?
 
 > b-sheet formatin is not local
-
-
 
 
 
