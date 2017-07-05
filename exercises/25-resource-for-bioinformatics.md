@@ -118,11 +118,15 @@ Documentation entries describing proteins domains, families, functional sites, a
 
 **Question:** Which type of information does STRING provide?
 
-> ?
+> STRING is a secondary database which provides information about known and predicted protein interactions.
 
-**Question:** What does PFAM A contain?
+**Question:** What does PFAM-A contain?
 
-> ?
+> PFAM-A contains manually curated information about proteins families. It is especially useful, because it contains
+>
+> * Profile HMMs
+> * Seed alignments
+> * Full alignments with all hits
 
 
 
