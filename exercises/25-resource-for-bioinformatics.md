@@ -21,6 +21,14 @@
 
 ##### Swissprot/Trembl
 
+* **Annotation Process**
+* 1. Sequence Curation
+  2. Sequence Analysis
+  3. Literature curastion
+  4. Family based curation
+  5. Evidence attribution
+  6. Quality assurance, integration and update
+
 ##### Uniprot Flat File Format
 
 ##### 
