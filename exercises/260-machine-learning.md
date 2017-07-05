@@ -69,11 +69,7 @@ Due to “experimental” reasons the sample represents only a special subset of
 
 ** Question 1**: Can we predict secondary structure from protein sequence?
 
-> **?**
->
-> Not sure about the answer. I think, you still need 3D information \(from where we obtain structures\) for statistical information.
->
-> If yes, then: Chou-Fasman, GORIII, ANN \(PHD\)
+> Yes, we can
 
 **Question 2:** What information do we obtain when predicting protein secondary structure? What features are predicted?
 
