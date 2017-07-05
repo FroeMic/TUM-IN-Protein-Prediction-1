@@ -96,7 +96,7 @@ Due to “experimental” reasons the sample represents only a special subset of
 
 **Question 6: **Initially, prediction methods often focused on alpha-helices or underpredicted beta-sheets. What is the difficulty in recognizing beta-sheets from a window-based prediction method?
 
-> b-sheet formatin is not local
+> b-sheet formation is not local
 
 
 
