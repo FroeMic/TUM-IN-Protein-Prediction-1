@@ -114,7 +114,10 @@ Documentation entries describing proteins domains, families, functional sites, a
 
 **Question:** Which term from computer science you would use to describe PROSITE patterns \(e.g. PDOC00022\).
 
-> ?
+> ??? 
+>
+> -&gt; I would argue it reminds me of regular expressions, but this should be verified.  
+> eg see here: [http://www.hpa-bioinfotools.org.uk/ps\_scan/PS\_SCAN\_PATTERN\_SYNTAX.html](http://www.hpa-bioinfotools.org.uk/ps_scan/PS_SCAN_PATTERN_SYNTAX.html)
 
 **Question:** Which type of information does STRING provide?
 
