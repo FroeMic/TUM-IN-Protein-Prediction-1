@@ -19,8 +19,12 @@
 
 ##### Genbank, EMBL,EBI
 
+_The entries in the Genbank is growing exponantially!_
+
 **Genbank:** sequence database maintained by the NCBI \(National Center for Biotechnology Information, USA\)  
 **EMBL:** The European Molecular Biology Laboratory maintained by EBI \(European Bioninformatics Institute\)
+
+* entries come compressed as **text files** with an uncompressed size of over **700 GB**
 
 ##### Swissprot/Trembl
 
