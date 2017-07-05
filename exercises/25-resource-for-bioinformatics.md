@@ -75,15 +75,15 @@ _Expert Protein Analysis System_
 
 ##### PDB
 
-##### PDB file format
+PDB file format
 
-##### 
+mmCIF
 
-##### mmCIF
+
 
 ##### Accessing these databases: BioPython
 
-##### 
+Use existing parsers/ libraries wherever you can! One of them is e.g. **BioPython **[https://github.com/biopython/biopython.github.io/](https://github.com/biopython/biopython.github.io/)
 
 ##### PFAM
 
@@ -114,7 +114,7 @@ Documentation entries describing proteins domains, families, functional sites, a
 
 **Question:** Which term from computer science you would use to describe PROSITE patterns \(e.g. PDOC00022\).
 
-> ??? 
+> ???
 >
 > -&gt; I would argue it reminds me of regular expressions, but this should be verified.  
 > eg see here: [http://www.hpa-bioinfotools.org.uk/ps\_scan/PS\_SCAN\_PATTERN\_SYNTAX.html](http://www.hpa-bioinfotools.org.uk/ps_scan/PS_SCAN_PATTERN_SYNTAX.html)
