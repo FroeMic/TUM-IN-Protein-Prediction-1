@@ -113,6 +113,11 @@
 
 ##### Membrane Proteins
 
+* hydrophobic stretches, typically 17-21 amino acids long
+* Positive Inside Rule \(connecting sequences on inside of cell are positively charged\) to determine topology
+* Signal Peptides \(often confused with TMHs\)
+* Signal-Anchors \(??\)
+
 ##### HSSP Curve
 
 #### 2. Exercises
