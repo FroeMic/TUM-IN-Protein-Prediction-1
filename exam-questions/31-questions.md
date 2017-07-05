@@ -1,4 +1,4 @@
-##  3.1 Lecture Questions
+## 3.1 Lecture Questions
 
 > This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant, **because he will sample exam questions from this pool.
 
@@ -10,9 +10,7 @@
 
 **Question: **You want to develop a new method to predict e-values, how do you prepare your data?
 
-> **?**
->
-> Maybe to consider length of sequences, data base size, redundancy of data
+> you need to look at how e-value changes through iteration, width od background distribution, height of score
 
 **Question: **What is the regular process when you want to analyse a new sequence?
 
@@ -76,7 +74,9 @@
 
 > ❓
 >
-> Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primaary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
+> \(found on the web\) Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
+>
+> \(lecture of previous years\): Plot distribution of B-value. Set a threshold. Mind the experimental error \(so, don't put threshold on the peak\). For ML prediction: as positive samples take predictions for entire proteoms , as negative  - entire PDB 
 >
 > \(There is an answer in the last video lecture, which is not uploaded yet\)
 
@@ -189,6 +189,8 @@
 **Question:** Why do we need separate methods to predict secondary structure for membrane and water-soluble / non-membrane proteins? What is needer for membrane prediction beyond secondary structure?
 
 > Methods trained to predict secondary structure in soluble environment fail for membrane proteins \(empirical observation\). Reason for this is that the environment \(the membrane\) is very different.
+>
+> Number of alpha - helixes is important, as it defines function of membrane protein.
 >
 > ❓
 
