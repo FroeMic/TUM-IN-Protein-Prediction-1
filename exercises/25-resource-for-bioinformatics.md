@@ -6,13 +6,20 @@
 
 #### 1. Keywords
 
+##### Resources / Databases
+
+* Represent a shared fund of knowledge
+* "_data collections_" often more precise than database
+* have evolved over decades \(legacy issues\)
+* **primary** and **secondary** databases
+* **Primary Databases**
+  * Genbank / EBI / DDBJ \(nucleic acid sequences\)
+  * UniprotKB \(protein sequences\)
+  * PDB \(3D structures\)
+
 ##### Genbank, EMBL,EBI
 
-
-
 ##### Swissprot/Trembl
-
-
 
 ##### Uniprot Flat File Format
 
@@ -20,15 +27,11 @@
 
 ##### PDB
 
-
-
 ##### PDB file format
 
 ##### 
 
 ##### mmCIF
-
-
 
 ##### Accessing these databases: BioPython
 
@@ -36,15 +39,9 @@
 
 ##### PFAM
 
-
-
 ##### STRING
 
-
-
 ##### PROSITE
-
-
 
 #### 2. Exercises
 
