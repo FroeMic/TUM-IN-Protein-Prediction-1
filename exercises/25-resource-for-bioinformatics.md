@@ -16,6 +16,10 @@
   * Genbank / EBI / DDBJ \(nucleic acid sequences\)
   * UniprotKB \(protein sequences\)
   * PDB \(3D structures\)
+* **Secondary Databases** \(contains refined of topic selected / processed informa+on derived from primary databases\)
+  * STRING
+  * PROSITE
+  * PFAM
 
 ##### Genbank, EMBL,EBI
 
@@ -53,9 +57,21 @@ _Manually annotated and revied section of UniProt._
   5. Evidence attribution \(every annotation is attributed to its original source\)
   6. Quality assurance, integration and update
 
-##### Uniprot Flat File Format
+##### ExPasy
 
-##### 
+_Expert Protein Analysis System_
+
+* **Categories**
+  * Proteomics
+  * Genomics
+  * Structural Bioinformatics
+  * System Biology
+  * Phylogeny / Evolution
+  * Populations genetics
+  * Transcriptomics
+  * Biophysics
+  * Imaging
+  * Drug Design
 
 ##### PDB
 
@@ -71,9 +87,22 @@ _Manually annotated and revied section of UniProt._
 
 ##### PFAM
 
+**Protein Families Database**: \(Especially useful **PFAM-A** with Profile HMMs, seed alignments, full alignments\)  
+\(_Secondary Database\)_
+
 ##### STRING
 
+**Proteins Interaction Network:** Known and predicted protein interactions  
+\(_Secondary Database\)_
+
 ##### PROSITE
+
+Documentation entries describing proteins domains, families, functional sites, associated patterns and profiles  
+\(_Secondary Database\)_
+
+* Domain specific descriptions
+* provide reference sequence and alignments
+* provide consensus pattern
 
 #### 2. Exercises
 
