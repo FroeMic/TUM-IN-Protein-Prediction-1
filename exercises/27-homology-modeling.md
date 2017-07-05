@@ -116,9 +116,17 @@
 * hydrophobic stretches, typically 17-21 amino acids long
 * Positive Inside Rule \(connecting sequences on inside of cell are positively charged\) to determine topology
 * Signal Peptides \(often confused with TMHs\)
-* Signal-Anchors \(??\)
+* in 3D: **hydrophobic parts on the outside**
+* many hydrophobicity indices out there
+* optimized scoring matrices
+* Nowadays:
+  * interrupted TMHs
+  * reentrant parts \(leave membrane on entry side\)
+  * coil regions inside membrane
 
 ##### HSSP Curve
+
+_Homology-derived Secondary Structure of Proteins_![](/assets/Screen Shot 2017-07-05 at 22.27.30.png)
 
 #### 2. Exercises
 
