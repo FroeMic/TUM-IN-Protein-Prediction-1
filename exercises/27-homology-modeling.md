@@ -96,6 +96,10 @@
     * L2: secondary structure state -&gt; secondary structure state for consolidated \(smoothened\) predictions
   * create a **jury** between balanced and unbalanced trained networks and different output states
 
+##### Performance Assessment
+
+* Precision, Recall, Accuracy
+
 ##### Membrane Proteins
 
 ##### HSSP Curve
@@ -108,7 +112,11 @@
 
 > ?
 
-**Question:** What s HHblits?
+**Question:** What is HHblits?
+
+> ?
+
+**Question:** What is the definition of accuracy? Is it the same as Qx?
 
 > ?
 
