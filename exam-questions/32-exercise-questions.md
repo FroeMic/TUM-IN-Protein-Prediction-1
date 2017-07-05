@@ -72,8 +72,6 @@
 > * The PDB has redundant 3D structures for certain proteins from different experiments. This has different reasons such as competing groups, different research goals, better resolution.
 > * Since most proteins developed under evolutionary pressure, large parts of proteins of the same family share a high sequence overlap.
 
-
-
 #### Exercise 3: Alignments
 
 **Question:** How can you define similarity between two protein sequences?
@@ -155,7 +153,34 @@
 >
 > PSI-BLAST uses BLAST in the first run to find homologs and build a profile. By using, and iteratively rebuilding, the profile it can find more distant \(in terms of sequence identity\) homologs with Profile-Sequence alignment.
 
-##### 
+#### Exercise 3: Resources for Bioinformatics
+
+**Question:** How many structures in PDB have a resolution with =&lt; 2 Angstrom
+
+> ?
+
+**Question:** Which term from computer science you would use to describe PROSITE patterns \(e.g. PDOC00022\).
+
+> ???
+>
+> -&gt; I would argue it reminds me of regular expressions, but this should be verified.  
+> eg see here: [http://www.hpa-bioinfotools.org.uk/ps\_scan/PS\_SCAN\_PATTERN\_SYNTAX.html](http://www.hpa-bioinfotools.org.uk/ps_scan/PS_SCAN_PATTERN_SYNTAX.html)
+
+**Question:** Which type of information does STRING provide?
+
+> STRING is a secondary database which provides information about known and predicted protein interactions.
+
+**Question:** What does PFAM-A contain?
+
+> PFAM-A contains manually curated information about proteins families. It is especially useful, because it contains
+>
+> * Profile HMMs
+> * Seed alignments
+> * Full alignments with all hits
+
+
+
+
 
 
 
