@@ -24,9 +24,9 @@
 * **Annotation Process**
 * 1. Sequence Curation
   2. Sequence Analysis
-  3. Literature curastion
+  3. Literature curation
   4. Family based curation
-  5. Evidence attribution
+  5. Evidence attribution \(every annotation is attributed to its original source\)
   6. Quality assurance, integration and update
 
 ##### Uniprot Flat File Format
