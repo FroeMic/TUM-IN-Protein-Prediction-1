@@ -19,6 +19,9 @@
 
 ##### Genbank, EMBL,EBI
 
+**Genbank:** sequence database maintained by the NCBI \(National Center for Biotechnology Information, USA\)  
+**EMBL:** The European Molecular Biology Laboratory maintained by EBI \(European Bioninformatics Institute\)
+
 ##### Swissprot/Trembl
 
 * **Annotation Process**
