@@ -13,6 +13,7 @@
 * Computer programs can help identify genes and coding regions
 
 * From coding regions you can infer the protein sequence \(1D information\)
+
 * **The entire sequencing process is cheap and quick, everything after that isn't.**
 
 ##### Available types of Data
@@ -73,7 +74,7 @@
     * for sheet: 3 out of 5
   * extend until a window of 4 amino acids drops below 1
   * turns also check for Proline and Glycine
-  * More info, in case this was not enough to understand: [https://en.wikipedia.org/wiki/Chou%E2%80%93Fasman\_method](https://en.wikipedia.org/wiki/Chou%E2%80%93Fasman_method)
+  * More info, in case this was not enough to understand: [https://en.wikipedia.org/wiki/Chou%E2%80%93Fasman\_method](https://en.wikipedia.org/wiki/Chou–Fasman_method)
 * **GOR I**
   * 17 amino acid window
   * considers the state of 8 aa neighbors on each side \(bayesian\)
@@ -85,6 +86,15 @@
 * **GOR III**
   * in addition for GOR I it considers all pairs with on the sliding window \(= segment\)
   * still not good for sheets, since the could be formed by non-local interaction
+* **PHDxxx**
+  * usage of **local evolutionary information** in the form of sequence profiles generated from multiple alignments
+  * usage of global features \(length, aa composition, ...\)
+  * the use of **redundancy-reduced**, **balanced data set** for training can be useful
+* **PHD\(-acc, -sec, -htm\)**
+  * add a second layer of networks \(PHDsec\)
+    * L1: sequence residue -&gt; secondary structure  of that resisude
+    * L2: secondary structure state -&gt; secondary structure state for consolidated \(smoothened\) predictions
+  * create a **jury** between balanced and unbalanced trained networks and different output states
 
 ##### Membrane Proteins
 
