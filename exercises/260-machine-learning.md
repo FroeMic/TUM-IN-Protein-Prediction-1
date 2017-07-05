@@ -71,11 +71,20 @@ Due to “experimental” reasons the sample represents only a special subset of
 
 > **?**
 >
-> Not sure about the answer. You still need 3D information \(from where we obtain structures\) for training.
+> Not sure about the answer. I think, you still need 3D information \(from where we obtain structures\) for statistical information.
+>
+> If yes, then: Chou-Fasman, GORIII, ANN \(PHD\)
 
 **Question 2:** What information do we obtain when predicting protein secondary structure? What features are predicted?
 
+> Helix, sheet, coil formations
+
 **Question 3: **How can we estimate the performance of secondary structure prediction methods?
+
+> * Accuracy
+> * Qx-measure \(Q3\)
+> * Significance
+> * Cross-validation
 
 **Question 4**: Most often secondary structure predictions refers to the prediction of alpha helices, beta sheets and random coils. What other features of protein structure can be considered as secondary structure and be predicted?
 
@@ -87,7 +96,9 @@ Due to “experimental” reasons the sample represents only a special subset of
 
 **Question 6: **Initially, prediction methods often focused on alpha-helices or underpredicted beta-sheets. What is the difficulty in recognizing beta-sheets from a window-based prediction method?
 
-> b-sheet formation is NOT local
+> b-sheet formatin is not local
+
+
 
 
 
