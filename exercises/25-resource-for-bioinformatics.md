@@ -24,7 +24,16 @@ _The entries in the Genbank is growing exponantially!_
 **Genbank:** sequence database maintained by the NCBI \(National Center for Biotechnology Information, USA\)  
 **EMBL:** The European Molecular Biology Laboratory maintained by EBI \(European Bioninformatics Institute\)
 
-* entries come compressed as **text files** with an uncompressed size of over **700 GB**
+**Flat File Format:** Entries come compressed as **text files** with an uncompressed size of over **700 GB**
+
+* Records consist of 2 parts
+  * Columns \(1-10\), Entry Field name
+  * Remaining line with the content \(sequence\)
+* Version / Accession Format
+  * Unique identifier: Value of the VERSION field
+  * VERSION: Accession number + "." + integer
+  * Update of version ONLY when sequence changes
+  * Other field values could be changed without notice
 
 ##### Swissprot/Trembl
 
