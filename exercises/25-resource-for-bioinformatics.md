@@ -35,7 +35,15 @@ _The entries in the Genbank is growing exponantially!_
   * Update of version ONLY when sequence changes
   * Other field values could be changed without notice
 
+##### Uniprot
+
+_Universal Protein Database_
+
+* combines information from Swissprot, TrEMBL, PIR
+
 ##### Swissprot/Trembl
+
+_Manually annotated and revied section of UniProt._
 
 * **Annotation Process**
 * 1. Sequence Curation
