@@ -54,6 +54,9 @@
 * not found in PDB
 * with a \(little\) relaxation long 'connecting' loops in protein were found
 * about **10% of biomass** genome has such \(weird\) structures \(most of them in Eukaryotes\)
+* on average these  NORS regions were **170 residues long**
+
+**Problem:** Just looking for NORS does not predict shorter \(&lt; 70 residues\) disordered regions well
 
 #### 4. Methods
 
