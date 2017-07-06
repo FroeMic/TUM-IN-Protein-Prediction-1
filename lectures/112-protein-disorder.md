@@ -22,6 +22,22 @@ Proteins are dynamic structures and thus they move.
 
 #### 3. Disordered Data
 
+**Natively unstructured regions:** a protein sequence that in solvent is unstructured \(2 time points will give different images\), but upon binding adopts a secondary structure \(induced fit\)
+
+##### Features of Disorder
+
+* Efficient binders \(larger interface / outreach\)
+* Regulated through post-translation modifications
+* Increasing complexity by structural plasticity
+  * having a "key" for different locks \(bindings sites\) -&gt; bind to different subtrates
+* Active only in **disordered version** \(large difference between on and off\)
+
+##### Coupled binding an folding
+
+* Fly casting: increase surface to 'reach out'
+* Initial contacts weak and non-specific
+* Folding upon approach of target
+
 #### 4. Methods
 
 ##### 4.1 B-Value Prediction
