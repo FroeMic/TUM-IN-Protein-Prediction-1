@@ -66,6 +66,10 @@
 
 _Can we predict them from sequence?_
 
+* B-Values across PDB have to first be normalized \(different depending on family\)
+* For ML they flexibility has to be projected on a simpler space \(flexible / not flexible\)
+* Where to put the threshold?
+
 ##### 4.2 NORS Region Prediction
 
 ##### 4.3 Contact Deprived Region Prediction
