@@ -1,4 +1,4 @@
-## 1.12 Protein Disoard
+1.12 Protein Disoard
 
 ###### 27.06.2017 \| [Slides](https://www.rostlab.org/sites/default/files/fileadmin/teaching/SoSe17/PP1CS/cb1e_20170627_disorder.pdf) \| [Lecture Recording](https://www.youtube.com/watch?v=AYidbIDB0Mo&list=PLg46T0OlBIJ9abbsmUL-ux24DCpoUlC1J&index=11)
 
@@ -84,12 +84,13 @@ _Can we predict them from sequence?_
 
 _= distinguish unstructured from well structured loops_
 
+
+**How can we detect shorter NORS regions, without lowering the threshold of 70 residues?**
+
 **Idea:** Machine Learning
 
 * Positive dataset = all NORS predictions \(&lt;70 residues\) in the entire proteomes
 * Negative dataset = the whole PDB 
-* 
-**How can we detect shorter NORS regions, without lowering the threshold of 70 residues?**
 
 ##### 4.3 Contact Deprived Region Prediction
 
