@@ -100,6 +100,8 @@ _= distinguish unstructured from well structured loops_
 
 ##### 4.3 Contact Deprived Region Prediction
 
+ _Look at every pair of residues and look whether they are in contact -&gt; predict contacts._
+
 ##### 4.4 Meta-Disorder \(MD\)
 
 #### 5. Findings and Applications
