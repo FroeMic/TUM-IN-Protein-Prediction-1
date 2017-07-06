@@ -111,6 +111,8 @@ Until now we did not assume to know 'what' disorder is. How do we then handle di
 
 ##### 4.4 Meta-Disorder \(MD\)
 
+Use a 'Meta-Predictor' which combines many methods.
+
 #### 5. Findings and Applications
 
 
