@@ -96,7 +96,7 @@ _= distinguish unstructured from well structured loops_
 
 **How can a dataset with many mistakes be machine learned?**
 
-* If the error is random \(white noise ≠ systematic error\) the a **consistent signal** is still strong enough to be picked up 
+* If the error is random \(white noise ≠ systematic error\),  a **consistent signal** is still strong enough to be picked up if the data set is big enough
 
 ##### 4.3 Contact Deprived Region Prediction
 
