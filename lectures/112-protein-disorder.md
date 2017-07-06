@@ -68,7 +68,7 @@ _Can we predict them from sequence?_
 
 * B-Values across PDB have to first be normalized \(different depending on family\)
   * B-Values in principle are conserved
-* For ML they flexibility has to be projected on a simpler space \(flexible / not flexible\)
+* For ML the flexibility has to be projected on a simpler space \(flexible / not flexible\)
 * Where to put the threshold?
   * 2 thresholds on the sides: Throw away 90% of your data. Not a good idea.
 * * _Offtopic_: Putting the threshold around the peak, where the experimental error is the highest will consequently influence the model. \(never pick a peak!\)
