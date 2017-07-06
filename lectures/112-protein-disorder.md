@@ -8,6 +8,18 @@
 
 #### 2. Structure Determines Function
 
+Proteins are dynamic structures and thus they move.
+
+* Ligand Binding
+* Catalysis
+* Folding
+* Allosteric Regulation \(?\)
+* Libration \(?\)
+* Sidechain rotation
+* Vibration
+
+![](/assets/Screen Shot 2017-07-06 at 17.40.31.png)
+
 #### 3. Disordered Data
 
 #### 4. Methods
@@ -18,11 +30,9 @@
 
 ##### 4.3 Contact Deprived Region Prediction
 
-##### 4.4 Meta-Disorder (MD)
+##### 4.4 Meta-Disorder \(MD\)
 
 #### 5. Findings and Applications
-
-
 
 
 
