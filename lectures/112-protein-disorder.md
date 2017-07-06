@@ -84,8 +84,6 @@ _Can we predict them from sequence?_
 
 _= distinguish unstructured from well structured loops_
 
-_**Note:** 3D structure predictions from 1D structure is \(today\) still not solved. However, contact map prediction allows to distinguish between regions that are very constraint and those that are not._
-
 **How can we detect shorter NORS regions, without lowering the threshold of 70 residues?**
 
 **Idea:** Machine Learning
@@ -103,6 +101,9 @@ _**Note:** 3D structure predictions from 1D structure is \(today\) still not sol
 ##### 4.3 Contact Deprived Region Prediction
 
 _Look at every pair of residues and look whether they are in contact -&gt; predict contacts._
+
+_**Note:** 3D structure predictions from 1D structure is \(today\) still not solved. However, contact map prediction allows to distinguish between regions that are very constraint (e.g. binding sites) and those that are not._
+
 
 ##### 4.4 Meta-Disorder \(MD\)
 
