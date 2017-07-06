@@ -13,6 +13,7 @@
   * [1.9 Membrane Structure Prediction](lectures/19-membrane-structure-prediction.md)
   * [1.10  TMSEG](lectures/110-tmseg.md)
   * [1.11 Beta Membrane and Accessibility](lectures/111-beta-membrane-and-accessibility.md)
+  * [1.12 Protein Disorder](lectures/112-protein-disorder.md)
 * [2. Exercises](exercises.md)
   * [2.1 Introduction](exercises/21-introduction.md)
   * [2.2 Biological Background](exercises/22-biological-background.md)
@@ -26,6 +27,4 @@
   * [3.1 Lecture Questions](exam-questions/31-questions.md)
   * [3.2 Exercise Questions](exam-questions/32-exercise-questions.md)
   * [3.3 Question Catalogue](exam-questions/33-old-questions.md)
-
-
 
