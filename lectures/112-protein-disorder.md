@@ -4,4 +4,25 @@
 
 ---
 
-#### Recap
+#### 1. Recap
+
+#### 2. Structure Determines Function
+
+#### 3. Disordered Data
+
+#### 4. Methods
+
+##### 4.1 B-Value Prediction
+
+##### 4.2 NORS Region Prediction
+
+##### 4.3 Contact Deprived Region Prediction
+
+##### 4.4 Meta-Disorder (MD)
+
+#### 5. Findings and Applications
+
+
+
+
+
