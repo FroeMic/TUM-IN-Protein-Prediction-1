@@ -73,6 +73,10 @@ _Can we predict them from sequence?_
   * 2 thresholds on the sides: Throw away 90% of your data. Not a good idea.
 * * _Offtopic_: Putting the threshold around the peak, where the experimental error is the highest will consequently influence the model. \(never pick a peak!\)
 
+**PROFbval:** Predict residue flexibility 
+
+* captures aspects of protein dynamics, NOT disorder directly
+
 ##### 4.2 NORS Region Prediction
 
 ##### 4.3 Contact Deprived Region Prediction
