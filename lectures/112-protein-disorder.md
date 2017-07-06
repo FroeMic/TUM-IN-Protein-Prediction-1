@@ -47,9 +47,9 @@
 
 #### 3. Disordered Data
 
-**Database:** DisProt - a database for disordered proteins
-
-##### Loopy Disorder
+**Database:** DisProt - a database for disordered proteins  
+**NORS:** no regulary structure  
+**Loopy Disorder:** less than 5% helices / strand and more than 70 residues
 
 
 
