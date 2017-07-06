@@ -27,6 +27,10 @@
 * Increasing complexity by structural plasticity
   * having a "key" for different locks \(bindings sites\) -&gt; bind to different subtrates
 * Active only in **disordered version** \(large difference between on and off\)
+* **Disorder is used for**
+  * buffering
+  * extending reach \(binding\)
+  * extending reach \(signaling\)
 
 ##### Coupled binding an folding
 
@@ -43,7 +47,7 @@
 
 #### 3. Disordered Data
 
-
+**Database:** DisProt - a database for disordered proteins
 
 #### 4. Methods
 
