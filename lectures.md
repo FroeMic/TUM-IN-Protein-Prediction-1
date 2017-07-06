@@ -1,5 +1,7 @@
 # 1. Lectures
 
+---
+
 * [1. Lectures](lectures.md)
   * [1.1 Introduction: Bioinformatics](lectures/11-introduction-bioinformatics.md)
   * [1.2 Introduction: Structure](lectures/12-introduction-structure.md)
