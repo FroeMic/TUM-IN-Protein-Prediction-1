@@ -51,7 +51,9 @@
 **NORS:** no regulary structure  
 **Loopy Disorder:** less than 5% helices / strand and more than 70 residues
 
-
+* not found in PDB
+* with a \(little\) relaxation long 'connecting' loops in protein were found
+* about **10% of biomass** genome has such \(weird\) structures
 
 #### 4. Methods
 
