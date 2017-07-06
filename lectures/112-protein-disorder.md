@@ -53,7 +53,7 @@
 
 * not found in PDB
 * with a \(little\) relaxation long 'connecting' loops in protein were found
-* about **10% of biomass** genome has such \(weird\) structures \(Most of them in Eukaryotes\)
+* about **10% of biomass** genome has such \(weird\) structures \(most of them in Eukaryotes\)
 
 #### 4. Methods
 
