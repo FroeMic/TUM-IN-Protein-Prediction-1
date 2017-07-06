@@ -125,7 +125,7 @@ Use a 'Meta-Predictor' which combines many methods.
 * combining predictors substantially improves prediction
 
 
-Eukaryotes dominate disorder (x4 - x10). One reason could be that disorder is one stepping stone of complexity.
+**Eukaryotes dominate disorder **(x4 - x10): One reason could be that disorder is one stepping stone of complexity.
 * Disorder allows proteins to have more (different) interaction partners and this intrinsically increases complexity.
 * Bacteria in extreme conditions (heat, salt, ...) are much more similar to other bacteria in the same habitat regarding disorder than to their evolutionary closest homologs.
 
