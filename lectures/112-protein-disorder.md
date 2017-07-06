@@ -62,6 +62,10 @@
 
 ##### 4.1 B-Value Prediction
 
+**B-Value:** Backbone flexibility \(experimentally determined\)
+
+
+
 ##### 4.2 NORS Region Prediction
 
 ##### 4.3 Contact Deprived Region Prediction
