@@ -106,7 +106,7 @@ _**Note:** 3D structure predictions from 1D structure is \(today\) still not sol
 
 Until now we did not assume to know 'what' disorder is. How do we then handle disorder 'experimentally'?
 
-**Dunker Hypothesis:** Residues NOT visible in 3D structure share disorder.
+**Dunker Hypothesis:** Residues NOT visible in 3D structure share disorder. (You don't see it, because it moves to much)
 
 
 ##### 4.4 Meta-Disorder \(MD\)
