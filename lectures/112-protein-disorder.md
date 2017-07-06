@@ -113,7 +113,15 @@ Until now we did not assume to know 'what' disorder is. How do we then handle di
 
 Use a 'Meta-Predictor' which combines many methods.
 
+* different methods focus on different aspects of protein disorder
+* combining predictors substantially improves prediction
+
 #### 5. Findings and Applications
 
+#### Main Findings
+* Specific contacts are important for disorder prediction
+* Hub proteins (?) are abundant with unstructured loops
+* different methods focus on different aspects of protein disorder
+* combining predictors substantially improves prediction
 
 
