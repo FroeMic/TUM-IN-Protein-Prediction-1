@@ -205,7 +205,7 @@
 >
 > ❓
 
-**Question:**  How do you measure the similarity between a profile \(PSM\) and a sequence?
+**Question:**  How do you measure the similarity between a profile \(PSSM\) and a sequence?
 
 > You calculate the PSSM score.
 >
@@ -267,9 +267,14 @@
 >
 > ❓
 
-**Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What you you have to watch? Can you use the entire PDB? Once you have N proteins in you dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
+**Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What do you have to watch? Can you use the entire PDB? Once you have N proteins in you dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
 
-> ❓
+> 1. Redundancy reduced dataset, "remove" all proteins in comparative modeling range.
+> 2. "Remove" fraction of dataset for later blind testing \(no overlap with training set allowed\)
+> 3. Use blind test to assess perfomance
+>    1. Q3 = number of correctly predicted residues / total number of residues
+>    2. Number of correctly predicted H, E, L
+> 4.
 
 **Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modelling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost \(time/money\) to experimentally determine the 3D structure of an average protein?
 
