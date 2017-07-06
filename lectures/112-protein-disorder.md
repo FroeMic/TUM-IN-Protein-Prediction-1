@@ -84,6 +84,8 @@ _Can we predict them from sequence?_
 
 _= distinguish unstructured from well structured loops_
 
+**How can we detect shorter NORS regions, without lowering the threshold of 70 residues?**
+
 
 
 ##### 4.3 Contact Deprived Region Prediction
