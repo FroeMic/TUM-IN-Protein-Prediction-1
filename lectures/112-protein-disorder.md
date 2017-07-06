@@ -6,9 +6,9 @@
 
 #### 1. Recap
 
-#### 2. Structure Determines Function
+#### 2. Intro
 
-Proteins are dynamic structures and thus they move.
+**Proteins are dynamic structures and thus they move.**
 
 * Ligand Binding
 * Catalysis
@@ -18,11 +18,7 @@ Proteins are dynamic structures and thus they move.
 * Sidechain rotation
 * Vibration
 
-![](/assets/Screen Shot 2017-07-06 at 17.40.31.png)
-
-#### 3. Disordered Data
-
-**Natively unstructured regions:** a protein sequence that in solvent is unstructured \(2 time points will give different images\), but upon binding adopts a secondary structure \(induced fit\)
+![](/assets/Screen Shot 2017-07-06 at 17.40.31.png)**Natively unstructured regions:** a protein sequence that in solvent is unstructured \(2 time points will give different images\), but upon binding adopts a secondary structure \(induced fit\)
 
 ##### Features of Disorder
 
@@ -37,6 +33,17 @@ Proteins are dynamic structures and thus they move.
 * Fly casting: increase surface to 'reach out'
 * Initial contacts weak and non-specific
 * Folding upon approach of target
+
+##### Types of natively unstructured regions
+
+* unstructured 
+* molten globule
+* linked folded domains
+* mostly folded local disorder
+
+#### 3. Disordered Data
+
+
 
 #### 4. Methods
 
