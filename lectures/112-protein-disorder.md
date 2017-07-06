@@ -73,9 +73,12 @@ _Can we predict them from sequence?_
   * 2 thresholds on the sides: Throw away 90% of your data. Not a good idea.
 * * _Offtopic_: Putting the threshold around the peak, where the experimental error is the highest will consequently influence the model. \(never pick a peak!\)
 
-**PROFbval:** Predict residue flexibility 
+**PROFbval:** Predict residue flexibility
 
-* captures aspects of protein dynamics, NOT disorder directly
+* Classical PROF, with 2 output nodes: FLEXIBLE, RIGID
+* **captures aspects of protein dynamics, NOT disorder directly**
+* How are B-Values related to disorder?
+  * 
 
 ##### 4.2 NORS Region Prediction
 
