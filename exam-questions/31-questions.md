@@ -10,7 +10,7 @@
 
 **Question: **You want to develop a new method to predict e-values, how do you prepare your data?
 
-> you need to look at how e-value changes through iteration, width od background distribution, height of score
+> you need to look at how e-value changes through iteration, width of background distribution, height of score
 
 **Question: **What is the regular process when you want to analyse a new sequence?
 
@@ -76,7 +76,7 @@
 >
 > \(found on the web\) Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
 >
-> \(lecture of previous years\): Plot distribution of B-value. Set a threshold. Mind the experimental error \(so, don't put threshold on the peak\). For ML prediction: as positive samples take predictions for entire proteoms , as negative  - entire PDB 
+> \(lecture of previous years\): Plot distribution of B-value. Set a threshold. Mind the experimental error \(so, don't put threshold on the peak\). For ML prediction: as positive samples take predictions for entire proteoms , as negative  - entire PDB
 >
 > \(There is an answer in the last video lecture, which is not uploaded yet\)
 
@@ -190,7 +190,7 @@
 
 > Methods trained to predict secondary structure in soluble environment fail for membrane proteins \(empirical observation\). Reason for this is that the environment \(the membrane\) is very different.
 >
-> Number of alpha - helixes is important, as it defines function of membrane protein.
+> Number of alpha - helixes is important, as it defines function of membrane protein. Position of alpha-helixes, topology.
 >
 > ❓
 
