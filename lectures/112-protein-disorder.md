@@ -87,12 +87,8 @@ _= distinguish unstructured from well structured loops_
 **Idea:** Machine Learning
 
 * Positive dataset = all NORS predictions \(&lt;70 residues\) in the entire proteomes
-* Negative dataset = the whole PDB \(no overlap, as described earlier\)
-
-
-
-
-
+* Negative dataset = the whole PDB 
+* 
 **How can we detect shorter NORS regions, without lowering the threshold of 70 residues?**
 
 ##### 4.3 Contact Deprived Region Prediction
