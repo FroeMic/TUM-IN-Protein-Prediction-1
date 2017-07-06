@@ -78,7 +78,7 @@ _Can we predict them from sequence?_
 * Classical PROF, with 2 output nodes: FLEXIBLE, RIGID
 * **captures aspects of protein dynamics, NOT disorder directly**
 * How are B-Values related to disorder?
-  * 
+  * No clear correlation =\(
 
 ##### 4.2 NORS Region Prediction
 
