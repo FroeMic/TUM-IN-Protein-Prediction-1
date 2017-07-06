@@ -82,6 +82,10 @@ _Can we predict them from sequence?_
 
 ##### 4.2 NORS Region Prediction
 
+_= distinguish unstructured from well structured loops_
+
+
+
 ##### 4.3 Contact Deprived Region Prediction
 
 ##### 4.4 Meta-Disorder \(MD\)
