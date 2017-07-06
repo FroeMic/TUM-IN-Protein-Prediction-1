@@ -123,5 +123,8 @@ Use a 'Meta-Predictor' which combines many methods.
 * Hub proteins (?) are abundant with unstructured loops
 * different methods focus on different aspects of protein disorder
 * combining predictors substantially improves prediction
-* Eukaryotes dominate disorder (x4 - x10). One reason could be that disorder is one stepping stone of complexity.
+
+
+Eukaryotes dominate disorder (x4 - x10). One reason could be that disorder is one stepping stone of complexity.
+* Disorder allows proteins to have more (different) interaction partners and this intrinsically increases complexity.
 
