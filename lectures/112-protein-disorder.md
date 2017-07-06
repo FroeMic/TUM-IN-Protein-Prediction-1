@@ -104,6 +104,10 @@ _Look at every pair of residues and look whether they are in contact -&gt; predi
 
 _**Note:** 3D structure predictions from 1D structure is \(today\) still not solved. However, contact map prediction allows to distinguish between regions that are very constraint (e.g. binding sites) and those that are not._
 
+Until now we did not assume to know 'what' disorder is. How do we then handle disorder 'experimentally'?
+
+**Dunker Hypothesis:** Residues NOT visible in 3D structure share disorder.
+
 
 ##### 4.4 Meta-Disorder \(MD\)
 
