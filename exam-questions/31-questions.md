@@ -274,7 +274,13 @@
 > 3. Use blind test to assess perfomance
 >    1. Q3 = number of correctly predicted residues / total number of residues
 >    2. Number of correctly predicted H, E, L
-> 4.
+> 4. Statistical significance 
+>    1. Determine average Qx - value on your dataset
+>    2. Calculate the standard deviation \(sigma\)
+>    3. Calculate standard error \(sigma/sqrt\(N\)\)
+>    4. Compare the new method to other method \(baseline\) performance + standard error
+> 5. Scientific significance
+>    1. Does the perfomance increase helps to push new scientific findings
 
 **Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modelling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost \(time/money\) to experimentally determine the 3D structure of an average protein?
 
