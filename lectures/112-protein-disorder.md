@@ -64,7 +64,7 @@
 
 **B-Value:** Backbone flexibility \(experimentally determined\)
 
-
+_Can we predict them from sequence?_
 
 ##### 4.2 NORS Region Prediction
 
