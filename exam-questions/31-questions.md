@@ -284,15 +284,39 @@
 
 **Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modelling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost \(time/money\) to experimentally determine the 3D structure of an average protein?
 
-> ❓
+> 1. Positive-inside rule
+> 2. Similar sequence -&gt; similar struction
+> 3. No? \(there are similar proteins among different animals\)
+> 4.  X-ray: ~1 year, 100 000 euro
 
 **Question:** How would you define life? How are proteins crucial to maintain it?
 
-> ❓
+> Descriptive definitions of life:
+>
+> * Homeostatis \(regulation of internal environment to maintain constant state\)
+> * Organization \(Unit: Cells\)
+> * Metabolism
+> * Growth
+> * Adaptation
+> * Response to stimuli
+> * Reproduction
+
+> functions of proteins:
+>
+> * Defense \(e.g. antibodies\)
+> * Structure \(e.g. collagen\)
+> * Enzymes \(metabolism, catabolism\)
+> * Communication / Signaling \(e.g. insulin\)
+> * Ligand binding / Transport \(e.g. hemoglobin\)
+> * Storage \(e.g. ferritin\)
 
 **Question:** Why do we need membranes around cells? What are they made of? Why do proteins pass through membranes?
 
-> ❓
+> The cell membrane \(or plasma membrane or plasmalemma\) surrounds the cytoplasm of living cells, physically separating the intracellular components from the extracellular environment. The cell membrane also plays a role in anchoring the cytoskeleton to provide shape to the cell, and in attaching to the extracellular matrix and other cells to hold them together to form tissues
+>
+> The cell membrane is a bilayer of phospholipids.
+>
+> Transmembrane proteins are anchored into the bilayer by their nonpolar segments
 
 
 
