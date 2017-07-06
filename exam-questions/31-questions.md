@@ -72,13 +72,8 @@
 
 **Question: **How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
 
-> ❓
->
-> \(found on the web\) Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
->
-> \(lecture of previous years\): Plot distribution of B-value. Set a threshold. Mind the experimental error \(so, don't put threshold on the peak\). For ML prediction: as positive samples take predictions for entire proteoms , as negative  - entire PDB
->
-> \(There is an answer in the last video lecture, which is not uploaded yet\)
+> 1. B-Values in principle are conserved. Thus the B-Values for proteins across the PDB have to first be normalised \(different depending on family\)
+> 2. Thresholding. In order to map the continuous space to outputs \(rigid / flexible\), thresholds have to be set \(not at the peak of the distribution, since the experimental error is the biggest there.
 
 ### Questions \(Thursday, 29th June\)
 
@@ -287,7 +282,9 @@
 > 1. Positive-inside rule
 > 2. Similar sequence -&gt; similar struction
 > 3. No? \(there are similar proteins among different animals\)
-> 4.  X-ray: ~1 year, 100 000 euro
+>
+> X-ray: ~1 year, 100 000 euro \(can go up to million in certain cases\). 
+> NMR crystallography: more time consuming and more expensive \(due to spectrometer costs and isotope labelling\) than X-ray crystallography. A standard 600 MHz NMR costs roughly $800,000, but the 900 MHz sells for about $5 million.
 
 **Question:** How would you define life? How are proteins crucial to maintain it?
 
@@ -300,7 +297,7 @@
 > * Adaptation
 > * Response to stimuli
 > * Reproduction
-
+>
 > functions of proteins:
 >
 > * Defense \(e.g. antibodies\)
@@ -312,11 +309,11 @@
 
 **Question:** Why do we need membranes around cells? What are they made of? Why do proteins pass through membranes?
 
-> The cell membrane \(or plasma membrane or plasmalemma\) surrounds the cytoplasm of living cells, physically separating the intracellular components from the extracellular environment. The cell membrane also plays a role in anchoring the cytoskeleton to provide shape to the cell, and in attaching to the extracellular matrix and other cells to hold them together to form tissues
+> It physically separates the intracellular components from the extracellular environment and provides shape of the cell. Also membrane is a dynamic structure \(cell can grow and shrink\).
 >
-> The cell membrane is a bilayer of phospholipids.
+> The cell membrane is a bilayer of phospholipids.The phospholipid bilayer is hydrophilic on the outside and hydrophobic on the inside. 
 >
-> Transmembrane proteins are anchored into the bilayer by their nonpolar segments
+> Transmembrane proteins are anchored into the bilayer by their nonpolar segments.TMP can move laterally \(sideways\) in the membrane.
 
 
 
