@@ -1,4 +1,4 @@
-##  3.1 Lecture Questions
+## 3.1 Lecture Questions
 
 > This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant, **because he will sample exam questions from this pool.
 
@@ -10,9 +10,7 @@
 
 **Question: **You want to develop a new method to predict e-values, how do you prepare your data?
 
-> **?**
->
-> Maybe to consider length of sequences, data base size, redundancy of data
+> you need to look at how e-value changes through iteration, width of background distribution, height of score
 
 **Question: **What is the regular process when you want to analyse a new sequence?
 
@@ -74,11 +72,8 @@
 
 **Question: **How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
 
-> ❓
->
-> Training set: non-redundant set of high resolution protein structures. Network is trained on properties that can be obtained from primaary a.a. sequence: secondary structures and solvent accessibility. We can also use evolutionary profile and global information about sequence.
->
-> \(There is an answer in the last video lecture, which is not uploaded yet\)
+> 1. B-Values in principle are conserved. Thus the B-Values for proteins across the PDB have to first be normalised \(different depending on family\)
+> 2. Thresholding. In order to map the continuous space to outputs \(rigid / flexible\), thresholds have to be set \(not at the peak of the distribution, since the experimental error is the biggest there.
 
 ### Questions \(Thursday, 29th June\)
 
@@ -190,6 +185,8 @@
 
 > Methods trained to predict secondary structure in soluble environment fail for membrane proteins \(empirical observation\). Reason for this is that the environment \(the membrane\) is very different.
 >
+> Number of alpha - helixes is important, as it defines function of membrane protein. Position of alpha-helixes, topology.
+>
 > ❓
 
 **Question:** What is the principle difference between PSI-BLAST and CLUSTALW \(or any other multiple sequence alignment method\)?
@@ -203,7 +200,7 @@
 >
 > ❓
 
-**Question:**  How do you measure the similarity between a profile \(PSM\) and a sequence?
+**Question:**  How do you measure the similarity between a profile \(PSSM\) and a sequence?
 
 > You calculate the PSSM score.
 >
@@ -265,21 +262,58 @@
 >
 > ❓
 
-**Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What you you have to watch? Can you use the entire PDB? Once you have N proteins in you dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
+**Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What do you have to watch? Can you use the entire PDB? Once you have N proteins in you dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
 
-> ❓
+> 1. Redundancy reduced dataset, "remove" all proteins in comparative modeling range.
+> 2. "Remove" fraction of dataset for later blind testing \(no overlap with training set allowed\)
+> 3. Use blind test to assess perfomance
+>    1. Q3 = number of correctly predicted residues / total number of residues
+>    2. Number of correctly predicted H, E, L
+> 4. Statistical significance 
+>    1. Determine average Qx - value on your dataset
+>    2. Calculate the standard deviation \(sigma\)
+>    3. Calculate standard error \(sigma/sqrt\(N\)\)
+>    4. Compare the new method to other method \(baseline\) performance + standard error
+> 5. Scientific significance
+>    1. Does the perfomance increase helps to push new scientific findings
 
 **Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modelling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost \(time/money\) to experimentally determine the 3D structure of an average protein?
 
-> ❓
+> 1. Positive-inside rule
+> 2. Similar sequence -&gt; similar struction
+> 3. No? \(there are similar proteins among different animals\)
+>
+> X-ray: ~1 year, 100 000 euro \(can go up to million in certain cases\). 
+> NMR crystallography: more time consuming and more expensive \(due to spectrometer costs and isotope labelling\) than X-ray crystallography. A standard 600 MHz NMR costs roughly $800,000, but the 900 MHz sells for about $5 million.
 
 **Question:** How would you define life? How are proteins crucial to maintain it?
 
-> ❓
+> Descriptive definitions of life:
+>
+> * Homeostatis \(regulation of internal environment to maintain constant state\)
+> * Organization \(Unit: Cells\)
+> * Metabolism
+> * Growth
+> * Adaptation
+> * Response to stimuli
+> * Reproduction
+>
+> functions of proteins:
+>
+> * Defense \(e.g. antibodies\)
+> * Structure \(e.g. collagen\)
+> * Enzymes \(metabolism, catabolism\)
+> * Communication / Signaling \(e.g. insulin\)
+> * Ligand binding / Transport \(e.g. hemoglobin\)
+> * Storage \(e.g. ferritin\)
 
 **Question:** Why do we need membranes around cells? What are they made of? Why do proteins pass through membranes?
 
-> ❓
+> It physically separates the intracellular components from the extracellular environment and provides shape of the cell. Also membrane is a dynamic structure \(cell can grow and shrink\).
+>
+> The cell membrane is a bilayer of phospholipids.The phospholipid bilayer is hydrophilic on the outside and hydrophobic on the inside. 
+>
+> Transmembrane proteins are anchored into the bilayer by their nonpolar segments.TMP can move laterally \(sideways\) in the membrane.
 
 
 
