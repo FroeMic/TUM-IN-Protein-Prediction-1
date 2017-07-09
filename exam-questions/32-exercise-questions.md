@@ -36,36 +36,45 @@
 
 > Alpha-Helices are stabilized by **hydrogen bonds** along the backbone. Every turn takes about **3,6 **residues.
 
-**Question: **What is similar and what is different in the hydrogen bonding of the alpha helix and the beta sheet?
+**Question:** What is similar and what is different in the hydrogen bonding of the alpha helix and the beta sheet?
 
 > * Hydrogen bonds in **Alpha Helices** are 'ultra-local' and occur along the backbone of the helix \(each 3.6 residues\)
 > * Hydrogen bonds between **Beta Sheets** happen between the beta-strands \(running parallel or antiparallel\) which can be rather far apart in sequence.
 
-**Question: **Why do we find "forbidden" areas in a Ramachandran plot?
+**Question:** Why do we find "forbidden" areas in a Ramachandran plot?
 
 > The Ramachandran plot shows the angles $$(\phi,\ \psi)$$ of amino acids in which alpha-helices and beta sheet are typically observed. Forbidden areas are those that are not possible due to physical constraints due to e.g. the side chain of the amino acid.
 
 **Question:** What is a protein domain?
 
-> ?
+> A domain is a conserved (sub-)sequences of a protein, which adopts a unqiue 3D structure when put into solvent.
 
 **Question:** How many amino acids are typically found a in a domain? Why is there a minimum/maximum size?
 
-> ?
+> Proteins domains are found between 36 and 690 residues long. Most protein domains have a length of around 100 residues.
+> 
+> Minimum Size: ?
+> Maximum Size: ?
 
 ##### 2.2 PDB
 
 **Question:** How many structures are stored in the PDB? How many of those are protein structures?
 
-> ?
+> About 130 000 entries can be found in the PDB, of which around 120 000 are protein structures.
 
 **Question:** Which experimental methods are \(mainly\) used to determine the structures? How long does it on average take to find the 3D structure for one protein for each method?
 
-> ?
+> The largest part (90%) of proteins structures are determined by X-Ray crystallography, followed by NMR (9%) and Cryo-EM (1%).
+> However, the number of new Cryo-EM structures is projected to overtake the number of new NMR entries in 2017. Current sciene pushing the limits of Cryo-EM resolution, makes it a promising technology for future 3D structure determination.
+>
+> **Costs / Time per Method**
+> * X-Ray: (100 000, ?)
+> * NMR: (?, ?)
+> * Cryo-Em: (?, ?)
 
 **Question:** How many human \("Homo sapiens"\) protein structures are in the PDB?
 
-> ?
+> About 37 000 protein structures of homo sapiens. (Not, sequence unique entries though)
 
 **Question:** Why does the number of protein structures already decreases when reducing at 100% sequence identity? Why does it decrease when reducing at even lower sequence identity further?
 
