@@ -124,15 +124,18 @@ Documentation entries describing proteins domains, families, functional sites, a
 ##### 2.1 Questions
 
 **Question:** How many structures in PDB have a resolution with =&lt; 2 Angstrom
-
-> ?
+> ???
+> High-resolution structures, with resolution values of 1 Å or so, are highly ordered and it is easy to see every atom in the electron density map. Lower resolution structures, with resolution of 3 Å or higher, show only the basic contours of the protein chain, and the atomic structure must be inferred. Most crystallographic-defined structures of proteins fall in between these two extremes. As a general rule of thumb, we have more confidence in the location of atoms in structures with resolution values that are small, called "high-resolution structures". from [https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/resolution#](https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/resolution#)
+But no word on percentage.
 
 **Question:** Which term from computer science you would use to describe PROSITE patterns \(e.g. PDOC00022\).
 
-> ???
+
 >
-> -&gt; I would argue it reminds me of regular expressions, but this should be verified.  
+> -&gt; I would argue it reminds me of regular expressions, but this should be verified. 
+> -&gt; I agree, but the syntax is differing from bash regex  
 > eg see here: [http://www.hpa-bioinfotools.org.uk/ps\_scan/PS\_SCAN\_PATTERN\_SYNTAX.html](http://www.hpa-bioinfotools.org.uk/ps_scan/PS_SCAN_PATTERN_SYNTAX.html)
+> compare to: [http://tldp.org/LDP/abs/html/x17129.html](http://tldp.org/LDP/abs/html/x17129.html)
 
 **Question:** Which type of information does STRING provide?
 
