@@ -15,7 +15,7 @@
   * polar uncharged side chains
   * hydrophobic side chains
   * special cases
-* Amino Acids are the building blocks of proteins. Once it is part of a protein, they amino acids is referred to as a protein
+* Amino Acids are the building blocks of proteins. Once it is part of a protein, the amino acids are referred to as a residues
 
 ![](/assets/Peptidformationball.svg.png)
 
@@ -47,7 +47,6 @@
 | **2D Information:** 2D-Array, contact map | **Secondary Structure:** helices, sheets, ... |
 | **3D Information:** coordinates or atom couplings | **Tertiary Structure:** Spatial arrangement of secondary structure elements |
 
-##### 
 
 ##### Hydrogen bonds
 
@@ -62,10 +61,8 @@
   * typically **4-40** residues long
   * stabilized by hydrogen bonds between backbone atoms
 * **Beta Strand / Sheet**
-
   * Several **parallel** or **anti-parallel** strands form a sheet
   * 'long-range' hydrogen bonds \(in terms of residues involved\)
-
   * 'flat'
 
 * **Loop / Turn / Coil**
@@ -95,7 +92,6 @@ When chaining up the amino acids on the polypeptide bond, the main bond $$\omega
 
 A **Ramachandran Plot** plots the typical / allowed regions for **⍺-helices** and **β-sheets**.![](/assets/Screen Shot 2017-07-04 at 16.57.03.png)
 
-##### 
 
 ##### Classification of Structures
 
@@ -108,11 +104,9 @@ Two similar methods \(CATH / SCOP\) both aiming to **organize** the protein stru
   * Families
 
 **SCOP:** Structural Classification Of Proteins
-
-* fully manually curated, driven by expert analysis
+ * fully manually curated, driven by expert analysis
 
 **CATH:** \(Class, Architecture, Topology, Homologous Superfamily\)
-
 * semi-automatic procedure for deriving a novel hierarchical classification of protein domain structures
 * 4 main levels
   * **Protein Class:** Mainly secondary structure composition of each domain 
@@ -219,25 +213,34 @@ Measure to determine **3D similarity** between structures
 
 **Question:** What is a protein domain?
 
-> ?
+> A domain is a conserved (sub-)sequences of a protein, which adopts a unqiue 3D structure when put into solvent.
 
 **Question:** How many amino acids are typically found a in a domain? Why is there a minimum/maximum size?
 
-> ?
+> Proteins domains are found between 36 and 690 residues long. Most protein domains have a length of around 100 residues.
+> 
+> Minimum Size: ?
+> Maximum Size: ?
 
 ##### 2.2 PDB
 
 **Question:** How many structures are stored in the PDB? How many of those are protein structures?
 
-> ?
+> About 130 000 entries can be found in the PDB, of which around 120 000 are protein structures.
 
 **Question:** Which experimental methods are \(mainly\) used to determine the structures? How long does it on average take to find the 3D structure for one protein for each method?
 
-> ?
+> The largest part (90%) of proteins structures are determined by X-Ray crystallography, followed by NMR (9%) and Cryo-EM (1%).
+> However, the number of new Cryo-EM structures is projected to overtake the number of new NMR entries in 2017. Current sciene pushing the limits of Cryo-EM resolution, makes it a promising technology for future 3D structure determination.
+>
+> **Costs / Time per Method**
+> * X-Ray: (100 000, ?)
+> * NMR: (?, ?)
+> * Cryo-Em: (?, ?)
 
 **Question:** How many human \("Homo sapiens"\) protein structures are in the PDB?
 
-> ?
+> About 37 000 protein structures of homo sapiens. (Not, sequence unique entries though)
 
 **Question:** Why does the number of protein structures already decreases when reducing at 100% sequence identity? Why does it decrease when reducing at even lower sequence identity further?
 
