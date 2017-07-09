@@ -134,11 +134,21 @@ _Homology-derived Secondary Structure of Proteins_![](/assets/Screen Shot 2017-0
 
 **Question:** How does ClustalW work? How does it differ from BLAST?
 
-> ?
+>Clustal is a series of widely used computer programs used in Bioinformatics for multiple sequence alignment.
+> from Wikipedia
+> All variants of Clustal align sequences by three main steps:
+>   * Do a pairwise alignment
+>   * Create a guide tree (or use a user-defined tree)
+>   * Use the guide tree to carry out a multiple alignment
+>
+> ? BLAST itself is not a multiple sequence alignment tool 
+
 
 **Question:** What is HHblits?
 
-> ?
+> A multiple sequence allignment tool using HMMs
+> _HHblits-Schematic_![](/assets/HHblits-Schematic.png)
+
 
 **Question:** What is the definition of accuracy? Is it the same as Qx?
 
