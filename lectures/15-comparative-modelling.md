@@ -11,11 +11,10 @@
 
 **Question:** How do you build up a family \(profile\) of sequences?
 
-> 1. Find proteins of similar structure with BLAST
-> 2. Build PSSM
-> 3. build up a set of pairwise alignments 
-> 4. add those over a certain HSSP value to the family
-> 5. Search with profile-sequence comparison for more distant family members and refine profile
+> 1. Find proteins of similar sequence with BLAST
+> 2. Use the found proteins to build a PSSM (profile)
+> 3. Use profile-sequence alignment with the calculated PSSM to retrieve more distant family members
+> 4. Add the newly found proteins to the family by recalculating the PSSM
 
 * When building up a profile, start with a high threshold \(only very similar sequences are taken\), so the profile is not wrong from the beginnig
 
