@@ -315,5 +315,8 @@
 >
 > Transmembrane proteins are anchored into the bilayer by their nonpolar segments.TMP can move laterally \(sideways\) in the membrane.
 
+### Questions \(Thursday, 6th July\)
 
+**Question:** What does the reliability of variants tell us about the severity of effect and why?
 
+> ❓
