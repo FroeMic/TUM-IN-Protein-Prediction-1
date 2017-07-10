@@ -92,7 +92,7 @@ Due to “experimental” reasons the sample represents only a special subset of
 
 **Question 6: **Initially, prediction methods often focused on alpha-helices or underpredicted beta-sheets. What is the difficulty in recognizing beta-sheets from a window-based prediction method?
 
-> b-sheet formation is not local
+> The general opinion was, that the distance between the single strands, that form a beta-sheet, are too distant to be catpured by just local information. This was disproved after balancing the dataset (equal representation of helix, strand, other). The overall Q3 accuracy dropped a bit, but the accuracy of sheets increased significantly. 
 
 
 
