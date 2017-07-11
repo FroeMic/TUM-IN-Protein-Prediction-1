@@ -160,11 +160,9 @@
 
 **Question:** Say the 3D structure for **N** thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for _sequence-unique_ that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
 
-> ❓
->
-> Using RMSD and putting a threshold
->
-> We need an unbiased dataset in order to assess perfomance of 3D to 1D prediction.
+> The threshold should be the border (or a little bit left) of daylight and twilight zone. This is because for proteins in the daylight zone we can do comparative modeling and thus there is no need to make predictions on them. Since those proteins will also never be used as inputs for our predictor, we NEED to remove them in order not to bias our model on them. (The model needs to be trained on the instance/sample space from which the to be predicted instances will be drawn at prediction time = not in homology modeling distance).
+> 
+> If we would still need to include the proteins in homology distance, we should at least reduce the top X percent to remove duplicates (they might be in there due to competing groups doing research at the same time, difference in age and resolution,..).
 
 **Question:** How do you compare proteins of different length?
 
