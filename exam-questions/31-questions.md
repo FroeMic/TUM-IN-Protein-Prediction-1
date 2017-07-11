@@ -27,7 +27,7 @@
 > 
 > Which analysis method we choose, ultimately depends on, what we want to find out about the discovered sequence.
 
-**Question: **What is a structural domain? What is a functional domain and How can we deal with the fact that they can be in different places?
+**Question:** What is a structural domain? What is a functional domain and How can we deal with the fact that they can be in different places?
 
 > * structural domain: part of sequence with unique 3D structure
 > * functional domain: part of sequence with unique function
@@ -35,14 +35,26 @@
 
 ### Questions \(Tuesday, 27th June\)
 
-**Question: **How do we predict proteins?
+**Question:** How do we predict proteins?
 
-> **?**
+> [Note: Too general question for the exam...]
 >
-> * use DB to search for homologs
-> * use Machine learning and other methods for secondary structure prediction
+> [1] Predict Function:
+> * We cannot predict function directly. The general assumption is that from same 3D structure we can assume same function.
 >
-> * use Comparative modelling for 3D structure prediction
+> [2] Predict 3D Structure
+> * The only reliable way to predict 3D structure is **homology modeling**. 
+>     * Find homologs with known 3D structure by sequence identity (assumption: high sequence identity -> similar 3D structure)
+>     * Use homology modeling (Modeller, Swiss-Model): Apply known 3D structure of homolog to query sequence and refine constraints
+>     
+> [3] Predict Secondary Structure
+> * Use algorithms (GOR III, ProfSec) to predict secondary structure. Possibly as input for further analysis.
+> 
+> [4] Predict Membrane Proteins
+> * Predict different features about Trans-Membrane Proteins.
+>     * Is a protein a membrane protein (check e.g. hydrophobicity)
+>     * Are there Trans-Membrane Helices (TMH) or Beta-Barrels? At which postion are they?
+>     * In which direction is the membrane crossed? (Toplogy, Inside-Positive Rule)
 
 **Question: **Why would someone give you a sequence?
 
