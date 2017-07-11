@@ -320,3 +320,12 @@
 **Question:** What does the reliability of variants tell us about the severity of effect and why?
 
 > ❓
+
+### Questions \(Tuesday, 11th July\)
+
+**Question:** State one example in which the replacement of graphs by hypergraphs reduces the information-loss when modeling cellular and/or physical systems.
+
+> When modeling protein interactions, some functions are the result of protein complexes with more than 2 proteins. A hypergraph can have edges between an arbitray number of vertices, whereas a regular graph can only connect 2 vertices with and edge.
+> If we modeled the interaction of 3 proteins with a regular graph, we would 
+> [1] either connect all nodes pairwise, losing the information whether they do (or do not) interact pairwise as well
+> [2] don't model the 3-way interaction at all (loosing exactly this information)
