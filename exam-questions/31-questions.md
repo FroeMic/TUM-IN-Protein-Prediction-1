@@ -73,19 +73,18 @@
 > 3. Use this PSSM to perform a Profile-Sequence search against the database to discover more distant family members.
 > 4. Recalculate the PSSM to refine the profile with the newly found proteins. Perform another round of Profile-Sequence search against the Database, if no stop-criterion was reached.
 
-**Question: **Pairwise/multiline alignment: what can we acheive, what is the risk?
+**Question:** Pairwise/Multiple alignment: what can we achieve, what is the risk?
 
-> Multiple alignment can be used to find pattern characteristics of specific protein families, build phylogenetic trees, detect homology between new sequence and existing families, help in predicting secondary structure of new sequence.
+> Pairwise Alignment aligns exactly 2 sequences. This is necessary to e.g. further compute 3D similarity or make assumptions about evolutionary and functional relatedness. It is important to always consider the background distribution, length of sequence, size of database. (= How probable is it that such an alignment score happened by chance?
 >
-> Sequence alignment can fhelp in: finding conserved regions between the 2 sequences, similarity searches in DB.
->
-> In case of Multiple alignment there is a risk of pollution, any errors in the initial alignments cannot be corrected later as new information from other sequences is added.
+> Multiple Sequence Aligment tries to align more than 2 sequences. This is computationally infeasable for more than 6 proteins, so 'shortcuts' are needed. (e.g. CLUSTAL, BLAST). Multiple sequence alignments help to uncover conserved evolutionary information about a protein family, which in turn can help to find more distant relatives (in terms of sequence identity).
+> (In case of Multiple alignment there is a risk of pollution, any errors in the initial alignments cannot be corrected later as new information from other sequences is added.)
 
-**Question: **What is the difference between pairwise and multiple alignment?
+**Question:** What is the difference between pairwise and multiple alignment?
 
-> Pairwise alignment compares 2 sequences, multiple - 3 and more. \(Also look previous question\)
+> Pairwise alignment compares 2 sequences, multiple aligment- 3 and more. \(Also look previous question\)
 
-**Question: **Can we predict something we have not observed?
+**Question:** Can we predict something we have not observed?
 
 > When we predict features we can try to find somthing that people "want" to see.
 
