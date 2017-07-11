@@ -290,15 +290,16 @@
 > * By membrane prediction methods, we can predict which proteins are membrane proteins. So we can predict the number of membrane / disorder proteins under consideration of prediction accuracy.
 > * For the human proteon, it is estimated that about 25% are membrane proteins, however the 3D structure of only 1000 - 2000 membrane proteins has been experimentally determined.
 
-**Question:** You want to use a regular neural network \(input/hidden/output\) too solve a certain prediction model. \(e.g. predict disordered regions\). How can you find how many hidden units you need? How what the best input is? How to best code the output \(here disorder\)?
+**Question:** You want to use a regular neural network \(input/hidden/output\) too solve a certain prediction model. \(e.g. predict disordered regions\). How can you find how many hidden units you need? What the best input is? How to best code the output \(here disorder\)?
 
-> * empirically - you need to try it
->   * Start with the output unit? What do you want to get out?
-> * output: reliability, …
-> * input: try out what do pull in? What has worked for others?
-> * hidden: defined by the complexity of the problem and the number of samples
->
-> ❓
+> How can you find how many hidden units you need? 
+> * There is really only one way: Try it. Usually one starts with too many (and overfits) and then reduces it until the test-performance does not get better anymore.
+> 
+> What the best input is? 
+> * This depends on the task. Hence expert domain knowledge is needed. In general, all features that influence the to be predicted property should be included. NN learns the priorisation of the features itself.
+> 
+> How to best code the output (here disorder)?
+> * Try the most straight forward first. Here probably binary: isDisorderRegion isNotDisorderRegion. If doesn't work, try to split the label classes up (see. solvent accessibility).
 
 **Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What do you have to watch? Can you use the entire PDB? Once you have N proteins in your dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
 
