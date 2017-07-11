@@ -243,11 +243,16 @@
 
 **Question:** How is the **e-value** for PSI-BLAST, FASTA calculated.
 
-> ❓ 
-> * PSI-BLAST
+> The e-value is a property of a score (the score of an alignment consisting of two sequences and a scoring matrix).
+> It reflects the expectation value of the number of alignments that have a score >= the Score S.
+> 
+> Calculation:
+> E(Score) = N / (2 ^ S'(Score))
+> S'(Score) = (lambda*Score - ln(K) ) / ln(2)
 >
->   * … ?
->   * e-value changes over iterations
+> where lambda and K depend on the scoring matrix
+> 
+> For PSI-BLAST the e-value needs to be recalculated after each run.
 
 **Question:** Why might per-residue scores poorly reflect the performance of transmembrane prediction? Invent an alternative method to score TMH prediction methods.
 
