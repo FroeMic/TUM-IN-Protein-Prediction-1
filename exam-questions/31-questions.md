@@ -88,26 +88,29 @@
 
 > When we predict features we can try to find somthing that people "want" to see.
 
-**Question: **Sliding windows introduce information from the sequence environment. Why do we need convolutional network on top of that? Why do we need anything else on top? _\(not sure about correctness of question\)_
+**Question:** Sliding windows introduce information from the sequence environment around a residue. Why do we need a second neural network on top of that? Why do we need anything else on top? 
 
+> The second (independently trained) structure-to-structure network helps to improve prediction performance for helices and sheet by solving the 'short segment' problem.
 > It gives us ability to detect motifs whenever it's in sequence window. It exploits spatially local correlation.
 
-**Question: **How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
+**Question:** How do we prepare data to predict B-value? _\(not sure about correctness of question\)_
 
-> 1. B-Values in principle are conserved. Thus the B-Values for proteins across the PDB have to first be normalised \(different depending on family\)
+> 1. B-Values in principle are conserved. Thus the B-Values for proteins across the PDB have to first be normalised \(differently depending on family\)
 > 2. Thresholding. In order to map the continuous space to outputs \(rigid / flexible\), thresholds have to be set \(not at the peak of the distribution, since the experimental error is the biggest there.
 
 ### Questions \(Thursday, 29th June\)
 
-**Question: **With a matching _profile-profile_ comparison what can you say about the two families?
+**Question:** With a matching _profile-profile_ comparison what can you say about the two families?
 
 > The assumption is that matching profiles share a similar / same structure and function.
+> (?) Also evolutionary connection?
 
-**Question: **When I build a profile of a famliy: Do they share the same structure? Should I verify that they do? How do i do that?
+**Question:** When I build a profile of a famliy: Do they share the same structure? Should I verify that they do? How do I do that?
 
-> The very assumption is that the proteins of one family share the same structure and function. When iteratively refining the profile with proteins retrieved by _profile-sequence_ of \_profile-profile \_comparison \(from the twilight- / midnight-zone\), it can make sense to double check the new proteins with secondary structure prediction to avoid adding false-positives.
+> * The very assumption is that the proteins of one family share the same structure and function.
+> * When iteratively refining the profile with proteins retrieved by _profile-sequence_ of _profile-profile_ comparison \(from the twilight- / midnight-zone\), it can make sense to double check the new proteins with secondary structure prediction to avoid adding false-positives to the family.
 
-**Question: **Cross-Validation: What is it? How does it work? Why do we need it?
+**Question:** Cross-Validation: What is it? How does it work? Why do we need it?
 
 > Is an validation technique for assessing how the results of a statistical analysis will generalize to an independent data set. We need it to to estimate how accurately a predictive model will work in practice
 >
