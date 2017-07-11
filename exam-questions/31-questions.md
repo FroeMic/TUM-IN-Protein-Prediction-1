@@ -116,42 +116,46 @@
 >
 > N-fold cross-validation: Partion data in 'n' folds. Use 'n-1' for training and 1 for performance assessment. Repeat with different hold out partitions. Average perfomance.
 
-**Question: **What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
+**Question:** What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
 
-> In case of PSSM  a.a. substitution scores are given separately for each position in a protein multiple sequence alignment. And in Blosum we have substitution scores for all possible substitution pairs \(210 in total\) of 20 standard a.a.
+> * In case of a PSSM  amino acide substitution scores are given separately for each position in a protein sequence. 
+> * In BLOSUM62 we have substitution scores for all possible substitution pairs \(210 in total\) of the 20 standard amino acids. (NOT specific to their position in a sequence)
 
-**Question: **What is the most successful method to predict 3D structure?
+**Question:** What is the most successful method to predict 3D structure?
 
-> comparative modelling
+> Homlogy (Comparative) Modeling.
 
-**Question: **What is homology modeling \(= comparative modeling\) and how does it work? What are the limitations of it?
+**Question:** What is homology modeling \(= comparative modeling\) and how does it work? What are the limitations of it?
 
-> Allign sequence with proteins in PDB and set a threshold. Introduce gaps as loops.
+> 1. Align sequence with proteins in PDB and set a threshold. Introduce gaps as loops.
 >
 > Limitation - no similarities found \(templates are unavailable or fragmentary\), matching right residues \(errors in sequence alignment produce errors in the homology model\)
 
-**Question: **How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
+**Question:** How can you predict structure in the \[a\] daylight- \[b\] twilight- \[c\] midnight-zone?
 
-> While using sequence-sequence, sequence-profile and profile-profile alignment respectively.
+> By using \[a\] sequence-sequence, \[b\] sequence-profile and \[c\] profile-profile alignment respectively.
 
-**Question: **What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
+**Question:** What is the assumption behind all alignment methods that is incorrect and nevertheless seems to work? Give a method that aligns 2 proteins without that assumption.
 
-> The assumption is that the alignment of the residue at position **i **is independent of the **i+x**. \(In short: alignment i and i+1 are independent\).  
+> The assumption is that the alignment of the residue at position **i** is independent of the residue **i+x**. \(In short: alignment i and i+1 are independent\).  
 > The only method that does not rely on this assumption is the **Genetic Algorithm** \(e.g. T-Coffee\)
 
-**Question: **Why do we have so few experimentally confirmed structures in the PDB?
+**Question:** Why do we have so few experimentally confirmed structures in the PDB?
 
-> ca. 85 million proteins are known, but only about 120 000 are in the PDB.
+> ca. 85 million proteins are known (UniProt), but only the 3D structure of about 120 000 are in the PDB.
 >
-> Sequencing technology has improved and become a lot cheaper and hence many more proteins were discovered. While there were improvements in 3D structure determination, it still costs at least 100 000 euros to experimentally determine the 3D structure of a protein. It is expected that this divide will further increase.
+> * Sequencing technology has improved and become a lot cheaper and faster. Hence, many more proteins were discovered. 
+> * While there were improvements in 3D structure determination, it still costs at least 100 000 euros to experimentally determine the 3D structure of a protein. 
+> * It is expected that this divide will further increase.
 
-**Question: **Why do we need redundancy reduction for machine learning?
+**Question:** Why do we need to perform redundancy reduction on our dataset befor training our machine learning model?
 
 > The training data for the ML model should be representative for the problem for which it should predict.
 >
-> Half of known structures in DB have 100% sequence similarity
+> * The known 3D structures in the PDB largely share a high sequence similarity (because of different resolutions, competing groups, different research goals, ...), are thus applicable for homology modeling and not representative for the dataset we want to predict for in the future.
+> * Removing the sequences in homology modeling range (redundancy reduction) creates an unbiased dataset.
 
-**Question: **Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for \_sequence-unique** **\_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
+**Question:** Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for \_sequence-unique** **\_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
 
 > ❓
 >
