@@ -275,10 +275,14 @@
 >     * Amino Acid Composition of protein
 >     * ...
 
-**Question:** What is the most accurate way to predict protein 3D structure \(explain the idea behind the method\) ? Why does this methods hardly work for membrane proteins and even less well for disorder proteins?
+**Question:** What is the most accurate way to predict protein 3D structure \(explain the idea behind the method\)? Why does this methods hardly work for membrane proteins and even less well for disorder proteins?
 
-* > Homology Modeling  
-  > … ❓
+> Homology (Comparative) Modeling:
+> **Idea:** If we have a very similar protein in sequence identity of which we know the 3D structure, we can use this structure as a template for our query sequence.
+> **Assumption:** High Sequence Similarity -> Same (very similar) 3D structure
+>
+> * For disordered proteins it does not work, because of the definition of disorder proteins. (No unique structure)
+> * For membrane proteins, the set of available 3D structures is just too small. (166 redundancy reduced according to TMSEG lecture)
 
 **Question:** UniProt currently holds about 85 Million proteins sequences: Do we have any idea about the structure of any of those? Roughly for how many? Do we have any idea how many of the 85 million are membrane / disorder proteins?
 
