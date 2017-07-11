@@ -280,11 +280,11 @@
 * > Homology Modeling  
   > … ❓
 
-**Question:** UniProt currently holds about 85 Million proteins sequences: Do we have any idea about the structure of any of those? Roughly for how many? Do we have any idea how many of the 85Million are membrane / disorder?
+**Question:** UniProt currently holds about 85 Million proteins sequences: Do we have any idea about the structure of any of those? Roughly for how many? Do we have any idea how many of the 85 million are membrane / disorder proteins?
 
-> * Yes, for those in the PDB \(about 120k\)
-> * By membrane prediction methods, we can predict which proteins are membrane proteins. So we can predict the number of membrane / disorder proteins under consideration of prediction accuracy
-> * For the human proteon, it is estimated that about 25% are membrane proteins.
+> * Yes, we have a 3D structure for those in the PDB \(about 120k\)
+> * By membrane prediction methods, we can predict which proteins are membrane proteins. So we can predict the number of membrane / disorder proteins under consideration of prediction accuracy.
+> * For the human proteon, it is estimated that about 25% are membrane proteins, however the 3D structure of only 1000 - 2000 membrane proteins has been experimentally determined.
 
 **Question:** You want to use a regular neural network \(input/hidden/output\) too solve a certain prediction model. \(e.g. predict disordered regions\). How can you find how many hidden units you need? How what the best input is? How to best code the output \(here disorder\)?
 
@@ -296,29 +296,31 @@
 >
 > ❓
 
-**Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What do you have to watch? Can you use the entire PDB? Once you have N proteins in you dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
+**Question:** You want to develop a method to predict secondary structure in 3 states \(HEL\). How can you use DSSP to convert the 3D structure in the PDB to HEL.  What do you have to watch? Can you use the entire PDB? Once you have N proteins in your dataset: how can you assess prediction performance? \(How to measure ‘right’, name a few score that are relevant, how to measure statistical significance, how to measure scientific significance\)
 
-> 1. Redundancy reduced dataset, "remove" all proteins in comparative modeling range.
+> 1. Redundancy reduce the dataset: "Remove" all proteins in comparative modeling range
 > 2. "Remove" fraction of dataset for later blind testing \(no overlap with training set allowed\)
-> 3. Use blind test to assess perfomance
+> 3. Use remaing dataset to train model
+> 4. Use blind test to assess perfomance
 >    1. Q3 = number of correctly predicted residues / total number of residues
->    2. Number of correctly predicted H, E, L
-> 4. Statistical significance 
+>    2. Prediction performance for each H, E and L
+> 5. Statistical significance: Is my method better than others?
 >    1. Determine average Qx - value on your dataset
 >    2. Calculate the standard deviation \(sigma\)
 >    3. Calculate standard error \(sigma/sqrt\(N\)\)
->    4. Compare the new method to other method \(baseline\) performance + standard error
+>    4. Compare the new method's performance to other methods' \(baseline\) performances. If the performance increase is larger than the standard error, it is statistically significant
 > 5. Scientific significance
->    1. Does the perfomance increase helps to push new scientific findings
+>    1. Does the perfomance increase helps to push new scientific findings?
 
-**Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modelling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost \(time/money\) to experimentally determine the 3D structure of an average protein?
+**Question:** TMH prediction: How can you predict the direction of a helix? What assumption does comparative modeling make? Why do proteins always have to adopt the same 3D structure? Do different organisms use different proteins? How much does it cost \(time/money\) to experimentally determine the 3D structure of an average protein?
 
 > 1. Positive-inside rule
 > 2. Similar sequence -&gt; similar struction
-> 3. No? \(there are similar proteins among different animals\)
+> 3. Yes different species have different proteins. However there is a evolutionary history / relatedness between species, so that similar proteins (homologs) are found.
 >
-> X-ray: ~1 year, 100 000 euro \(can go up to million in certain cases\). 
-> NMR crystallography: more time consuming and more expensive \(due to spectrometer costs and isotope labelling\) than X-ray crystallography. A standard 600 MHz NMR costs roughly $800,000, but the 900 MHz sells for about $5 million.
+> * X-ray: ~1 year, 100 000 euro \(can go up to million in certain cases\). 
+> * NMR crystallography: more time consuming and more expensive \(due to spectrometer costs and isotope labelling\) than X-ray crystallography. A standard 600 MHz NMR costs roughly $800,000, but the 900 MHz sells for about $5 million.
+> * Cyro-EM: ??
 
 **Question:** How would you define life? How are proteins crucial to maintain it?
 
@@ -332,7 +334,7 @@
 > * Response to stimuli
 > * Reproduction
 >
-> functions of proteins:
+> Functions of proteins: _Machinery of Life_
 >
 > * Defense \(e.g. antibodies\)
 > * Structure \(e.g. collagen\)
@@ -343,11 +345,11 @@
 
 **Question:** Why do we need membranes around cells? What are they made of? Why do proteins pass through membranes?
 
-> It physically separates the intracellular components from the extracellular environment and provides shape of the cell. Also membrane is a dynamic structure \(cell can grow and shrink\).
+> * It physically separates the intracellular components from the extracellular environment and provides shape of the cell. Also membrane is a dynamic structure \(cell can grow and shrink\).
 >
-> The cell membrane is a bilayer of phospholipids.The phospholipid bilayer is hydrophilic on the outside and hydrophobic on the inside. 
+> * The cell membrane is a bilayer of phospholipids.The phospholipid bilayer is hydrophilic on the outside and hydrophobic on the inside. 
 >
-> Transmembrane proteins are anchored into the bilayer by their nonpolar segments.TMP can move laterally \(sideways\) in the membrane.
+> * Transmembrane proteins are anchored into the bilayer by their nonpolar segments. TMP can move laterally \(sideways\) in the membrane.
 
 ### Questions \(Thursday, 6th July\)
 
