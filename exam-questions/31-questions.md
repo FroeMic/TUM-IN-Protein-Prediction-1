@@ -4,18 +4,18 @@
 
 ### Questions \(Thursday, 22nd June\)
 
-**Question: **How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
+**Question:** How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
 
 > - The E-value indicates significance of alignment/ hits returned by chance when searhing through DB. 
 > - It depends on the size of dataset and length of query. 
 >
 > So higher e-values from large DB aren't always bad \(and opposite: smaller e-values from small sample space isn't always good\). (?)
  
-**Question: **You want to develop a new method to predict e-values, how do you prepare your data?
+**Question:** You want to develop a new method to predict e-values, how do you prepare your data?
 
 > You need to look at how the e-value changes through iterations, width of background distribution, height of score
 
-**Question: **What is the regular process when you want to analyse a new sequence?
+**Question:** What is the regular process when you want to analyse a new sequence?
 
 > [Note: A question such as this would need more information I think. What do I want to know about the new sequence?]
 >
@@ -56,18 +56,22 @@
 >     * Are there Trans-Membrane Helices (TMH) or Beta-Barrels? At which postion are they?
 >     * In which direction is the membrane crossed? (Toplogy, Inside-Positive Rule)
 
-**Question: **Why would someone give you a sequence?
+**Question:** Why would someone give you a sequence?
 
-> Amount of newly discovored sequences constantly increses. And even for known sequences we still can refine information that we have about them.
+> The amount of newly discovered sequences constantly increases (sequencing is very cheap and fast)
+> And even for known sequences we still can refine information that we have about them
 
-**Question: **How do you run a sequence against the DB?
+**Question:** How do you run a sequence against the DB?
 
-> * Blast search \(uses indexing technique, scoring matrix and dynamic programming to find short similar segments\)
-> * Psi-Blast search \(at first it uses Blast search, creates profile \(PSSM\) from highest scoring hits and uses it to replace substitution matrix in a subsequent Blast search, this process can be repeated many times to refine profile\)
+> * BLAST search \(uses indexing technique, scoring matrix and dynamic programming to find short similar segments\)
+> * PSI-BLAST search \(at first it uses Blast search, creates profile \(PSSM\) from highest scoring hits and uses it to replace substitution matrix in a subsequent searches, this process can be repeated many times to refine profile\)
 
-**Question: **How do you build a family?
+**Question:** How do you build a family?
 
-> Use non-redundant database. Set a threshold for E-value. Perform similarity search of all the proteins against eash other using Blast. Proceed results i.e. set thresholds for including proteins in family \(similarity, sequence length\). For each family align proteins using ClustaW.
+> 1. Run BLAST against the entire database (e.g. UniProt) to find proteins with high sequence similarity. From these 'homologs' found, we can assume an evolutionary relationship based on their high PSI. (Important! Get the statistics right and only add proteins which are from the Daylight Zone)
+> 2. Calculate a PSSM with the homologs found. (= profile) This reveals conserved residues / regions.
+> 3. Use this PSSM to perform a Profile-Sequence search against the database to discover more distant family members.
+> 4. Recalculate the PSSM to refine the profile with the newly found proteins. Perform another round of Profile-Sequence search against the Database, if no stop-criterion was reached.
 
 **Question: **Pairwise/multiline alignment: what can we acheive, what is the risk?
 
