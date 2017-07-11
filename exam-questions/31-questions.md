@@ -214,14 +214,14 @@
 
 **Question:** What is the principle difference between PSI-BLAST and CLUSTALW \(or any other multiple sequence alignment method\)?
 
-> The differ in the way the background statistics are compiled. BLAST is so fast because it compiles the background statistics only once. CLUSTALW on the other hand uses random sampling.❓
+> The Optimization Criteria is different:
 >
-> Optimization Criteria is different:
+> * BLAST: Builds up a PSSM
+> * CLUSTALW:  Optimizes the family alignment (in a dynamic programming fashion, wich is computationally slower, but may prodice a more 'optimal' result)
 >
-> * BLAST: Alignment
-> * CLUSTALW:  Optimize family alignment
->
-> ❓
+> The differ in the way the background statistics are compiled: 
+> * BLAST is so fast because it compiles the background statistics only once
+> * CLUSTALW on the other hand uses random sampling.
 
 **Question:**  How do you measure the similarity between a profile \(PSSM\) and a sequence?
 
