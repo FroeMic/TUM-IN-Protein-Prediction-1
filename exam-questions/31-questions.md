@@ -1,10 +1,10 @@
 ## 3.1 Lecture Questions
 
-> This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant, **because he will sample exam questions from this pool.
+> This section contains possible exam questions asked Professor Rost in the lectures he dedicated to answering student questions. They are **highly relevant** because he will sample exam questions from this pool.
 
 ### Questions \(Thursday, 22nd June\)
 
-**Question:** How can you choose the **e-value **for PSI-BLAST depending on the size of the dataset?
+**Question:** How can you choose the **e-value** for PSI-BLAST depending on the size of the dataset?
 
 > - The E-value indicates significance of alignment/ hits returned by chance when searhing through DB. 
 > - It depends on the size of dataset and length of query. 
@@ -155,7 +155,7 @@
 > * The known 3D structures in the PDB largely share a high sequence similarity (because of different resolutions, competing groups, different research goals, ...), are thus applicable for homology modeling and not representative for the dataset we want to predict for in the future.
 > * Removing the sequences in homology modeling range (redundancy reduction) creates an unbiased dataset.
 
-**Question:** Say the 3D structure for **N **thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for \_sequence-unique** **\_that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
+**Question:** Say the 3D structure for **N** thousand proteins were known and they serve as input for a method predicting 1D structure. How can you define the value for _sequence-unique_ that you have to apply to create an unbiased data set? Why do you need an unbiased dataset?
 
 > ❓
 >
@@ -163,60 +163,51 @@
 >
 > We need an unbiased dataset in order to assess perfomance of 3D to 1D prediction.
 
-**Question: **How do you compare proteins of different length?
+**Question:** How do you compare proteins of different length?
 
-> ❓
->
-> By using local alignment
+> By using local alignment (Smith-Waterman)
 
-**Question: **What is the significance in using information from protein families \(also inferred as evolutionary information\) as input to the ML device predicting 3D structure?
+**Question:** What is the significance in using information from protein families \(inferred evolutionary information\) as input to the ML device predicting 3D structure?
 
-> * It is additional information for the ML device, which is clearly relevant for the structure
-> * the profile is a record with information about the 3D reality of the protein
->
-> ❓
+> * The profile is a record with information about the 3D reality of the protein, showing evolutionary conserved regions.
+> * It is thus additional information for the ML device, which is clearly relevant for the structure.
 
-**Question: **How can I use 1D information to get a 3D structure? What can you do with a 1D structure?
+**Question:** How can I use 1D information to get a 3D structure? What can you do with a 1D structure?
 
-> It is impossible to reconstruct a full 3D structure from 1D information. 1D structure can be used for
->
+> It is impossible to reconstruct a full 3D structure from 1D information. 
+> 
+> 1D structure can be used for
 > * optimizing a profile
 > * predict whether a protein is soluble
 > * predict whether a protein is a transmembrane protein
 > * input for further secondary structure prediction
-> * ❓
 
-**Question: **What is a 2D contact map \(distance map\)? How can it be obtained?
+**Question:** What is a 2D contact map \(distance map\)? How can it be obtained?
 
-> ❓
->
-> Shows distsnce between all possible a.a. pairs.
->
-> By using 3D structure and distance functions \(i.e. Voronoi contacts\)
+> * A contact map shows the pairwise distance between all amino acids in a sequence (protein).
+> * It contains the same information as the 3D structure, except for the chirality (mirror image)
+> * It is obtained from the known 3D structure with the use of distance functions \(i.e. Voronoi contacts\)
 
-**Question: **Explain the concept between the notation of 1D, 2D, 3D structure. What is in the PDB? What does the DSSP give?
+**Question:** Explain the concept between the notation of 1D, 2D, 3D structure. What is in the PDB? What does the DSSP give?
 
-> **?**
+> * 1D - secondary structure (HEL)
+> * 2D - contact map
+> * 3D - tertiary structure, 3D shape of protein
 >
-> 1D - secondary structure
->
-> 2D - contact map
->
-> 3D - tertiary structure, 3D shape of protein
->
-> In PDB there is only 3D structure
->
-> DSSP assigns secondary structure according to hydrogen-bond pattern
+> * In PDB there is only 3D structure
+> * DSSP assigns secondary structure according to hydrogen-bond pattern from 3D structure as input.
 
 ### Questions \(Tuesday, 4th July\)
 
-**Question:** Why do we need separate methods to predict secondary structure for membrane and water-soluble / non-membrane proteins? What is needer for membrane prediction beyond secondary structure?
+**Question:** Why do we need separate methods to predict secondary structure for membrane and water-soluble / non-membrane proteins? What is needed for membrane prediction beyond secondary structure?
 
-> Methods trained to predict secondary structure in soluble environment fail for membrane proteins \(empirical observation\). Reason for this is that the environment \(the membrane\) is very different.
+> * Methods trained to predict secondary structure in soluble environment fail for membrane proteins \(empirical observation\). 
+> * Reason for this is that the environment \(the membrane\) is very different.
 >
-> Number of alpha - helixes is important, as it defines function of membrane protein. Position of alpha-helixes, topology.
->
-> ❓
+> * When predicting membrane proteins the following information is important:
+>    * Number of TMHs
+>    * Position of TMHs (+- 5 residues overlap)
+>    * Topology of TransMembrane Protein (where is inside / outside)
 
 **Question:** What is the principle difference between PSI-BLAST and CLUSTALW \(or any other multiple sequence alignment method\)?
 
@@ -231,44 +222,55 @@
 
 **Question:**  How do you measure the similarity between a profile \(PSSM\) and a sequence?
 
-> You calculate the PSSM score.
+> [Note: This question was not sampled by Prof. Rost. I just think it is important to understand the workings of a profile.]
 >
-> // Not explicitly  noted down by him. Generally, understand how Profile-Sequence alignment with a PSSM works.
+> * You simply calculate the PSSM score for the given sequence.
 
-**Question:** In the 1st iteration of PSI-BLAST finds the most low hanging fruits through pairwise comparison. \[a\] What does it do in the 2nd iteration? \[b\] Why can this work better? \[c\] What could happen that makes the 3rd iteration not find more more hits than the 2nd one \(for all n=1=…N\)?  \[d\] Say n+1 finds many more hits than n:  everything ok?
+**Question:** In the 1st iteration PSI-BLAST finds the most low hanging fruits through pairwise comparison. \[a\] What does it do in the 2nd iteration? \[b\] Why can this work better? \[c\] What could happen that makes the 3rd iteration not find more more hits than the 2nd one \(for all n=1=…N\)?  \[d\] Say n+1 finds many more hits than n:  everything ok?
 
 > \[a\] It uses the compiled PSSM to run a profile-sequence comparison against the database.
 >
 > \[b\] Because the PSSM contains information about the entire family, the initial query sequence belongs to. Within the PSSM there is information about the evolutionary preserved \(and thus for structure / function important\) segments/residues for this specific family.
 >
-> \[c\] This either happens if the profile converged, hence I found all the proteins belonging to the family. If this happens very early e.g n=2, it indicates that I could not find enough proteins to build up a profile \(family is too small\).
+> \[c\] This either happens if the profile converged. There are 2 reasons why this happens.
+> * All the proteins belonging to the family where found 
+> * If this happens very early e.g n=2, it indicates that BLAST could not find enough proteins to build up a profile \(family is too small\).
 >
 > \[d\] It could have happened that the profile was messed up by proteins, which are not part of the family in an earlier run. The new PSSM does not discriminate well enough between proteins.
 
 **Question:** How is the **e-value** for PSI-BLAST, FASTA calculated.
 
+> ❓ 
 > * PSI-BLAST
 >
 >   * … ?
 >   * e-value changes over iterations
 
-**Question:** What might per-residue  scores poorly reflect the performance of transmembrane prediction? Invent an alternative method to score TMH prediction methods.
+**Question:** Why might per-residue scores poorly reflect the performance of transmembrane prediction? Invent an alternative method to score TMH prediction methods.
 
-> * For most membrane proteins, most residues are NOT in the membrane. 
-> * It is not really what I want to predict. I want to predict the specific TMH. How many TMH do I have?  At which position are they? Which topology does the protein have?
+> * For most membrane proteins, most residues are NOT in the membrane, thus a high per residue score could still missed most TMHs.
+> * It is not really what I want to predict. I want to predict the specific TMH. How many TMH do I have? At which position are they? Which topology does the protein have?
+>
+> Alternative Scoring Method: All TMH must be predicted correctly (+- five residues overlap, mind. 50% overlap)
+> Additionally: The topology has to be predicted correctly.
 
 **Question:**  Method A is published to predict solvent accessibility at Q2=61%, Method B in another publication claims to achieve Q2=63%. What do you have to check to ascertain that methods B is really a better methods? \(Address the terms significance \(statistical, scientific\) in your response\)
 
-> * Use the same way of computing Q2?
-> * Do the use the same data?
-> * Which data was used to train the method? Best, test both methods on proteins  that where released after the methods were published.
-> * Is there a difference between the methods beyond the standard error? Is the difference in accuracy statistically significant?
-> * Does the +2% help me to get better scientific results / insights? Is there an advantage in scientific terms? Is it better than random?
+> * Do both methods use the same way of computing Q2?
+> * Do the use the same dataset?
+> * Which data was used to train the method? (Did the have a proper blind-test-set)
+>     * Best, test both methods on proteins that where released after both methods were published.
+> * Is there a difference between the methods beyond the standard error? Is the difference in accuracy statistically significant (= higher than the standard error)?
+> * Does the +2% help me to get better scientific results / insights? Is there an advantage in scientific terms? Baseline: Is it better than random?
 
 **Question:** What features can be used to predict secondary structure from sequence? Argue why?
 
-> * The PSSM is the most important features?
-> * … \(many more\) ❓
+> * The PSSM is the most important feature!!! (provides evolutionary information)
+> * … \(many more\)
+>     * Length of the Protein
+>     * Position within the protein (distance to N- / C-Terminus)
+>     * Amino Acid Composition of protein
+>     * ...
 
 **Question:** What is the most accurate way to predict protein 3D structure \(explain the idea behind the method\) ? Why does this methods hardly work for membrane proteins and even less well for disorder proteins?
 
