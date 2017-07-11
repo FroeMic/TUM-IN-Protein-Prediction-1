@@ -112,9 +112,12 @@
 
 **Question:** Cross-Validation: What is it? How does it work? Why do we need it?
 
-> Is an validation technique for assessing how the results of a statistical analysis will generalize to an independent data set. We need it to to estimate how accurately a predictive model will work in practice
->
-> N-fold cross-validation: Partion data in 'n' folds. Use 'n-1' for training and 1 for performance assessment. Repeat with different hold out partitions. Average perfomance.
+> What is it? How does it work?  
+> * Partion trainingdata in 'n' folds. Use 'n-1' for training and 1 for performance assessment. Repeat with different hold out partitions. Average perfomance.
+> * Leave-one-out-cross-validation: Use only one sample as validation set instead of 1/n-th. In practice, this is only used if extremely few samples are available.
+> 
+> Why do we need it?
+> * Validation is generally used to ASSESS the parameters and hyper parameters of an algorithm and then ITERATE over those parameters. Because we want our assessment to be as good (high generalization) as possible. We want to use all available data to do the assessement.
 
 **Question:** What is the difference between a BLOSUM matrix and a PSSM \(Position Specific Substitution Matrix\)?
 
