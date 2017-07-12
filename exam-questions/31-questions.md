@@ -363,7 +363,10 @@
 
 **Question:** What does the reliability of variants tell us about the severity of effect and why?
 
-> ❓
+> The low (?) reliability of variants supports the assumption that there is **no binary distinction** between disease variants and variants. (on/off switch)
+> Rather there are 
+> * **conserved variants: ** severe effect, disease variant, (on/off)-switch
+> * **non-conserved variants:** variable effect, most of the time neutral, rheostat-switch (range of ...)
 
 ### Questions \(Tuesday, 11th July\)
 
